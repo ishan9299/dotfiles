@@ -2,7 +2,7 @@
 :set nu rnu
 
 "colorscheme
-colorscheme delek
+colorscheme torte
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -31,7 +31,6 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug '~/my-prototype-plugin'
-Plug 'dylanawraps/wal.vim'
 call plug#end()
 
 
