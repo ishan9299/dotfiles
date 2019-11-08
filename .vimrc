@@ -20,6 +20,7 @@ inoremap <right> <nop>
 "Tab width fixed
 set tabstop=4
 
+"Extensions Vim Plug
 call plug#begin('~/.vim/plugged')
 call plug#end()
 
