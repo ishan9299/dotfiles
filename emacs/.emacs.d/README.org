@@ -50,14 +50,14 @@
 #+END_SRC
 
 * Config Reload/Edit
-** edit
+** Edit
 #+BEGIN_SRC emacs-lisp
   (defun config-visit()
     (interactive)
     (find-file "~/.emacs.d/config.org"))
   (global-set-key (kbd "C-c e") 'config-visit)
 #+END_SRC
-** reload
+** Reload
 #+BEGIN_SRC emacs-lisp
   (defun config-reload()
     (interactive)
