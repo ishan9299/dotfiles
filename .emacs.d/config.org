@@ -1,0 +1,65 @@
+* Terminal
+** Setting default shell zsh
+#+BEGIN_SRC emacs-lisp
+  (defvar my-term-shell "/bin/zsh")
+  (defadvice ansi-term (before force-zsh)
+    (interactive (list my-term-shell)))
+  (ad-activate 'ansi-term)
+#+END_SRC
+** Setting the shortcut as super and enter for ansi term
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "<s-return>") 'ansi-term)
+#+END_SRC
+
+* Which key setup
+** Installation and Initialization
+#+BEGIN_SRC emacs-lisp
+  (use-package which-key
+    :ensure t            ;; makes sure package is installed
+    :init
+    (which-key-mode))
+#+END_SRC
+
+* Alias
+** Yes/No 
+#+BEGIN_SRC emacs-lisp
+(defalias 'yes-or-no-p 'y-or-n-p)
+#+END_SRC
+
+* General show hide stuff 
+** Removing ugly UI
+#+BEGIN_SRC emacs-lisp
+(tool-bar-mode -1)
+(setq inhibit-startup-message t)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+#+END_SRC
+** Line numbering
+#+BEGIN_SRC emacs-lisp
+(global-display-line-numbers-mode 1)
+(setq display-line-numbers-type 'relative)
+#+END_SRC
+
+* Avy
+#+BEGIN_SRC emacs-lisp
+  (use-package avy
+    :ensure t
+    :bind
+    ("M-s" . avy-goto-char))
+#+END_SRC
+
+* Config Reload/Edit
+** edit
+#+BEGIN_SRC emacs-lisp
+  (defun config-visit()
+    (interactive)
+    (find-file "~/.emacs.d/config.org"))
+  (global-set-key (kbd "C-c e") 'config-visit)
+#+END_SRC
+** reload
+#+BEGIN_SRC emacs-lisp
+  (defun config-reload()
+    (interactive)
+    (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
+  (global-set-key (kbd "C-c r") 'config-reload)
+#+END_SRC
