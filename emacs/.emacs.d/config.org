@@ -1,8 +1,8 @@
 * Terminal
 ** Setting default shell zsh
 #+BEGIN_SRC emacs-lisp
-  (defvar my-term-shell "/bin/zsh")
-  (defadvice ansi-term (before force-zsh)
+  (defvar my-term-shell "/bin/tmux")
+  (defadvice ansi-term (before force-tmux)
     (interactive (list my-term-shell)))
   (ad-activate 'ansi-term)
 #+END_SRC
@@ -33,6 +33,7 @@
 (setq inhibit-startup-message t)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
+(visual-line-mode)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
