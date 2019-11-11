@@ -1,6 +1,6 @@
 
 * Terminal
-** Setting default shell zsh
+** Setting default shell tmux
 #+BEGIN_SRC emacs-lisp
   (defvar my-term-shell "/bin/tmux")
   (defadvice ansi-term (before force-tmux)
