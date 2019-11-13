@@ -3,6 +3,9 @@ emacs/.emacs.d/elpa
 emacs/.emacs.d/init.el~
 emacs/.emacs.d/auto-save-list
 emacs/.emacs.d/session.*
+emacs/.emacs.d/apps
+emacs/.emacs.d/games
+emacs/.emacs.d/config.el~
 xmonad/.xmanad/xmonad.hi
 xmonad/.xmanad/xmonad.o
 xmonad/.xmanad/xmonad.errors
