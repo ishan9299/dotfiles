@@ -1,5 +1,5 @@
 * Terminal
-** Setting default shell zsh
+** Setting default shell tmux
 #+BEGIN_SRC emacs-lisp
   (defvar my-term-shell "/bin/tmux")
   (defadvice ansi-term (before force-tmux)
@@ -20,12 +20,14 @@
     (which-key-mode))
 #+END_SRC
 ** Evil
+*** Automatic install 
 #+BEGIN_SRC emacs-lisp
   (unless (package-installed-p 'evil)
     (package-refresh-contents)
     (package-install 'evil))
 #+End_SRC
 ** Magit
+*** Automatic install
 #+BEGIN_SRC emacs-lisp
   (unless (package-installed-p 'magit)
     (package-refresh-contents)
@@ -66,17 +68,24 @@
   (evil-mode 1)
 #+END_SRC
 * Config Reload/Edit
-** edit
+** Edit
 #+BEGIN_SRC emacs-lisp
   (defun config-visit()
     (interactive)
     (find-file "~/.emacs.d/config.org"))
   (global-set-key (kbd "C-c e") 'config-visit)
 #+END_SRC
-** reload
+** Reload
 #+BEGIN_SRC emacs-lisp
   (defun config-reload()
     (interactive)
     (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
   (global-set-key (kbd "C-c r") 'config-reload)
+#+END_SRC
+** Bspwm
+#+BEGIN_SRC emacs-lisp
+  (defun config-bspwm()
+    (interactive)
+    (org-babel-load-file (expand-file-name "~/.config/bspwm/bspwmrc")))
+  (global-set-key (kbd "C-c b") 'config-bspwm)
 #+END_SRC
