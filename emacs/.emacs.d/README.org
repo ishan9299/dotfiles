@@ -86,6 +86,6 @@
 #+BEGIN_SRC emacs-lisp
   (defun config-bspwm()
     (interactive)
-    (org-babel-load-file (expand-file-name "~/.config/bspwm/bspwmrc")))
+    (find-file (expand-file-name "~/.config/bspwm/bspwmrc")))
   (global-set-key (kbd "C-c b") 'config-bspwm)
 #+END_SRC
