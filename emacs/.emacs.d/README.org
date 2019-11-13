@@ -22,10 +22,21 @@
 ** Evil
 *** Automatic install 
 #+BEGIN_SRC emacs-lisp
-  (unless (package-installed-p 'evil)
-    (package-refresh-contents)
-    (package-install 'evil))
+  (use-package evil
+    :ensure t
+    :init
+    (evil-mode 1))
 #+End_SRC
+** Yasnippet
+*** Automatic install
+#+BEGIN_SRC emacs-lisp
+  (use-package yasnippet
+    :ensure t
+    :config
+    (use-package yasnippet-snippets
+      :ensure t)
+    (yas-reload-all))
+#+END_SRC
 ** Magit
 *** Automatic install
 #+BEGIN_SRC emacs-lisp
@@ -46,7 +57,7 @@
 (setq inhibit-startup-message t)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
-(visual-line-mode)
+(visual-line-mode 1)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
@@ -62,11 +73,6 @@
     ("M-s" . avy-goto-char))
 #+END_SRC
 
-* Evil
-#+BEGIN_SRC emacs-lisp
-  (require 'evil)
-  (evil-mode 1)
-#+END_SRC
 * Config Reload/Edit
 ** Edit
 #+BEGIN_SRC emacs-lisp
