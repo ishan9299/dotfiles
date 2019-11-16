@@ -26,5 +26,6 @@ main = do
 myStartUpHook = do
   spawnOnce "feh --bg-scale ~/Downloads/the-shadow-of-a-mountain-3440×1440.jpg"
   setWMName "LG3D"
+  spawnOnce "emacs --daemon"
   
 
