@@ -1,14 +1,14 @@
 * Terminal
 ** Setting default shell tmux
 #+BEGIN_SRC emacs-lisp
-  (defvar my-term-shell "/bin/tmux")
-  (defadvice ansi-term (before force-tmux)
+  (defvar my-term-shell "/bin/bash")
+  (defadvice ansi-term (before force-bash)
     (interactive (list my-term-shell)))
   (ad-activate 'ansi-term)
 #+END_SRC
 ** Setting the shortcut as super and enter for ansi term
 #+BEGIN_SRC emacs-lisp
-  (global-set-key (kbd "<s-return>") 'ansi-term)
+  (global-set-key (kbd "<M-return>") 'ansi-term)
 #+END_SRC
 * Plugins
 ** Which key setup
@@ -56,8 +56,8 @@
 (tool-bar-mode -1)
 (setq inhibit-startup-message t)
 (menu-bar-mode -1)
-(scroll-bar-mode -1)
-(visual-line-mode 1)
+(scroll-bar-mode -1)    
+(global-visual-line-mode 1)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
