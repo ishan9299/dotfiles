@@ -1,13 +1,11 @@
 #! /bin/sh
 
-~/.config/polybar/launch.sh
-
 ### autostarting
 
+xmodmap ~/.xmodmaprc &
 sxhkd &
-feh --bg-scale ~/Pictures/Wallpapers/anime/910251.jpg
-wal --theme base16-spacemacs
-
+feh --bg-scale ~/Pictures/Wallpapers/anime/910251.jpg &
+cat ~/.cache/wal/sequences &
 
 
 
@@ -26,4 +24,3 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Emacs state=fullscreen focus=on
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-

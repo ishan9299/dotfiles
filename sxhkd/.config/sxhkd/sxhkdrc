@@ -1,22 +1,30 @@
+##########################################################
 #
 # wm independent hotkeys
 #
+##########################################################
 
 # terminal emulator
-super + Return
+super + shift + Return
 	kitty
 
 # program launcher
 super + @space
 	dmenu_run
 
+# editor
+super + e
+      emacs
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
+###########################################################
 #
 # bspwm hotkeys
 #
+###########################################################
 
 # quit/restart bspwm
 super + shift + {q,r}

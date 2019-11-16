@@ -8,7 +8,8 @@ emacs/.emacs.d/session.*
 emacs/.emacs.d/apps
 emacs/.emacs.d/games
 emacs/.emacs.d/config.el~
-xmonad/.xmanad/xmonad.hi
-xmonad/.xmanad/xmonad.o
-xmonad/.xmanad/xmonad.errors
-xmonad/.xmanad/xmonad-x86*
+xmonad/.xmonad/xmonad.hi
+xmonad/.xmonad/xmonad.o
+xmonad/.xmonad/xmonad.errors
+xmonad/.xmonad/xmonad-x86*
+xmonad/.xmonad/xmonad.hs~
