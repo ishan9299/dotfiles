@@ -6,9 +6,9 @@
 (package-initialize)
 
 ;;automatic theme install for emacs
-(unless (package-installed-p 'solarized-theme)
+(unless (package-installed-p 'spacemacs-theme)
   (package-refresh-contents)
-  (package-install 'solarized-theme))
+  (package-install 'spacemacs-theme))
 ;;automatic install for .emacs macro
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
