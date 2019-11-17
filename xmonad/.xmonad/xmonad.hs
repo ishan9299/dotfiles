@@ -46,6 +46,8 @@ main = do
       , ppUrgent = xmobarColor "#C45500" "" . wrap "!" "!"  -- Urgent workspace
       , ppOrder  = \(ws:l:t:ex) -> [ws,l]++ex++[t] }
   
+    , normalBorderColor  = "#1f2022"
+    , focusedBorderColor = "#a3a3a3"
     , modMask = myModMask
     , terminal = myTerminal
     , startupHook = myStartUpHook
