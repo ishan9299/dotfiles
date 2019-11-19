@@ -1,14 +1,14 @@
 * Terminal
 ** Setting default shell tmux
 #+BEGIN_SRC emacs-lisp
-  (defvar my-term-shell "/bin/tmux")
-  (defadvice ansi-term (before force-tmux)
+  (defvar my-term-shell "/bin/bash")
+  (defadvice ansi-term (before force-bash)
     (interactive (list my-term-shell)))
   (ad-activate 'ansi-term)
 #+END_SRC
 ** Setting the shortcut as super and enter for ansi term
 #+BEGIN_SRC emacs-lisp
-  (global-set-key (kbd "<s-return>") 'ansi-term)
+  (global-set-key (kbd "<M-return>") 'ansi-term)
 #+END_SRC
 * Plugins
 ** Which key setup
@@ -44,6 +44,12 @@
     (package-refresh-contents)
     (package-install 'magit))
 #+END_SRC
+** Rainbow Mode
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-mode
+    :ensure t
+    :init (rainbow-mode 1))
+#+END_SRC
 * Alias
 ** Yes/No 
 #+BEGIN_SRC emacs-lisp
@@ -56,8 +62,8 @@
 (tool-bar-mode -1)
 (setq inhibit-startup-message t)
 (menu-bar-mode -1)
-(scroll-bar-mode -1)
-(visual-line-mode 1)
+(scroll-bar-mode -1)    
+(global-visual-line-mode 1)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
@@ -94,4 +100,25 @@
     (interactive)
     (find-file (expand-file-name "~/.config/bspwm/bspwmrc")))
   (global-set-key (kbd "C-c b") 'config-bspwm)
+#+END_SRC
+** XMonad
+#+BEGIN_SRC emacs-lisp
+  (defun config-xmonad()
+    (interactive)
+    (find-file (expand-file-name "~/.xmonad/xmonad.hs")))
+  (global-set-key (kbd "C-c x") 'config-xmonad)
+#+END_SRC
+** Sxhkd
+#+BEGIN_SRC emacs-lisp
+  (defun config-sxhkd()
+    (interactive)
+    (find-file (expand-file-name "~/.config/sxhkd/sxhkdrc")))
+  (global-set-key (kbd "C-c s") 'config-sxhkd)
+#+END_SRC
+** Zshrc
+#+BEGIN_SRC emacs-lisp
+  (defun config-zshrc()
+    (interactive)
+    (find-file (expand-file-name"~/.zshrc")))
+  (global-set-key (kbd "C-c z") 'config-zshrc)
 #+END_SRC
