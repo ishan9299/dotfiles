@@ -44,6 +44,12 @@
     (package-refresh-contents)
     (package-install 'magit))
 #+END_SRC
+** Rainbow Mode
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-mode
+    :ensure t
+    :init (rainbow-mode 1))
+#+END_SRC
 * Alias
 ** Yes/No 
 #+BEGIN_SRC emacs-lisp
