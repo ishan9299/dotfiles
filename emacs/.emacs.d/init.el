@@ -33,7 +33,7 @@
  '(custom-enabled-themes (quote (solarized-gruvbox-dark)))
  '(custom-safe-themes
    (quote
-    ("6bf841f77d5eb01455d82ae436e3e25277daaef4ee855a3572589dad1b3ac4b3" default)))
+    ( "6bf841f77d5eb01455d82ae436e3e25277daaef4ee855a3572589dad1b3ac4b3" default)))
  '(package-selected-packages
    (quote
     (haskell-mode yasnippet-snippets yasnippet ## avy which-key use-package solarized-theme))))
