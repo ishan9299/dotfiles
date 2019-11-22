@@ -87,5 +87,4 @@ myKeys =
         , ("<XF86AudioNext>", spawn "cmus next")
         , ("<XF86AudioLowerVolume>", spawn "amixer set Master 5%- unmute")
         , ("<XF86AudioRaiseVolume>", spawn "amixer set Master 5%+ unmute")
-        , ("<XF86Search>", safeSpawn "firefox" ["https://www.google.com/"])
         ]
