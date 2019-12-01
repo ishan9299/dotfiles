@@ -41,14 +41,14 @@
 *** Automatic install
 #+BEGIN_SRC emacs-lisp
   (unless (package-installed-p 'magit)
-    (package-refresh-contents)
+  (package-refresh-contents)
     (package-install 'magit))
 #+END_SRC
 ** Rainbow Mode
 #+BEGIN_SRC emacs-lisp
-  (use-package rainbow-mode
-    :ensure t
-    :init (rainbow-mode 1))
+  (unless (package-installed-p 'rainbow-mode)
+    (package-refresh-contents)
+    (package-install 'rainbow-mode))
 #+END_SRC
 * Alias
 ** Yes/No 
@@ -64,13 +64,22 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)    
 (global-visual-line-mode 1)
+(require 'rainbow-mode)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
 (global-display-line-numbers-mode 1)
 (setq display-line-numbers-type 'relative)
 #+END_SRC
-
+** Spaceline
+#+BEGIN_SRC emacs-lisp
+  (use-package spaceline
+    :ensure t
+    :config
+    (require 'spaceline-config)
+    (setq powerline-default-seperator (quote arrow))
+    (spaceline-spacemacs-theme))
+#+END_SRC
 * Avy
 #+BEGIN_SRC emacs-lisp
   (use-package avy
@@ -78,7 +87,10 @@
     :bind
     ("M-s" . avy-goto-char))
 #+END_SRC
-
+* Hook
+** Rainbow Mode
+(add-hook 'css-mode-hook 'rainbow-mode)
+(add-hook 'haskell-mode-hook 'rainbow-mode)
 * Config Reload/Edit
 ** Edit
 #+BEGIN_SRC emacs-lisp
@@ -121,4 +133,8 @@
     (interactive)
     (find-file (expand-file-name"~/.zshrc")))
   (global-set-key (kbd "C-c z") 'config-zshrc)
+#+END_SRC
+** Compile C++
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "C-c c") 'compile)
 #+END_SRC

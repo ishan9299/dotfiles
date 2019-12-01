@@ -71,6 +71,15 @@
 (global-display-line-numbers-mode 1)
 (setq display-line-numbers-type 'relative)
 #+END_SRC
+** Spaceline
+#+BEGIN_SRC emacs-lisp
+  (use-package spaceline
+    :ensure t
+    :config
+    (require 'spaceline-config)
+    (setq powerline-default-seperator (quote arrow))
+    (spaceline-spacemacs-theme))
+#+END_SRC
 * Avy
 #+BEGIN_SRC emacs-lisp
   (use-package avy
