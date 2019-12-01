@@ -64,6 +64,7 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)    
 (global-visual-line-mode 1)
+(require 'rainbow-mode)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
@@ -123,4 +124,8 @@
     (interactive)
     (find-file (expand-file-name"~/.zshrc")))
   (global-set-key (kbd "C-c z") 'config-zshrc)
+#+END_SRC
+** Compile C++
+#+BEGIN_SRC emacs-lisp
+  (global-set-key (kbd "C-c c") 'compile)
 #+END_SRC
