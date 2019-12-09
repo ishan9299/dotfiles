@@ -87,10 +87,6 @@
     :bind
     ("M-s" . avy-goto-char))
 #+END_SRC
-* Hook
-** Rainbow Mode
-(add-hook 'css-mode-hook 'rainbow-mode)
-(add-hook 'haskell-mode-hook 'rainbow-mode)
 * Config Reload/Edit
 ** Edit
 #+BEGIN_SRC emacs-lisp

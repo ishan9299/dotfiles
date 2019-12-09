@@ -55,12 +55,9 @@ main = do
     , borderWidth = myBorderWidth } `additionalKeysP`         myKeys 
 
 myStartUpHook = do
-  spawnOnce "feh --bg-scale ~/Pictures/Wallpapers/anime/910251.jpg"
+  spawnOnce "feh --bg-scale ~/Pictures/Wallpapers/anime/bleach_final_getsuga_tenshou.jpg"
   setWMName "LG3D"
-  spawnOnce "xsetroot -cursor_name Bibata_Amber &"
   spawnOnce "emacs --daemon"
-  spawn "xrdb -merge ~/.Xresources"
-  spawnOnce "xmodmap ~/.xmodmaprc"
 
 
 myKeys =
@@ -70,10 +67,10 @@ myKeys =
         , ("M-S-q", io exitSuccess)                  -- Quits xmonad
     
     --- Windows
-        , ("M-p", spawn "~/.local/bin/dmenu_wal.sh")
+        , ("M-p", spawn "dmenu_run -fn FiraSans-Book -l 9")
         , ("M-w", kill1)                           -- Kill the currently focused client
         , ("M-C-w", killAll)                         -- Kill all the windows on current workspace
-        , ("M-e", spawn "emacs")
+        , ("M-e", spawn "flatpak run org.gnu.emacs")
 
     --- Floating windows
         , ("M-<Delete>", withFocused $ windows . W.sink)  -- Push floating window back to tile.
