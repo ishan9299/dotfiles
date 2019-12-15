@@ -10,7 +10,7 @@ super + shift + Return
 
 # program launcher
 super + @space
-	rofi -show run
+	rofi -show run -show-icons -icon-theme Pop
 
 # editor
 super + e
