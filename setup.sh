@@ -4,7 +4,7 @@ aur()
 {
     if [ ! -r /usr/bin/ueberzug ]
     then
-       str="python-ueberzug"
+       str="python-ueberzug tdrop"
     fi
 
     if [ ! -r /usr/bin/ranger ]
@@ -25,6 +25,7 @@ aur()
     echo "Installing the packages"
     echo $str
     yay -S $(echo $str)
+    normal
 }
 
 normal()
@@ -71,7 +72,7 @@ normal()
 
     if [ ! /usr/bin/rofi ]
     then
-        str="$str rofi dunst"
+        str="$str rofi dunst picom"
     fi
 
     echo "Installing the packages"
@@ -88,8 +89,6 @@ else
     makepkg -si
     aur
 fi
-
-normal
 
 echo "Creating symlinks"
 stow alacritty dunst lock ncmpcpp rofi bspwm sxhkd doom-emacs mpd mpv polybar ranger picom vim
