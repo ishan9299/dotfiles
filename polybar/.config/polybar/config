@@ -101,10 +101,15 @@ label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 1
 
 label-monocle = Monocle
+label-monocle-padding = 4
 label-tiled = Tiled
+label-tiled-padding = 4
 label-fullscreen = Full
+label-fullscreen-padding = 4
 label-floating = Float
+label-floating-padding = 4
 label-pseudotiled = PseudoTile
+label-psuedotiled-padding = 4
 
 
 [module/mpd]
