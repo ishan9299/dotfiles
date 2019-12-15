@@ -2,7 +2,8 @@
 :set nu rnu
 
 "colorscheme
-colorscheme monokai
+g:gruvbox_contrast_dark
+colorscheme gruvbox
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -22,6 +23,7 @@ set tabstop=4
 
 "Extensions Vim Plug
 call plug#begin('~/.vim/plugged')
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 

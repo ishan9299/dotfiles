@@ -6,15 +6,18 @@
 
 # terminal emulator
 super + shift + Return
-	kitty
+	tilix --window-style=borderless
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -show run
 
 # editor
 super + e
-      emacs
+      flatpak run org.gnu.emacs
+super + j
+      env GTK_THEME=Adwaita flatpak run org.eclipse.Java
+
 
 # make sxhkd reload its configuration files:
 super + Escape
