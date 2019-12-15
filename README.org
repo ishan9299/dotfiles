@@ -1,9 +1,11 @@
 * This is a Repo for my config files
 ** Bspwm and Polybar
-   BSPWM and POLYBAR are configured with wal (Polybar reads from Xresources)
+BSPWM and POLYBAR are configured with wal (Polybar reads from Xresources)
 I use stow to create the symlinks which will put the files in desired locations
+xfce settings are used instead of lxappearance
 *** Dependencies 
 **** Tdrop
+For the dropdown Terminals
 https://github.com/noctuid/tdrop
 **** Terminals
 Alacritty / Kitty
