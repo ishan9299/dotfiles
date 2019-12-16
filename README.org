@@ -13,8 +13,9 @@ rofi
 **** Fonts
 Fira Code / Fira Code Nerd Fonts
 *** STOW
-refer this vedio or use man stow to know how to use it 
+refer this vedio 
 https://www.youtube.com/watch?v=vo1KUAb-ghc
+or use man stow to know how to use it 
 
 * IMPORTANT
 Xmonad and Xmobar are not being configured for now and most probably will be removed from the repository
