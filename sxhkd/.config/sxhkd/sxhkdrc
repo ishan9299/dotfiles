@@ -1,13 +1,8 @@
-##########################################################
-#
-# wm independent hotkeys
-#
-##########################################################
-
 # terminal emulator
 super + shift + Return
-	tilix --window-style=borderless
-
+      tilix --window-style=borderless	
+alt + t
+      tdrop -a -h 450 -y 35 alacritty
 # program launcher
 super + @space
 	rofi -show run -show-icons -icon-theme Pop
@@ -15,19 +10,13 @@ super + @space
 # editor
 super + e
       flatpak run org.gnu.emacs
-super + j
+alt + j
       env GTK_THEME=Adwaita flatpak run org.eclipse.Java
 
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
-
-###########################################################
-#
-# bspwm hotkeys
-#
-###########################################################
 
 # quit/restart bspwm
 super + shift + {q,r}
