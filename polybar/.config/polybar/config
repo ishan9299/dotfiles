@@ -50,7 +50,7 @@ font-2 = font-awesome:pixelsize=11 ;2
 
 modules-left = bspwm mpd
 modules-center = xwindow 
-modules-right = pulseaudio wlan battery temperature xkeyboard date powermenu
+modules-right = pulseaudio wlan battery temperature xkeyboard date 
 
 tray-position = right
 tray-padding = 0
@@ -101,15 +101,15 @@ label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 1
 
 label-monocle = Monocle
-label-monocle-padding = 4
+label-monocle-padding = 1
 label-tiled = Tiled
-label-tiled-padding = 4
+label-tiled-padding = 1
 label-fullscreen = Full
-label-fullscreen-padding = 4
+label-fullscreen-padding = 1
 label-floating = Float
-label-floating-padding = 4
+label-floating-padding = 0
 label-pseudotiled = PseudoTile
-label-psuedotiled-padding = 4
+label-psuedotiled-padding = 1
 
 
 [module/mpd]
