@@ -1,6 +1,6 @@
 * This is a Repo for my config files
 ** Bspwm and Polybar
-BSPWM and POLYBAR are configured wal contains monokai color-scheme
+BSPWM and POLYBAR are configured with wal contains monokai color-scheme
 use stow to create the symlinks which will put the files in desired locations
 *** Dependencies 
 **** Tdrop
