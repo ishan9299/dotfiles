@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ishan/Pictures/Wallpapers/art/background_blemishes_dark_91678_2560x1440.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0F1C",
+        "foreground": "#eaa5a8",
+        "cursor": "#eaa5a8"
+    },
+    "colors": {
+        "color0": "#0F0F1C",
+        "color1": "#70294D",
+        "color2": "#8F3155",
+        "color3": "#AD375B",
+        "color4": "#A93962",
+        "color5": "#BA4263",
+        "color6": "#D24D65",
+        "color7": "#eaa5a8",
+        "color8": "#a37375",
+        "color9": "#70294D",
+        "color10": "#8F3155",
+        "color11": "#AD375B",
+        "color12": "#A93962",
+        "color13": "#BA4263",
+        "color14": "#D24D65",
+        "color15": "#eaa5a8"
+    }
+}

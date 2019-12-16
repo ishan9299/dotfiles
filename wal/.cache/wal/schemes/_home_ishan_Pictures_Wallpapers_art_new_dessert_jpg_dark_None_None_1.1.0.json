@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ishan/Pictures/Wallpapers/art/new_dessert.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#270405",
+        "foreground": "#b0d0e4",
+        "cursor": "#b0d0e4"
+    },
+    "colors": {
+        "color0": "#270405",
+        "color1": "#3E7EAE",
+        "color2": "#3485BC",
+        "color3": "#3B8AC1",
+        "color4": "#4D95C3",
+        "color5": "#4C96C7",
+        "color6": "#5DA3D0",
+        "color7": "#b0d0e4",
+        "color8": "#7b919f",
+        "color9": "#3E7EAE",
+        "color10": "#3485BC",
+        "color11": "#3B8AC1",
+        "color12": "#4D95C3",
+        "color13": "#4C96C7",
+        "color14": "#5DA3D0",
+        "color15": "#b0d0e4"
+    }
+}

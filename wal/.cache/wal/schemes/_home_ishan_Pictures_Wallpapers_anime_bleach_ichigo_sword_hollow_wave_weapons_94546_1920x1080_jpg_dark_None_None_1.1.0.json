@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ishan/Pictures/Wallpapers/anime/bleach_ichigo_sword_hollow_wave_weapons_94546_1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#070B0F",
+        "foreground": "#b1b8bc",
+        "cursor": "#b1b8bc"
+    },
+    "colors": {
+        "color0": "#070B0F",
+        "color1": "#4A4D50",
+        "color2": "#6A6C6E",
+        "color3": "#9D6020",
+        "color4": "#AA7147",
+        "color5": "#F6972C",
+        "color6": "#908479",
+        "color7": "#b1b8bc",
+        "color8": "#7b8083",
+        "color9": "#4A4D50",
+        "color10": "#6A6C6E",
+        "color11": "#9D6020",
+        "color12": "#AA7147",
+        "color13": "#F6972C",
+        "color14": "#908479",
+        "color15": "#b1b8bc"
+    }
+}

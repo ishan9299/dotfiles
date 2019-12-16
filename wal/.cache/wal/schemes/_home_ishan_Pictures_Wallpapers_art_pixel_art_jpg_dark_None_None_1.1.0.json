@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ishan/Pictures/Wallpapers/art/pixel_art.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c1c",
+        "foreground": "#aed8c8",
+        "cursor": "#aed8c8"
+    },
+    "colors": {
+        "color0": "#0c0c1c",
+        "color1": "#963C58",
+        "color2": "#49867B",
+        "color3": "#3D6981",
+        "color4": "#4E7385",
+        "color5": "#C27296",
+        "color6": "#609A95",
+        "color7": "#aed8c8",
+        "color8": "#79978c",
+        "color9": "#963C58",
+        "color10": "#49867B",
+        "color11": "#3D6981",
+        "color12": "#4E7385",
+        "color13": "#C27296",
+        "color14": "#609A95",
+        "color15": "#aed8c8"
+    }
+}

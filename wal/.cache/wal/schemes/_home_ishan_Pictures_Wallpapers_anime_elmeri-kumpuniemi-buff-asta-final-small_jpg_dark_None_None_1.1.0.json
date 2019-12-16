@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ishan/Pictures/Wallpapers/anime/elmeri-kumpuniemi-buff-asta-final-small.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090E11",
+        "foreground": "#c9c6bf",
+        "cursor": "#c9c6bf"
+    },
+    "colors": {
+        "color0": "#090E11",
+        "color1": "#5E6057",
+        "color2": "#966036",
+        "color3": "#947158",
+        "color4": "#80807E",
+        "color5": "#A28F69",
+        "color6": "#D5AF68",
+        "color7": "#c9c6bf",
+        "color8": "#8c8a85",
+        "color9": "#5E6057",
+        "color10": "#966036",
+        "color11": "#947158",
+        "color12": "#80807E",
+        "color13": "#A28F69",
+        "color14": "#D5AF68",
+        "color15": "#c9c6bf"
+    }
+}

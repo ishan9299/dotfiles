@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ishan/Pictures/Wallpapers/anime/910287.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090706",
+        "foreground": "#f6ead2",
+        "cursor": "#f6ead2"
+    },
+    "colors": {
+        "color0": "#090706",
+        "color1": "#D19D5C",
+        "color2": "#EBA65C",
+        "color3": "#8B818C",
+        "color4": "#A0A1AA",
+        "color5": "#DBAC93",
+        "color6": "#FAD3A2",
+        "color7": "#f6ead2",
+        "color8": "#aca393",
+        "color9": "#D19D5C",
+        "color10": "#EBA65C",
+        "color11": "#8B818C",
+        "color12": "#A0A1AA",
+        "color13": "#DBAC93",
+        "color14": "#FAD3A2",
+        "color15": "#f6ead2"
+    }
+}
