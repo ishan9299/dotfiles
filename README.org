@@ -6,12 +6,14 @@ use stow to create the symlinks which will put the files in desired locations
 **** Tdrop
 https://github.com/noctuid/tdrop
 **** Terminals
-1. Tilix
-2. Alacritty / Kitty
+Tilix
+Alacritty / Kitty
 **** Application Launcher
-rofi
+Rofi
 **** Fonts
 Fira Code / Fira Code Nerd Fonts
+**** Power Management
+xfce4-power-manager
 *** STOW
 refer this vedio 
 https://www.youtube.com/watch?v=vo1KUAb-ghc
