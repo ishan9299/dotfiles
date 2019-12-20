@@ -15,7 +15,7 @@ super + o ; {e,j,b}
 alt + t
       tdrop -a -h 450 -y 35 alacritty
 
-      		############### Audio Shortcuts ################
+      		############### Audio Shortcuts ####################
 		
 XF86Audio{Mute,RaiseVolume,LowerVolume}
 	 {pactl set-sink-mute 0 toggle,pactl set-sink-volume 0 +5%,pactl set-sink-volume 0 -5%} 
@@ -23,8 +23,7 @@ XF86Audio{Mute,RaiseVolume,LowerVolume}
 XF86Audio{Prev,Next,Play,Stop}
 	  mpc -q {prev,next,toggle,stop} 
 
-
-                 ############## WM controls ##############
+                 ############## WM controls ########################
 		 
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -82,8 +81,6 @@ super + ctrl + space
 # cancel the preselection for the focused desktop
 super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
-
-#move/resize
 
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
