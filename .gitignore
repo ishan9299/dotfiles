@@ -13,3 +13,6 @@ xmonad/.xmonad/xmonad.o
 xmonad/.xmonad/xmonad.errors
 xmonad/.xmonad/xmonad-x86*
 xmonad/.xmonad/xmonad.hs~
+sxhkd/.config/sxhkd/#*
+sxhkd/.config/sxhkd/sxhkdrc~
+

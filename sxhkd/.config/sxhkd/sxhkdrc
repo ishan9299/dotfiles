@@ -1,6 +1,6 @@
 
 		############### Application Shortcuts ###############
-super + shift + Return
+super + Return
       tilix --window-style=borderless	
 
 super + @space 
@@ -9,11 +9,11 @@ super + @space
 alt + Tab
 	rofi -show window
 
-super + o ; {e,j,b}
-      	    {flatpak run org.gnu.emacs,env GTK_THEME=Adwaita flatpak run org.eclipse.Java,brave-browser}
+super + o ; {e,j,b,m}
+      	    {flatpak run org.gnu.emacs,env GTK_THEME=Adwaita flatpak run org.eclipse.Java,brave-browser,kitty -e ncmpcpp}
 
 alt + t
-      tdrop -a -h 450 -y 35 alacritty
+      tdrop -a -h 450 -y 35 kitty
 
       		############### Audio Shortcuts ################
 		

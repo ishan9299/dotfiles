@@ -49,8 +49,8 @@ font-1 = FiraCode Nerd Font:size=11:weight=regular;1
 font-2 = font-awesome:pixelsize=11 ;2
 
 modules-left = bspwm 
-modules-center = mpd 
-modules-right = pulseaudio battery temperature xkeyboard date 
+modules-center = xwindow 
+modules-right = mpd pulseaudio battery temperature xkeyboard date 
 
 tray-position = right
 tray-padding = 0

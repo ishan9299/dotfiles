@@ -2,8 +2,7 @@
 :set nu rnu
 
 "colorscheme
-g:gruvbox_contrast_dark
-colorscheme gruvbox
+colorscheme monokai
 
 "disabling arrow keys
 nnoremap <up>    <nop>

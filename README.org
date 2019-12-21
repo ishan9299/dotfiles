@@ -14,6 +14,14 @@ Rofi
 Fira Code / Fira Code Nerd Fonts
 **** Power Management
 xfce4-power-manager
+**** Network
+nmtui/nm-applet
+**** Music
+ncmpcpp / lollypop
+**** ScreenLock
+xss-lock -- i3lock
+**** Compositor
+compton (picom on Arch Linux)
 *** STOW
 refer this vedio 
 https://www.youtube.com/watch?v=vo1KUAb-ghc
