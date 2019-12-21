@@ -22,7 +22,7 @@ set tabstop=4
 
 "Extensions Vim Plug
 call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
+Plug 'jceb/vim-orgmode'
 call plug#end()
 
 
