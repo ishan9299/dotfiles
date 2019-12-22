@@ -15,4 +15,5 @@ xmonad/.xmonad/xmonad-x86*
 xmonad/.xmonad/xmonad.hs~
 sxhkd/.config/sxhkd/#*
 sxhkd/.config/sxhkd/sxhkdrc~
-
+ncmpcpp/.config/ncmpcpp/error.log
+bspwm/.config/bspwm/#*
