@@ -17,3 +17,6 @@ sxhkd/.config/sxhkd/#*
 sxhkd/.config/sxhkd/sxhkdrc~
 ncmpcpp/.config/ncmpcpp/error.log
 bspwm/.config/bspwm/#*
+vim/.vim/autoload
+vim/.vim/pack
+vim/.vim/plugged
