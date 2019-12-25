@@ -11,6 +11,27 @@
   (global-set-key (kbd "<M-return>") 'ansi-term)
    #+END_SRC
 * Plugins
+** Dasboard
+#+BEGIN_SRC emacs-lisp
+  (use-package dashboard
+    :ensure t
+    :config
+    (dashboard-setup-startup-hook)
+    (setq dashboard-startup-banner "~/dotfiles/emacs/.emacs.d/icons/logo.png")
+    (setq dashboard-items '((recents  . 5)))
+    (setq dashboard-set-heading-icons t)
+    (setq dashboard-set-file-icons t)
+    (setq dashboard-set-footer nil))
+#+END_SRC
+** All the icons
+#+BEGIN_SRC emacs-lisp
+  (use-package all-the-icons)
+#+END_SRC
+run (M-x all-the-icons-install-fonts) after the package installs
+** Disable Autosave
+#+BEGIN_SRC emacs-lisp
+  (setq make-backup-files nil)
+#+END_SRC
 ** Which key setup
 *** Installation and Initialization
 #+BEGIN_SRC emacs-lisp
@@ -30,15 +51,9 @@
 ** flycheck
 #+BEGIN_SRC emacs-lisp
   (use-package flycheck
-    :ensure t)
-#+END_SRC
-** flycheck irony
-#+BEGIN_SRC emacs-lisp
-  (use-package flycheck-irony
     :ensure t
-    :config
-    (eval-after-load 'flycheck
-    '(add-hook 'flycheck-mode-hook #'flycheck-irony-setup)))
+    :init
+    (global-flycheck-mode t))
 #+END_SRC
 ** Yasnippet
 *** Automatic install
@@ -85,6 +100,18 @@
       (setq spaceline-line-p nil)
       (setq powerline-default-separator (quote arrow))
       (spaceline-spacemacs-theme))
+#+END_SRC
+** HL-line
+#+BEGIN_SRC emacs-lisp
+  (when window-system (add-hook 'prog-mode-hook 'hl-line-mode))
+#+END_SRC
+** Pretty Symbols
+#+BEGIN_SRC emacs-lisp
+  (when window-system
+	(use-package pretty-mode
+	:ensure t
+	:config
+	(global-pretty-mode t)))
 #+END_SRC
 * Alias
 ** Yes/No 

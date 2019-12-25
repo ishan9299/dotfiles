@@ -50,7 +50,7 @@
  '(magit-diff-use-overlays nil)
  '(package-selected-packages
    (quote
-    (flycheck-irony org-bullets slime-company slime company-jedi company-irony company-c-headers flycheck-clang-analyzer rainbow-delimiters flycheck company flatland-theme lua-mode yasnippet-snippets yaml-mode which-key use-package spacemacs-theme spaceline solarized-theme rainbow-mode monokai-theme monokai-pro-theme magit haskell-mode gruvbox-theme evil darkokai-theme avy)))
+    (all-the-icons flycheck-irony org-bullets slime-company slime company-jedi company-irony company-c-headers flycheck-clang-analyzer rainbow-delimiters flycheck company flatland-theme lua-mode yasnippet-snippets yaml-mode which-key use-package spacemacs-theme spaceline solarized-theme rainbow-mode monokai-theme monokai-pro-theme magit haskell-mode gruvbox-theme evil darkokai-theme avy)))
  '(pos-tip-background-color "#E6DB74")
  '(pos-tip-foreground-color "#242728")
  '(vc-annotate-background nil)
