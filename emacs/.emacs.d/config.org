@@ -11,6 +11,42 @@
   (global-set-key (kbd "<M-return>") 'ansi-term)
    #+END_SRC
 * Plugins
+** Beacon
+#+BEGIN_SRC emacs-lisp
+  (use-package beacon
+    :ensure t
+    :init
+    (beacon-mode 1))
+#+END_SRC
+** Async (helm)
+#+BEGIN_SRC emacs-lisp
+  (use-package async
+    :ensure t)
+  (async-bytecomp-package-mode 1)
+#+END_SRC
+** Helm
+#+BEGIN_SRC emacs-lisp
+  (use-package helm
+    :ensure t
+    :init
+    (helm-mode 1))
+  (global-set-key (kbd "C-x b") 'helm-buffers-list)
+  (global-set-key (kbd "C-x C-f") 'helm-find-files)
+  (global-set-key (kbd "M-x") 'helm-M-x)
+  (define-key helm-find-files-map (kbd "<tab>") 'helm-execute-persistent-action)
+  (setq helm-M-x-fuzzy-match t)
+  (require 'helm-config)
+#+END_SRC
+** Bracket pairs
+#+BEGIN_SRC emacs-lisp
+  (setq electric-pair-pairs '(
+			     (?\{ . ?\})
+			     (?\( . ?\))
+			     (?\[ . ?\])
+			     (?\" . ?\")
+			     ))
+  (electric-pair-mode t)
+#+END_SRC
 ** Dasboard
 #+BEGIN_SRC emacs-lisp
   (use-package dashboard
@@ -88,6 +124,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :ensure t
     :init
     (add-hook 'prog-mode-hook 'rainbow-mode))
+  (show-paren-mode 1)
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
@@ -100,10 +137,6 @@ run (M-x all-the-icons-install-fonts) after the package installs
       (setq spaceline-line-p nil)
       (setq powerline-default-separator (quote arrow))
       (spaceline-spacemacs-theme))
-#+END_SRC
-** HL-line
-#+BEGIN_SRC emacs-lisp
-  (when window-system (add-hook 'prog-mode-hook 'hl-line-mode))
 #+END_SRC
 ** Pretty Symbols
 #+BEGIN_SRC emacs-lisp
@@ -122,12 +155,11 @@ run (M-x all-the-icons-install-fonts) after the package installs
 * General show hide stuff 
 ** Removing ugly UI
 #+BEGIN_SRC emacs-lisp
-(tool-bar-mode -1)
-(setq inhibit-startup-message t)
-(menu-bar-mode -1)
-(scroll-bar-mode -1)    
-(global-visual-line-mode 1)
-(require 'rainbow-mode)
+  (tool-bar-mode -1)
+  (setq inhibit-startup-message t)
+  (menu-bar-mode -1)
+  (scroll-bar-mode -1) 
+  (global-visual-line-mode 1)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
