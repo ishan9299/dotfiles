@@ -2,7 +2,7 @@
 :set nu rnu
 
 "colorscheme
-colorscheme monokai
+colorscheme Monokai
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -14,14 +14,26 @@ inoremap <down>  <nop>
 inoremap <left>  <nop>
 inoremap <right> <nop>
 
+nnoremap sp :sp<cr>
+
 "syntax 
 :syntax on
+
+" Autocomopletion
+set wildmode=longest,list,full
+
+" Disable autocommenting
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 "Extensions Vim Plug
 call plug#begin('~/.vim/plugged')
 Plug 'jceb/vim-orgmode'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+"Airline Theme
+let g:airline_theme='molokai'
 
 " Default Indentation
 set autoindent
