@@ -17,9 +17,6 @@ inoremap <right> <nop>
 "syntax 
 :syntax on
 
-"Tab width fixed
-set tabstop=4
-
 "Extensions Vim Plug
 call plug#begin('~/.vim/plugged')
 Plug 'jceb/vim-orgmode'
@@ -33,7 +30,7 @@ set smartindent     " indent when
 set tabstop=4       " tab width
 set softtabstop=4   " backspace
 set shiftwidth=4    " indent width
-
+set cursorline
 
 "Automatic vim Plug installation
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -41,8 +38,3 @@ if empty(glob('~/.vim/autoload/plug.vim'))
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
-
-
-if !has('nvim')
-   set ttymouse=xterm2
-endif 
