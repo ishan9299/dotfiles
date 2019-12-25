@@ -11,11 +11,7 @@ alt + Tab
 	rofi -show window
 
 super + o ; {e,j,b,m,f}
-      	    {emacs,
-	         env GTK_THEME=Adwaita flatpak run org.eclipse.Java,
-	         brave-browser,
-	         kitty -e ncmpcpp,
-	         kitty -e ranger}
+      	    {emacs,env GTK_THEME=Adwaita flatpak run org.eclipse.Java,brave-browser,kitty -e ncmpcpp,kitty -e ranger}
 
 alt + t
       tdrop -a -h 450 -y 35 kitty
@@ -23,9 +19,7 @@ alt + t
 ############### Audio Shortcuts ################
 		
 XF86Audio{Mute,RaiseVolume,LowerVolume}
-	 {pactl set-sink-mute 0 toggle,
-	  pactl set-sink-volume 0 +5%,
-	  pactl set-sink-volume 0 -5%} 
+	 {pactl set-sink-mute 0 toggle,pactl set-sink-volume 0 +5%,pactl set-sink-volume 0 -5%} 
 
 XF86Audio{Prev,Next,Play,Stop}
 	  mpc -q {prev,next,toggle,stop} 

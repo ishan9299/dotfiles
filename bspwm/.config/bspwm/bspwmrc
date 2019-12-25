@@ -31,8 +31,8 @@ bspc config presel_feedback_color "$color1"
 
 bspc monitor -d code web music vedio files gfx games
 
-bspc config border_width         4
-bspc config window_gap           12
+bspc config border_width         2
+bspc config window_gap           3
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
