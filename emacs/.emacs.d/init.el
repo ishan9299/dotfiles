@@ -13,7 +13,9 @@
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
+
 (global-hl-line-mode 1)
+
 ;;:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
@@ -22,20 +24,28 @@
 
 
 ;;::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(display-line-numbers-type (quote relative))
+ '(global-display-line-numbers-mode t)
+ '(helm-autoresize-mode t)
+ '(helm-display-source-at-screen-top nil)
  '(package-selected-packages
    (quote
-    (treemacs-magit treemacs-evil treemacs all-the-icons org-bullets slime-company slime company-jedi company-irony company-c-headers flycheck-clang-analyzer company avy pretty-mode spaceline rainbow-mode rainbow-delimiters magit yasnippet-snippets yasnippet flycheck evil which-key dashboard helm async beacon use-package darkokai-theme))))
+    (yasnippet-snippets which-key use-package spaceline slime-company rainbow-mode rainbow-delimiters pretty-mode pfuture org-bullets neotree magit hydra ht helm flycheck-clang-analyzer f evil dashboard darkokai-theme company-jedi company-irony company-c-headers beacon all-the-icons ace-window)))
+ '(show-paren-mode t)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#1d2021" :foreground "#d5c4a1" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "CTDB" :family "Fira Code Medium "))))
- '(bold ((t (:weight bold :family "Fira Code"))))
- '(cursor ((t (:background "white smoke"))))
- '(hl-line ((t (:inherit highlight :background "dark slate gray")))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120 :width normal :foundry "CTDB" :family "Fira Code"))))
+ '(helm-header ((t (:inherit header-line :weight bold :family "Fira Code"))))
+ '(helm-selection ((t (:background "DarkGoldenrod4" :distant-foreground "black"))))
+ '(helm-source-header ((t (:background "gray13" :foreground "white" :weight bold :height 1.3 :family "Fira Code"))))
+ '(hl-line ((t (:inherit highlight :background "DarkGoldenrod4")))))

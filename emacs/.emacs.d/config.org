@@ -182,7 +182,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :bind
     ("M-s" . avy-goto-char))
 #+END_SRC
-* Config Reload/Edit
+* Shortcuts
 ** Edit
 #+BEGIN_SRC emacs-lisp
   (defun config-visit()
@@ -196,34 +196,6 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (interactive)
     (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
   (global-set-key (kbd "C-c r") 'config-reload)
-#+END_SRC
-** Bspwm
-#+BEGIN_SRC emacs-lisp
-  (defun config-bspwm()
-    (interactive)
-    (find-file (expand-file-name "~/.config/bspwm/bspwmrc")))
-  (global-set-key (kbd "C-c b") 'config-bspwm)
-#+END_SRC
-** XMonad
-#+BEGIN_SRC emacs-lisp
-  (defun config-xmonad()
-    (interactive)
-    (find-file (expand-file-name "~/.xmonad/xmonad.hs")))
-  (global-set-key (kbd "C-c x") 'config-xmonad)
-#+END_SRC
-** Sxhkd
-#+BEGIN_SRC emacs-lisp
-  (defun config-sxhkd()
-    (interactive)
-    (find-file (expand-file-name "~/.config/sxhkd/sxhkdrc")))
-  (global-set-key (kbd "C-c s") 'config-sxhkd)
-#+END_SRC
-** Zshrc
-#+BEGIN_SRC emacs-lisp
-  (defun config-zshrc()
-    (interactive)
-    (find-file (expand-file-name"~/.zshrc")))
-  (global-set-key (kbd "C-c z") 'config-zshrc)
 #+END_SRC
 ** Compile C++
 #+BEGIN_SRC emacs-lisp
