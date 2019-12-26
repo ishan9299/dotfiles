@@ -46,18 +46,17 @@ bspc rule -a kitty state = floating
 bspc rule -a Xdg-desktop-portal-gtk state = floating
 bspc rule -a Brave state = floating
 bspc rule -a Gcolor3 state = floating
-bspc rule -a Emacs desktop='^1' state = tiled
-bspc rule -a Eclipse desktop='^1' state = floating
-bspc rule -a Brave-browser desktop='^2' state = tiled
+bspc rule -a Emacs desktop='^1' state = tiled focus=on follow=on
+bspc rule -a Eclipse desktop='^1' state = floating focus=on follow=on
+bspc rule -a Brave-browser desktop='^2' state = tiled focus=on follow=on
 bspc rule -a Gnome-podcasts desktop='^2' state = floating
 bspc rule -a Lollypop desktop='^3' state = floating
-bspc rule -a mpv desktop='^4' state = fullscreen
+bspc rule -a mpv desktop='^4' state = fullscreen focus=on follow=on
 bspc rule -a Org.gnome.Nautilus desktop='^5'
-bspc rule -a ranger desktop='^5'
-bspc rule -a Evince desktop='^5' state=pseudo_tiled
-bspc rule -a Zathura desktop='^5' state=tiled
-bspc rule -a libreoffice-impress desktop='^5' state = pseudo_tiled
-bspc rule -a Virt-manager desktop='^6' state=floating
-bspc rule -a Gimp desktop='^6' state = floating
-bspc rule -a Olive desktop='^6' state = floating
-bspc rule -a Lutris desktop='^7' state = floating
+bspc rule -a Evince desktop='^5' state=pseudo_tiled focus=on follow=on
+bspc rule -a Zathura desktop='^5' state=tiled focus=on follow=on
+bspc rule -a libreoffice-impress desktop='^5' state = pseudo_tiled focus=on follow=on
+bspc rule -a Virt-manager desktop='^6' state=floating focus=on follow=on
+bspc rule -a Gimp desktop='^6' state = floating focus=on follow=on
+bspc rule -a Olive desktop='^6' state = floating focus=on follow=on
+bspc rule -a Lutris desktop='^7' state = floating focus=on follow=on

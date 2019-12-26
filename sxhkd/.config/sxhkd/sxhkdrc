@@ -5,10 +5,10 @@ super + Return
       tilix --window-style=borderless	
 
 super + @space 
-	rofi -show drun 
+	rofi -modi "drun" -show drun -sidebar-mode
 
 alt + Tab
-	rofi -show window
+	rofi -show window -window-match-fields desktop,title,name
 
 super + o ; {e,j,b,m,f}
       	    {emacs,env GTK_THEME=Adwaita flatpak run org.eclipse.Java,brave-browser,kitty -e ncmpcpp,kitty -e ranger}
