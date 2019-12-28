@@ -1,90 +1,21 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: pause
-current: 0
-time: 94.009000
-random: 0
-repeat: 0
+state: play
+current: 2
+time: 9.171000
+random: 1
+repeat: 1
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Dr Stone/Dr.STONE - Opening 2 Full『Sangenshoku』.mp3
-1:Death Note/DeathNote (Light'sThemeA).mp3
-2:Death Note/Near's Theme (A) DeathNote.mp3
-3:Death Note/DeathNote OST3 'Tactics'.mp3
-4:Death Note/DeathNote OSTI Light'sTheme03.mp3
-5:Death Note/DeathNote OSTII 'Reasoning'.mp3
-6:Death Note/L's Theme A.mp3
-7:Death Note/L's Theme B.mp3
-8:Death Note/L's Theme C.mp3
-9:Death Note/L'sIdeology.mp3
-10:Death Note/Near's Theme (B) DeathNote.mp3
-11:Death Note/Near's Theme(C) DeathNote.mp3
-12:Attack On Titan/Season 1/Attack on Titan  attack ON titan Hiroyuki Sawano.mp3
-13:Attack On Titan/Season 1/Attack on Titan Original Soundtrack I_.mp3
-14:Attack On Titan/Season 1/Attack on Titan_   Bird in a Cage  Hiroyuki Sawano.mp3
-15:Attack On Titan/Season 1/Attack on Titan_   Bonus - piano adlib  Hiroyuki Sawano.mp3
-16:Attack On Titan/Season 1/Attack on Titan_   Building Blocks  Hiroyuki Sawano.mp3
-17:Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3
-18:Attack On Titan/Season 1/Attack on Titan_   Daily Life  Hiroyuki Sawano.mp3
-19:Attack On Titan/Season 1/Attack on Titan_   DOA  Hiroyuki Sawano.mp3
-20:Attack On Titan/Season 1/Attack on Titan_   E.M.A_  Hiroyuki Sawano.mp3
-21:Attack On Titan/Season 1/Attack on Titan_   eye water  Hiroyuki Sawano.mp3
-22:Attack On Titan/Season 1/Attack on Titan_   Female Titan Extermination  Hiroyuki Sawano.mp3
-23:Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3
-24:Attack On Titan/Season 1/Attack on Titan_   Three Dimensional Maneuver  Hiroyuki Sawano.mp3
-25:Attack On Titan/Season 1/Attack on Titan_   Titan Invasion  Hiroyuki Sawano.mp3
-26:Attack On Titan/Season 1/Attack on Titan_   XL-TT  Hiroyuki Sawano.mp3
-27:Attack On Titan/Season 2/ attack音D   Attack On 'D' .mp3
-28:Attack On Titan/Season 2/ Barricades .mp3
-29:Attack On Titan/Season 2/ Beast Titan Theme .mp3
-30:Attack On Titan/Season 2/ Call of Silence .mp3
-31:Attack On Titan/Season 2/ Colossal Titan Fight Theme .mp3
-32:Attack On Titan/Season 2/ Dancing Titan Battle Theme .mp3
-33:Attack On Titan/Season 2/ Eren The 'C' .mp3
-34:Attack On Titan/Season 2/ Her heart still beating .mp3
-35:Attack On Titan/Season 2/ I'm back home .mp3
-36:Attack On Titan/Season 2/ On The Walls .mp3
-37:Attack On Titan/Season 2/ The Colossal And Armored Identity .mp3
-38:Attack On Titan/Season 2/ The Weight Of Lives (Armored Titan Battle Theme) .mp3
-39:Attack On Titan/Season 2/ Warriors Kidnapping Soldiers .mp3
-40:Attack On Titan/Season 2/ YAMANAIAME .mp3
-41:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Aberration Rod Reiss .mp3
-42:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Apple Seed .mp3
-43:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Attack On Titan (WMId)   Attack On Titans .mp3
-44:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Barrichestra .mp3
-45:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Before Lights Out .mp3
-46:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Call Your Name (Lost Girls Ver.) .mp3
-47:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Give up on your dream .mp3
-48:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Kenny Ackerman Theme .mp3
-49:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Levi Squad VS Kenny Squad .mp3
-50:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Mankind VS Men .mp3
-51:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Marley   LENぞ97n10火巨説MAHLE .mp3
-52:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Price of Freedom .mp3
-53:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Rage, my soldiers! .mp3
-54:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Reiss Family .mp3
-55:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Royal Blood .mp3
-56:Attack On Titan/Season 3/ Attack On Titan Season 3 OST ShingekiNoKyojin   Hero .mp3
-57:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Thanks, Erwin .mp3
-58:Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Owl .mp3
-59:Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Queen of the Walls .mp3
-60:Attack On Titan/Season 3/ Attack On Titan Season 3 OST We are just eldians .mp3
-61:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3
-62:MHA/Boku no Hero Academia Season 4 OP『BLUE ENCOUNT - Polaris』.flac
-63:Bleach/ Bleach Opening 3 High and Mighty Color .mp3
-64:Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac
-65:Black Clover/Black Clover Ending 8 Full『against all gods』by m-flo.flac
-66:Bleach/ Bleach Opening 10 Shoujo S .mp3
-67:Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
-68:Bleach/ Bleach Opening 5   Rolling Star .mp3
-69:Bleach/ Bleach Opening 6 ALONES .mp3
-70:Bleach/ Bleach Opening 8 Kelun .mp3
-71:Bleach/ Bleach opening 12 .mp3
-72:Black Clover/Black Clover Ending 7 Full『Hana ga Saku Michi』by THE CHARM PARK.flac
-73:Bleach/ Tonight Tonight Tonight .mp3
-74:Black Clover/Black Clover Opening 3 Full『Black Rover』by Vickeblanka.flac
+0:JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac
+1:Attack On Titan/Season 2/ Barricades .mp3
+2:Attack On Titan/Season 2/ Call of Silence .mp3
+3:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3
+4:Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3
+5:Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3
 playlist_end

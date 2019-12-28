@@ -647,3 +647,517 @@ Dec 22 13:08 : client: [32] opened from 127.0.0.1:41006
 Dec 22 13:08 : client: [32] closed
 Dec 22 13:08 : client: [33] opened from 127.0.0.1:41012
 Dec 22 14:24 : client: [33] closed
+Dec 27 05:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 05:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 05:19 : exception: Failed to enable output "pulse audio" (pulse)
+Dec 27 05:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 27 05:19 : client: [0] opened from 127.0.0.1:47694
+Dec 27 05:19 : client: [1] opened from 127.0.0.1:47696
+Dec 27 05:19 : exception: Failed to enable output "pulse audio" (pulse)
+Dec 27 05:19 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 27 05:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 05:19 : client: [1] closed
+Dec 27 05:19 : client: [2] opened from 127.0.0.1:47698
+Dec 27 05:19 : client: [2] closed
+Dec 27 05:23 : client: [3] opened from 127.0.0.1:47762
+Dec 27 05:23 : update: updating Black Clover/Black Clover Ending 2 Full『Amazing Dreams』by SWANKY DANK.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Ending 4 Full『four』by FAKY.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Opening 3 Full『Black Rover』by Vickeblanka.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Opening 1 Full『Haruka Mirai』by Kankaku Piero.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Opening 8 Full『sky & blue』by GIRLFRIEND.flac
+Dec 27 05:23 : update: updating Black Clover/Black Clover Ending 7 Full『Hana ga Saku Michi』by THE CHARM PARK.flac
+Dec 27 05:23 : update: added /OneRepublic - Counting Stars.ogg
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   Bonus - piano adlib  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan  attack ON titan Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   Three Dimensional Maneuver  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   Bird in a Cage  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   Building Blocks  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   Titan Invasion  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan_   E.M.A_  Hiroyuki Sawano.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 1/Attack on Titan Original Soundtrack I_.mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Her heart still beating .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ I'm back home .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Eren The 'C' .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Dancing Titan Battle Theme .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Barricades .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ attack音D   Attack On 'D' .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Colossal Titan Fight Theme .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ The Colossal And Armored Identity .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ On The Walls .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Beast Titan Theme .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ The Weight Of Lives (Armored Titan Battle Theme) .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Call of Silence .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ YAMANAIAME .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 2/ Warriors Kidnapping Soldiers .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST We are just eldians .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Aberration Rod Reiss .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Kenny Ackerman Theme .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Call Your Name (Lost Girls Ver.) .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Levi Squad VS Kenny Squad .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Apple Seed .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Give up on your dream .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Marley   LENぞ97n10火巨説MAHLE .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Thanks, Erwin .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Before Lights Out .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Queen of the Walls .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Reiss Family .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Owl .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Royal Blood .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Barrichestra .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Price of Freedom .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Attack On Titan (WMId)   Attack On Titans .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Mankind VS Men .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST Rage, my soldiers! .mp3
+Dec 27 05:23 : update: updating Attack On Titan/Season 3/ Attack On Titan Season 3 OST ShingekiNoKyojin   Hero .mp3
+Dec 27 05:23 : update: updating MHA/Boku no Hero Academia Season 4 OP『BLUE ENCOUNT - Polaris』.flac
+Dec 27 05:23 : update: updating Death Note/DeathNote OSTI Light'sTheme03.mp3
+Dec 27 05:23 : update: updating Death Note/L's Theme A.mp3
+Dec 27 05:23 : update: updating Death Note/L'sIdeology.mp3
+Dec 27 05:23 : update: updating Death Note/Near's Theme (B) DeathNote.mp3
+Dec 27 05:23 : update: updating Death Note/L's Theme B.mp3
+Dec 27 05:23 : update: updating Death Note/DeathNote OSTII 'Reasoning'.mp3
+Dec 27 05:23 : update: updating Death Note/Near's Theme (A) DeathNote.mp3
+Dec 27 05:23 : update: updating Death Note/Near's Theme(C) DeathNote.mp3
+Dec 27 05:23 : update: updating Death Note/DeathNote OST3 'Tactics'.mp3
+Dec 27 05:23 : update: updating Death Note/L's Theme C.mp3
+Dec 27 05:23 : update: updating Liked To Be Downloaded/LSD (Sia, Diplo, & Labrinth) - Audio.ogg
+Dec 27 05:23 : exception: Failed to enable output "pulse audio" (pulse)
+Dec 27 05:23 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 27 05:24 : client: [3] closed
+Dec 27 05:26 : player: played "Dr Stone/Dr.STONE - Opening 2 Full『Sangenshoku』.mp3"
+Dec 27 05:26 : exception: Failed to enable output "pulse audio" (pulse)
+Dec 27 05:26 : exception: nested: pa_context_connect() has failed: Connection refused
+Dec 27 05:28 : player: played "Death Note/DeathNote (Light'sThemeA).mp3"
+Dec 27 05:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 05:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 05:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 05:29 : client: [0] opened from 127.0.0.1:45384
+Dec 27 05:29 : client: [1] opened from 127.0.0.1:45386
+Dec 27 05:29 : client: [1] closed
+Dec 27 05:38 : client: [0] closed
+Dec 27 05:38 : client: [2] opened from 127.0.0.1:45396
+Dec 27 11:44 : client: [2] closed
+Dec 27 11:44 : client: [3] opened from 127.0.0.1:45480
+Dec 27 11:46 : client: [3] closed
+Dec 27 11:46 : client: [4] opened from 127.0.0.1:45482
+Dec 27 11:47 : client: [4] closed
+Dec 27 11:47 : client: [5] opened from 127.0.0.1:45484
+Dec 27 11:48 : client: [5] closed
+Dec 27 11:49 : client: [6] opened from 127.0.0.1:45488
+Dec 27 11:53 : client: [6] closed
+Dec 27 11:53 : client: [7] opened from 127.0.0.1:45528
+Dec 27 11:56 : client: [7] closed
+Dec 27 11:56 : client: [8] opened from 127.0.0.1:45560
+Dec 27 12:10 : client: [8] closed
+Dec 27 12:10 : client: [9] opened from 127.0.0.1:45642
+Dec 27 12:13 : client: [9] closed
+Dec 27 12:14 : client: [10] opened from 127.0.0.1:45646
+Dec 27 12:14 : client: [11] opened from 127.0.0.1:45650
+Dec 27 12:14 : client: [11] closed
+Dec 27 12:15 : player: played "Death Note/DeathNote (Light'sThemeA).mp3"
+Dec 27 12:17 : client: [12] opened from 127.0.0.1:45728
+Dec 27 12:17 : client: [12] closed
+Dec 27 12:52 : client: [10] closed
+Dec 27 12:52 : client: [13] opened from 127.0.0.1:46068
+Dec 27 12:59 : client: [13] closed
+Dec 27 12:59 : player: played "Death Note/Near's Theme (A) DeathNote.mp3"
+Dec 27 13:00 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:00 : client: [0] opened from 127.0.0.1:49676
+Dec 27 13:18 : player: played "Death Note/Near's Theme (A) DeathNote.mp3"
+Dec 27 13:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:19 : client: [0] opened from 127.0.0.1:44908
+Dec 27 13:21 : client: [0] closed
+Dec 27 13:21 : client: [1] opened from 127.0.0.1:44942
+Dec 27 13:51 : player: played "Death Note/Near's Theme (A) DeathNote.mp3"
+Dec 27 13:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:52 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:52 : client: [0] opened from 127.0.0.1:38772
+Dec 27 13:58 : client: [1] opened from 127.0.0.1:38786
+Dec 27 13:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 13:58 : client: [1] closed
+Dec 27 13:59 : player: played "Death Note/Near's Theme (A) DeathNote.mp3"
+Dec 27 14:02 : player: played "Death Note/DeathNote OST3 'Tactics'.mp3"
+Dec 27 14:02 : client: [2] opened from 127.0.0.1:38854
+Dec 27 14:02 : client: [2] closed
+Dec 27 14:27 : client: [0] closed
+Dec 27 14:28 : player: played "Death Note/DeathNote OSTI Light'sTheme03.mp3"
+Dec 27 14:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 14:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 14:29 : client: [0] opened from 127.0.0.1:51284
+Dec 27 14:40 : client: [0] closed
+Dec 27 14:40 : client: [1] opened from 127.0.0.1:51402
+Dec 27 14:40 : client: [1] closed
+Dec 27 14:40 : client: [2] opened from 127.0.0.1:51406
+Dec 27 14:41 : client: [3] opened from 127.0.0.1:51410
+Dec 27 14:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 14:41 : client: [3] closed
+Dec 27 14:41 : client: [4] opened from 127.0.0.1:51412
+Dec 27 14:41 : client: [4] closed
+Dec 27 14:41 : client: [5] opened from 127.0.0.1:51414
+Dec 27 14:41 : client: [5] closed
+Dec 27 14:41 : client: [6] opened from 127.0.0.1:51416
+Dec 27 14:41 : client: [6] closed
+Dec 27 14:41 : client: [7] opened from 127.0.0.1:51418
+Dec 27 14:41 : client: [7] closed
+Dec 27 14:41 : client: [8] opened from 127.0.0.1:51420
+Dec 27 14:41 : client: [8] closed
+Dec 27 14:41 : client: [9] opened from 127.0.0.1:51422
+Dec 27 14:41 : client: [9] closed
+Dec 27 14:41 : client: [10] opened from 127.0.0.1:51424
+Dec 27 14:41 : client: [10] closed
+Dec 27 14:41 : client: [11] opened from 127.0.0.1:51426
+Dec 27 14:41 : client: [11] closed
+Dec 27 14:41 : client: [12] opened from 127.0.0.1:51428
+Dec 27 14:41 : client: [12] closed
+Dec 27 14:41 : client: [13] opened from 127.0.0.1:51430
+Dec 27 14:41 : client: [13] closed
+Dec 27 14:41 : client: [14] opened from 127.0.0.1:51432
+Dec 27 14:41 : client: [14] closed
+Dec 27 14:41 : client: [15] opened from 127.0.0.1:51434
+Dec 27 14:41 : client: [15] closed
+Dec 27 14:41 : client: [16] opened from 127.0.0.1:51436
+Dec 27 14:41 : client: [16] closed
+Dec 27 14:41 : client: [17] opened from 127.0.0.1:51438
+Dec 27 14:41 : client: [17] closed
+Dec 27 14:41 : client: [18] opened from 127.0.0.1:51440
+Dec 27 14:41 : client: [18] closed
+Dec 27 14:41 : client: [19] opened from 127.0.0.1:51442
+Dec 27 14:41 : client: [19] closed
+Dec 27 14:41 : client: [20] opened from 127.0.0.1:51444
+Dec 27 14:41 : client: [20] closed
+Dec 27 14:41 : client: [21] opened from 127.0.0.1:51446
+Dec 27 14:41 : client: [21] closed
+Dec 27 14:41 : client: [22] opened from 127.0.0.1:51448
+Dec 27 14:41 : client: [22] closed
+Dec 27 14:41 : client: [23] opened from 127.0.0.1:51450
+Dec 27 14:41 : client: [23] closed
+Dec 27 14:41 : client: [24] opened from 127.0.0.1:51452
+Dec 27 14:41 : client: [24] closed
+Dec 27 14:41 : client: [25] opened from 127.0.0.1:51454
+Dec 27 14:41 : client: [25] closed
+Dec 27 14:41 : client: [26] opened from 127.0.0.1:51456
+Dec 27 14:41 : client: [26] closed
+Dec 27 14:41 : client: [27] opened from 127.0.0.1:51458
+Dec 27 14:41 : client: [27] closed
+Dec 27 14:41 : client: [28] opened from 127.0.0.1:51460
+Dec 27 14:41 : client: [28] closed
+Dec 27 14:41 : client: [29] opened from 127.0.0.1:51462
+Dec 27 14:41 : client: [29] closed
+Dec 27 14:41 : client: [30] opened from 127.0.0.1:51464
+Dec 27 14:41 : client: [30] closed
+Dec 27 14:41 : client: [31] opened from 127.0.0.1:51466
+Dec 27 14:41 : client: [31] closed
+Dec 27 14:41 : client: [32] opened from 127.0.0.1:51468
+Dec 27 14:41 : client: [32] closed
+Dec 27 14:41 : client: [33] opened from 127.0.0.1:51470
+Dec 27 14:41 : client: [33] closed
+Dec 27 14:41 : client: [34] opened from 127.0.0.1:51472
+Dec 27 14:41 : client: [34] closed
+Dec 27 14:41 : client: [35] opened from 127.0.0.1:51474
+Dec 27 14:41 : client: [35] closed
+Dec 27 14:41 : client: [36] opened from 127.0.0.1:51478
+Dec 27 14:41 : player: played "Attack On Titan/Season 2/ On The Walls .mp3"
+Dec 27 14:41 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 14:41 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 14:41 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 14:41 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 14:41 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 14:46 : player: played "Black Clover/Black Clover Ending 2 Full『Amazing Dreams』by SWANKY DANK.flac"
+Dec 27 14:51 : client: [2] closed
+Dec 27 14:51 : client: [37] opened from 127.0.0.1:51670
+Dec 27 14:51 : client: [37] closed
+Dec 27 14:51 : client: [38] opened from 127.0.0.1:51672
+Dec 27 14:51 : client: [36] closed
+Dec 27 14:51 : client: [39] opened from 127.0.0.1:51674
+Dec 27 14:51 : client: [39] closed
+Dec 27 14:51 : client: [38] closed
+Dec 27 14:51 : client: [40] opened from 127.0.0.1:51682
+Dec 27 14:52 : client: [40] closed
+Dec 27 14:52 : client: [41] opened from 127.0.0.1:51728
+Dec 27 14:57 : client: [41] closed
+Dec 27 14:57 : client: [42] opened from 127.0.0.1:51760
+Dec 27 15:04 : client: [43] opened from 127.0.0.1:51850
+Dec 27 15:08 : client: [43] closed
+Dec 27 15:08 : client: [42] closed
+Dec 27 15:08 : client: [44] opened from 127.0.0.1:51882
+Dec 27 15:08 : client: [45] opened from 127.0.0.1:51888
+Dec 27 15:08 : client: [45] closed
+Dec 27 15:23 : client: [46] opened from 127.0.0.1:51964
+Dec 27 15:23 : client: [46] closed
+Dec 27 15:24 : client: [44] closed
+Dec 27 15:24 : client: [47] opened from 127.0.0.1:51970
+Dec 27 15:24 : client: [48] opened from 127.0.0.1:51976
+Dec 27 15:24 : client: [48] closed
+Dec 27 15:26 : client: [47] closed
+Dec 27 15:26 : client: [49] opened from 127.0.0.1:51980
+Dec 27 15:26 : client: [50] opened from 127.0.0.1:51984
+Dec 27 15:26 : client: [50] closed
+Dec 27 15:26 : client: [51] opened from 127.0.0.1:51990
+Dec 27 15:26 : client: [51] closed
+Dec 27 15:30 : player: played "Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac"
+Dec 27 15:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 15:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 15:31 : client: [0] opened from 127.0.0.1:53868
+Dec 27 15:32 : client: [1] opened from 127.0.0.1:53872
+Dec 27 15:32 : client: [1] closed
+Dec 27 15:45 : client: [2] opened from 127.0.0.1:53980
+Dec 27 15:45 : client: [2] closed
+Dec 27 15:50 : client: [0] closed
+Dec 27 15:51 : client: [3] opened from 127.0.0.1:54006
+Dec 27 15:51 : client: [4] opened from 127.0.0.1:54010
+Dec 27 15:51 : client: [4] closed
+Dec 27 15:55 : client: [5] opened from 127.0.0.1:54076
+Dec 27 15:55 : client: [5] closed
+Dec 27 16:04 : client: [3] closed
+Dec 27 16:06 : player: played "Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac"
+Dec 27 16:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 16:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 16:08 : client: [0] opened from 127.0.0.1:34780
+Dec 27 16:08 : client: [1] opened from 127.0.0.1:34784
+Dec 27 16:09 : client: [1] closed
+Dec 27 16:11 : client: [0] closed
+Dec 27 16:12 : client: [2] opened from 127.0.0.1:34788
+Dec 27 16:17 : client: [2] closed
+Dec 27 16:17 : client: [3] opened from 127.0.0.1:34832
+Dec 27 16:17 : client: [4] opened from 127.0.0.1:34836
+Dec 27 16:17 : client: [4] closed
+Dec 27 16:19 : client: [3] closed
+Dec 27 16:20 : client: [5] opened from 127.0.0.1:34866
+Dec 27 16:20 : client: [6] opened from 127.0.0.1:34868
+Dec 27 16:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 16:20 : client: [6] closed
+Dec 27 16:20 : client: [7] opened from 127.0.0.1:34870
+Dec 27 16:20 : client: [7] closed
+Dec 27 16:22 : client: [8] opened from 127.0.0.1:34916
+Dec 27 16:22 : client: [8] closed
+Dec 27 16:22 : client: [5] closed
+Dec 27 16:22 : player: played "Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac"
+Dec 27 16:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 16:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 16:24 : client: [0] opened from 127.0.0.1:58062
+Dec 27 16:31 : client: [1] opened from 127.0.0.1:58102
+Dec 27 16:31 : client: [1] closed
+Dec 27 18:19 : player: played "Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac"
+Dec 27 18:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 18:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 18:20 : client: [0] opened from 127.0.0.1:57700
+Dec 27 19:02 : client: [0] closed
+Dec 27 19:03 : client: [1] opened from 127.0.0.1:58118
+Dec 27 19:21 : client: [2] opened from 127.0.0.1:58198
+Dec 27 19:21 : client: [2] closed
+Dec 27 19:21 : client: [3] opened from 127.0.0.1:58202
+Dec 27 19:22 : client: [3] closed
+Dec 27 19:22 : client: [1] closed
+Dec 27 19:22 : client: [4] opened from 127.0.0.1:58206
+Dec 27 19:22 : client: [5] opened from 127.0.0.1:58210
+Dec 27 19:23 : client: [5] closed
+Dec 27 19:23 : client: [6] opened from 127.0.0.1:58270
+Dec 27 19:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 27 19:23 : client: [6] closed
+Dec 27 19:26 : player: played "Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac"
+Dec 27 19:29 : client: [4] closed
+Dec 27 19:29 : client: [7] opened from 127.0.0.1:58336
+Dec 27 19:47 : client: [7] closed
+Dec 27 19:47 : client: [8] opened from 127.0.0.1:58502
+Dec 27 19:49 : client: [8] closed
+Dec 27 19:49 : client: [9] opened from 127.0.0.1:58508
+Dec 27 23:38 : client: [10] opened from 127.0.0.1:58624
+Dec 27 23:43 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 23:43 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 23:43 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 23:43 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 27 23:43 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 28 00:11 : client: [11] opened from 127.0.0.1:58656
+Dec 28 00:11 : client: [11] closed
+Dec 28 00:12 : player: played "Black Clover/Black Clover Ending 2 Full『Amazing Dreams』by SWANKY DANK.flac"
+Dec 28 00:13 : client: [10] closed
+Dec 28 00:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 28 00:15 : client: [0] opened from 127.0.0.1:47266
+Dec 28 00:27 : client: [1] opened from 127.0.0.1:47356
+Dec 28 00:27 : client: [1] closed
+Dec 28 00:30 : client: [2] opened from 127.0.0.1:47364
+Dec 28 00:30 : client: [2] closed
+Dec 28 02:59 : client: [3] opened from 127.0.0.1:47716
+Dec 28 02:59 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 28 03:00 : client: [4] opened from 127.0.0.1:47720
+Dec 28 03:00 : client: [4] closed
+Dec 28 03:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 28 03:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 28 03:04 : player: played "Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac"
+Dec 28 03:05 : client: [3] closed
+Dec 28 03:05 : client: [0] closed
+Dec 28 03:06 : client: [5] opened from 127.0.0.1:47782
+Dec 28 03:09 : player: played "Black Clover/Black Clover Ending 2 Full『Amazing Dreams』by SWANKY DANK.flac"
+Dec 28 03:13 : client: [6] opened from 127.0.0.1:47824
+Dec 28 03:13 : client: [6] closed
+Dec 28 03:30 : client: [7] opened from 127.0.0.1:47836
+Dec 28 03:30 : client: [7] closed
+Dec 28 03:33 : player: played "Black Clover/Black Clover Ending 3 Full『Black to the dreamlight』by EMPiRE.flac"
+Dec 28 03:37 : player: played "Black Clover/Black Clover Ending 4 Full『four』by FAKY.flac"
+Dec 28 03:40 : client: [8] opened from 127.0.0.1:47932
+Dec 28 03:40 : client: [8] closed
+Dec 28 03:45 : player: played "Black Clover/Black Clover Ending 6 Full『My Song My Days』by SOLIDEMO with Sakuramen.flac"
+Dec 28 03:49 : client: [9] opened from 127.0.0.1:48060
+Dec 28 03:50 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 28 03:50 : player: played "Black Clover/Black Clover Ending 7 Full『Hana ga Saku Michi』by THE CHARM PARK.flac"
+Dec 28 03:50 : client: [9] closed
+Dec 28 03:54 : player: played "Black Clover/Black Clover Ending 8 Full『against all gods』by m-flo.flac"
+Dec 28 03:59 : player: played "Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac"
+Dec 28 04:03 : player: played "Black Clover/Black Clover Opening 1 Full『Haruka Mirai』by Kankaku Piero.flac"
+Dec 28 04:07 : player: played "Black Clover/Black Clover Opening 2 Full『PAiNT it BLACK』by BiSH.flac"
+Dec 28 04:11 : player: played "Black Clover/Black Clover Opening 3 Full『Black Rover』by Vickeblanka.flac"
+Dec 28 04:11 : client: [10] opened from 127.0.0.1:48098
+Dec 28 04:11 : client: [10] closed
+Dec 28 12:27 : client: [11] opened from 127.0.0.1:48590
+Dec 28 12:27 : client: [11] closed
+Dec 28 12:27 : client: [12] opened from 127.0.0.1:48594
+Dec 28 12:27 : player: played "Black Clover/Black Clover Opening 4 Full『Guess Who Is Back』by Kumi Koda.flac"
+Dec 28 12:27 : client: [12] closed
+Dec 28 12:27 : client: [13] opened from 127.0.0.1:48598
+Dec 28 12:27 : client: [13] closed
+Dec 28 12:32 : player: played "Black Clover/Black Clover Opening 4 Full『Guess Who Is Back』by Kumi Koda.flac"
+Dec 28 12:35 : player: played "Black Clover/Black Clover Opening 5 Full『Gamushara』by Miyuna-TuL.flac"
+Dec 28 12:39 : player: played "Black Clover/Black Clover Opening 6 Full『Rakugaki Page』by Kankaku Piero.flac"
+Dec 28 12:43 : client: [14] opened from 127.0.0.1:48658
+Dec 28 12:43 : client: [14] closed
+Dec 28 12:43 : client: [5] closed
+Dec 28 12:44 : client: [15] opened from 127.0.0.1:48660
+Dec 28 12:44 : client: [16] opened from 127.0.0.1:48664
+Dec 28 12:44 : client: [16] closed
+Dec 28 12:45 : client: [17] opened from 127.0.0.1:48668
+Dec 28 12:46 : player: played "Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac"
+Dec 28 12:47 : client: [18] opened from 127.0.0.1:48702
+Dec 28 12:47 : client: [18] closed
+Dec 28 12:47 : client: [17] closed
+Dec 28 12:47 : client: [15] closed
+Dec 28 12:49 : client: [19] opened from 127.0.0.1:48706
+Dec 28 12:49 : client: [20] opened from 127.0.0.1:48710
+Dec 28 12:49 : client: [20] closed
+Dec 28 12:52 : client: [21] opened from 127.0.0.1:48742
+Dec 28 12:52 : client: [21] closed
+Dec 28 18:04 : client: [19] closed
+Dec 28 18:04 : client: [22] opened from 127.0.0.1:48932
+Dec 28 18:06 : client: [22] closed
+Dec 28 18:06 : client: [23] opened from 127.0.0.1:48934
+Dec 28 18:08 : client: [23] closed
+Dec 28 18:08 : client: [24] opened from 127.0.0.1:48938
+Dec 28 18:12 : client: [24] closed
+Dec 28 18:12 : client: [25] opened from 127.0.0.1:48946
+Dec 28 18:16 : client: [25] closed
+Dec 28 18:16 : client: [26] opened from 127.0.0.1:48950
+Dec 28 18:17 : client: [26] closed
+Dec 28 18:17 : client: [27] opened from 127.0.0.1:48952
+Dec 28 18:30 : client: [27] closed
+Dec 28 18:30 : client: [28] opened from 127.0.0.1:49010
+Dec 28 18:32 : client: [28] closed
+Dec 28 18:32 : client: [29] opened from 127.0.0.1:49050
+Dec 28 18:41 : client: [29] closed
+Dec 28 18:41 : client: [30] opened from 127.0.0.1:49172
+Dec 28 18:42 : client: [30] closed
+Dec 28 18:42 : client: [31] opened from 127.0.0.1:49174
+Dec 28 18:42 : client: [32] opened from 127.0.0.1:49176
+Dec 28 18:42 : client: [32] closed
+Dec 28 18:42 : player: played "Black Clover/Black Clover Opening 8 Full『sky & blue』by GIRLFRIEND.flac"
+Dec 28 18:42 : client: [33] opened from 127.0.0.1:49178
+Dec 28 18:42 : client: [33] closed
+Dec 28 18:53 : client: [31] closed
+Dec 28 18:53 : client: [34] opened from 127.0.0.1:49298
+Dec 28 18:55 : client: [34] closed
+Dec 28 18:55 : client: [35] opened from 127.0.0.1:49300
+Dec 28 18:55 : client: [36] opened from 127.0.0.1:49302
+Dec 28 18:55 : client: [36] closed
+Dec 28 18:56 : client: [35] closed
+Dec 28 18:56 : client: [37] opened from 127.0.0.1:49304
+Dec 28 18:59 : player: played "Black Clover/Black Clover Opening 9 Full『RiGHT NOW』by EMPiRE.flac"
+Dec 28 19:00 : client: [38] opened from 127.0.0.1:49314
+Dec 28 19:00 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 28 19:02 : client: [37] closed
+Dec 28 19:02 : client: [39] opened from 127.0.0.1:49316
+Dec 28 19:02 : player: played "Dr Stone/Dr.STONE - Opening 2 Full『Sangenshoku』.mp3"
+Dec 28 19:06 : player: played "MHA/Boku no Hero Academia Season 4 OP『BLUE ENCOUNT - Polaris』.flac"
+Dec 28 19:17 : client: [39] closed
+Dec 28 19:17 : client: [40] opened from 127.0.0.1:49326
+Dec 28 19:20 : client: [40] closed
+Dec 28 19:20 : client: [41] opened from 127.0.0.1:49330
+Dec 28 19:20 : client: [42] opened from 127.0.0.1:49332
+Dec 28 19:20 : client: [42] closed
+Dec 28 19:20 : client: [43] opened from 127.0.0.1:49334
+Dec 28 19:20 : client: [43] closed
+Dec 28 19:20 : client: [44] opened from 127.0.0.1:49336
+Dec 28 19:20 : client: [44] closed
+Dec 28 19:20 : client: [45] opened from 127.0.0.1:49338
+Dec 28 19:20 : client: [45] closed
+Dec 28 19:20 : client: [46] opened from 127.0.0.1:49340
+Dec 28 19:20 : client: [46] closed
+Dec 28 19:20 : client: [47] opened from 127.0.0.1:49342
+Dec 28 19:20 : client: [47] closed
+Dec 28 19:20 : client: [48] opened from 127.0.0.1:49344
+Dec 28 19:20 : client: [48] closed
+Dec 28 19:20 : client: [49] opened from 127.0.0.1:49346
+Dec 28 19:20 : client: [49] closed
+Dec 28 19:20 : client: [50] opened from 127.0.0.1:49348
+Dec 28 19:20 : client: [50] closed
+Dec 28 19:20 : player: played "Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac"
+Dec 28 19:21 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 28 19:21 : client: [51] opened from 127.0.0.1:49352
+Dec 28 19:21 : client: [51] closed
+Dec 28 19:22 : client: [38] closed
+Dec 28 19:24 : player: played "JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac"
+Dec 28 19:25 : client: [41] closed
+Dec 28 19:25 : client: [52] opened from 127.0.0.1:49358
+Dec 28 19:28 : player: played "Attack On Titan/Season 2/ Barricades .mp3"
+Dec 28 19:29 : client: [52] closed
+Dec 28 19:29 : client: [53] opened from 127.0.0.1:49362
+Dec 28 19:30 : client: [53] closed
+Dec 28 19:31 : player: played "Attack On Titan/Season 2/ Call of Silence .mp3"
+Dec 28 19:33 : client: [54] opened from 127.0.0.1:49368
+Dec 28 19:33 : client: [54] closed
+Dec 28 19:40 : player: played "Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3"
+Dec 28 19:44 : player: played "Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3"
+Dec 28 19:47 : client: [55] opened from 127.0.0.1:49434
+Dec 28 19:47 : client: [55] closed
+Dec 28 19:47 : player: played "JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac"
+Dec 28 19:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 28 19:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 28 19:53 : client: [0] opened from 127.0.0.1:54884
+Dec 28 19:53 : client: [0] closed
+Dec 28 19:53 : client: [1] opened from 127.0.0.1:54890
+Dec 28 19:54 : client: [1] closed
+Dec 28 19:54 : client: [2] opened from 127.0.0.1:54892
+Dec 28 19:55 : client: [2] closed
+Dec 28 19:55 : client: [3] opened from 127.0.0.1:54894
+Dec 28 19:55 : client: [4] opened from 127.0.0.1:54896
+Dec 28 19:55 : client: [4] closed
+Dec 28 19:55 : client: [5] opened from 127.0.0.1:54898
+Dec 28 19:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 28 19:55 : client: [5] closed
+Dec 28 19:55 : player: played "JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac"
+Dec 28 19:57 : client: [3] closed
+Dec 28 19:57 : client: [6] opened from 127.0.0.1:54906
+Dec 28 19:57 : client: [6] closed
+Dec 28 19:57 : client: [7] opened from 127.0.0.1:54910
+Dec 28 19:57 : client: [7] closed
+Dec 28 19:57 : client: [8] opened from 127.0.0.1:54912
+Dec 28 19:58 : client: [8] closed
+Dec 28 19:58 : client: [9] opened from 127.0.0.1:54916
+Dec 28 20:00 : client: [9] closed
+Dec 28 20:00 : client: [10] opened from 127.0.0.1:54926
+Dec 28 20:01 : client: [10] closed
+Dec 28 20:01 : client: [11] opened from 127.0.0.1:54928
+Dec 28 20:01 : player: played "Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3"
+Dec 28 20:02 : client: [11] closed
+Dec 28 20:02 : client: [12] opened from 127.0.0.1:54930
+Dec 28 20:05 : player: played "Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3"
+Dec 28 20:07 : client: [12] closed
+Dec 28 20:07 : client: [13] opened from 127.0.0.1:54944
+Dec 28 20:08 : client: [13] closed
+Dec 28 20:08 : client: [14] opened from 127.0.0.1:54948
+Dec 28 20:10 : player: played "Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3"

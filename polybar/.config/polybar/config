@@ -44,8 +44,8 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = FiraCode Nerd Font:pixelsize=11;0
-font-1 = FiraCode Nerd Font:size=11:weight=regular;1
+font-0 = FuraCode Nerd Font:pixelsize=11;0
+font-1 = FuraCode Nerd Font:size=11:weight=regular;1
 font-2 = font-awesome:pixelsize=11 ;2
 
 modules-left = bspwm 
@@ -71,7 +71,7 @@ blacklist-0 = num lock
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
-label-layout = %layout%
+label-layout =  %layout%
 label-layout-underline = ${colors.secondary}
 label-indicator-padding = 2 
 label-indicator-margin = 1
@@ -80,22 +80,31 @@ label-indicator-underline = ${colors.secondary}
 
 [module/bspwm]
 type = internal/bspwm
+
+fuzzy-match = true;
+
+ws-icon-0 = code;
+ws-icon-1 = web;
+ws-icon-2 = vedio;
+ws-icon-3 = files;
+ws-icon-4 = gfx;
+
 format = <label-state> <label-mode>
 
-label-focused = %index%:%name%
+label-focused = %index%:%icon%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.primary}
 label-focused-padding = 1
 
-label-occupied = %index%:%name%
+label-occupied = %index%:%icon%
 label-occupied-padding = 1
 label-occupied-underline = ${colors.secondary}
 
-label-urgent = %index%:%name%!
+label-urgent = %index%:%icon%!
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 1
 
-label-empty = %index%:%name%
+label-empty = %index%:%icon%
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 1
 
@@ -110,17 +119,17 @@ label-floating-padding = 0
 label-pseudotiled = PseudoTile
 label-psuedotiled-padding = 1
 
-
 [module/mpd]
 type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+format-online = <label-song> <icon-random> <icon-prev> <toggle> <icon-next>
 
-icon-prev = <<
-icon-stop = []
-icon-play = >
-icon-pause = ||
-icon-next = >>
+icon-random = 
+icon-prev = 
+icon-play = 
+icon-pause = 
+icon-next = 
 
+label-song =  %artist% - %title%
 label-song-maxlen = 36
 label-song-ellipsis = true
 
@@ -136,16 +145,16 @@ time-alt = %H:%M:%S
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = %date% %time%
+label =  %date%   %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> <bar-volume>
+format-volume = <ramp-volume> <bar-volume>
 label-volume = VOL 
 label-volume-foreground = ${root.foreground}
 
-label-muted =  muted
+label-muted = mute 
 label-muted-foreground = #666
 
 bar-volume-width = 10
@@ -165,7 +174,11 @@ bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
+click-right = pavucontrol &
 [module/battery]
 type = internal/battery
 battery = BAT0
@@ -173,20 +186,33 @@ adapter = AC0
 full-at = 98
 time-format = %H:%M
 
-format-charging =  <label-charging>
+format-charging = <animation-charging> <label-charging>
 format-charging-underline = #ffb52a
-label-charging = Charging %percentage%%
+label-charging = %percentage%%
 
-format-discharging =  <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 label-discharging = Battery %percentage%% %time%
 
 format-full = <label-full>
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
+label-full = Charged
 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
 
-bar-capacity-width = 10
+animation-charging-framerate = 750
+
+; Only applies if <ramp-capacity> is used
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
 [module/temperature]
 type = internal/temperature
@@ -201,11 +227,6 @@ format-warn-underline = ${self.format-underline}
 label = %temperature-c%
 label-warn = %temperature-c%
 label-warn-foreground = ${colors.secondary}
-
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
 
 [settings]
 screenchange-reload = true
