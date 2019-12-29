@@ -1,36 +1,48 @@
-# Colors (Monokai Soda)
-colors:
-  # Default colors
-  primary:
-    background: '0x1a1a1a'
-    foreground: '0xc4c5b5'
-
-  # Normal colors
-  normal:
-    black:   '0x1a1a1a'
-    red:     '0xf4005f'
-    green:   '0x98e024'
-    yellow:  '0xfa8419'
-    blue:    '0x9d65ff'
-    magenta: '0xf4005f'
-    cyan:    '0x58d1eb'
-    white:   '0xc4c5b5'
-
-  # Bright colors
-  bright:
-    black:   '0x625e4c'
-    red:     '0xf4005f'
-    green:   '0x98e024'
-    yellow:  '0xe0d561'
-    blue:    '0x9d65ff'
-    magenta: '0xf4005f'
-    cyan:    '0x58d1eb'
-    white:   '0xf6f6ef'
-
-# Font configuration (changes require restart)
 font:
   # The normal (roman) font face to use.
   normal:
     family: FuraCode Nerd Font
+    # Style can be specified to pick a specific face.
     style: Regular
-    size: 3
+
+  # The bold font face
+  bold:
+    family: FuraCode Nerd Font
+    # Style can be specified to pick a specific face.
+    # style: Bold
+
+  # The italic font face
+  italic:
+    family: FuraCode Nerd Font
+    # Style can be specified to pick a specific face.
+    # style: Italic
+
+  size: 9.0
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '0x120d0d'
+    foreground: '0xe8d78e'
+  cursor:
+    text:       '0x120d0d'
+    cursor:     '0xe8d78e'
+  normal:
+    black:      '0x120d0d'
+    red:        '0x684525'
+    green:      '0x70472C'
+    yellow:     '0x523C50'
+    blue:       '0x985D27'
+    magenta:    '0xBC6429'
+    cyan:       '0xDF9C1B'
+    white:      '0xe8d78e'
+  bright:
+    black:      '0xa29663'
+    red:        '0x684525'
+    green:      '0x70472C'
+    yellow:     '0x523C50'
+    blue:       '0x985D27'
+    magenta:    '0xBC6429'
+    cyan:       '0xDF9C1B'
+    white:      '0xe8d78e'
+# END ACE

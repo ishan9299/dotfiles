@@ -22,3 +22,31 @@ colors:
     color13: "#BC6429"
     color14: "#DF9C1B"
     color15: "#e8d78e"
+# BEGIN ACE
+colors:
+  primary:
+    background: '0x120d0d'
+    foreground: '0xe8d78e'
+  cursor:
+    text:       '0x120d0d'
+    cursor:     '0xe8d78e'
+  normal:
+    black:      '0x120d0d'
+    red:        '0x684525'
+    green:      '0x70472C'
+    yellow:     '0x523C50'
+    blue:       '0x985D27'
+    magenta:    '0xBC6429'
+    cyan:       '0xDF9C1B'
+    white:      '0xe8d78e'
+  bright:
+    black:      '0xa29663'
+    red:        '0x684525'
+    green:      '0x70472C'
+    yellow:     '0x523C50'
+    blue:       '0x985D27'
+    magenta:    '0xBC6429'
+    cyan:       '0xDF9C1B'
+    white:      '0xe8d78e'
+
+# END ACE

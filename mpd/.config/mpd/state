@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: play
-current: 2
-time: 9.171000
+state: pause
+current: 9
+time: 9.454000
 random: 1
 repeat: 1
 single: 0
@@ -12,10 +12,20 @@ crossfade: 5
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac
-1:Attack On Titan/Season 2/ Barricades .mp3
-2:Attack On Titan/Season 2/ Call of Silence .mp3
-3:Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3
-4:Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3
-5:Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3
+0:MHA/Boku no Hero Academia Season 4 OP『BLUE ENCOUNT - Polaris』.flac
+1:Bleach/ Bleach Opening 1 .mp3
+2:Bleach/ Bleach Opening 10 Shoujo S .mp3
+3:Bleach/ Bleach Opening 11 .mp3
+4:Bleach/ Bleach opening 12 .mp3
+5:Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+6:Bleach/ Bleach Opening 14 .mp3
+7:Bleach/ Bleach Opening 15 Harukaze .mp3
+8:Bleach/ Bleach Opening 2 UVERworld .mp3
+9:Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+10:Bleach/ Bleach Opening 5   Rolling Star .mp3
+11:Bleach/ Bleach Opening 6 ALONES .mp3
+12:Bleach/ Bleach Opening 7 .mp3
+13:Bleach/ Bleach Opening 8 Kelun .mp3
+14:Bleach/ Bleach opening 9   Aqua timez .mp3
+15:Bleach/ Tonight Tonight Tonight .mp3
 playlist_end
