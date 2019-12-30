@@ -76,6 +76,12 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :init
     (which-key-mode))
 #+END_SRC
+** Swiper
+#+BEGIN_SRC emacs-lisp
+  (use-package swiper
+    :ensure t
+    :bind ("/" . 'swiper))
+#+END_SRC
 ** Evil
 *** Automatic install 
 #+BEGIN_SRC emacs-lisp
@@ -306,4 +312,10 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :ensure t
     :config
       (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
+#+END_SRC
+* Rainbow-Identifiers
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-identifiers
+    :ensure t)
+  (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
 #+END_SRC

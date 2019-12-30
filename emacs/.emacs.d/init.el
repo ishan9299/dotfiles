@@ -36,7 +36,7 @@
  '(helm-display-source-at-screen-top nil)
  '(package-selected-packages
    (quote
-    (yasnippet-snippets which-key use-package spaceline slime-company rainbow-mode rainbow-delimiters pretty-mode pfuture org-bullets neotree magit hydra ht helm flycheck-clang-analyzer f evil dashboard darkokai-theme company-jedi company-irony company-c-headers beacon all-the-icons ace-window)))
+    (cl-lib jedi-core swiper jedi rainbow-identifiers yasnippet-snippets which-key use-package spaceline slime-company rainbow-mode rainbow-delimiters pretty-mode pfuture org-bullets neotree magit hydra ht helm flycheck-clang-analyzer f evil dashboard darkokai-theme company-jedi company-irony company-c-headers beacon all-the-icons ace-window)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces
