@@ -1366,3 +1366,232 @@ Dec 29 15:16 : client: [13] closed
 Dec 29 15:16 : client: [16] opened from 127.0.0.1:56776
 Dec 29 15:41 : client: [16] closed
 Dec 29 15:41 : client: [17] opened from 127.0.0.1:56994
+Dec 29 16:26 : client: [17] closed
+Dec 29 16:26 : client: [18] opened from 127.0.0.1:57186
+Dec 29 16:28 : client: [19] opened from 127.0.0.1:57194
+Dec 29 16:28 : client: [20] opened from 127.0.0.1:57198
+Dec 29 16:28 : client: [20] closed
+Dec 29 16:29 : client: [21] opened from 127.0.0.1:57202
+Dec 29 16:29 : client: [21] closed
+Dec 29 16:30 : client: [19] closed
+Dec 29 16:30 : client: [18] closed
+Dec 29 16:30 : client: [22] opened from 127.0.0.1:57206
+Dec 29 16:33 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Dec 29 16:37 : player: played "Bleach/ Bleach opening 9   Aqua timez .mp3"
+Dec 29 16:41 : player: played "Bleach/ Bleach Opening 6 ALONES .mp3"
+Dec 29 16:43 : client: [23] opened from 127.0.0.1:57406
+Dec 29 16:43 : client: [23] closed
+Dec 29 17:21 : client: [24] opened from 127.0.0.1:57822
+Dec 29 17:21 : client: [24] closed
+Dec 29 17:23 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Dec 29 17:24 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Dec 29 17:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 17:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 17:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 17:30 : client: [0] opened from 127.0.0.1:43774
+Dec 29 17:32 : client: [1] opened from 127.0.0.1:43780
+Dec 29 17:32 : client: [1] closed
+Dec 29 17:32 : client: [2] opened from 127.0.0.1:43784
+Dec 29 17:32 : client: [2] closed
+Dec 29 17:33 : client: [3] opened from 127.0.0.1:43876
+Dec 29 17:33 : client: [3] closed
+Dec 29 17:35 : client: [4] opened from 127.0.0.1:43884
+Dec 29 18:11 : client: [5] opened from 127.0.0.1:44328
+Dec 29 18:11 : client: [5] closed
+Dec 29 18:12 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Dec 29 18:13 : client: [0] closed
+Dec 29 18:13 : client: [6] opened from 127.0.0.1:44334
+Dec 29 18:15 : player: played "Bleach/ Bleach Opening 2 UVERworld .mp3"
+Dec 29 18:20 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Dec 29 18:24 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Dec 29 18:25 : client: [6] closed
+Dec 29 18:25 : client: [7] opened from 127.0.0.1:44348
+Dec 29 18:25 : client: [4] closed
+Dec 29 18:25 : client: [7] closed
+Dec 29 18:25 : client: [8] opened from 127.0.0.1:44352
+Dec 29 18:26 : client: [9] opened from 127.0.0.1:44360
+Dec 29 18:26 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Dec 29 18:26 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 18:26 : client: [10] opened from 127.0.0.1:44364
+Dec 29 18:26 : client: [10] closed
+Dec 29 18:27 : client: [11] opened from 127.0.0.1:44368
+Dec 29 18:27 : client: [11] closed
+Dec 29 18:27 : client: [12] opened from 127.0.0.1:44372
+Dec 29 18:27 : player: played "Black Clover/Black Clover Opening 3 Full『Black Rover』by Vickeblanka.flac"
+Dec 29 18:27 : client: [12] closed
+Dec 29 18:27 : client: [13] opened from 127.0.0.1:44376
+Dec 29 18:27 : client: [13] closed
+Dec 29 18:27 : client: [14] opened from 127.0.0.1:44380
+Dec 29 18:27 : client: [14] closed
+Dec 29 18:31 : client: [9] closed
+Dec 29 18:31 : client: [8] closed
+Dec 29 18:31 : player: played "Black Clover/Black Clover Opening 6 Full『Rakugaki Page』by Kankaku Piero.flac"
+Dec 29 18:31 : client: [15] opened from 127.0.0.1:44390
+Dec 29 18:31 : client: [16] opened from 127.0.0.1:44394
+Dec 29 18:32 : client: [17] opened from 127.0.0.1:44400
+Dec 29 18:32 : client: [16] closed
+Dec 29 18:33 : client: [17] closed
+Dec 29 18:33 : client: [18] opened from 127.0.0.1:44414
+Dec 29 18:33 : client: [18] closed
+Dec 29 18:34 : player: played "Liked To Be Downloaded/Clean Bandit feat Demi Lovato - Solo.ogg"
+Dec 29 18:39 : player: played "OneRepublic - Counting Stars.ogg"
+Dec 29 18:42 : client: [19] opened from 127.0.0.1:44496
+Dec 29 18:42 : client: [19] closed
+Dec 29 23:05 : client: [15] closed
+Dec 29 23:05 : client: [20] opened from 127.0.0.1:45156
+Dec 29 23:14 : player: played "Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac"
+Dec 29 23:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 23:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 23:16 : client: [0] opened from 127.0.0.1:46502
+Dec 29 23:19 : player: played "Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac"
+Dec 29 23:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 23:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 23:21 : client: [0] opened from 127.0.0.1:33678
+Dec 29 23:21 : client: [0] closed
+Dec 29 23:21 : client: [1] opened from 127.0.0.1:33682
+Dec 29 23:42 : client: [2] opened from 127.0.0.1:33942
+Dec 29 23:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 29 23:42 : client: [2] closed
+Dec 29 23:42 : client: [3] opened from 127.0.0.1:33944
+Dec 29 23:42 : client: [3] closed
+Dec 29 23:42 : client: [4] opened from 127.0.0.1:33946
+Dec 29 23:42 : client: [4] closed
+Dec 29 23:42 : client: [5] opened from 127.0.0.1:33948
+Dec 29 23:42 : client: [5] closed
+Dec 29 23:42 : client: [6] opened from 127.0.0.1:33950
+Dec 29 23:42 : client: [6] closed
+Dec 29 23:42 : client: [7] opened from 127.0.0.1:33952
+Dec 29 23:42 : client: [7] closed
+Dec 29 23:42 : client: [8] opened from 127.0.0.1:33954
+Dec 29 23:42 : client: [8] closed
+Dec 29 23:42 : client: [9] opened from 127.0.0.1:33956
+Dec 29 23:42 : client: [9] closed
+Dec 29 23:42 : client: [10] opened from 127.0.0.1:33958
+Dec 29 23:42 : client: [10] closed
+Dec 29 23:42 : client: [11] opened from 127.0.0.1:33962
+Dec 29 23:42 : player: played "Liked To Be Downloaded/LSD (Sia, Diplo, & Labrinth) - Audio.ogg"
+Dec 29 23:42 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 23:43 : client: [12] opened from 127.0.0.1:33964
+Dec 29 23:43 : client: [12] closed
+Dec 29 23:43 : client: [11] closed
+Dec 29 23:44 : client: [13] opened from 127.0.0.1:33968
+Dec 29 23:44 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 23:44 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 23:44 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 23:44 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 23:44 : exception: Failed to open /home/ishan/.config/mpd/playlist: No such file or directory
+Dec 29 23:45 : client: [14] opened from 127.0.0.1:33972
+Dec 29 23:45 : client: [14] closed
+Dec 29 23:49 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Dec 29 23:53 : player: played "Bleach/ Bleach Opening 13 Ranbu no Melody .mp3"
+Dec 29 23:55 : client: [15] opened from 127.0.0.1:34040
+Dec 29 23:55 : client: [15] closed
+Dec 30 00:14 : player: played "Bleach/ Bleach opening 12 .mp3"
+Dec 30 00:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 00:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 00:16 : client: [0] opened from 127.0.0.1:60084
+Dec 30 00:17 : client: [0] closed
+Dec 30 00:17 : client: [1] opened from 127.0.0.1:60088
+Dec 30 00:18 : client: [1] closed
+Dec 30 00:18 : client: [2] opened from 127.0.0.1:60092
+Dec 30 00:19 : client: [2] closed
+Dec 30 00:20 : client: [3] opened from 127.0.0.1:60102
+Dec 30 00:21 : client: [3] closed
+Dec 30 00:21 : client: [4] opened from 127.0.0.1:60120
+Dec 30 00:22 : client: [4] closed
+Dec 30 00:22 : client: [5] opened from 127.0.0.1:60128
+Dec 30 00:40 : client: [6] opened from 127.0.0.1:60268
+Dec 30 00:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 00:40 : client: [6] closed
+Dec 30 00:40 : client: [7] opened from 127.0.0.1:60270
+Dec 30 00:40 : client: [7] closed
+Dec 30 00:56 : client: [5] closed
+Dec 30 00:56 : client: [8] opened from 127.0.0.1:60406
+Dec 30 00:56 : client: [8] closed
+Dec 30 01:33 : player: played "Bleach/ Bleach opening 12 .mp3"
+Dec 30 09:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 09:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 09:08 : client: [0] opened from 127.0.0.1:58558
+Dec 30 09:32 : client: [1] opened from 127.0.0.1:58642
+Dec 30 09:32 : client: [1] closed
+Dec 30 11:52 : client: [0] closed
+Dec 30 11:52 : client: [2] opened from 127.0.0.1:59160
+Dec 30 11:52 : client: [2] closed
+Dec 30 11:52 : client: [3] opened from 127.0.0.1:59164
+Dec 30 11:56 : client: [3] closed
+Dec 30 11:56 : client: [4] opened from 127.0.0.1:59228
+Dec 30 11:58 : client: [4] closed
+Dec 30 11:58 : client: [5] opened from 127.0.0.1:59236
+Dec 30 11:58 : client: [5] closed
+Dec 30 11:58 : client: [6] opened from 127.0.0.1:59238
+Dec 30 11:59 : client: [6] closed
+Dec 30 11:59 : client: [7] opened from 127.0.0.1:59242
+Dec 30 11:59 : client: [7] closed
+Dec 30 11:59 : client: [8] opened from 127.0.0.1:59244
+Dec 30 12:00 : client: [8] closed
+Dec 30 12:00 : client: [9] opened from 127.0.0.1:59250
+Dec 30 12:02 : client: [9] closed
+Dec 30 12:02 : client: [10] opened from 127.0.0.1:59256
+Dec 30 12:02 : client: [10] closed
+Dec 30 12:02 : client: [11] opened from 127.0.0.1:59258
+Dec 30 12:03 : client: [11] closed
+Dec 30 12:03 : client: [12] opened from 127.0.0.1:59260
+Dec 30 12:03 : client: [12] closed
+Dec 30 12:03 : client: [13] opened from 127.0.0.1:59264
+Dec 30 12:03 : client: [13] closed
+Dec 30 12:03 : client: [14] opened from 127.0.0.1:59266
+Dec 30 12:03 : client: [14] closed
+Dec 30 12:03 : client: [15] opened from 127.0.0.1:59268
+Dec 30 12:11 : client: [15] closed
+Dec 30 12:11 : client: [16] opened from 127.0.0.1:59314
+Dec 30 12:24 : client: [16] closed
+Dec 30 12:24 : client: [17] opened from 127.0.0.1:59346
+Dec 30 12:25 : client: [17] closed
+Dec 30 12:26 : client: [18] opened from 127.0.0.1:59356
+Dec 30 12:28 : client: [19] opened from 127.0.0.1:59366
+Dec 30 12:28 : client: [20] opened from 127.0.0.1:59370
+Dec 30 12:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 12:28 : client: [20] closed
+Dec 30 12:30 : player: played "Bleach/ Bleach opening 12 .mp3"
+Dec 30 12:34 : player: played "Bleach/ Bleach opening 9   Aqua timez .mp3"
+Dec 30 12:37 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Dec 30 12:41 : player: played "Bleach/ Bleach Opening 6 ALONES .mp3"
+Dec 30 12:46 : player: played "Bleach/ Bleach Opening 8 Kelun .mp3"
+Dec 30 12:51 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Dec 30 12:54 : player: played "Bleach/ Bleach Opening 13 Ranbu no Melody .mp3"
+Dec 30 12:54 : client: [21] opened from 127.0.0.1:59540
+Dec 30 12:54 : client: [21] closed
+Dec 30 21:20 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Dec 30 21:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 21:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 21:21 : client: [0] opened from 127.0.0.1:47082
+Dec 30 22:05 : client: [1] opened from 127.0.0.1:47532
+Dec 30 22:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 30 22:05 : client: [1] closed
+Dec 30 22:07 : client: [2] opened from 127.0.0.1:47588
+Dec 30 22:07 : client: [2] closed
+Dec 30 22:16 : client: [0] closed
+Dec 30 22:16 : client: [3] opened from 127.0.0.1:47646
+Dec 30 22:16 : client: [3] closed
+Dec 30 22:16 : client: [4] opened from 127.0.0.1:47648
+Dec 30 22:16 : client: [4] closed
+Dec 30 22:16 : client: [5] opened from 127.0.0.1:47650
+Dec 30 22:18 : client: [5] closed
+Dec 30 22:18 : client: [6] opened from 127.0.0.1:47652
+Dec 30 22:19 : client: [7] opened from 127.0.0.1:47670
+Dec 30 22:19 : client: [7] closed
+Dec 30 22:21 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Dec 30 22:21 : client: [6] closed
+Dec 30 22:22 : client: [8] opened from 127.0.0.1:47700
+Dec 30 22:22 : client: [8] closed
+Dec 30 22:22 : client: [9] opened from 127.0.0.1:47702
+Dec 30 22:25 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Dec 30 22:27 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Dec 30 22:27 : client: [10] opened from 127.0.0.1:47714
+Dec 30 22:27 : client: [10] closed
+Dec 30 22:28 : client: [11] opened from 127.0.0.1:47720
+Dec 30 22:28 : client: [11] closed
+Dec 30 23:37 : client: [9] closed
+Dec 30 23:37 : client: [12] opened from 127.0.0.1:47974
+Dec 30 23:37 : client: [12] closed
+Dec 30 23:37 : client: [13] opened from 127.0.0.1:47984

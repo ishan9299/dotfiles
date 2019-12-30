@@ -2,7 +2,9 @@
 
 ## autostarting
 $HOME/.config/polybar/launch.sh &
-compton --backend glx &
+xrdb -merge ~/.Xresources &
+compton --config ~/.config/picom/picom.conf &
+light-locker &
 nm-applet &
 xsetroot -cursor_name left_ptr &
 xss-lock -- i3lock &
@@ -35,7 +37,7 @@ bspc config presel_feedback_color "$color1"
 bspc monitor -d code web vedio files gfx extra extra
 
 bspc config border_width         2
-bspc config window_gap           3
+bspc config window_gap           0
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
@@ -59,5 +61,5 @@ bspc rule -a Org.gnome.Nautilus desktop='^4' focus=on follow=on
 bspc rule -a Zathura desktop='^4' state=tiled focus=on follow=on
 bspc rule -a libreoffice-impress desktop='^4' state = pseudo_tiled focus=on follow=on
 bspc rule -a Virt-manager desktop='^5' state=floating focus=on follow=on
-bspc rule -a Gimp desktop='^5' state = floating focus=on follow=on
-bspc rule -a Olive desktop='5' state = floating focus=on follow=on
+bspc rule -a Gimp-2.10 desktop='^5' state = floating focus=on follow=on
+bspc rule -a Olive desktop='^5' state = floating focus=on follow=on
