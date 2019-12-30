@@ -2,7 +2,7 @@
 :set nu rnu
 
 "colorscheme
-colorscheme monokai
+colorscheme colors-wal
 
 "disabling arrow keys
 nnoremap <up>    <nop>
