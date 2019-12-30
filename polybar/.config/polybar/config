@@ -17,8 +17,10 @@
 ;==========================================================
 
 [colors]
-background = ${xrdb:color0:#222}
+;background = ${xrdb:color0:#222}
+background = #D9120d0d
 background-alt = #444
+bottom = true
 foreground = ${xrdb:color7:#222}
 foreground-alt = ${xrdb:color7:#222}
 primary = ${xrdb:color1:#222}
@@ -139,7 +141,7 @@ label-song-ellipsis = true
 
 ; Only applies if <bar-progress> is used
 bar-progress-width = 30
-bar-progress-indicator = |
+bar-progress-indicator = 
 bar-progress-fill = ─
 bar-progress-empty = ─
 
