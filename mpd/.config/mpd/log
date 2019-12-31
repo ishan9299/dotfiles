@@ -1595,3 +1595,36 @@ Dec 30 23:37 : client: [9] closed
 Dec 30 23:37 : client: [12] opened from 127.0.0.1:47974
 Dec 30 23:37 : client: [12] closed
 Dec 30 23:37 : client: [13] opened from 127.0.0.1:47984
+Dec 31 03:00 : client: [14] opened from 127.0.0.1:49384
+Dec 31 03:00 : client: [14] closed
+Dec 31 03:02 : client: [15] opened from 127.0.0.1:49446
+Dec 31 03:02 : client: [15] closed
+Dec 31 04:26 : client: [13] closed
+Dec 31 04:26 : client: [16] opened from 127.0.0.1:49568
+Dec 31 06:07 : client: [16] closed
+Dec 31 06:07 : client: [17] opened from 127.0.0.1:50578
+Dec 31 06:09 : client: [18] opened from 127.0.0.1:50628
+Dec 31 06:09 : client: [18] closed
+Dec 31 06:10 : player: played "Bleach/ Bleach opening 12 .mp3"
+Dec 31 06:13 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Dec 31 06:18 : player: played "Bleach/ Bleach Opening 8 Kelun .mp3"
+Dec 31 06:19 : client: [19] opened from 127.0.0.1:50754
+Dec 31 06:19 : client: [19] closed
+Dec 31 11:12 : client: [17] closed
+Dec 31 11:12 : client: [20] opened from 127.0.0.1:50994
+Dec 31 11:13 : client: [20] closed
+Dec 31 11:13 : client: [21] opened from 127.0.0.1:51000
+Dec 31 11:14 : client: [21] closed
+Dec 31 11:14 : client: [22] opened from 127.0.0.1:51006
+Dec 31 11:14 : client: [22] closed
+Dec 31 11:14 : client: [23] opened from 127.0.0.1:51008
+Dec 31 11:15 : client: [23] closed
+Dec 31 11:15 : client: [24] opened from 127.0.0.1:51014
+Dec 31 11:25 : client: [24] closed
+Dec 31 11:25 : client: [25] opened from 127.0.0.1:51180
+Dec 31 11:26 : client: [25] closed
+Dec 31 11:26 : client: [26] opened from 127.0.0.1:51184
+Dec 31 11:27 : client: [26] closed
+Dec 31 11:27 : client: [27] opened from 127.0.0.1:51186
+Dec 31 11:30 : client: [27] closed
+Dec 31 11:30 : client: [28] opened from 127.0.0.1:51188

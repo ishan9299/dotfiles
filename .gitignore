@@ -8,6 +8,7 @@ emacs/.emacs.d/session.*
 emacs/.emacs.d/apps
 emacs/.emacs.d/games
 emacs/.emacs.d/config.el~
+emacs/.emacs.d/recentf
 xmonad/.xmonad/xmonad.hi
 xmonad/.xmonad/xmonad.o
 xmonad/.xmonad/xmonad.errors
@@ -20,3 +21,7 @@ bspwm/.config/bspwm/#*
 vim/.vim/autoload
 vim/.vim/pack
 vim/.vim/plugged
+qtile/.config/qtile/#*
+mpd/.config/mpd/log
+mpd/.config/mpd/state
+

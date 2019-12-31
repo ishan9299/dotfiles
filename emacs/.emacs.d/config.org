@@ -80,7 +80,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+BEGIN_SRC emacs-lisp
   (use-package swiper
     :ensure t
-    :bind ("/" . 'swiper))
+    :bind ("C-s" . 'swiper))
 #+END_SRC
 ** Evil
 *** Automatic install 
