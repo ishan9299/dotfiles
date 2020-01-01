@@ -1628,3 +1628,467 @@ Dec 31 11:27 : client: [26] closed
 Dec 31 11:27 : client: [27] opened from 127.0.0.1:51186
 Dec 31 11:30 : client: [27] closed
 Dec 31 11:30 : client: [28] opened from 127.0.0.1:51188
+Jan 01 14:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 3 High and Mighty Color .mp3"
+Jan 01 14:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 14:35 : client: [0] opened from 127.0.0.1:40586
+Jan 01 14:35 : client: [1] opened from 127.0.0.1:40588
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3': No such file or directory
+Jan 01 14:35 : client: [1] closed
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 3 High and Mighty Color .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 12 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 9   Aqua timez .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 9   Aqua timez .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 9   Aqua timez .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 6 ALONES .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 2 UVERworld .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 2 UVERworld .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 2 UVERworld .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 1 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 8 Kelun .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 1 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 01 14:35 : client: [2] opened from 127.0.0.1:40590
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3': No such file or directory
+Jan 01 14:35 : client: [2] closed
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 13 Ranbu no Melody .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 8 Kelun .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 9   Aqua timez .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 9   Aqua timez .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 9   Aqua timez .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 6 ALONES .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 12 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 13 Ranbu no Melody .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 2 UVERworld .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 2 UVERworld .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 2 UVERworld .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 3 High and Mighty Color .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 1 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Jan 01 14:35 : client: [3] opened from 127.0.0.1:40592
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3': No such file or directory
+Jan 01 14:35 : client: [3] closed
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 8 Kelun .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 12 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 3 High and Mighty Color .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 12 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 9   Aqua timez .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 9   Aqua timez .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 9   Aqua timez .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 13 Ranbu no Melody .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 6 ALONES .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 1 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Jan 01 14:35 : client: [4] opened from 127.0.0.1:40594
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3': No such file or directory
+Jan 01 14:35 : client: [4] closed
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 6 ALONES .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 10 Shoujo S .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 12 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 5   Rolling Star .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 14 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Tonight Tonight Tonight .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 3 High and Mighty Color .mp3': No such file or directory
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 1 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 3 High and Mighty Color .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 1 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 13 Ranbu no Melody .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 13 Ranbu no Melody .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 8 Kelun .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 8 Kelun .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 2 UVERworld .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 2 UVERworld .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 2 UVERworld .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 15 Harukaze .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 7 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach Opening 11 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach Opening 11 .mp3"
+Jan 01 14:35 : exception: Failed to decode /home/ishan/Music/Bleach/ Bleach opening 12 .mp3
+Jan 01 14:35 : exception: nested: Failed to open '/home/ishan/Music/Bleach/ Bleach opening 12 .mp3': No such file or directory
+Jan 01 14:35 : player: played "Bleach/ Bleach opening 12 .mp3"
+Jan 01 14:36 : client: [5] opened from 127.0.0.1:40598
+Jan 01 14:36 : update: removing JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac
+Jan 01 14:36 : update: removing Dr Stone/Dr.STONE - Opening 2 Full『Sangenshoku』.mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 14 .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach opening 12 .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 11 .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 1 .mp3
+Jan 01 14:36 : update: removing OneRepublic - Counting Stars.ogg
+Jan 01 14:36 : update: removing Liked To Be Downloaded/LSD (Sia, Diplo, & Labrinth) - Audio.ogg
+Jan 01 14:36 : update: removing Liked To Be Downloaded/Clean Bandit feat Demi Lovato - Solo.ogg
+Jan 01 14:36 : update: removing Bleach/ Tonight Tonight Tonight .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach opening 9   Aqua timez .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 7 .mp3
+Jan 01 14:36 : update: added Bleach/High and Mighty Color - Ichirin no Hana-xjAgkUiGzbE.mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 6 ALONES .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 2 UVERworld .mp3
+Jan 01 14:36 : update: removing Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 01 14:36 : update: added Bleach/Bleach - Harukaze 【 Amv 】┃Opening 15-jh1Jb_SE88g.mp3
+Jan 01 14:36 : update: added Bleach/Bleach op 11 Anima Rossa-hQMKaG4Ce68.mp3
+Jan 01 14:36 : update: added Bleach/Bleach Opening 5 FULL - Rolling Star-GSaEEtQXWiE.mp3
+Jan 01 14:36 : update: added Bleach/Bleach Opening 10 Shoujo S FULL SONG-GcvYGTjls0o.mp3
+Jan 01 14:36 : update: added Bleach/Asian Kung-Fu Generation - After Dark (Video Clip)-J_IsnEZcl4E.mp3
+Jan 01 14:36 : update: added Bleach/Bleach opening 12 full-HNi5cO25sK4.mp3
+Jan 01 14:36 : update: added Bleach/BLEACH OP 14 FULL BY 3DR G5-THO6tSd5TBU.mp3
+Jan 01 14:36 : update: added Bleach/UVERworld - D-TecnoLife-L-u3fkgZkO0.mp3
+Jan 01 14:36 : update: added Bleach/Tonight Tonight Tonight - Beat Crusaders (Bleach 4th Opening song) with lyrics-AN0Cu8G4k_8.mp3
+Jan 01 14:36 : update: added Bleach/Asterisk - Orange Range-_8L7YvPEJj4.mp3
+Jan 01 14:36 : update: added Bleach/Bleach opening 9 full_ Aqua timez-Velonica-VyF6PrS8TYQ.mp3
+Jan 01 14:36 : update: added Bleach/AQUA TIMEZ - ALONES - MP3 - 歌詞付き - BLEACH OP-fqUw8k_-dKQ.mp3
+Jan 01 14:36 : client: [5] closed
+Jan 01 14:36 : update: added Bleach/Kelun - Chu bura (bleach) Lyrics-farX457Twj4.mp3
+Jan 01 14:36 : update: added Bleach/Bleach Opening 13 FULL - Ranbu no Melody-EOKAnomhHRg.mp3
+Jan 01 14:36 : update: updating MHA/Boku no Hero Academia Season 4 OP『BLUE ENCOUNT - Polaris』.flac
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Attack On Titan (WMId)   Attack On Titans .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Apple Seed .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Aberration Rod Reiss .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Rage, my soldiers! .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Price of Freedom .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Marley   LENぞ97n10火巨説MAHLE .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Mankind VS Men .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Levi Squad VS Kenny Squad .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Kenny Ackerman Theme .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Give up on your dream .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Call Your Name (Lost Girls Ver.) .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Before Lights Out .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Barrichestra .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST We are just eldians .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Queen of the Walls .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Owl .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Thanks, Erwin .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST ShingekiNoKyojin   Hero .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Royal Blood .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 3/ Attack On Titan Season 3 OST Reiss Family .mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Call of Silence .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Beast Titan Theme .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Barricades .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ attack音D   Attack On 'D' .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ YAMANAIAME .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Warriors Kidnapping Soldiers .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ The Weight Of Lives (Armored Titan Battle Theme) .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ The Colossal And Armored Identity .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ On The Walls .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ I'm back home .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Her heart still beating .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Eren The 'C' .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Dancing Titan Battle Theme .mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 2/ Colossal Titan Fight Theme .mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Building Blocks  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Bonus - piano adlib  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Bird in a Cage  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan Original Soundtrack I_.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan  attack ON titan Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   XL-TT  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Titan Invasion  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Three Dimensional Maneuver  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Female Titan Extermination  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   eye water  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   E.M.A_  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   DOA  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   Daily Life  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: removing Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3
+Jan 01 14:36 : update: added Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3
+Jan 01 14:36 : update: removing Death Note/L's Theme A.mp3
+Jan 01 14:36 : update: removing Death Note/DeathNote OSTII 'Reasoning'.mp3
+Jan 01 14:36 : update: removing Death Note/DeathNote OSTI Light'sTheme03.mp3
+Jan 01 14:36 : update: removing Death Note/DeathNote OST3 'Tactics'.mp3
+Jan 01 14:36 : update: removing Death Note/DeathNote (Light'sThemeA).mp3
+Jan 01 14:36 : update: removing Death Note/Near's Theme(C) DeathNote.mp3
+Jan 01 14:36 : update: removing Death Note/Near's Theme (B) DeathNote.mp3
+Jan 01 14:36 : update: removing Death Note/Near's Theme (A) DeathNote.mp3
+Jan 01 14:36 : update: removing Death Note/L'sIdeology.mp3
+Jan 01 14:36 : update: added Death Note/Near's Theme (B) - Death Note-cyTv4KYtyzs.mp3
+Jan 01 14:36 : update: removing Death Note/L's Theme C.mp3
+Jan 01 14:36 : update: removing Death Note/L's Theme B.mp3
+Jan 01 14:36 : update: added Death Note/Near's Theme (A) - Death Note-WJW_ldC7sUA.mp3
+Jan 01 14:36 : update: added Death Note/L's theme A-qR6dzwQahOM.mp3
+Jan 01 14:36 : update: added Death Note/_ Death Note OST I - Light's Theme 03-E3LeZNlI0Xg.mp3
+Jan 01 14:36 : update: added Death Note/Death Note OST II - 'Reasoning'-BRnA86sIua0.mp3
+Jan 01 14:36 : update: added Death Note/Near's Theme (C) - Death Note-I0AS8kYkUWc.mp3
+Jan 01 14:36 : update: added Death Note/08- L's Ideology-P2OA4mQ3mkc.mp3
+Jan 01 14:36 : update: added Death Note/L's theme C-ZXmEgIERQBo.mp3
+Jan 01 14:36 : update: added Death Note/L's theme B-UlGUYT_zk5o.mp3
+Jan 01 14:36 : update: added Death Note/Death Note - (Light's Theme A) Music-OI8ZxltEWwg.mp3
+Jan 01 14:36 : update: added Death Note/Death Note OST III - 'Tactics'-GgqiZXk5kmw.mp3
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 3 Full『Black Rover』by Vickeblanka.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 1 Full『Haruka Mirai』by Kankaku Piero.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 3 Full『Black to the dreamlight』by EMPiRE.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 6 Full『My Song My Days』by SOLIDEMO with Sakuramen.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 8 Full『against all gods』by m-flo.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 5 Full『Gamushara』by Miyuna-TuL.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 7 Full『Hana ga Saku Michi』by THE CHARM PARK.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 8 Full『sky & blue』by GIRLFRIEND.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 5 Full『Tenjou Tenge』by Miyuna.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 6 Full『Rakugaki Page』by Kankaku Piero.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 2 Full『Amazing Dreams』by SWANKY DANK.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 2 Full『PAiNT it BLACK』by BiSH.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 4 Full『four』by FAKY.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 4 Full『Guess Who Is Back』by Kumi Koda.flac
+Jan 01 14:36 : update: updating Black Clover/Black Clover Opening 9 Full『RiGHT NOW』by EMPiRE.flac
+Jan 01 14:36 : client: [0] closed
+Jan 01 14:36 : client: [6] opened from 127.0.0.1:40604
+Jan 01 14:36 : client: [7] opened from 127.0.0.1:40610
+Jan 01 14:36 : client: [7] closed
+Jan 01 14:36 : client: [8] opened from 127.0.0.1:40618
+Jan 01 14:36 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 01 14:37 : client: [9] opened from 127.0.0.1:40620
+Jan 01 14:37 : client: [9] closed
+Jan 01 14:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 14:38 : client: [10] opened from 127.0.0.1:40626
+Jan 01 14:38 : client: [10] closed
+Jan 01 15:42 : client: [11] opened from 127.0.0.1:40702
+Jan 01 15:42 : client: [11] closed
+Jan 01 15:45 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 01 15:45 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 01 15:45 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 01 15:45 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 01 15:45 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3"
+Jan 01 15:49 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3"
+Jan 01 15:52 : client: [12] opened from 127.0.0.1:40710
+Jan 01 15:52 : client: [12] closed
+Jan 01 15:55 : client: [8] closed
+Jan 01 16:49 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 01 16:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 16:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 16:51 : client: [0] opened from 127.0.0.1:34588
+Jan 01 18:09 : client: [0] closed
+Jan 01 18:10 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 01 18:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 18:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 18:34 : client: [0] opened from 127.0.0.1:33770
+Jan 01 18:52 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 01 21:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 21:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 22:04 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"

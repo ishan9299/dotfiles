@@ -49,9 +49,9 @@ font-0 = FuraCode Nerd Font:pixelsize=11;0
 font-1 = FuraCode Nerd Font:size=11:weight=regular;1
 font-2 = font-awesome:pixelsize=11 ;2
 
-modules-left = bspwm mpd
+modules-left = bspwm i3 mpd
 modules-center = xwindow 
-modules-right =  pulseaudio memory battery xkeyboard date 
+modules-right =  pulseaudio battery xkeyboard date
 
 tray-position = right
 tray-padding = 0

@@ -24,4 +24,7 @@ vim/.vim/plugged
 qtile/.config/qtile/#*
 mpd/.config/mpd/log
 mpd/.config/mpd/state
+mpd/.config/mpd/pid
+mpd/.config/databse
+alacritty/.config/alacritty/alacritty.yml.bak
 

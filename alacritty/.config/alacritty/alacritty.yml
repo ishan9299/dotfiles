@@ -22,27 +22,28 @@ font:
 # BEGIN ACE
 colors:
   primary:
-    background: '0x120d0d'
-    foreground: '0xe8d78e'
+    background: '0x090E10'
+    foreground: '0xc9c6bf'
   cursor:
-    text:       '0x120d0d'
-    cursor:     '0xe8d78e'
+    text:       '0x090E10'
+    cursor:     '0xc9c6bf'
   normal:
-    black:      '0x120d0d'
-    red:        '0x684525'
-    green:      '0x70472C'
-    yellow:     '0x523C50'
-    blue:       '0x985D27'
-    magenta:    '0xBC6429'
-    cyan:       '0xDF9C1B'
-    white:      '0xe8d78e'
+    black:      '0x090E10'
+    red:        '0x5E6057'
+    green:      '0x966036'
+    yellow:     '0x947158'
+    blue:       '0x80807E'
+    magenta:    '0xA28F69'
+    cyan:       '0xD5AF68'
+    white:      '0xc9c6bf'
   bright:
-    black:      '0xa29663'
-    red:        '0x684525'
-    green:      '0x70472C'
-    yellow:     '0x523C50'
-    blue:       '0x985D27'
-    magenta:    '0xBC6429'
-    cyan:       '0xDF9C1B'
-    white:      '0xe8d78e'
+    black:      '0x8c8a85'
+    red:        '0x5E6057'
+    green:      '0x966036'
+    yellow:     '0x947158'
+    blue:       '0x80807E'
+    magenta:    '0xA28F69'
+    cyan:       '0xD5AF68'
+    white:      '0xc9c6bf'
+
 # END ACE

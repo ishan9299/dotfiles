@@ -3,14 +3,13 @@
 ## autostarting
 $HOME/.config/polybar/launch.sh &
 xrdb -merge ~/.Xresources &
-compton --config ~/.config/picom/picom.conf &
-light-locker &
+picom --config ~/.config/picom/picom.conf &
 nm-applet &
 xsetroot -cursor_name left_ptr &
 xss-lock -- i3lock &
 xfce4-power-manager --daemon &
+xfsettingsd &
 nitrogen --restore &
-xfsettingsd --daemon &
 cat ~/.cache/wal/sequences &
 sxhkd &
 emacs --daemon &

@@ -15,6 +15,7 @@ inoremap <left>  <nop>
 inoremap <right> <nop>
 
 nnoremap sp :sp<cr>
+let mapleader = " "
 
 "syntax 
 :syntax on
@@ -29,6 +30,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 call plug#begin('~/.vim/plugged')
 Plug 'jceb/vim-orgmode'
 Plug 'vim-airline/vim-airline'
+Plug 'easymotion/vim-easymotion'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 

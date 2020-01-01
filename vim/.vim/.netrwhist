@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/ishan/.config/bspwm'
 let g:netrw_dirhist_4='/home/ishan/dotfiles/ncmpcpp/.config/ncmpcpp'
 let g:netrw_dirhist_3='/home/ishan/dotfiles/ncmpcpp/.config'
 let g:netrw_dirhist_2='/home/ishan/dotfiles/ncmpcpp'

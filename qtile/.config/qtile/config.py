@@ -24,12 +24,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from libqtile.config import Key, Screen, Group, Drag, Click
+from libqtile.config import Key, Screen, Group, Drag, Click, Scratchpad, DropDown
 from libqtile.command import lazy
 from libqtile import layout, bar, widget
-
-from typing import List  # noqa: F401
-from libqtile.config import ScratchPad, DropDown
+from typing import List
 
 mod = "mod4"
 
@@ -43,7 +41,23 @@ keys = [
     Key([mod, "control"], "j", lazy.layout.shuffle_up()),
 
     # Switch window focus to other pane(s) of stack
-    Key([mod], "space", lazy.layout.next()),
+    #Key([mod], "space", lazy.layout.next()),
+
+    # Layout keybinding
+    # Monad Wide
+    Key([modkey], "h", lazy.layout.left()),
+    Key([modkey], "l", lazy.layout.right()),
+    Key([modkey], "j", lazy.layout.down()),
+    Key([modkey], "k", lazy.layout.up()),
+    Key([modkey, "shift"], "h", lazy.layout.swap_left()),
+    Key([modkey, "shift"], "l", lazy.layout.swap_right()),
+    Key([modkey, "shift"], "j", lazy.layout.shuffle_down()),
+    Key([modkey, "shift"], "k", lazy.layout.shuffle_up()),
+    Key([modkey], "i", lazy.layout.grow()),
+    Key([modkey], "m", lazy.layout.shrink()),
+    Key([modkey], "n", lazy.layout.normalize()),
+    Key([modkey], "o", lazy.layout.maximize()),
+    Key([modkey, "shift"], "space", lazy.layout.flip()),
 
     # Swap panes of split stack
     Key([mod, "shift"], "space", lazy.layout.rotate()),
@@ -58,10 +72,13 @@ keys = [
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout()),
     Key([mod], "w", lazy.window.kill()),
+    Key([mod, "shift"], "r", lazy.restart()),
+    Key([mod, "shift"], "q", lazy.shutdown()),
+    Key([mod], "space", lazy.spawncmd()),
 
-    Key([mod, "control"], "r", lazy.restart()),
-    Key([mod, "control"], "q", lazy.shutdown()),
-    Key([mod], "r", lazy.spawncmd()),
+    # Scratchpads
+    Key([], 'F11', lazy.group['scratchpad'].dropdown_toggle('term')),
+
 ]
 
 groups = [Group(i) for i in "1234567"]
@@ -75,9 +92,19 @@ for i in groups:
         Key([mod, "shift"], i.name, lazy.window.togroup(i.name)),
     ])
 
+groups = [
+    ScratchPad("scratchpad", [
+        # define a drop down terminal.
+        # it is placed in the upper third of screen by default.
+        DropDown("term", "alacritty"),
+
+    Group("a"),
+]
+
 layouts = [
     layout.Max(),
     layout.Stack(num_stacks=2)
+    layout.MonadTall(**config)
 ]
 
 widget_defaults = dict(
@@ -137,41 +164,13 @@ floating_layout = layout.Floating(float_rules=[
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 
-# append a scratchpad group
-#groups.append(
-#    ScratchPad(
-#        "scratchpad", [
-#            # define a drop down terminal
-#            # it is placed in the upper third of the screen by default
-#            DropDown(
-#                "term",
-#                "/usr/bin/alacritty",
-#                opacity=0.88,
-#                height=0.55,
-#                width=0.80
-#            ),
-#
-#            # define another terminal exclusively for qshell at different position
-#            DropDown(
-#                "qshell",
-#                "/usr/bin/alacritty -e qshell",
-#                x=0.05,
-#                y=0.4,
-#                width=0.9,
-#                height=0.6,
-#                opacity=0.9,
-#                on_focus_lost_hide=True
-#            ),
-#        ]
-#    )
-#)
-#
-## define keys to toggle the dropdown terminals
-#keys.extend([
-#    Key([], "F12", lazy.group["scratchpad"].dropdown_toggle("term")),
-#    Key([], "F11", lazy.group["scratchpad"].dropdown_toggle("qshell")),
-#])
-#
+def config():
+    return {"border_width": 2,
+            "margin": 4,
+            "border_focus": "AD69AF",
+            "border_normal": "1D2330"
+           }
+
 ## XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
 ## string besides java UI toolkits; you can see several discussions on the
 ## mailing lists, GitHub issues, and other WM documentation that suggest setting
