@@ -6,7 +6,7 @@ xrdb -merge ~/.Xresources &
 picom --config ~/.config/picom/picom.conf &
 nm-applet &
 xsetroot -cursor_name left_ptr &
-xss-lock -- i3lock &
+xss-lock ./lock.sh &
 xfce4-power-manager --daemon &
 xfsettingsd &
 nitrogen --restore &
@@ -21,7 +21,7 @@ setxkbmap -option "caps:swapescape" &
 [ ! -s ~/.config/mpd/pid ] && mpd &
 
 # source the colors.
-#. "${HOME}/.cache/wal/colors.sh"
+. "${HOME}/.cache/wal/colors.sh"
 
 
 # Tiling Scheme
@@ -37,6 +37,7 @@ bspc monitor -d code web vedio files gfx extra extra
 
 bspc config border_width         2
 bspc config window_gap           0
+bspc config top_padding          26
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true

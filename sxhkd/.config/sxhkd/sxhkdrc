@@ -15,10 +15,10 @@ super + o ; {e,j,b}
 
 #Terminal Applications
 super + o ; m
-      	    {alacritty -e ncmpcpp & bspc node -t floating}
+      	    {alacritty -e ncmpcpp && bspc node -t floating}
 
 super + o ; f
-            {alacritty -e ranger & bspc node -t floating}
+            {alacritty -e ranger && bspc node -t floating}
 alt + d
     tdrop -a -h 450 -y 35 alacritty
 

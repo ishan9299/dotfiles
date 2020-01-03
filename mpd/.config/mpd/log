@@ -2092,3 +2092,995 @@ Jan 01 18:52 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2
 Jan 01 21:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jan 01 21:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jan 01 22:04 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 02 14:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 14:35 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 14:35 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
+Jan 02 14:35 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3': No such file or directory
+Jan 02 14:35 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 02 14:35 : client: [0] opened from 127.0.0.1:48078
+Jan 02 14:43 : client: [0] closed
+Jan 02 14:43 : client: [1] opened from 127.0.0.1:48100
+Jan 02 14:50 : client: [1] closed
+Jan 02 14:50 : client: [2] opened from 127.0.0.1:48188
+Jan 02 14:53 : client: [3] opened from 127.0.0.1:48200
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
+Jan 02 14:53 : client: [3] closed
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3"
+Jan 02 14:53 : client: [4] opened from 127.0.0.1:48202
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3
+Jan 02 14:53 : client: [4] closed
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3"
+Jan 02 14:53 : client: [5] opened from 127.0.0.1:48204
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3
+Jan 02 14:53 : client: [5] closed
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3': No such file or directory
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3"
+Jan 02 14:53 : exception: Failed to decode /home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3
+Jan 02 14:53 : exception: nested: Failed to open '/home/ishan/Music/Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3': No such file or directory
+Jan 02 14:53 : player: played "Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3"
+Jan 02 14:53 : client: [6] opened from 127.0.0.1:48208
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 1 Full『Haruka Mirai』by Kankaku Piero.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 7 Full『Hana ga Saku Michi』by THE CHARM PARK.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 4 Full『Guess Who Is Back』by Kumi Koda.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 4 Full『four』by FAKY.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 8 Full『sky & blue』by GIRLFRIEND.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 9 Full『Jinsei wa Senjou da』by Kalen Anzai.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 7 Full『JUSTadICE』by Seiko Oomori.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 5 Full『Tenjou Tenge』by Miyuna.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 3 Full『Black Rover』by Vickeblanka.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 2 Full『Amazing Dreams』by SWANKY DANK.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 3 Full『Black to the dreamlight』by EMPiRE.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 6 Full『My Song My Days』by SOLIDEMO with Sakuramen.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 5 Full『Gamushara』by Miyuna-TuL.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 2 Full『PAiNT it BLACK』by BiSH.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Ending 8 Full『against all gods』by m-flo.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 9 Full『RiGHT NOW』by EMPiRE.flac
+Jan 02 14:53 : update: updating Black Clover/Black Clover Opening 6 Full『Rakugaki Page』by Kankaku Piero.flac
+Jan 02 14:53 : update: added Liked To Be Downloaded/LSD (Sia, Diplo, & Labrinth) - Audio.ogg
+Jan 02 14:53 : client: [6] closed
+Jan 02 14:53 : update: added Liked To Be Downloaded/Clean Bandit feat Demi Lovato - Solo.ogg
+Jan 02 14:53 : update: removing Bleach/AQUA TIMEZ - ALONES - MP3 - 歌詞付き - BLEACH OP-fqUw8k_-dKQ.mp3
+Jan 02 14:53 : update: removing Bleach/Kelun - Chu bura (bleach) Lyrics-farX457Twj4.mp3
+Jan 02 14:53 : update: removing Bleach/High and Mighty Color - Ichirin no Hana-xjAgkUiGzbE.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach opening 9 full_ Aqua timez-Velonica-VyF6PrS8TYQ.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach Opening 5 FULL - Rolling Star-GSaEEtQXWiE.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach Opening 13 FULL - Ranbu no Melody-EOKAnomhHRg.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach opening 12 full-HNi5cO25sK4.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach Opening 10 Shoujo S FULL SONG-GcvYGTjls0o.mp3
+Jan 02 14:53 : update: removing Bleach/BLEACH OP 14 FULL BY 3DR G5-THO6tSd5TBU.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach op 11 Anima Rossa-hQMKaG4Ce68.mp3
+Jan 02 14:53 : update: removing Bleach/Bleach - Harukaze 【 Amv 】┃Opening 15-jh1Jb_SE88g.mp3
+Jan 02 14:53 : update: removing Bleach/Asterisk - Orange Range-_8L7YvPEJj4.mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 15 Harukaze .mp3
+Jan 02 14:53 : update: removing Bleach/Asian Kung-Fu Generation - After Dark (Video Clip)-J_IsnEZcl4E.mp3
+Jan 02 14:53 : update: removing Bleach/UVERworld - D-TecnoLife-L-u3fkgZkO0.mp3
+Jan 02 14:53 : update: removing Bleach/Tonight Tonight Tonight - Beat Crusaders (Bleach 4th Opening song) with lyrics-AN0Cu8G4k_8.mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 5   Rolling Star .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 2 UVERworld .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 14 .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach opening 9   Aqua timez .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 11 .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 3 High and Mighty Color .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 7 .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 6 ALONES .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 13 Ranbu no Melody .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 8 Kelun .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach opening 12 .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 1 .mp3
+Jan 02 14:53 : update: added Bleach/ Tonight Tonight Tonight .mp3
+Jan 02 14:53 : update: added Bleach/ Bleach Opening 10 Shoujo S .mp3
+Jan 02 14:53 : update: updating MHA/Boku no Hero Academia Season 4 OP『BLUE ENCOUNT - Polaris』.flac
+Jan 02 14:53 : update: added /OneRepublic - Counting Stars.ogg
+Jan 02 14:53 : update: added JJB/JoJo Part 4 - Diamond is Unbreakable - Opening 2 Full『chase』by batta-HYNK0YRqZb4.flac
+Jan 02 14:53 : update: removing Death Note/L's theme B-UlGUYT_zk5o.mp3
+Jan 02 14:53 : update: removing Death Note/L's theme A-qR6dzwQahOM.mp3
+Jan 02 14:53 : update: removing Death Note/Death Note OST III - 'Tactics'-GgqiZXk5kmw.mp3
+Jan 02 14:53 : update: removing Death Note/Death Note OST II - 'Reasoning'-BRnA86sIua0.mp3
+Jan 02 14:53 : update: added Death Note/L'sIdeology.mp3
+Jan 02 14:53 : update: removing Death Note/Death Note - (Light's Theme A) Music-OI8ZxltEWwg.mp3
+Jan 02 14:53 : update: removing Death Note/08- L's Ideology-P2OA4mQ3mkc.mp3
+Jan 02 14:53 : update: removing Death Note/_ Death Note OST I - Light's Theme 03-E3LeZNlI0Xg.mp3
+Jan 02 14:53 : update: removing Death Note/Near's Theme (C) - Death Note-I0AS8kYkUWc.mp3
+Jan 02 14:53 : update: added Death Note/L's Theme A.mp3
+Jan 02 14:53 : update: removing Death Note/Near's Theme (B) - Death Note-cyTv4KYtyzs.mp3
+Jan 02 14:53 : update: removing Death Note/Near's Theme (A) - Death Note-WJW_ldC7sUA.mp3
+Jan 02 14:53 : update: removing Death Note/L's theme C-ZXmEgIERQBo.mp3
+Jan 02 14:53 : update: added Death Note/L's Theme B.mp3
+Jan 02 14:53 : update: added Death Note/DeathNote (Light'sThemeA).mp3
+Jan 02 14:53 : update: added Death Note/Near's Theme (B) DeathNote.mp3
+Jan 02 14:53 : update: added Death Note/DeathNote OST3 'Tactics'.mp3
+Jan 02 14:53 : update: added Death Note/Near's Theme (A) DeathNote.mp3
+Jan 02 14:53 : update: added Death Note/Near's Theme(C) DeathNote.mp3
+Jan 02 14:53 : update: added Death Note/DeathNote OSTII 'Reasoning'.mp3
+Jan 02 14:53 : update: added Death Note/DeathNote OSTI Light'sTheme03.mp3
+Jan 02 14:53 : update: added Death Note/L's Theme C.mp3
+Jan 02 14:53 : update: added Dr Stone/Dr.STONE - Opening 2 Full『Sangenshoku』.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   XL-TT  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Three Dimensional Maneuver  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Building Blocks  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   DOA  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Female Titan Extermination  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   E.M.A_  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Bonus - piano adlib  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Titan Invasion  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   eye water  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   counter.attack-mankind  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Daily Life  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan Original Soundtrack I_.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   The Reluctant Heroes  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan  attack ON titan Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 1/Attack on Titan_   Bird in a Cage  Hiroyuki Sawano.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Beast Titan Theme .mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Call of Silence .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ I'm back home .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Her heart still beating .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Barricades .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ YAMANAIAME .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ On The Walls .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ attack音D   Attack On 'D' .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Colossal Titan Fight Theme .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Eren The 'C' .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ The Weight Of Lives (Armored Titan Battle Theme) .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Warriors Kidnapping Soldiers .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ Dancing Titan Battle Theme .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 2/ The Colossal And Armored Identity .mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Queen of the Walls .mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Kenny Ackerman Theme .mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3
+Jan 02 14:53 : update: removing Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST The Owl .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Thanks, Erwin .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Give up on your dream .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Zero Eclipse  Historia Reiss Theme .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST ShingekiNoKyojin   Hero .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Barrichestra .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Marley   LENぞ97n10火巨説MAHLE .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Levi Squad VS Kenny Squad .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Before Lights Out .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Mankind VS Men .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Call Your Name (Lost Girls Ver.) .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Royal Blood .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST We are just eldians .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Rage, my soldiers! .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Price of Freedom .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Aberration Rod Reiss .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Apple Seed .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Reiss Family .mp3
+Jan 02 14:53 : update: added Attack On Titan/Season 3/ Attack On Titan Season 3 OST Attack On Titan (WMId)   Attack On Titans .mp3
+Jan 02 14:53 : client: [7] opened from 127.0.0.1:48212
+Jan 02 14:53 : client: [7] closed
+Jan 02 14:53 : client: [2] closed
+Jan 02 14:53 : client: [8] opened from 127.0.0.1:48214
+Jan 02 14:54 : client: [8] closed
+Jan 02 14:55 : client: [9] opened from 127.0.0.1:48216
+Jan 02 14:57 : client: [10] opened from 127.0.0.1:48222
+Jan 02 14:57 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 14:57 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 14:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 14:58 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 14:58 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 14:58 : client: [11] opened from 127.0.0.1:48224
+Jan 02 14:58 : client: [11] closed
+Jan 02 14:58 : client: [10] closed
+Jan 02 14:59 : client: [12] opened from 127.0.0.1:48228
+Jan 02 14:59 : client: [12] closed
+Jan 02 14:59 : client: [13] opened from 127.0.0.1:48232
+Jan 02 14:59 : player: played "Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac"
+Jan 02 14:59 : client: [13] closed
+Jan 02 14:59 : client: [14] opened from 127.0.0.1:48236
+Jan 02 14:59 : client: [14] closed
+Jan 02 14:59 : client: [15] opened from 127.0.0.1:48240
+Jan 02 14:59 : client: [15] closed
+Jan 02 14:59 : client: [16] opened from 127.0.0.1:48244
+Jan 02 14:59 : client: [16] closed
+Jan 02 14:59 : client: [17] opened from 127.0.0.1:48248
+Jan 02 14:59 : player: played "Black Clover/Black Clover Ending 1 Full『Aoi Honoo』by Itowokashi.flac"
+Jan 02 14:59 : client: [17] closed
+Jan 02 15:19 : client: [9] closed
+Jan 02 15:19 : client: [18] opened from 127.0.0.1:48488
+Jan 02 15:29 : client: [18] closed
+Jan 02 15:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 15:30 : client: [0] opened from 127.0.0.1:53802
+Jan 02 17:11 : client: [1] opened from 127.0.0.1:54716
+Jan 02 17:12 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 17:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 17:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 17:12 : client: [2] opened from 127.0.0.1:54720
+Jan 02 17:12 : client: [2] closed
+Jan 02 17:20 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 02 17:35 : player: played "Bleach/ Bleach Opening 5   Rolling Star .mp3"
+Jan 02 17:39 : player: played "OneRepublic - Counting Stars.ogg"
+Jan 02 17:42 : player: played "Bleach/ Tonight Tonight Tonight .mp3"
+Jan 02 17:52 : client: [1] closed
+Jan 02 17:52 : client: [0] closed
+Jan 02 20:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 20:35 : client: [0] opened from 127.0.0.1:56370
+Jan 02 20:35 : client: [0] closed
+Jan 02 20:35 : client: [1] opened from 127.0.0.1:56374
+Jan 02 20:35 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 22:17 : client: [1] closed
+Jan 02 22:17 : client: [2] opened from 127.0.0.1:56424
+Jan 02 22:23 : client: [3] opened from 127.0.0.1:56484
+Jan 02 22:23 : client: [3] closed
+Jan 02 22:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 22:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 22:23 : client: [4] opened from 127.0.0.1:56488
+Jan 02 22:24 : player: played "OneRepublic - Counting Stars.ogg"
+Jan 02 22:24 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 22:26 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 22:26 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 22:30 : player: played "Black Clover/Black Clover Ending 3 Full『Black to the dreamlight』by EMPiRE.flac"
+Jan 02 22:33 : client: [4] closed
+Jan 02 22:33 : client: [5] opened from 127.0.0.1:56586
+Jan 02 22:33 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 02 22:33 : client: [6] opened from 127.0.0.1:56590
+Jan 02 22:33 : client: [6] closed
+Jan 02 22:37 : player: played "Bleach/ Bleach Opening 10 Shoujo S .mp3"
+Jan 02 22:40 : player: played "Bleach/ Bleach Opening 14 .mp3"
+Jan 02 22:44 : client: [5] closed
+Jan 02 22:44 : client: [2] closed
+Jan 02 22:44 : exception: Failed to play on "pulse audio" (pulse): suspended
+Jan 02 22:44 : client: [7] opened from 127.0.0.1:56618
+Jan 02 22:44 : client: [8] opened from 127.0.0.1:56622
+Jan 02 22:44 : client: [8] closed
+Jan 02 22:45 : client: [9] opened from 127.0.0.1:56626
+Jan 02 22:45 : client: [9] closed
+Jan 02 22:45 : client: [10] opened from 127.0.0.1:56630
+Jan 02 22:45 : client: [10] closed
+Jan 02 22:45 : player: played "Bleach/ Bleach Opening 15 Harukaze .mp3"
+Jan 02 22:48 : player: played "Bleach/ Bleach Opening 7 .mp3"
+Jan 02 22:49 : client: [11] opened from 127.0.0.1:56684
+Jan 02 22:53 : player: played "Bleach/ Bleach opening 9   Aqua timez .mp3"
+Jan 02 22:57 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 02 22:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 22:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 22:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 22:58 : client: [0] opened from 127.0.0.1:52448
+Jan 02 22:58 : client: [1] opened from 127.0.0.1:52452
+Jan 02 22:58 : client: [1] closed
+Jan 02 23:18 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 03 08:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 08:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 08:30 : client: [0] opened from 127.0.0.1:55710
+Jan 03 08:59 : client: [1] opened from 127.0.0.1:56378
+Jan 03 08:59 : update: added Naruto/Naruto Shippuden Opening 8 full FULL HD]-9y1tb_em_Q8.opus
+Jan 03 08:59 : update: added Naruto/Full opening naruto Blue Bird [Lyrics]-Dp8EuP_0gWI.flac
+Jan 03 08:59 : player: played "Bleach/ Bleach Opening 1 .mp3"
+Jan 03 08:59 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 08:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 09:00 : client: [1] closed
+Jan 03 09:00 : client: [2] opened from 127.0.0.1:56388
+Jan 03 09:00 : player: played "Naruto/Naruto Shippuden Opening 8 full FULL HD]-9y1tb_em_Q8.opus"
+Jan 03 09:00 : client: [2] closed
+Jan 03 09:00 : client: [3] opened from 127.0.0.1:56392
+Jan 03 09:00 : client: [3] closed
+Jan 03 09:00 : client: [4] opened from 127.0.0.1:56396
+Jan 03 09:00 : exception: Failed to decode /home/ishan/Music/Naruto/Naruto Shippuden Opening 8 full FULL HD]-9y1tb_em_Q8.opus
+Jan 03 09:00 : exception: nested: Failed to open '/home/ishan/Music/Naruto/Naruto Shippuden Opening 8 full FULL HD]-9y1tb_em_Q8.opus': No such file or directory
+Jan 03 09:00 : player: played "Naruto/Naruto Shippuden Opening 8 full FULL HD]-9y1tb_em_Q8.opus"
+Jan 03 09:34 : client: [4] closed
+Jan 03 09:47 : client: [5] opened from 127.0.0.1:57174
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : client: [5] closed
+Jan 03 09:47 : client: [6] opened from 127.0.0.1:57178
+Jan 03 09:47 : update: removing Naruto/Naruto Shippuden Opening 8 full FULL HD]-9y1tb_em_Q8.opus
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 7 .mp3
+Jan 03 09:47 : update: removing Naruto/Full opening naruto Blue Bird [Lyrics]-Dp8EuP_0gWI.flac
+Jan 03 09:47 : update: added Naruto/Naruto-Shippuden op 12 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 5 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 16 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 10 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Blue Bird .flac
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 9 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 8 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 4 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 13 .mp3
+Jan 03 09:47 : update: added Naruto/Naruto Shippuden OP 6 .mp3
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:47 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:48 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:48 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 7 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto-Shippuden op 12 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 5 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 16 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 10 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Blue Bird .flac
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 9 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 8 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 4 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 13 .mp3
+Jan 03 09:50 : update: updating Naruto/Naruto Shippuden OP 6 .mp3
+Jan 03 09:50 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 7 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto-Shippuden op 12 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 5 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 16 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 10 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Blue Bird .flac
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 9 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 8 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 4 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 13 .mp3
+Jan 03 09:52 : update: updating Naruto/Naruto Shippuden OP 6 .mp3
+Jan 03 09:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 09:56 : player: played "Naruto/Naruto Shippuden OP 10 .mp3"
+Jan 03 10:00 : player: played "Naruto/Naruto Shippuden OP 16 .mp3"
+Jan 03 10:01 : client: [7] opened from 127.0.0.1:57498
+Jan 03 10:01 : client: [7] closed
+Jan 03 10:01 : client: [8] opened from 127.0.0.1:57502
+Jan 03 10:01 : client: [8] closed
+Jan 03 10:01 : client: [9] opened from 127.0.0.1:57506
+Jan 03 10:01 : client: [9] closed
+Jan 03 10:01 : client: [10] opened from 127.0.0.1:57510
+Jan 03 10:01 : client: [10] closed
+Jan 03 10:01 : client: [11] opened from 127.0.0.1:57514
+Jan 03 10:01 : client: [11] closed
+Jan 03 10:01 : client: [12] opened from 127.0.0.1:57518
+Jan 03 10:01 : client: [12] closed
+Jan 03 10:01 : client: [13] opened from 127.0.0.1:57522
+Jan 03 10:01 : client: [13] closed
+Jan 03 10:01 : client: [14] opened from 127.0.0.1:57526
+Jan 03 10:01 : client: [14] closed
+Jan 03 10:03 : player: played "Naruto/Naruto Shippuden OP 4 .mp3"
+Jan 03 10:08 : player: played "Naruto/Naruto Shippuden OP 13 .mp3"
+Jan 03 10:11 : player: played "Naruto/Naruto-Shippuden op 12 .mp3"
+Jan 03 10:15 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:15 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:15 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood opening 1 Mellisa (full) .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood ending 4 I Will 07DqhnVX.flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood opening 3 Undo .flac
+Jan 03 10:15 : update: added FMAB/Link .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist   Brotherhood OP3 Golden Time Lover .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Ending 4 .flac
+Jan 03 10:15 : update: added FMAB/Tsunaida Te   Lil'B [Full Original!] .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Ending 2.flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist Brotherhood Uso .flac
+Jan 03 10:15 : update: added FMAB/FULLmetal Alchemist BrotherHood L'Arc~en~Ciel LOST HEAVEN (Traducido al Español) + Lyrics.flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Ready Steady Go (HQ) .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Ending 3 'Motherland' Full.flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Ray Of Light Theme(5th ED) .flac
+Jan 03 10:15 : update: added FMAB/『Again』 Yui .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist   Brotherhood OP5   SID - Rain .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood ending 1 .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Opening 4 (Chemistry   Period) .flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood (Opening 2) [Lyrics and sub english]-.flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Opening 4 Rewrite.flac
+Jan 03 10:15 : update: added FMAB/Fullmetal Alchemist BrotherHood Ending 2 Tobira no Mukou e (Lyrics) wZVcyp5q-.flac
+Jan 03 10:15 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:15 : player: played "Naruto/Naruto Shippuden OP 7 .mp3"
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood opening 1 Mellisa (full) .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood ending 4 I Will 07DqhnVX.flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood opening 3 Undo .flac
+Jan 03 10:16 : update: updating FMAB/Link .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist   Brotherhood OP3 Golden Time Lover .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Ending 4 .flac
+Jan 03 10:16 : update: updating FMAB/Tsunaida Te   Lil'B [Full Original!] .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Ending 2.flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist Brotherhood Uso .flac
+Jan 03 10:16 : update: updating FMAB/FULLmetal Alchemist BrotherHood L'Arc~en~Ciel LOST HEAVEN (Traducido al Español) + Lyrics.flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Ready Steady Go (HQ) .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Ending 3 'Motherland' Full.flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Ray Of Light Theme(5th ED) .flac
+Jan 03 10:16 : update: updating FMAB/『Again』 Yui .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist   Brotherhood OP5   SID - Rain .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood ending 1 .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Opening 4 (Chemistry   Period) .flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood (Opening 2) [Lyrics and sub english]-.flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Opening 4 Rewrite.flac
+Jan 03 10:16 : update: updating FMAB/Fullmetal Alchemist BrotherHood Ending 2 Tobira no Mukou e (Lyrics) wZVcyp5q-.flac
+Jan 03 10:16 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:16 : player: played "Naruto/Naruto Shippuden OP 9 .mp3"
+Jan 03 10:17 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:17 : client: [15] opened from 127.0.0.1:57560
+Jan 03 10:17 : client: [15] closed
+Jan 03 10:19 : client: [16] opened from 127.0.0.1:57594
+Jan 03 10:19 : client: [16] closed
+Jan 03 10:38 : client: [17] opened from 127.0.0.1:57616
+Jan 03 10:38 : client: [17] closed
+Jan 03 10:38 : client: [6] closed
+Jan 03 10:40 : client: [18] opened from 127.0.0.1:57622
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood ending 1 .flac
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood Ready Steady Go (HQ) .flac
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood Opening 4 Rewrite.flac
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood opening 3 Undo .flac
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood opening 1 Mellisa (full) .flac
+Jan 03 10:40 : update: removing FMAB/FULLmetal Alchemist BrotherHood L'Arc~en~Ciel LOST HEAVEN (Traducido al Español) + Lyrics.flac
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood ending 4 I Will 07DqhnVX.flac
+Jan 03 10:40 : update: removing FMAB/Fullmetal Alchemist BrotherHood Ending 2 Tobira no Mukou e (Lyrics) wZVcyp5q-.flac
+Jan 03 10:40 : update: removing FMAB/Link .flac
+Jan 03 10:40 : player: played "FMAB/FULLmetal Alchemist BrotherHood L'Arc~en~Ciel LOST HEAVEN (Traducido al Español) + Lyrics.flac"
+Jan 03 10:40 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 10:41 : client: [19] opened from 127.0.0.1:57646
+Jan 03 10:41 : client: [19] closed
+Jan 03 11:04 : client: [18] closed
+Jan 03 11:05 : client: [0] closed
+Jan 03 11:05 : client: [20] opened from 127.0.0.1:57790
+Jan 03 11:06 : client: [20] closed
+Jan 03 11:06 : client: [21] opened from 127.0.0.1:57792
+Jan 03 11:06 : client: [21] closed
+Jan 03 11:06 : client: [22] opened from 127.0.0.1:57794
+Jan 03 11:06 : client: [22] closed
+Jan 03 11:06 : client: [23] opened from 127.0.0.1:57796
+Jan 03 11:06 : client: [23] closed
+Jan 03 11:06 : client: [24] opened from 127.0.0.1:57798
+Jan 03 11:06 : client: [24] closed
+Jan 03 11:06 : client: [25] opened from 127.0.0.1:57800
+Jan 03 11:06 : client: [25] closed
+Jan 03 11:06 : client: [26] opened from 127.0.0.1:57802
+Jan 03 11:06 : client: [26] closed
+Jan 03 11:06 : client: [27] opened from 127.0.0.1:57804
+Jan 03 11:06 : client: [27] closed
+Jan 03 11:06 : client: [28] opened from 127.0.0.1:57806
+Jan 03 11:06 : client: [28] closed
+Jan 03 11:06 : client: [29] opened from 127.0.0.1:57808
+Jan 03 11:07 : client: [29] closed
+Jan 03 11:07 : client: [30] opened from 127.0.0.1:57810
+Jan 03 11:07 : client: [30] closed
+Jan 03 11:07 : client: [31] opened from 127.0.0.1:57812
+Jan 03 11:07 : client: [31] closed
+Jan 03 11:07 : client: [32] opened from 127.0.0.1:57814
+Jan 03 11:07 : client: [32] closed
+Jan 03 11:07 : client: [33] opened from 127.0.0.1:57816
+Jan 03 11:07 : client: [33] closed
+Jan 03 11:07 : client: [34] opened from 127.0.0.1:57818
+Jan 03 11:07 : client: [34] closed
+Jan 03 11:07 : client: [35] opened from 127.0.0.1:57822
+Jan 03 11:07 : client: [35] closed
+Jan 03 11:07 : client: [36] opened from 127.0.0.1:57824
+Jan 03 11:07 : client: [36] closed
+Jan 03 11:07 : client: [37] opened from 127.0.0.1:57826
+Jan 03 11:07 : client: [37] closed
+Jan 03 11:07 : client: [38] opened from 127.0.0.1:57828
+Jan 03 11:07 : client: [38] closed
+Jan 03 11:07 : client: [39] opened from 127.0.0.1:57830
+Jan 03 11:08 : client: [39] closed
+Jan 03 11:08 : client: [40] opened from 127.0.0.1:57832
+Jan 03 11:08 : client: [40] closed
+Jan 03 11:08 : client: [41] opened from 127.0.0.1:57836
+Jan 03 11:08 : client: [41] closed
+Jan 03 11:08 : client: [42] opened from 127.0.0.1:57838
+Jan 03 11:08 : client: [42] closed
+Jan 03 11:08 : client: [43] opened from 127.0.0.1:57840
+Jan 03 11:42 : client: [43] closed
+Jan 03 11:42 : client: [44] opened from 127.0.0.1:57882
+Jan 03 11:43 : client: [44] closed
+Jan 03 11:43 : client: [45] opened from 127.0.0.1:57886
+Jan 03 11:45 : client: [46] opened from 127.0.0.1:57890
+Jan 03 11:45 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 11:45 : client: [46] closed
+Jan 03 11:45 : client: [47] opened from 127.0.0.1:57894
+Jan 03 11:45 : client: [47] closed
+Jan 03 11:45 : player: played "FMAB/『Again』 Yui .flac"
+Jan 03 19:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 19:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 19:23 : client: [0] opened from 127.0.0.1:52734
+Jan 03 19:25 : client: [0] closed
+Jan 03 19:26 : client: [1] opened from 127.0.0.1:52736
+Jan 03 19:26 : client: [1] closed
+Jan 03 19:26 : client: [2] opened from 127.0.0.1:52738
+Jan 03 19:26 : client: [2] closed
+Jan 03 19:26 : client: [3] opened from 127.0.0.1:52740
+Jan 03 19:37 : client: [3] closed
+Jan 03 19:37 : client: [4] opened from 127.0.0.1:52742
+Jan 03 19:38 : client: [4] closed
+Jan 03 19:38 : client: [5] opened from 127.0.0.1:52744
+Jan 03 19:38 : client: [5] closed
+Jan 03 19:38 : client: [6] opened from 127.0.0.1:52746
+Jan 03 19:52 : client: [7] opened from 127.0.0.1:52794
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 19:52 : client: [7] closed
+Jan 03 20:50 : client: [6] closed
+Jan 03 20:50 : client: [8] opened from 127.0.0.1:53084
+Jan 03 20:51 : client: [8] closed
+Jan 03 20:51 : client: [9] opened from 127.0.0.1:53086
+Jan 03 20:52 : client: [9] closed
+Jan 03 20:52 : client: [10] opened from 127.0.0.1:53088
+Jan 03 20:53 : client: [10] closed
+Jan 03 20:53 : client: [11] opened from 127.0.0.1:53090
+Jan 03 20:53 : client: [11] closed
+Jan 03 20:53 : client: [12] opened from 127.0.0.1:53092
+Jan 03 20:53 : client: [12] closed
+Jan 03 20:53 : client: [13] opened from 127.0.0.1:53094
+Jan 03 20:54 : client: [13] closed
+Jan 03 20:54 : client: [14] opened from 127.0.0.1:53096
+Jan 03 20:54 : client: [14] closed
+Jan 03 20:54 : client: [15] opened from 127.0.0.1:53098
+Jan 03 20:55 : client: [15] closed
+Jan 03 20:55 : client: [16] opened from 127.0.0.1:53102
+Jan 03 20:56 : client: [16] closed
+Jan 03 20:56 : client: [17] opened from 127.0.0.1:53104
+Jan 03 20:57 : client: [17] closed
+Jan 03 20:57 : client: [18] opened from 127.0.0.1:53106
+Jan 03 21:01 : client: [18] closed
+Jan 03 21:01 : client: [19] opened from 127.0.0.1:53174
+Jan 03 21:02 : client: [19] closed
+Jan 03 21:02 : client: [20] opened from 127.0.0.1:53178
+Jan 03 21:05 : client: [20] closed
+Jan 03 21:06 : client: [21] opened from 127.0.0.1:53196
+Jan 03 21:18 : client: [21] closed
+Jan 03 21:18 : client: [22] opened from 127.0.0.1:53266
+Jan 03 21:18 : client: [22] closed
+Jan 03 21:18 : client: [23] opened from 127.0.0.1:53268
+Jan 03 21:18 : client: [24] opened from 127.0.0.1:53272
+Jan 03 21:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 03 21:18 : client: [24] closed
+Jan 03 21:19 : client: [25] opened from 127.0.0.1:53276
+Jan 03 21:19 : client: [25] closed
+Jan 03 21:19 : client: [26] opened from 127.0.0.1:53280
+Jan 03 21:19 : player: played "FMAB/『Again』 Yui .flac"
+Jan 03 21:19 : client: [26] closed
+Jan 03 21:19 : client: [27] opened from 127.0.0.1:53284
+Jan 03 21:19 : client: [27] closed
+Jan 03 21:19 : client: [28] opened from 127.0.0.1:53288
+Jan 03 21:19 : player: played "FMAB/『Again』 Yui .flac"
+Jan 03 21:19 : client: [28] closed
+Jan 03 21:19 : client: [29] opened from 127.0.0.1:53292
+Jan 03 21:19 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 03 21:19 : client: [29] closed
+Jan 03 21:24 : player: played "Naruto/Naruto Shippuden OP 13 .mp3"
+Jan 03 21:28 : player: played "Naruto/Naruto-Shippuden op 12 .mp3"
+Jan 03 21:31 : player: played "Naruto/Naruto Shippuden OP 9 .mp3"
+Jan 03 21:33 : client: [30] opened from 127.0.0.1:53434
+Jan 03 21:33 : client: [30] closed
+Jan 03 21:54 : client: [31] opened from 127.0.0.1:53586
+Jan 03 21:54 : client: [31] closed
+Jan 03 21:55 : player: played "Naruto/Naruto Shippuden OP 4 .mp3"
+Jan 03 21:59 : player: played "Naruto/Naruto Shippuden OP 6 .mp3"
+Jan 03 22:02 : client: [32] opened from 127.0.0.1:53648
+Jan 03 22:02 : client: [32] closed

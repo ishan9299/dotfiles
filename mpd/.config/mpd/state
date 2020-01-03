@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: pause
-current: 29
-time: 204.680000
+current: 7
+time: 162.794000
 random: 1
 repeat: 0
 single: 0
@@ -12,55 +12,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - army ATTACK _ High Quality _ Hiroyuki Sawano-lnXybCj9JO4.mp3
-1:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - attack ON titan _ High Quality _ Hiroyuki Sawano-jfAbX-Fg9N0.mp3
-2:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bird in a Cage _ High Quality _ Hiroyuki Sawano-O9GK5-D22KY.mp3
-3:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Bonus - piano adlib _ High Quality _ Hiroyuki Sawano-IjCLodK3Slg.mp3
-4:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Building Blocks _ High Quality _ Hiroyuki Sawano-B4SpqsRLPHc.mp3
-5:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Call your name _ High Quality _ Hiroyuki Sawano-IAILGUDyG4Y.mp3
-6:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - counter.attack-mankind _ High Quality _ Hiroyuki Sawano-w5Bi5YtvJFA.mp3
-7:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Daily Life _ High Quality _ Hiroyuki Sawano-S4VIQJq8MCA.mp3
-8:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - DOA _ High Quality _ Hiroyuki Sawano-UKmYQa0kOks.mp3
-9:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - E.M.A. _ High Quality _ Hiroyuki Sawano-CaiIEGKGh_c.mp3
-10:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - eye water _ High Quality _ Hiroyuki Sawano-GxqirT3mt_U.mp3
-11:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Female Titan Extermination _ High Quality _ Hiroyuki Sawano-0Vs2beUh3k8.mp3
-12:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - The Reluctant Heroes _ High Quality _ Hiroyuki Sawano-nDXQ4lR0Les.mp3
-13:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Three Dimensional Maneuver _ High Quality _ Hiroyuki Sawano-pX0uMt5I51k.mp3
-14:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - Titan Invasion _ High Quality _ Hiroyuki Sawano-VO7GQa_Ri10.mp3
-15:Attack On Titan/Season 1/Attack on Titan - Original Soundtrack I - XL-TT _ High Quality _ Hiroyuki Sawano-6tMhkQ520Sk.mp3
-16:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [2Volt _ Colossal Titan Fight Theme]-gnVLQsO16uE.mp3
-17:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他1_ Warriors Kidnapping Soldiers]-j2TOJAf4c5E.mp3
-18:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他2_ On The Walls]-FF2GIdYlZXI.mp3
-19:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ Her heart still beating]-1RiSQJr9gJE.mp3
-20:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [AOTs2M他3_ I'm back home]-wfaMipiZ4VE.mp3
-21:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [APETITAN _ Beast Titan Theme]--CVSNfNjhLc.mp3
-22:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [attack音D _ Attack On 'D']-8LBDcocrt-Q.mp3
-23:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Barricades]-6BO9CeerBTM.mp3
-24:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [Call of Silence _ Ymir Past Theme]-jsUqStV7V-w.mp3
-25:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [ERENthe標 _ Eren The 'C']-6LEn3ysKb8Q.mp3
-26:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [son2seaVer _ Dancing Titan Battle Theme]-W8avf6WwpKc.mp3
-27:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [The Weight Of Lives_ Armored Titan Battle Theme]-3sPUneWMco4.mp3
-28:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YAMANAIAME]-iSjmfIb5aW8.mp3
-29:Attack On Titan/Season 2/Attack On Titan Season 2 OST ~ [YouSeeBIGGIRL／T：T _ The Colossal And Armored Identity]-Lccq_W--Dh8.mp3
-30:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~  [Call Your Name (Lost Girls Ver.)]-mCgGx095cSg.mp3
-31:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [1000略 _ Aberration Rod Reiss]-CjfOk1igsNk.mp3
-32:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [3spens-21石_ Mankind VS Men]-J1wVwb5z8mQ.mp3
-33:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF1 _ Give up on your dream]-kNtQbRRf-So.mp3
-34:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [AoTs3-PF2 _ We are just eldians]-dd_7fHoWS50.mp3
-35:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Apple Seed]-dAthr8lJ4lo.mp3
-36:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Attack On Titan (WMId) _ Attack On Titans]-qStPAcckARI.mp3
-37:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Barrichestra]-JYszHksasDE.mp3
-38:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Before Lights Out]-pVLTO5DE1ZI.mp3
-39:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K2_ Kenny Ackerman Theme]-47swrRcvLQo.mp3
-40:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [K21_ Levi Squad VS Kenny Squad]-XPbzVzn7tSo.mp3
-41:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Marley _ LENぞ97n10火巨説MAHLE ]-vjjckXiGBwM.mp3
-42:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 0sk_ Reiss Family]-SY3mwRuteoo.mp3
-43:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 2An _ Price of Freedom]-7c8pM4r9L-s.mp3
-44:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - 4th-7-b@$_ Royal Blood]-WQ576Rv6Omc.mp3
-45:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [S - s十りA_ The Queen of the Walls]-x4GSKdkZEus.mp3
-46:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ShingekiNoKyojin _ Hero]-dy5YUYP82iw.mp3
-47:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [T-KT _ The Owl]-GabQknKpUrk.mp3
-48:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [ThanksAT _ Thanks, Erwin]-13awD1dfrhY.mp3
-49:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [tooth-i- _ Rage, my soldiers!]-mX8J8XcI-1M.mp3
-50:Attack On Titan/Season 3/Attack On Titan Season 3 OST ~ [Zero Eclipse_ Historia Reiss Theme]-eAg71Hz2Vyc.mp3
+0:Naruto/Naruto Blue Bird .flac
+1:Naruto/Naruto Shippuden OP 10 .mp3
+2:Naruto/Naruto Shippuden OP 13 .mp3
+3:Naruto/Naruto Shippuden OP 16 .mp3
+4:Naruto/Naruto Shippuden OP 4 .mp3
+5:Naruto/Naruto Shippuden OP 5 .mp3
+6:Naruto/Naruto Shippuden OP 6 .mp3
+7:Naruto/Naruto Shippuden OP 7 .mp3
+8:Naruto/Naruto Shippuden OP 8 .mp3
+9:Naruto/Naruto Shippuden OP 9 .mp3
+10:Naruto/Naruto-Shippuden op 12 .mp3
 playlist_end
