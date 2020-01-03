@@ -9,11 +9,6 @@ emacs/.emacs.d/apps
 emacs/.emacs.d/games
 emacs/.emacs.d/config.el~
 emacs/.emacs.d/recentf
-xmonad/.xmonad/xmonad.hi
-xmonad/.xmonad/xmonad.o
-xmonad/.xmonad/xmonad.errors
-xmonad/.xmonad/xmonad-x86*
-xmonad/.xmonad/xmonad.hs~
 sxhkd/.config/sxhkd/#*
 sxhkd/.config/sxhkd/sxhkdrc~
 ncmpcpp/.config/ncmpcpp/error.log
@@ -22,6 +17,7 @@ vim/.vim/autoload
 vim/.vim/pack
 vim/.vim/plugged
 qtile/.config/qtile/#*
+mpd/.config/mpd/#*
 mpd/.config/mpd/log
 mpd/.config/mpd/state
 mpd/.config/mpd/pid
