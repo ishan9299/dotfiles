@@ -20,8 +20,13 @@ nmtui/nm-applet
 ncmpcpp / lollypop
 **** Compositor
 compton (picom on Arch Linux)
+**** Important
+***** Install xdotool xwininfo xprop for scratchpad support
+***** Install ueberzug ffmpegthumbnailer highlight for previews in ranger
 *** STOW
 refer this vedio 
 https://www.youtube.com/watch?v=vo1KUAb-ghc
 or use man stow to know how to use it 
 
+
+* Run the setup.sh script to create the symlinks and other configs

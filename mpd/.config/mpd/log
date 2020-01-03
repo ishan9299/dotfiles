@@ -3084,3 +3084,56 @@ Jan 03 21:55 : player: played "Naruto/Naruto Shippuden OP 4 .mp3"
 Jan 03 21:59 : player: played "Naruto/Naruto Shippuden OP 6 .mp3"
 Jan 03 22:02 : client: [32] opened from 127.0.0.1:53648
 Jan 03 22:02 : client: [32] closed
+Jan 04 00:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 00:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 00:28 : client: [0] opened from 127.0.0.1:51064
+Jan 04 00:29 : client: [1] opened from 127.0.0.1:51074
+Jan 04 00:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 00:29 : client: [0] closed
+Jan 04 00:29 : client: [2] opened from 127.0.0.1:51076
+Jan 04 00:30 : client: [1] closed
+Jan 04 00:30 : client: [2] closed
+Jan 04 00:30 : exception: Failed to play on "pulse audio" (pulse): suspended
+Jan 04 00:30 : client: [3] opened from 127.0.0.1:51080
+Jan 04 00:30 : client: [4] opened from 127.0.0.1:51086
+Jan 04 00:30 : client: [4] closed
+Jan 04 00:30 : client: [5] opened from 127.0.0.1:51090
+Jan 04 00:30 : player: played "Naruto/Naruto Shippuden OP 8 .mp3"
+Jan 04 00:30 : client: [5] closed
+Jan 04 00:30 : client: [6] opened from 127.0.0.1:51096
+Jan 04 00:30 : client: [6] closed
+Jan 04 00:31 : client: [7] opened from 127.0.0.1:51158
+Jan 04 00:31 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 04 00:31 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 04 00:34 : player: played "Naruto/Naruto Shippuden OP 8 .mp3"
+Jan 04 00:34 : client: [7] closed
+Jan 04 00:34 : client: [3] closed
+Jan 04 00:34 : exception: Failed to play on "pulse audio" (pulse): suspended
+Jan 04 00:34 : client: [8] opened from 127.0.0.1:51168
+Jan 04 00:36 : client: [8] closed
+Jan 04 00:36 : client: [9] opened from 127.0.0.1:51182
+Jan 04 00:37 : player: played "Naruto/Naruto Shippuden OP 4 .mp3"
+Jan 04 00:37 : client: [10] opened from 127.0.0.1:51190
+Jan 04 00:37 : client: [10] closed
+Jan 04 00:37 : client: [11] opened from 127.0.0.1:51194
+Jan 04 00:37 : client: [11] closed
+Jan 04 00:38 : client: [12] opened from 127.0.0.1:51198
+Jan 04 00:38 : client: [12] closed
+Jan 04 00:38 : client: [13] opened from 127.0.0.1:51202
+Jan 04 00:38 : exception: Failed to open /home/ishan/.config/mpd/playlist: Not a directory
+Jan 04 00:41 : client: [14] opened from 127.0.0.1:51206
+Jan 04 00:41 : client: [14] closed
+Jan 04 00:42 : client: [15] opened from 127.0.0.1:51208
+Jan 04 00:42 : client: [15] closed
+Jan 04 00:42 : client: [16] opened from 127.0.0.1:51210
+Jan 04 00:42 : client: [16] closed
+Jan 04 00:44 : client: [17] opened from 127.0.0.1:51218
+Jan 04 00:44 : client: [17] closed
+Jan 04 00:44 : client: [18] opened from 127.0.0.1:51222
+Jan 04 00:44 : client: [18] closed
+Jan 04 00:44 : client: [19] opened from 127.0.0.1:51226
+Jan 04 00:44 : client: [19] closed
+Jan 04 00:48 : player: played "FMAB/Fullmetal Alchemist Brotherhood Uso .flac"
+Jan 04 00:50 : client: [13] closed
+Jan 04 00:51 : player: played "Naruto/Naruto Shippuden OP 9 .mp3"
+Jan 04 00:56 : player: played "Naruto/Naruto Shippuden OP 13 .mp3"

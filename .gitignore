@@ -25,6 +25,9 @@ qtile/.config/qtile/#*
 mpd/.config/mpd/log
 mpd/.config/mpd/state
 mpd/.config/mpd/pid
-mpd/.config/databse
+mpd/.config/mpd/databse
+mpd/.config/mpd/mpd.conf~
+mpd/.config/mpd/playlist
+mpd/.config/mpd/sticker.sql
 alacritty/.config/alacritty/alacritty.yml.bak
 

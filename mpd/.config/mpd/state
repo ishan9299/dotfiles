@@ -1,9 +1,7 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: pause
-current: 7
-time: 162.794000
+state: stop
 random: 1
 repeat: 0
 single: 0
@@ -23,4 +21,8 @@ playlist_begin
 8:Naruto/Naruto Shippuden OP 8 .mp3
 9:Naruto/Naruto Shippuden OP 9 .mp3
 10:Naruto/Naruto-Shippuden op 12 .mp3
+11:FMAB/Fullmetal Alchemist BrotherHood Ending 2.flac
+12:FMAB/Fullmetal Alchemist BrotherHood Ending 3 'Motherland' Full.flac
+13:FMAB/Fullmetal Alchemist BrotherHood Opening 4 (Chemistry   Period) .flac
+14:FMAB/Fullmetal Alchemist Brotherhood Uso .flac
 playlist_end

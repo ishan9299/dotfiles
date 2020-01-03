@@ -2,7 +2,7 @@
 ############### Application Shortcuts ###############
 
 super + Return
-      alacritty
+	  alacritty
 
 super + @space 
 	rofi -modi "drun" -show drun -sidebar-mode
@@ -11,20 +11,21 @@ alt + Tab
 	rofi -show window -window-match-fields desktop,title,name
 
 super + o ; {e,j,b}
-      	    {emacs,env GTK_THEME=Adwaita flatpak run org.eclipse.Java,brave}
+	  {emacs,env GTK_THEME=Adwaita flatpak run org.eclipse.Java,brave}
 
 #Terminal Applications
 super + o ; m
-      	    {alacritty -e ncmpcpp && bspc node -t floating}
+	  alacritty -e ncmpcpp
 
 super + o ; f
-            {alacritty -e ranger && bspc node -t floating}
+	  alacritty -e ranger
+
 alt + d
-    tdrop -a -h 450 -y 35 alacritty
+	tdrop -a -h 450 -y 35 alacritty
 
 
 
-############### Audio Shortcuts ################
+############### Function Shortcuts ################
 		
 XF86Audio{Mute,RaiseVolume,LowerVolume}
 	 {pactl set-sink-mute 0 toggle,pactl set-sink-volume 0 +5%,pactl set-sink-volume 0 -5%} 
@@ -32,6 +33,17 @@ XF86Audio{Mute,RaiseVolume,LowerVolume}
 XF86Audio{Prev,Next,Play,Stop}
 	  mpc -q {prev,next,toggle,stop} 
 
+XF86TouchpadToggle
+	(synclient | grep "TouchpadOff.*1" && synclient TouchpadOff=0) || synclient TouchpadOff=1
+
+XF86Touchpad{Off,On}
+	synclient TouchpadOff={1,0}
+
+XF86Audio{Rewind,Forward}
+	mpc seek {-,+}10
+
+XF86ScreenSaver
+	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force off
 
 ############## WM controls ##############
 		 
