@@ -91,6 +91,7 @@ else
 fi
 
 echo "Creating symlinks"
+cd ~/dotfiles
 stow alacritty dunst lock ncmpcpp rofi bspwm sxhkd doom-emacs mpd mpv polybar ranger picom vim
 
 touch ~/.config/mpd/pid
