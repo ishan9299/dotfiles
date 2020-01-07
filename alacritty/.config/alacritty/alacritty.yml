@@ -22,28 +22,28 @@ font:
 # BEGIN ACE
 colors:
   primary:
-    background: '0x090E10'
-    foreground: '0xc9c6bf'
+    background: '0x000000'
+    foreground: '0xe0e2e3'
   cursor:
-    text:       '0x090E10'
-    cursor:     '0xc9c6bf'
+    text:       '0x000000'
+    cursor:     '0xe0e2e3'
   normal:
-    black:      '0x090E10'
-    red:        '0x5E6057'
-    green:      '0x966036'
-    yellow:     '0x947158'
-    blue:       '0x80807E'
-    magenta:    '0xA28F69'
-    cyan:       '0xD5AF68'
-    white:      '0xc9c6bf'
+    black:      '0x000000'
+    red:        '0xEBBE65'
+    green:      '0x7D8182'
+    yellow:     '0xA8A5A3'
+    blue:       '0xDDB59C'
+    magenta:    '0xDFB69D'
+    cyan:       '0xBCC1C3'
+    white:      '0xe0e2e3'
   bright:
-    black:      '0x8c8a85'
-    red:        '0x5E6057'
-    green:      '0x966036'
-    yellow:     '0x947158'
-    blue:       '0x80807E'
-    magenta:    '0xA28F69'
-    cyan:       '0xD5AF68'
-    white:      '0xc9c6bf'
+    black:      '0x9c9e9e'
+    red:        '0xEBBE65'
+    green:      '0x7D8182'
+    yellow:     '0xA8A5A3'
+    blue:       '0xDDB59C'
+    magenta:    '0xDFB69D'
+    cyan:       '0xBCC1C3'
+    white:      '0xe0e2e3'
 
 # END ACE

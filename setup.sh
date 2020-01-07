@@ -2,82 +2,13 @@
 
 aur()
 {
-    if [ ! -r /usr/bin/ueberzug ]
-    then
-       str="python-ueberzug tdrop"
-    fi
-
-    if [ ! -r /usr/bin/ranger ]
-    then
-        str="$str ranger-git"
-    fi
-
-    if [ ! -r /usr/bin/brave ]
-    then
-        str="$str brave-bin"
-    fi
-
-    if [ ! -r /usr/bin/polybar ]
-    then
-        str="$str polybar-git"
-    fi
-
-    echo "Installing the packages"
-    echo $str
-    yay -S $(echo $str)
+    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git nerd-fonts-fira-code
     normal
 }
 
 normal()
 {
-    if [ ! -r /usr/bin/bspwm ]
-    then
-       str="bspwm sxhkd"
-    fi
-
-    if [ ! -r /usr/bin/xfsettingsd ]
-    then
-        str="$str xfce4-settings xfce4-power-manager"
-    fi
-
-    if [ ! -r /usr/bin/nitrogen ]
-    then
-        str="$str nitrogen feh"
-    fi
-
-    if [ ! -r /usr/bin/wal ]
-    then
-        str="$str python-pywal"
-    fi
-
-    if [ ! -r /usr/bin/xprop ]
-    then
-        str="$str xorg-xprop xorg-xwinfo xdotool"
-    fi
-
-    if [ ! -r /usr/bin/mpd ]
-    then
-        str="$str mpd mpv mpc ncmpcpp"
-    fi
-
-    if [ ! -r /usr/bin/alacritty ]
-    then
-        str="$str alacritty"
-    fi
-
-    if [ ! /usr/bin/stow ]
-    then
-        str="$str stow"
-    fi
-
-    if [ ! /usr/bin/rofi ]
-    then
-        str="$str rofi dunst picom"
-    fi
-
-    echo "Installing the packages"
-    echo $str
-    sudo pacman -S $(echo $str)
+    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome
 }
 
 if [ -r /usr/bin/yay ]
@@ -99,3 +30,8 @@ touch ~/.config/mpd/log
 touch ~/.config/mpd/playlist
 touch ~/.config/mpd/state
 touch ~/.config/mpd/databse
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
