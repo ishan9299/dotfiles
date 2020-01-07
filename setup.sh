@@ -8,7 +8,7 @@ aur()
 
 normal()
 {
-    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome
+    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs
 }
 
 if [ -r /usr/bin/yay ]
@@ -34,4 +34,7 @@ touch ~/.config/mpd/databse
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
 
