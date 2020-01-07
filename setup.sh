@@ -8,7 +8,7 @@ aur()
 
 normal()
 {
-    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs
+    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 gtk-engine 
 }
 
 if [ -r /usr/bin/yay ]
@@ -37,4 +37,6 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zs
 
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
 
