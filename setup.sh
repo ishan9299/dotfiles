@@ -2,13 +2,13 @@
 
 aur()
 {
-    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git nerd-fonts-fira-code
+    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git nerd-fonts-fira-code tela-icon-theme-git
     normal
 }
 
 normal()
 {
-    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 gtk-engine 
+    sudo pacman --noconfirm -S bspwm sxhkd nitrogen mate-power-manager feh zsh python-pywal xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi dunst picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 gtk-engine  llvm clang cmake 
 }
 
 if [ -r /usr/bin/yay ]
