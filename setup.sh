@@ -11,6 +11,7 @@ normal()
     package="bspwm sxhkd nitrogen mate-power-manager feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi"
     package="$package picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3"
     package="$package python-pywal dunst gtk-engines llvm clang cmake gnome materia-gtk-theme noto-fonts-emoji xss-lock"
+    package="$package lightdm lightdm-webkit2-greeter"
     sudo pacman --noconfirm -S $package
 }
 
@@ -49,3 +50,13 @@ then
 fi
 
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
+
+echo " Enter the name for git "
+read name
+echo " Enter the email for git "
+read email
+
+git config --global user.name $name
+git config --global user.email $email
+
+# https://wifilogin.myion.in/?login=1&mac=vlan146-10th-Block&page=status&link-login-only=http://10.146.0.2/login&link-logout=http://10.146.0.2/logout&uname=180911246&interface-name=vlan146-10th-Block
