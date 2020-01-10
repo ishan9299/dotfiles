@@ -11,7 +11,7 @@ normal()
     package="bspwm sxhkd nitrogen mate-power-manager feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi"
     package="$package picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3"
     package="$package python-pywal dunst gtk-engines llvm clang cmake gnome materia-gtk-theme noto-fonts-emoji xss-lock"
-    package="$package lightdm lightdm-webkit2-greeter"
+    package="$package lightdm lightdm-webkit2-greeter materia-gtk-theme nvidia nvidia-prime xorg-server"
     sudo pacman --noconfirm -S $package
 }
 
