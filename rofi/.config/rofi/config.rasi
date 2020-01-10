@@ -1,4 +1,18 @@
 configuration {
-	  font: "FuraCode Nerd Font 13";
+	  font: "FuraCode Nerd Font 14";
 	  theme: "~/.cache/wal/colors-rofi-dark.rasi";
+      width: 70;
+      bw: 0;
+      padding: 18;
+      yoffset: 8;
+      xoffset: 8;
+      fullscreen: false;
+      bw: 3;
+      show-icons: true;
+      terminal: "alacritty";
+      icon-theme: "Tela-black";
+      lines: 9;
+      run-command: "{cmd}";
+      run-shell-command: "{terminal} -e {cmd}";
+      click-to-exit: true;
 	  }

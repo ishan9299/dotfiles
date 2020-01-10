@@ -32,6 +32,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'vim-airline/vim-airline'
 Plug 'easymotion/vim-easymotion'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'kovetskiy/sxhkd-vim'
 Plug 'preservim/nerdtree'
 call plug#end()
 

@@ -16,34 +16,33 @@ font:
     family: FuraCode Nerd Font
     # Style can be specified to pick a specific face.
     # style: Italic
-
-    size: 15.0
+    size: 9.0
 
 # BEGIN ACE
 colors:
   primary:
-    background: '0x000000'
-    foreground: '0xe0e2e3'
+    background: '0x0b0304'
+    foreground: '0xf0e0aa'
   cursor:
-    text:       '0x000000'
-    cursor:     '0xe0e2e3'
+    text:       '0x0b0304'
+    cursor:     '0xf0e0aa'
   normal:
-    black:      '0x000000'
-    red:        '0xEBBE65'
-    green:      '0x7D8182'
-    yellow:     '0xA8A5A3'
-    blue:       '0xDDB59C'
-    magenta:    '0xDFB69D'
-    cyan:       '0xBCC1C3'
-    white:      '0xe0e2e3'
+    black:      '0x0b0304'
+    red:        '0xA15528'
+    green:      '0xDB6922'
+    yellow:     '0x7D8259'
+    blue:       '0xEA932F'
+    magenta:    '0xAF9F59'
+    cyan:       '0xECAB4F'
+    white:      '0xf0e0aa'
   bright:
-    black:      '0x9c9e9e'
-    red:        '0xEBBE65'
-    green:      '0x7D8182'
-    yellow:     '0xA8A5A3'
-    blue:       '0xDDB59C'
-    magenta:    '0xDFB69D'
-    cyan:       '0xBCC1C3'
-    white:      '0xe0e2e3'
+    black:      '0xa89c76'
+    red:        '0xA15528'
+    green:      '0xDB6922'
+    yellow:     '0x7D8259'
+    blue:       '0xEA932F'
+    magenta:    '0xAF9F59'
+    cyan:       '0xECAB4F'
+    white:      '0xf0e0aa'
 
 # END ACE

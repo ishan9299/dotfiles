@@ -5,7 +5,7 @@ super + Return
 	  alacritty
 
 super + @space 
-	rofi -modi "drun" -show drun -sidebar-mode
+	rofi -modi "drun,run,window" -show drun 
 
 alt + Tab
 	rofi -show window -window-match-fields desktop,title,name
@@ -22,7 +22,6 @@ super + o ; f
 
 alt + d
 	tdrop -a -h 450 -y 35 alacritty
-
 
 
 ############### Function Shortcuts ################
@@ -43,15 +42,18 @@ XF86Audio{Rewind,Forward}
 	mpc seek {-,+}10
 
 XF86ScreenSaver
-	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force off
+	mpc pause; pauseallmpv; i3lock-fancy -p; xset dpms force off
 
 ############## WM controls ##############
 		 
 super + Escape
 	pkill -USR1 -x sxhkd
 
-super + shift + {q,r}
-	bspc {quit,wm -r}
+super + shift + q
+    bspc quit
+
+super + shift + r
+	bspc wm -r
 
 super + {_,shift + }w
 	bspc node -{c,k}
