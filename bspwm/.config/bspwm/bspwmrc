@@ -42,7 +42,6 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 # Window Rules
-bspc rule -a kitty state = floating 
 bspc rule -a Xdg-desktop-portal-gtk state = floating
 bspc rule -a Lightdm-gtk-greeter-settings state = floating
 bspc rule -a Pavucontrol state = floating 

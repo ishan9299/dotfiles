@@ -2,8 +2,7 @@
 ** Bspwm and Polybar
 BSPWM and POLYBAR are configured with wal (Polybar reads from Xresources)
 I use stow to create the symlinks which will put the files in desired locations
-xfce settings are used instead of lxappearance
-*** Dependencies 
+*** Dependencies
 **** Tdrop
 For the dropdown Terminals
 https://github.com/noctuid/tdrop
@@ -15,7 +14,7 @@ Rofi
 Fira Code / Fira Code Nerd Fonts
 Font Awesome
 **** Power Management
-xfce4-power-manager
+mate-power-manager
 **** Network
 nmtui/nm-applet
 **** Music
@@ -26,9 +25,9 @@ compton (picom on Arch Linux)
 ***** Install xdotool xwininfo xprop for scratchpad support
 ***** Install ueberzug ffmpegthumbnailer highlight for previews in ranger
 *** STOW
-refer this vedio 
+refer this vedio
 https://www.youtube.com/watch?v=vo1KUAb-ghc
-or use man stow to know how to use it 
+or use man stow to know how to use it
 
 
 * Run the setup.sh script to create the symlinks and other configs

@@ -1,9 +1,9 @@
 * {
-    active-background: #70472C;
+    active-background: #DB6922;
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #684525;
+    urgent-background: #A15528;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,16 +13,16 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #684525;
+    selected-active-background: #A15528;
     selected-active-foreground: @foreground;
-    selected-normal-background: #70472C;
+    selected-normal-background: #DB6922;
     selected-normal-foreground: @foreground;
-    selected-urgent-background: #523C50;
+    selected-urgent-background: #7D8259;
     selected-urgent-foreground: @foreground;
 
     background-color: @background;
-    background: #e8d78e;
-    foreground: #120d0d;
+    background: #0b0304;
+    foreground: #f0e0aa;
     border-color: @background;
     spacing: 2;
 }
@@ -30,18 +30,18 @@
 #window {
     background-color: @background;
     border: 0;
-    padding: 2.5ch;
+    padding: 6.0ch;
 }
 
 #mainbox {
     border: 0;
-    padding: 0;
+    padding: 6;
 }
 
 #message {
     border: 2px 0px 0px;
     border-color: @border-color;
-    padding: 1px;
+    padding: 6px;
 }
 
 #textbox {
@@ -65,12 +65,12 @@
     border-color: @border-color;
     spacing: 2px;
     scrollbar: true;
-    padding: 2px 0px 0px;
+    padding: 6px 6px 6px;
 }
 
 #element {
     border: 0;
-    padding: 1px;
+    padding: 6px;
 }
 
 #element.normal.normal {
@@ -122,7 +122,7 @@
     width: 4px;
     border: 0;
     handle-width: 8px;
-    padding: 0;
+    padding: 6px;
 }
 
 #sidebar {
@@ -142,7 +142,7 @@
 #inputbar {
     spacing: 0;
     text-color: @normal-foreground;
-    padding: 1px;
+    padding: 6px;
 }
 
 #case-indicator {

@@ -2,7 +2,7 @@
 ############### Application Shortcuts ###############
 
 super + Return
-	  alacritty
+	  kitty
 
 super + @space 
 	rofi -modi "drun,run,window" -show drun 
@@ -15,13 +15,13 @@ super + o ; {e,j,b}
 
 #Terminal Applications
 super + o ; m
-	  alacritty -e ncmpcpp
+	  kitty -e ncmpcpp
 
 super + o ; f
-	  alacritty -e ranger
+	  kitty -e ranger
 
 alt + d
-	tdrop -a -h 450 -y 35 alacritty
+	tdrop -a -h 450 -y 35 kitty
 
 
 ############### Function Shortcuts ################
