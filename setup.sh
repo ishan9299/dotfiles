@@ -3,7 +3,6 @@
 aur()
 {
     yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git nerd-fonts-fira-code tela-icon-theme-git i3lock-fancy-git
-    normal
 }
 
 normal()
