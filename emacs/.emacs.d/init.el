@@ -6,9 +6,9 @@
 (package-initialize)
 
 ;;automatic theme install for emacs
-(unless (package-installed-p 'darkokai-theme)
+(unless (package-installed-p 'spacemacs-theme)
   (package-refresh-contents)
-  (package-install 'darkokai-theme))
+  (package-install 'spacemacs-theme))
 ;;automatic install for .emacs macro
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
@@ -30,22 +30,27 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (spacemacs-dark)))
+ '(custom-safe-themes
+   (quote
+    ("bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(display-line-numbers-type (quote relative))
  '(global-display-line-numbers-mode t)
  '(helm-autoresize-mode t)
  '(helm-display-source-at-screen-top nil)
  '(package-selected-packages
    (quote
-    (cl-lib jedi-core swiper jedi rainbow-identifiers yasnippet-snippets which-key use-package spaceline slime-company rainbow-mode rainbow-delimiters pretty-mode pfuture org-bullets neotree magit hydra ht helm flycheck-clang-analyzer f evil dashboard darkokai-theme company-jedi company-irony company-c-headers beacon all-the-icons ace-window)))
+    (diminish which-key use-package swiper spacemacs-theme spaceline rainbow-mode rainbow-identifiers rainbow-delimiters pretty-mode org-bullets magit helm flycheck-clang-analyzer evil-org evil-collection dashboard company-irony company-c-headers beacon avy all-the-icons)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#272822" :foreground "#f8f8f2" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 104 :width normal :foundry "ADBO" :family "Fira Code"))))
+ '(default ((t (:inherit nil :stipple nil :background "#272822" :foreground "#f8f8f2" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 128 :width normal :foundry "CTDB" :family "Fira Code"))))
  '(helm-header ((t (:inherit header-line :weight bold :family "Fira Code"))))
- '(helm-selection ((t (:background "DarkGoldenrod4" :distant-foreground "black"))))
- '(helm-source-header ((t (:background "gray13" :foreground "white" :weight bold :height 1.3 :family "Fira Code"))))
- '(hl-line ((t (:inherit highlight :background "DarkGoldenrod4")))))
+ '(helm-selection ((t (:background "gray25" :distant-foreground "black"))))
+ '(helm-source-header ((t (:inherit bold :background "#292b2e" :foreground "#c56ec3" :weight bold :height 1.3 :family "Fira Code"))))
+ '(hl-line ((t (:inherit nil :background "gray25")))))

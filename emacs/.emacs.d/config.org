@@ -21,17 +21,21 @@
 ** Async (helm)
 #+BEGIN_SRC emacs-lisp
   (use-package async
-    :ensure t)
-  (async-bytecomp-package-mode 1)
+    :ensure t
+    :init
+    (async-bytecomp-package-mode 1))
 #+END_SRC
 ** Helm
 #+BEGIN_SRC emacs-lisp
   (use-package helm
+    :after async
     :ensure t
     :init
     (helm-mode 1))
   (global-set-key (kbd "C-x b") 'helm-buffers-list)
   (global-set-key (kbd "C-x C-f") 'helm-find-files)
+  (define-key helm-map (kbd "C-j") 'helm-next-line)
+  (define-key helm-map (kbd "C-k") 'helm-previous-line)
   (global-set-key (kbd "M-x") 'helm-M-x)
   (define-key helm-find-files-map (kbd "<tab>") 'helm-execute-persistent-action)
   (setq helm-M-x-fuzzy-match t)
@@ -61,7 +65,8 @@
 #+END_SRC
 ** All the icons
 #+BEGIN_SRC emacs-lisp
-  (use-package all-the-icons)
+  (use-package all-the-icons
+    :ensure t)
 #+END_SRC
 run (M-x all-the-icons-install-fonts) after the package installs
 ** Disable Autosave
@@ -88,24 +93,34 @@ run (M-x all-the-icons-install-fonts) after the package installs
   (use-package evil
     :ensure t
     :init
+    (setq evil-want-integration t) ;; This is optional since it's already set to t by default.
+    (setq evil-want-keybinding nil)
+    :config
     (evil-mode 1))
+
+  (use-package evil-collection
+    :after evil
+    :ensure t
+    :init
+    (evil-collection-init))
+
+  (use-package evil-org
+    :ensure t
+    :after org
+    :config
+    (add-hook 'org-mode-hook 'evil-org-mode)
+    (add-hook 'evil-org-mode-hook
+	      (lambda ()
+		(evil-org-set-key-theme)))
+    (require 'evil-org-agenda)
+    (evil-org-agenda-set-keys))
 #+End_SRC
-** flycheck
+** Flycheck
 #+BEGIN_SRC emacs-lisp
   (use-package flycheck
     :ensure t
     :init
     (global-flycheck-mode t))
-#+END_SRC
-** Yasnippet
-*** Automatic install
-#+BEGIN_SRC emacs-lisp
-  (use-package yasnippet
-    :ensure t
-    :config
-    (use-package yasnippet-snippets
-      :ensure t)
-    (yas-reload-all))
 #+END_SRC
 ** Magit
 *** Automatic install
@@ -134,15 +149,18 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
-  (use-package spaceline
-    :ensure t
-    :config
-    (require 'spaceline-config)
-      (setq spaceline-buffer-encoding-abbrev-p nil)
-      (setq spaceline-line-column-p nil)
-      (setq spaceline-line-p nil)
-      (setq powerline-default-separator (quote arrow))
-      (spaceline-spacemacs-theme))
+    (use-package spaceline
+      :ensure t
+      :config
+      (require 'spaceline-config)
+	(setq spaceline-buffer-encoding-abbrev-p nil)
+	(setq spaceline-line-column-p nil)
+	(setq spaceline-line-p nil)
+	(setq powerline-default-separator (quote arrow))
+	(spaceline-spacemacs-theme)
+	(spaceline-toggle-minor-modes-off)
+	(spaceline-toggle-flycheck-error-on)
+	(spaceline-toggle-flycheck-warning-on))
 #+END_SRC
 ** Pretty Symbols
 #+BEGIN_SRC emacs-lisp
@@ -178,7 +196,11 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :ensure t
     :config
     (require 'spaceline-config)
-    (setq powerline-default-seperator (quote arrow))
+    (setq powerline-default-seperator (quote wave))
+    (spaceline-toggle-evil-state-on)
+    (spaceline-toggle-flycheck-error-on)
+    (spaceline-toggle-flycheck-warning-on)
+    (setq spaceline-helm-mode 1)
     (spaceline-spacemacs-theme))
 #+END_SRC
 * Avy
@@ -219,7 +241,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
       :ensure t
       :config
       (setq company-idle-delay 0)
-      (setq company-minimum-prefix-length 2))
+      (setq company-minimum-prefix-length 3))
 
     (with-eval-after-load 'company
       (define-key company-active-map (kbd "M-n") nil)
@@ -230,10 +252,8 @@ run (M-x all-the-icons-install-fonts) after the package installs
   #+END_SRC
 ** Languages
 *** C/C++
+    Yasnippet Is not Configured
 #+BEGIN_SRC emacs-lisp
-  (add-hook 'c++-mode-hook 'yas-minor-mode)
-  (add-hook 'c-mode-hook 'yas-minor-mode)
-
   (use-package flycheck-clang-analyzer
     :ensure t
     :config
@@ -262,35 +282,10 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (add-hook 'c-mode-hook 'irony-mode)
     (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
 #+END_SRC
-*** Python
-#+BEGIN_SRC emacs-lisp
-  (add-hook 'python-mode-hook 'yas-minor-mode)
-  (add-hook 'python-mode-hook 'flycheck-mode)
-
-  (with-eval-after-load 'company
-      (add-hook 'python-mode-hook 'company-mode))
-
-  (use-package company-jedi
-    :ensure t
-    :config
-      (require 'company)
-      (add-to-list 'company-backends 'company-jedi))
-
-  (defun python-mode-company-init ()
-    (setq-local company-backends '((company-jedi
-				    company-etags
-				    company-dabbrev-code))))
-
-  (use-package company-jedi
-    :ensure t
-    :config
-      (require 'company)
-      (add-hook 'python-mode-hook 'python-mode-company-init))
-#+END_SRC
 *** Emacs-Lisp
+    Yasnippet Is not COnfigured
 #+BEGIN_SRC emacs-lisp
   (add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
-  (add-hook 'emacs-lisp-mode-hook 'yas-minor-mode)
   (add-hook 'emacs-lisp-mode-hook 'company-mode)
 
   (use-package slime

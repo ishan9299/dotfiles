@@ -11,6 +11,86 @@
   (global-set-key (kbd "<M-return>") 'ansi-term)
    #+END_SRC
 * Plugins
+** Beacon
+#+BEGIN_SRC emacs-lisp
+  (use-package beacon
+    :ensure t
+    :init
+    (beacon-mode 1))
+#+END_SRC
+** Diminish
+   #+BEGIN_SRC emacs-lisp
+     (use-package diminish
+       :ensure t
+       :init
+       (diminish 'which-key-mode)
+       (diminish 'undo-tree-mode)
+       (diminish 'linum-relative-mode)
+       (diminish 'visual-line-mode)
+       (diminish 'page-break-lines-mode)
+       (diminish 'evil-org-mode)
+       (diminish 'beacon-mode)
+       (diminish 'irony-mode)
+       (diminish 'rainbow-delimiters-mode)
+       (diminish 'rainbow-mode)
+       (diminish 'flycheck-mode)
+       (diminish 'helm-mode))
+   #+END_SRC
+** Async (helm)
+#+BEGIN_SRC emacs-lisp
+  (use-package async
+    :ensure t
+    :init
+    (async-bytecomp-package-mode 1))
+#+END_SRC
+** Helm
+#+BEGIN_SRC emacs-lisp
+  (use-package helm
+    :after async
+    :ensure t
+    :init
+    (helm-mode 1))
+  (global-set-key (kbd "C-x b") 'helm-buffers-list)
+  (global-set-key (kbd "C-x C-f") 'helm-find-files)
+  (define-key helm-map (kbd "C-j") 'helm-next-line)
+  (define-key helm-map (kbd "C-k") 'helm-previous-line)
+  (global-set-key (kbd "M-x") 'helm-M-x)
+  (define-key helm-find-files-map (kbd "<tab>") 'helm-execute-persistent-action)
+  (setq helm-M-x-fuzzy-match t)
+  (require 'helm-config)
+#+END_SRC
+** Bracket pairs
+#+BEGIN_SRC emacs-lisp
+  (setq electric-pair-pairs '(
+			     (?\{ . ?\})
+			     (?\( . ?\))
+			     (?\[ . ?\])
+			     (?\" . ?\")
+			     ))
+  (electric-pair-mode t)
+#+END_SRC
+** Dasboard
+#+BEGIN_SRC emacs-lisp
+  (use-package dashboard
+    :ensure t
+    :config
+    (dashboard-setup-startup-hook)
+    (setq dashboard-startup-banner "~/dotfiles/emacs/.emacs.d/icons/logo.png")
+    (setq dashboard-items '((recents  . 5)))
+    (setq dashboard-set-heading-icons t)
+    (setq dashboard-set-file-icons t)
+    (setq dashboard-set-footer nil))
+#+END_SRC
+** All the icons
+#+BEGIN_SRC emacs-lisp
+  (use-package all-the-icons
+    :ensure t)
+#+END_SRC
+run (M-x all-the-icons-install-fonts) after the package installs
+** Disable Autosave
+#+BEGIN_SRC emacs-lisp
+  (setq make-backup-files nil)
+#+END_SRC
 ** Which key setup
 *** Installation and Initialization
 #+BEGIN_SRC emacs-lisp
@@ -19,36 +99,46 @@
     :init
     (which-key-mode))
 #+END_SRC
+** Swiper
+#+BEGIN_SRC emacs-lisp
+  (use-package swiper
+    :ensure t
+    :bind ("C-s" . 'swiper))
+#+END_SRC
 ** Evil
 *** Automatic install 
 #+BEGIN_SRC emacs-lisp
   (use-package evil
     :ensure t
     :init
+    (setq evil-want-integration t) ;; This is optional since it's already set to t by default.
+    (setq evil-want-keybinding nil)
+    :config
     (evil-mode 1))
+
+  (use-package evil-collection
+    :after evil
+    :ensure t
+    :init
+    (evil-collection-init))
+
+  (use-package evil-org
+    :ensure t
+    :after org
+    :config
+    (add-hook 'org-mode-hook 'evil-org-mode)
+    (add-hook 'evil-org-mode-hook
+	      (lambda ()
+		(evil-org-set-key-theme)))
+    (require 'evil-org-agenda)
+    (evil-org-agenda-set-keys))
 #+End_SRC
-** flycheck
+** Flycheck
 #+BEGIN_SRC emacs-lisp
   (use-package flycheck
-    :ensure t)
-#+END_SRC
-** flycheck irony
-#+BEGIN_SRC emacs-lisp
-  (use-package flycheck-irony
     :ensure t
-    :config
-    (eval-after-load 'flycheck
-    '(add-hook 'flycheck-mode-hook #'flycheck-irony-setup)))
-#+END_SRC
-** Yasnippet
-*** Automatic install
-#+BEGIN_SRC emacs-lisp
-  (use-package yasnippet
-    :ensure t
-    :config
-    (use-package yasnippet-snippets
-      :ensure t)
-    (yas-reload-all))
+    :init
+    (global-flycheck-mode t))
 #+END_SRC
 ** Magit
 *** Automatic install
@@ -73,6 +163,7 @@
     :ensure t
     :init
     (add-hook 'prog-mode-hook 'rainbow-mode))
+  (show-paren-mode 1)
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
@@ -86,6 +177,14 @@
       (setq powerline-default-separator (quote arrow))
       (spaceline-spacemacs-theme))
 #+END_SRC
+** Pretty Symbols
+#+BEGIN_SRC emacs-lisp
+  (when window-system
+	(use-package pretty-mode
+	:ensure t
+	:config
+	(global-pretty-mode t)))
+#+END_SRC
 * Alias
 ** Yes/No 
 #+BEGIN_SRC emacs-lisp
@@ -95,12 +194,11 @@
 * General show hide stuff 
 ** Removing ugly UI
 #+BEGIN_SRC emacs-lisp
-(tool-bar-mode -1)
-(setq inhibit-startup-message t)
-(menu-bar-mode -1)
-(scroll-bar-mode -1)    
-(global-visual-line-mode 1)
-(require 'rainbow-mode)
+  (tool-bar-mode -1)
+  (setq inhibit-startup-message t)
+  (menu-bar-mode -1)
+  (scroll-bar-mode -1) 
+  (global-visual-line-mode 1)
 #+END_SRC
 ** Line numbering
 #+BEGIN_SRC emacs-lisp
@@ -113,7 +211,11 @@
     :ensure t
     :config
     (require 'spaceline-config)
-    (setq powerline-default-seperator (quote arrow))
+    (setq powerline-default-seperator (quote wave))
+    (spaceline-toggle-evil-state-on)
+    (spaceline-toggle-flycheck-error-on)
+    (spaceline-toggle-flycheck-warning-on)
+    (setq spaceline-helm-mode 1)
     (spaceline-spacemacs-theme))
 #+END_SRC
 * Avy
@@ -123,7 +225,7 @@
     :bind
     ("M-s" . avy-goto-char))
 #+END_SRC
-* Config Reload/Edit
+* Shortcuts
 ** Edit
 #+BEGIN_SRC emacs-lisp
   (defun config-visit()
@@ -137,34 +239,6 @@
     (interactive)
     (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
   (global-set-key (kbd "C-c r") 'config-reload)
-#+END_SRC
-** Bspwm
-#+BEGIN_SRC emacs-lisp
-  (defun config-bspwm()
-    (interactive)
-    (find-file (expand-file-name "~/.config/bspwm/bspwmrc")))
-  (global-set-key (kbd "C-c b") 'config-bspwm)
-#+END_SRC
-** XMonad
-#+BEGIN_SRC emacs-lisp
-  (defun config-xmonad()
-    (interactive)
-    (find-file (expand-file-name "~/.xmonad/xmonad.hs")))
-  (global-set-key (kbd "C-c x") 'config-xmonad)
-#+END_SRC
-** Sxhkd
-#+BEGIN_SRC emacs-lisp
-  (defun config-sxhkd()
-    (interactive)
-    (find-file (expand-file-name "~/.config/sxhkd/sxhkdrc")))
-  (global-set-key (kbd "C-c s") 'config-sxhkd)
-#+END_SRC
-** Zshrc
-#+BEGIN_SRC emacs-lisp
-  (defun config-zshrc()
-    (interactive)
-    (find-file (expand-file-name"~/.zshrc")))
-  (global-set-key (kbd "C-c z") 'config-zshrc)
 #+END_SRC
 ** Compile C++
 #+BEGIN_SRC emacs-lisp
@@ -182,7 +256,7 @@
       :ensure t
       :config
       (setq company-idle-delay 0)
-      (setq company-minimum-prefix-length 2))
+      (setq company-minimum-prefix-length 3))
 
     (with-eval-after-load 'company
       (define-key company-active-map (kbd "M-n") nil)
@@ -193,10 +267,8 @@
   #+END_SRC
 ** Languages
 *** C/C++
+    Yasnippet Is not Configured
 #+BEGIN_SRC emacs-lisp
-  (add-hook 'c++-mode-hook 'yas-minor-mode)
-  (add-hook 'c-mode-hook 'yas-minor-mode)
-
   (use-package flycheck-clang-analyzer
     :ensure t
     :config
@@ -225,35 +297,10 @@
     (add-hook 'c-mode-hook 'irony-mode)
     (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
 #+END_SRC
-*** Python
-#+BEGIN_SRC emacs-lisp
-  (add-hook 'python-mode-hook 'yas-minor-mode)
-  (add-hook 'python-mode-hook 'flycheck-mode)
-
-  (with-eval-after-load 'company
-      (add-hook 'python-mode-hook 'company-mode))
-
-  (use-package company-jedi
-    :ensure t
-    :config
-      (require 'company)
-      (add-to-list 'company-backends 'company-jedi))
-
-  (defun python-mode-company-init ()
-    (setq-local company-backends '((company-jedi
-				    company-etags
-				    company-dabbrev-code))))
-
-  (use-package company-jedi
-    :ensure t
-    :config
-      (require 'company)
-      (add-hook 'python-mode-hook 'python-mode-company-init))
-#+END_SRC
 *** Emacs-Lisp
+    Yasnippet Is not COnfigured
 #+BEGIN_SRC emacs-lisp
   (add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
-  (add-hook 'emacs-lisp-mode-hook 'yas-minor-mode)
   (add-hook 'emacs-lisp-mode-hook 'company-mode)
 
   (use-package slime
@@ -275,4 +322,10 @@
     :ensure t
     :config
       (add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
+#+END_SRC
+* Rainbow-Identifiers
+#+BEGIN_SRC emacs-lisp
+  (use-package rainbow-identifiers
+    :ensure t)
+  (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
 #+END_SRC
