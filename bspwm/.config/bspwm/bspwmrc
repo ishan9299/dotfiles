@@ -6,7 +6,7 @@ bspc -r "*"
 xrdb -merge ~/.Xresources &&
 $HOME/.config/polybar/launch.sh &
 xsetroot -cursor_name left_ptr &
-nitrogen --restore &
+./fehbg &
 killall "nm-applet"
 nm-applet &
 sxhkd &
@@ -38,22 +38,21 @@ bspc config click_to_focus button1
 bspc config pointer_modifier mod4
 
 bspc config split_ratio          0.50
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config borderless_monocle  true
+bspc config gapless_monocle    true
 
 # Window Rules
-bspc rule -a Xdg-desktop-portal-gtk state = floating
-bspc rule -a Lightdm-gtk-greeter-settings state = floating
-bspc rule -a Pavucontrol state = floating 
-bspc rule -a Brave state = floating
+bspc rule -a Xdg-desktop-portal-gtk state=floating
+bspc rule -a Lightdm-gtk-greeter-settings state=floating
+bspc rule -a Pavucontrol state=floating 
 bspc rule -a Gcolor3 state = floating
-bspc rule -a Emacs desktop='^1' state = tiled focus=on follow=on
-bspc rule -a Eclipse desktop='^1' state = floating focus=on follow=on
-bspc rule -a Brave-browser desktop='^2' state = tiled focus=on follow=on
-bspc rule -a mpv desktop='^3' state = fullscreen focus=on follow=on
+bspc rule -a Emacs desktop='^1' state=pseudo_tiled focus=on follow=on
+bspc rule -a Eclipse desktop='^1' state=pseudo_tiled focus=on follow=on
+bspc rule -a Brave-browser desktop='^2' state=tiled focus=on follow=on
+bspc rule -a mpv desktop='^3' state=fullscreen focus=on follow=on
 bspc rule -a Org.gnome.Nautilus desktop='^4' focus=on follow=on
 bspc rule -a Zathura desktop='^4' state=tiled focus=on follow=on
-bspc rule -a libreoffice-impress desktop='^4' state = pseudo_tiled focus=on follow=on
+bspc rule -a libreoffice-impress desktop='^4' state=pseudo_tiled focus=on follow=on
 bspc rule -a Virt-manager desktop='^5' state=floating focus=on follow=on
-bspc rule -a Gimp-2.10 desktop='^5' state = floating focus=on follow=on
-bspc rule -a Olive desktop='^5' state = floating focus=on follow=on
+bspc rule -a Gimp-2.10 desktop='^5' state=floating focus=on follow=on
+bspc rule -a Olive desktop='^5' state=floating focus=on follow=on
