@@ -14,7 +14,7 @@ kill-all "mate-power-manager"
 mate-power-manager &
 picom --config ~/.config/picom/picom.conf &
 cat ~/.cache/wal/sequences &
-xss-lock i3lock-fancy -p &
+xss-lock i3lock-fancy &
 
 # switch caps and esc key
 setxkbmap -option "caps:swapescape" &
