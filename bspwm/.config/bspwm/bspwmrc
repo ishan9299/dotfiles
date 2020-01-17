@@ -1,16 +1,16 @@
 #! /bin/sh
-
-bspc -r "*"
+bspc rule -r "*"
 
 ## autostarting
-xrdb -merge ~/.Xresources &&
+xrdb -merge ~/.Xresources &
 $HOME/.config/polybar/launch.sh &
 xsetroot -cursor_name left_ptr &
 ~/.fehbg &
+kill-all "nm-applet"
 nm-applet &
-pkill sxhkd &
+pkill sxhkd 
 sxhkd &
-killall "mate-power-manager"
+kill-all "mate-power-manager"
 mate-power-manager &
 picom --config ~/.config/picom/picom.conf &
 cat ~/.cache/wal/sequences &
@@ -43,10 +43,8 @@ bspc config gapless_monocle    true
 
 # Window Rules
 bspc rule -a Xdg-desktop-portal-gtk state=floating
-bspc rule -a desktop='^1' -l monocle
 bspc rule -a Lightdm-gtk-greeter-settings state=floating
 bspc rule -a Pavucontrol state=floating 
-bspc rule -a float state=floating
 bspc rule -a Gcolor3 state = floating
 bspc rule -a Emacs desktop='^1' state=tiled focus=on follow=on
 bspc rule -a Eclipse desktop='^1' state=pseudo_tiled focus=on follow=on
@@ -59,6 +57,3 @@ bspc rule -a Virt-manager desktop='^5' state=floating focus=on follow=on
 bspc rule -a Gimp-2.10 desktop='^5' state=floating focus=on follow=on
 bspc rule -a Olive desktop='^5' state=floating focus=on follow=on
 
-# Scratchpad rules
-kitty --config ~/.config/kitty/kitty.conf --class scratchpad -e ~/.config/bspwm/scripts/scratch &
-bspc rule -a scratchpad sticky=on state=floating hidden=on

@@ -15,11 +15,8 @@ super + o ; {e,j,b}
 
 ############## Terminal Applications ####################
 
-super + o ; m
-	  kitty --class float -e ncmpcpp
-
 super + o ; f
-	  kitty --class float -e ranger
+	  kitty -e ranger
 
 ############### Function Shortcuts ################
 		
@@ -123,4 +120,8 @@ super + alt + shift + {h,j,k,l}
 ################### Scratchpad ################################
 
 alt + d
-	tdrop -a --height=450 --y-offset=350 --width=930 --x-offset=440 kitty
+	tdrop -a -n 1 --height=450 --y-offset=350 --width=930 --x-offset=440 kitty
+
+super + o ; m
+	tdrop -a -n 2 --height=650 --y-offset=250 --width=1000 --x-offset=400 kitty -e ncmpcpp
+
