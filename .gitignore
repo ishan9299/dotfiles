@@ -7,6 +7,7 @@ emacs/.emacs.d/auto-save-list
 emacs/.emacs.d/session.*
 emacs/.emacs.d/apps
 emacs/.emacs.d/games
+emacs/.emacs.d/irony
 emacs/.emacs.d/config.el~
 emacs/.emacs.d/recentf
 sxhkd/.config/sxhkd/#*
