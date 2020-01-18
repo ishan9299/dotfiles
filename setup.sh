@@ -26,13 +26,14 @@ normal
 sudo pacman -Rns $(pacman -Qqtd)
 echo "Creating symlinks"
 cd ~/dotfiles
-stow alacritty dunst lock ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom vim systemd
+stow alacritty dunst lock ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom vim systemd dconf
 
 touch ~/.config/mpd/pid
 touch ~/.config/mpd/log
 touch ~/.config/mpd/playlist
 touch ~/.config/mpd/state
 touch ~/.config/mpd/databse
+dconf load / < ~/.config/dconf/user.conf
 systemctl enable --user mpd.service
 systemctl enable --user emacs
 
