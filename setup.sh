@@ -1,11 +1,18 @@
 #!/bin/sh
 
-aur()
+aur-wm()
 {
     yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git nerd-fonts-fira-code tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan
 }
 
-normal()
+aur-gnome()
+{
+    yay --noconfirm -S brave-bin nerd-fonts-fira-code
+}
+
+# Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
+# atool and avfs for ranger extracting files and highlight for syntax highlight in previews for ranger ffmpegthumnailer for vedios
+bspwm()
 {
     package="bspwm sxhkd nitrogen mate-power-manager feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl"
     package="$package picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3"
@@ -14,28 +21,48 @@ normal()
     sudo pacman --noconfirm -S $package
 }
 
+gnome()
+{
+    package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus"
+    sudo pacman -S $package
+}
+
 if ! pacman -Q yay;
 then
     git clone https://aur.archlinux.org/yay-bin.git ~/.aur
     cd yay-bin
     makepkg -si
-    sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j8\"/"
-    aur
+    sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j$(nproc)\"/"
 fi
-normal
-sudo pacman -Rns $(pacman -Qqtd)
-echo "Creating symlinks"
-cd ~/dotfiles
-stow alacritty dunst lock ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom vim systemd dconf
 
-touch ~/.config/mpd/pid
-touch ~/.config/mpd/log
-touch ~/.config/mpd/playlist
-touch ~/.config/mpd/state
-touch ~/.config/mpd/databse
-dconf load / < ~/.config/dconf/user.conf
-systemctl enable --user mpd.service
-systemctl enable --user emacs
+echo " 1.Bspwm 2.Gnome "
+echo " Enter the options "
+read option
+if [ option == "1"]
+then
+    aur-wm
+    bspwm
+    cd ~/dotfiles
+    echo "Creating symlinks"
+    stow dunst ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom vim systemd 
+    touch ~/.config/mpd/pid
+    touch ~/.config/mpd/log
+    touch ~/.config/mpd/playlist
+    touch ~/.config/mpd/state
+    touch ~/.config/mpd/databse
+    systemctl enable --user mpd.service
+    systemctl enable --user emacs
+else
+    aur-gnome
+    gnome
+    cd ~/dotfiles
+    echo "Creating symlinks"
+    stow systemd emacs dconf systemd
+    dconf load / < ~/.config/dconf/user.conf
+    systemctl enable --user emacs
+fi
+
+sudo pacman -Rns $(pacman -Qqtd)
 
 if [ ! -d ~/.oh-my-zsh ]
 then
@@ -44,6 +71,7 @@ then
     git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
     sed -i -e "s/git/git vi-mode zsh-syntax-highlighting zsh-completion/" -e "s/robbyrussel/powerlevel10k\/powerlevel10k/" .zshrc
+    echo "_comp_options+=(globdots)" >> ~/.zshrc # autocompletion shows hidden files
 fi
 
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
