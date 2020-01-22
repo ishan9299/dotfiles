@@ -4,30 +4,27 @@ BSPWM and POLYBAR are configured with wal (Polybar reads from Xresources)
 I use stow to create the symlinks which will put the files in desired locations
 *** Dependencies
 **** Tdrop
-For the dropdown Terminals
-https://github.com/noctuid/tdrop
+     For the dropdown Terminals
+     https://github.com/noctuid/tdrop
 **** Terminals
-Alacritty / Kitty
+     Alacritty / Kitty
 **** Application Launcher
-Rofi
+     Rofi
 **** Fonts
-Fira Code / Fira Code Nerd Fonts
-Font Awesome
+     Fira Code / Fira Code Nerd Fonts
+     Font Awesome
 **** Power Management
-mate-power-manager
+     mate-power-manager
 **** Network
-nmtui/nm-applet
+     nmtui/nm-applet
 **** Music
-ncmpcpp / lollypop
+     ncmpcpp
 **** Compositor
-compton (picom on Arch Linux)
+     compton (picom on Arch Linux)
 **** Important
 ***** Install xdotool xwininfo xprop for scratchpad support
 ***** Install ueberzug ffmpegthumbnailer highlight for previews in ranger
-*** STOW
-refer this vedio
-https://www.youtube.com/watch?v=vo1KUAb-ghc
-or use man stow to know how to use it
-
 
 * Run the setup.sh script to create the symlinks and other configs
+The setup Script has 2 options for gnome as well as bspwm you can choose either of them or install both gnome shortcuts are not the default ones comment the lines 
+containing "dconf load /" if you prefer the default shortcuts in the script gnome installs the lollypop instead of ncmpcpp
