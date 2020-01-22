@@ -295,17 +295,17 @@
 #def_key "@"
 #  show_server_info
 #
-#def_key "s"
-#  stop
+def_key "s"
+  stop
 #
-#def_key "p"
-#  pause
+def_key "p"
+  pause
 #
-#def_key ">"
-#  next
+def_key ">"
+  next
 #
-#def_key "<"
-#  previous
+def_key "<"
+  previous
 #
 #def_key "ctrl-h"
 #  jump_to_parent_directory
