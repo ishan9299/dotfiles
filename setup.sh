@@ -27,6 +27,7 @@ gnome()
     sudo pacman -S $package
 }
 
+sudo cat ~/dotfiles/mirrorlist > /etc/pacman.d/mirrorlist
 if ! pacman -Q yay;
 then
     git clone https://aur.archlinux.org/yay-bin.git ~/.aur
