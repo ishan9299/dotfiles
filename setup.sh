@@ -23,8 +23,8 @@ bspwm()
 
 gnome()
 {
-    package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus"
-    sudo pacman -S $package
+    package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus"
+    sudo pacman --noconfirm -S $package
 }
 
 sudo cat ~/dotfiles/mirrorlist > /etc/pacman.d/mirrorlist
@@ -63,7 +63,21 @@ else
     systemctl enable --user emacs
 fi
 
+echo "Removing the orphan packages"
 sudo pacman -Rns $(pacman -Qqtd)
+
+sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
+
+if [ ! -a ~/.gitconfig]
+then
+    echo " Enter the name for git "
+    read name
+    echo " Enter the email for git "
+    read email
+
+    git config --global user.name $name
+    git config --global user.email $email
+fi
 
 if [ ! -d ~/.oh-my-zsh ]
 then
@@ -75,18 +89,4 @@ then
     echo "_comp_options+=(globdots)" >> ~/.zshrc # autocompletion shows hidden files
 fi
 
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
-
-echo "do you want make a git profile ? (y/n) "
-read ans
-if [ ans == "y" ]
-then
-    echo " Enter the name for git "
-    read name
-    echo " Enter the email for git "
-    read email
-
-    git config --global user.name $name
-    git config --global user.email $email
-fi
-# https://wifilogin.myion.in/?login=1&mac=vlan146-10th-Block&page=status&link-login-only=http://10.146.0.2/login&link-logout=http://10.146.0.2/logout&uname=180911246&interface-name=vlan146-10th-Block
+#https://wifilogin.myion.in/?login=1&mac=vlan146-10th-Block&page=status&link-login-only=http://10.146.0.2/login&link-logout=http://10.146.0.2/logout&uname=180911246&interface-name=vlan146-10th-Block
