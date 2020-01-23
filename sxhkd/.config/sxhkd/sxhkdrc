@@ -82,9 +82,11 @@ super + bracket{left,right}
 super + {grave,Tab}
 	bspc {node,desktop} -f last
 
-
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
+
+super + r ; b
+bspc config border_width 0
 
 # PRESELECT
 

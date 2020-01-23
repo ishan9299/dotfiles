@@ -1,6 +1,6 @@
 configuration {
 	  font: "FuraCode Nerd Font 14";
-	  theme: "~/.config/rofi/colors-rofi-dark.rasi";
+	  theme: "~/.cache/wal/colors-rofi-dark.rasi";
       width: 70;
       bw: 0;
       yoffset: 8;

@@ -80,12 +80,9 @@ mpd_crossfade_time = 5
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-#visualizer_type = wave
-#
-#visualizer_look = ●▮
-#
-#visualizer_color = blue, cyan, green, yellow, magenta, red
-#
+visualizer_type = spectrum
+visualizer_look = ●▮
+visualizer_color = blue, cyan, green, yellow, magenta, red
 ## Alternative subset of 256 colors for terminals that support it.
 ##
 #visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
@@ -317,7 +314,7 @@ mpd_crossfade_time = 5
 ## Note: You can specify third character which will be used to build 'empty'
 ## part of progressbar.
 ##
-#progressbar_look = =>
+progressbar_look = ->
 #
 ## Available values: database, playlist.
 ##
@@ -443,7 +440,6 @@ mpd_crossfade_time = 5
 #block_search_constraints_change_if_items_found = yes
 #
 mouse_support = yes
-#
 mouse_list_scroll_whole_page = yes
 #
 #empty_tag_marker = <empty>
