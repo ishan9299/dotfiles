@@ -1,3 +1,4 @@
+
 * Terminal
 ** Setting default shell tmux
    #+BEGIN_SRC emacs-lisp
@@ -18,24 +19,6 @@
     :init
     (beacon-mode 1))
 #+END_SRC
-** Diminish
-   #+BEGIN_SRC emacs-lisp
-     (use-package diminish
-       :ensure t
-       :init
-       (diminish 'which-key-mode)
-       (diminish 'undo-tree-mode)
-       (diminish 'linum-relative-mode)
-       (diminish 'visual-line-mode)
-       (diminish 'page-break-lines-mode)
-       (diminish 'evil-org-mode)
-       (diminish 'beacon-mode)
-       (diminish 'irony-mode)
-       (diminish 'rainbow-delimiters-mode)
-       (diminish 'rainbow-mode)
-       (diminish 'flycheck-mode)
-       (diminish 'helm-mode))
-   #+END_SRC
 ** Async (helm)
 #+BEGIN_SRC emacs-lisp
   (use-package async
@@ -54,6 +37,14 @@
   (global-set-key (kbd "C-x C-f") 'helm-find-files)
   (define-key helm-map (kbd "C-j") 'helm-next-line)
   (define-key helm-map (kbd "C-k") 'helm-previous-line)
+  (define-key helm-map (kbd "C-S-h") 'describe-key)
+  (with-eval-after-load 'helm-files
+   	(dolist (keymap (list helm-find-files-map helm-read-file-map))
+	  (define-key keymap (kbd "C-l") 'helm-execute-persistent-action)
+	  (define-key keymap (kbd "C-h") 'helm-find-files-up-one-level)
+	  ;; rebind `describe-key' for convenience
+	  (define-key keymap (kbd "C-S-h") 'describe-key)))
+  (helm-autoresize-mode 1)
   (global-set-key (kbd "M-x") 'helm-M-x)
   (define-key helm-find-files-map (kbd "<tab>") 'helm-execute-persistent-action)
   (setq helm-M-x-fuzzy-match t)
@@ -167,15 +158,18 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
-  (use-package spaceline
-    :ensure t
-    :config
-    (require 'spaceline-config)
-      (setq spaceline-buffer-encoding-abbrev-p nil)
-      (setq spaceline-line-column-p nil)
-      (setq spaceline-line-p nil)
-      (setq powerline-default-separator (quote arrow))
-      (spaceline-spacemacs-theme))
+    (use-package spaceline
+      :ensure t
+      :config
+      (require 'spaceline-config)
+	(setq spaceline-buffer-encoding-abbrev-p nil)
+	(setq spaceline-line-column-p nil)
+	(setq spaceline-line-p nil)
+	(setq powerline-default-separator (quote arrow))
+	(spaceline-spacemacs-theme)
+	(spaceline-toggle-minor-modes-off)
+	(spaceline-toggle-flycheck-error-on)
+	(spaceline-toggle-flycheck-warning-on))
 #+END_SRC
 ** Pretty Symbols
 #+BEGIN_SRC emacs-lisp
@@ -261,9 +255,10 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (with-eval-after-load 'company
       (define-key company-active-map (kbd "M-n") nil)
       (define-key company-active-map (kbd "M-p") nil)
-      (define-key company-active-map (kbd "j") #'company-select-next)
-      (define-key company-active-map (kbd "k") #'company-select-previous)
-      (define-key company-active-map (kbd "SPC") #'company-abort))
+      (define-key company-active-map (kbd "j") 'company-select-next)
+      (define-key company-active-map (kbd "k") 'company-select-previous)
+      (define-key company-active-map (kbd "RET") 'company-complete-selection)
+      (define-key company-active-map (kbd "SPC") 'company-abort))
   #+END_SRC
 ** Languages
 *** C/C++
