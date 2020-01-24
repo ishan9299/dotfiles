@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
-let g:netrw_dirhist_7='/home/ishan/.config/picom'
-let g:netrw_dirhist_6='/home/ishan/.config/plasma-workspace/env'
-let g:netrw_dirhist_5='/home/ishan/.config/bspwm'
-let g:netrw_dirhist_4='/home/ishan/dotfiles/ncmpcpp/.config/ncmpcpp'
-let g:netrw_dirhist_3='/home/ishan/dotfiles/ncmpcpp/.config'
-let g:netrw_dirhist_2='/home/ishan/dotfiles/ncmpcpp'
-let g:netrw_dirhist_1='/home/ishan/dotfiles'
