@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-aur-wm()
+aurwm()
 {
     yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git ttf-nerd-fonts-hack-complete-git nerd-fonts-fira-code tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan
 }
 
-aur-gnome()
+aurgnome()
 {
     yay --noconfirm -S brave-bin nerd-fonts-fira-code ttf-nerd-fonts-hack-complete-git pop-icon-theme-git python-ueberzug ranger-git
 }
@@ -26,15 +26,14 @@ bspwm()
 gnome()
 {
     package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
-    package="$package git dosbox kitty python-pywal easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp"
-    sudo pacman --noconfirm -S $package
+    package="$package git dosbox kitty python-pywal easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp ttf-font-awesome"
+    sudo pacman -S $package
 }
 
-sudo cat ~/dotfiles/mirrorlist > /etc/pacman.d/mirrorlist
 if ! pacman -Q yay;
 then
     git clone https://aur.archlinux.org/yay-bin.git ~/.aur
-    cd yay-bin
+    cd ~/.aur
     makepkg -si
     sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j$(nproc)\"/"
 fi
@@ -42,9 +41,9 @@ fi
 echo " 1.Bspwm 2.Gnome "
 echo " Enter the options "
 read option
-if [ option == "1"]
+if [[ option == "1" ]]
 then
-    aur-wm
+    aurwm
     bspwm
     cd ~/dotfiles
     echo "Creating symlinks"
@@ -57,7 +56,7 @@ then
     systemctl enable --user mpd.service
     systemctl enable --user emacs
 else
-    aur-gnome
+    aurgnome
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
@@ -71,9 +70,13 @@ fi
 echo "Removing the orphan packages"
 sudo pacman --noconfirm -Rns $(pacman -Qqtd)
 
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
+echo "Installing Bibata"
+if [[ ! -d Bibata_Amber ]]
+then
+	sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
+fi
 
-if [ ! -a ~/.gitconfig]
+if [[ ! -a ~/.gitconfig ]]
 then
     echo " Enter the name for git "
     read name
@@ -84,14 +87,7 @@ then
     git config --global user.email $email
 fi
 
-if [ ! -d ~/.oh-my-zsh ]
+if [[ ! -d ~/.oh-my-zsh ]]
 then
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-    sed -i -e "s/git/git vi-mode zsh-syntax-highlighting zsh-completion/" -e "s/robbyrussel/powerlevel10k\/powerlevel10k/" .zshrc
-    echo "_comp_options+=(globdots)" >> ~/.zshrc # autocompletion shows hidden files
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
 fi
-
-#https://wifilogin.myion.in/?login=1&mac=vlan146-10th-Block&page=status&link-login-only=http://10.146.0.2/login&link-logout=http://10.146.0.2/logout&uname=180911246&interface-name=vlan146-10th-Block
