@@ -7,7 +7,7 @@
     (interactive (list my-term-shell)))
   (ad-activate 'ansi-term)
    #+END_SRC
-** Setting the shortcut as super and enter for ansi term
+** Setting the shortcut as alt and enter for ansi term
    #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "<M-return>") 'ansi-term)
    #+END_SRC
@@ -158,18 +158,36 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
-    (use-package spaceline
-      :ensure t
-      :config
-      (require 'spaceline-config)
-	(setq spaceline-buffer-encoding-abbrev-p nil)
-	(setq spaceline-line-column-p nil)
-	(setq spaceline-line-p nil)
-	(setq powerline-default-separator (quote arrow))
-	(spaceline-spacemacs-theme)
-	(spaceline-toggle-minor-modes-off)
-	(spaceline-toggle-flycheck-error-on)
-	(spaceline-toggle-flycheck-warning-on))
+  (use-package winum
+    :ensure t
+    :config
+    (global-set-key (kbd "C-`") 'winum-select-window-by-number)
+    (global-set-key (kbd "C-²") 'winum-select-window-by-number)
+    (global-set-key (kbd "M-0") 'winum-select-window-0-or-10)
+    (global-set-key (kbd "M-1") 'winum-select-window-1)
+    (global-set-key (kbd "M-2") 'winum-select-window-2)
+    (global-set-key (kbd "M-3") 'winum-select-window-3)
+    (global-set-key (kbd "M-4") 'winum-select-window-4)
+    (global-set-key (kbd "M-5") 'winum-select-window-5)
+    (global-set-key (kbd "M-6") 'winum-select-window-6)
+    (global-set-key (kbd "M-7") 'winum-select-window-7)
+    (global-set-key (kbd "M-8") 'winum-select-window-8)
+    (require 'winum))
+
+  (use-package spaceline
+    :ensure t
+    :config
+    (require 'spaceline-config)
+      (setq spaceline-buffer-encoding-abbrev-p nil)
+      (setq spaceline-line-column-p nil)
+      (setq spaceline-line-p nil)
+      (setq powerline-default-separator (quote arrow))
+      (spaceline-spacemacs-theme)
+      (setq winum-auto-setup-mode-line nil)
+      (winum-mode) 
+      (spaceline-toggle-minor-modes-off)
+      (spaceline-toggle-flycheck-error-on)
+      (spaceline-toggle-flycheck-warning-on))
 #+END_SRC
 ** Pretty Symbols
 #+BEGIN_SRC emacs-lisp
