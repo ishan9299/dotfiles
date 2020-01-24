@@ -7,7 +7,7 @@ aur-wm()
 
 aur-gnome()
 {
-    yay --noconfirm -S brave-bin nerd-fonts-fira-code ttf-nerd-fonts-hack-complete-git
+    yay --noconfirm -S brave-bin nerd-fonts-fira-code ttf-nerd-fonts-hack-complete-git pop-icon-theme-git python-ueberzug ranger-git
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -21,9 +21,12 @@ bspwm()
     sudo pacman --noconfirm -S $package
 }
 
+#ranger is also in gnome it's too convienient
+# added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus"
+    package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
+    package="$package git dosbox kitty python-pywal easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp"
     sudo pacman --noconfirm -S $package
 }
 
@@ -58,13 +61,15 @@ else
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
-    stow systemd emacs dconf systemd
+    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp 
     dconf load / < ~/.config/dconf/user.conf
+    systemctl enable --user mpd.service
     systemctl enable --user emacs
+    sudo systemctl enable gdm.service
 fi
 
 echo "Removing the orphan packages"
-sudo pacman -Rns $(pacman -Qqtd)
+sudo pacman --noconfirm -Rns $(pacman -Qqtd)
 
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
 
