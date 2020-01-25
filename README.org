@@ -19,7 +19,22 @@ I use stow to create the symlinks which will put the files in desired locations
 **** Music
 - ncmpcpp
 **** Compositor
-- compton (picom on Arch Linux)
+**** Editor
+- Vim/Emacs
+**** Compositor
+- picom 
+** Gnome
+*** Applications
+**** Terminal
+- Tilix
+**** Music
+- Lollypop / ncmpcpp
+**** Editor
+- Emacs
 * Run the setup.sh script to create the symlinks and other configs
-The setup Script has 2 options for gnome as well as bspwm you can choose either of them gnome shortcuts are not the default ones comment the lines 
-containing "dconf load /" if you prefer the default shortcuts in the script gnome installs both lollypop and ncmpcpp
+** Go through the scripts before using it !!
+There are 2 options for the desktop
+- GNOME
+- BSPWM
+Default shortcuts are not used in gnome comment out the line with dconf load / in setup.sh
+**** To automaticatlly install plugins for oh-my-zsh check the zsh.sh script
