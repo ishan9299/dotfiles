@@ -2,12 +2,12 @@
 
 aurwm()
 {
-    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git ttf-nerd-fonts-hack-complete-git nerd-fonts-fira-code tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan
+    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git ttf-nerd-fonts-hack-complete-git nerd-fonts-fira-code tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts
 }
 
 aurgnome()
 {
-    yay --noconfirm -S brave-bin nerd-fonts-fira-code ttf-nerd-fonts-hack-complete-git pop-icon-theme-git python-ueberzug ranger-git
+    yay --noconfirm -S brave-bin nerd-fonts-fira-code ttf-nerd-fonts-hack-complete-git pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -16,7 +16,7 @@ bspwm()
 {
     package="bspwm sxhkd nitrogen mate-power-manager feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl"
     package="$package picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3"
-    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji xss-lock atool avfs dosbox"
+    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox"
     package="$package lightdm lightdm-webkit2-greeter materia-gtk-theme nvidia nvidia-prime xorg-server poppler zathura highlight zathura-pdf-poppler"
     sudo pacman --noconfirm -S $package
 }
@@ -26,7 +26,7 @@ bspwm()
 gnome()
 {
     package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
-    package="$package git dosbox kitty python-pywal easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp ttf-font-awesome"
+    package="$package git dosbox kitty python-pywal easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts ttf-font-awesome sbcl clang llvm cmake"
     sudo pacman -S $package
 }
 
@@ -60,7 +60,7 @@ else
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
-    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp 
+    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp vim
     dconf load / < ~/.config/dconf/user.conf
     systemctl enable --user mpd.service
     systemctl enable --user emacs

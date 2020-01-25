@@ -34,11 +34,21 @@ call plug#begin('~/.vim/plugged')
 Plug 'jceb/vim-orgmode'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'jiangmiao/auto-pairs'
 Plug 'gruvbox-material/vim', {'as': 'gruvbox-material'}
+Plug 'Valloric/YouCompleteMe'
 Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 call plug#end()
+
+
+"AutoPairs
+let g:AutoPairsFlyMode = 1
+
+"YouCompleteMe
+let g:ycm_use_clangd = 0
 
 "Airline Theme
 let g:airline_theme='gruvbox_material'
