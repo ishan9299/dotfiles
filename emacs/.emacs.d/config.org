@@ -26,6 +26,11 @@
     :init
     (async-bytecomp-package-mode 1))
 #+END_SRC
+** General
+#+BEGIN_SRC emacs-lisp
+  (use-package general
+    :ensure t)
+#+END_SRC
 ** Helm
 #+BEGIN_SRC emacs-lisp
   (use-package helm
@@ -123,15 +128,8 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :ensure t
     :init
     (setq evil-want-integration t) ;; This is optional since it's already set to t by default.
-    (setq evil-want-keybinding nil)
     :config
     (evil-mode 1))
-
-  (use-package evil-collection
-    :after evil
-    :ensure t
-    :init
-    (evil-collection-init))
 
   (use-package evil-org
     :ensure t
@@ -176,20 +174,22 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (add-hook 'prog-mode-hook 'rainbow-mode))
   (show-paren-mode 1)
 #+END_SRC
+** Evil Normal State Always
+#+BEGIN_SRC emacs-lisp
+    (setq evil-normal-state-modes
+	  (append evil-emacs-state-modes
+		  evil-insert-state-modes
+		  evil-normal-state-modes
+		  evil-motion-state-modes))
+#+END_SRC
 ** VIM like keybindings
 #+BEGIN_SRC emacs-lisp
-  (setq evil-normal-state-modes
-	(append evil-emacs-state-modes
-		evil-insert-state-modes
-		evil-normal-state-modes
-		evil-motion-state-modes))
-  (evil-global-set-key 'normal (kbd "SPC w l") 'evil-window-right)
-  (evil-global-set-key 'normal (kbd "SPC w k") 'evil-window-up)
-  (evil-global-set-key 'normal (kbd "SPC w j") 'evil-window-down)
-  (evil-global-set-key 'normal (kbd "SPC w h") 'evil-window-left)
-  (evil-global-set-key 'normal (kbd "SPC v s") 'evil-window-vsplit)
-  (evil-global-set-key 'normal (kbd "SPC h s") 'evil-window-split)
-  (evil-set-initial-state 'dashboard-mode 'normal)
+  (define-key evil-normal-state-map (kbd "SPC w l") 'evil-window-right)
+  (define-key evil-normal-state-map (kbd "SPC w k") 'evil-window-up)
+  (define-key evil-normal-state-map (kbd "SPC w j") 'evil-window-down)
+  (define-key evil-normal-state-map (kbd "SPC w h") 'evil-window-left)
+  (define-key evil-normal-state-map (kbd "SPC v s") 'evil-window-vsplit)
+  (define-key evil-normal-state-map (kbd "SPC h s") 'evil-window-split)
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
