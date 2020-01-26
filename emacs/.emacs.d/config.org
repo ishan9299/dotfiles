@@ -1,4 +1,3 @@
-
 * Terminal
 ** Setting default shell tmux
    #+BEGIN_SRC emacs-lisp
@@ -190,6 +189,9 @@ run (M-x all-the-icons-install-fonts) after the package installs
   (define-key evil-normal-state-map (kbd "SPC w h") 'evil-window-left)
   (define-key evil-normal-state-map (kbd "SPC v s") 'evil-window-vsplit)
   (define-key evil-normal-state-map (kbd "SPC h s") 'evil-window-split)
+  (define-key evil-normal-state-map (kbd "SPC q q") 'evil-quit)
+  (define-key evil-normal-state-map (kbd "SPC w w") 'evil-save)
+  (define-key evil-normal-state-map (kbd "SPC w q") 'evil-save-and-quit)
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
@@ -278,18 +280,18 @@ run (M-x all-the-icons-install-fonts) after the package installs
   (defun config-visit()
     (interactive)
     (find-file "~/.emacs.d/config.org"))
-  (global-set-key (kbd "C-c e") 'config-visit)
+  (define-key evil-normal-state-map (kbd "SPC e c") 'config-visit)
 #+END_SRC
 ** Reload
 #+BEGIN_SRC emacs-lisp
   (defun config-reload()
     (interactive)
     (org-babel-load-file (expand-file-name "~/.emacs.d/config.org")))
-  (global-set-key (kbd "C-c r") 'config-reload)
+  (define-key evil-normal-state-map (kbd "SPC r c") 'config-reload)
 #+END_SRC
 ** Compile C++
 #+BEGIN_SRC emacs-lisp
-  (global-set-key (kbd "C-c c") 'compile)
+  (define-key evil-normal-state-map (kbd "<f8>") 'compile)
 #+END_SRC
 * Synatax Highlighting
 #+BEGIN_SRC emacs-lisp
