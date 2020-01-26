@@ -58,7 +58,7 @@
 			     (?\[ . ?\])
 			     (?\" . ?\")
 			     ))
-  (electric-pair-mode t)
+  (electric-pair-mode 1)
 #+END_SRC
 ** Dasboard
 #+BEGIN_SRC emacs-lisp
@@ -72,6 +72,26 @@
     (setq dashboard-set-file-icons t)
     (setq dashboard-set-footer nil))
 #+END_SRC
+** Neotree
+   #+BEGIN_SRC emacs-lisp
+     (use-package neotree
+       :ensure t
+       :config
+       (add-hook 'neotree-mode-hook
+		 (lambda ()
+		   (evil-define-key evil-normal-state-local-map (kbd "SPC") 'neotree-quick-look)
+		   (evil-define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)
+		   (evil-define-key evil-normal-state-local-map (kbd "g") 'neotree-refresh)
+		   (evil-define-key evil-normal-state-local-map (kbd "j") 'neotree-next-line)
+		   (evil-define-key evil-normal-state-local-map (kbd "k") 'neotree-previous-line)
+		   (evil-define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
+		   (evil-define-key evil-normal-state-local-map (kbd "I") 'neotree-hidden-file-toggle)))
+       (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+       (setq neo-smart-open t)
+       :init
+       (require 'neotree)
+       (global-set-key [f8] 'neotree-toggle))
+   #+END_SRC
 ** All the icons
 #+BEGIN_SRC emacs-lisp
   (use-package all-the-icons
@@ -94,7 +114,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+BEGIN_SRC emacs-lisp
   (use-package swiper
     :ensure t
-    :bind ("C-s" . 'swiper))
+    :bind ("" . 'swiper))
 #+END_SRC
 ** Evil
 *** Automatic install 
@@ -155,6 +175,21 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :init
     (add-hook 'prog-mode-hook 'rainbow-mode))
   (show-paren-mode 1)
+#+END_SRC
+** VIM like keybindings
+#+BEGIN_SRC emacs-lisp
+  (setq evil-normal-state-modes
+	(append evil-emacs-state-modes
+		evil-insert-state-modes
+		evil-normal-state-modes
+		evil-motion-state-modes))
+  (evil-global-set-key 'normal (kbd "SPC w l") 'evil-window-right)
+  (evil-global-set-key 'normal (kbd "SPC w k") 'evil-window-up)
+  (evil-global-set-key 'normal (kbd "SPC w j") 'evil-window-down)
+  (evil-global-set-key 'normal (kbd "SPC w h") 'evil-window-left)
+  (evil-global-set-key 'normal (kbd "SPC v s") 'evil-window-vsplit)
+  (evil-global-set-key 'normal (kbd "SPC h s") 'evil-window-split)
+  (evil-set-initial-state 'dashboard-mode 'normal)
 #+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
@@ -273,8 +308,8 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (with-eval-after-load 'company
       (define-key company-active-map (kbd "M-n") nil)
       (define-key company-active-map (kbd "M-p") nil)
-      (define-key company-active-map (kbd "j") 'company-select-next)
-      (define-key company-active-map (kbd "k") 'company-select-previous)
+      (define-key company-active-map (kbd "<tab>") 'company-select-next)
+      (define-key company-active-map (kbd "<S-tab>") 'company-select-previous)
       (define-key company-active-map (kbd "RET") 'company-complete-selection)
       (define-key company-active-map (kbd "SPC") 'company-abort))
   #+END_SRC
