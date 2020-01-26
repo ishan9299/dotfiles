@@ -25,7 +25,7 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome gnome-tweaks dconf lollypop vim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
+    package="gnome gnome-tweaks dconf lollypop nvim python-pynvim emacs zsh tilix sushi python-nautilus seahorse seahorse-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
     package="$package git dosbox kitty python-pywal easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts ttf-font-awesome sbcl clang llvm cmake"
     sudo pacman -S $package
 }
@@ -47,7 +47,7 @@ then
     bspwm
     cd ~/dotfiles
     echo "Creating symlinks"
-    stow dunst ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom vim systemd 
+    stow dunst ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom nvim systemd 
     touch ~/.config/mpd/pid
     touch ~/.config/mpd/log
     touch ~/.config/mpd/playlist
@@ -60,7 +60,7 @@ else
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
-    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp vim
+    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp nvim 
     dconf load / < ~/.config/dconf/user.conf
     systemctl enable --user mpd.service
     systemctl enable --user emacs
