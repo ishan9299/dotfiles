@@ -5,6 +5,7 @@ emacs/.emacs.d/elpa
 emacs/.emacs.d/eshell
 emacs/.emacs.d/games
 emacs/.emacs.d/transient
+emacs/.emacs.d/recentf~
 emacs/.emacs.d/init.el~
 emacs/.emacs.d/auto-save-list
 emacs/.emacs.d/session.*
