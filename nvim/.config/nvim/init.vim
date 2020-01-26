@@ -1,4 +1,3 @@
-set paste
 set pastetoggle=<F2>
 
 "Relative Line number
@@ -11,7 +10,9 @@ let mapleader = "\<Space>"
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Reload vimrc
-nnoremap <leader>rv :source<Space>~/.config/nvim/init.vim<cr>
+nnoremap <leader>rc :source<Space>~/.config/nvim/init.vim<cr>
+" Shortcut to config file
+nnoremap <Leader>ec :edit ~/.config/nvim/init.vim<cr>
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -33,17 +34,30 @@ set shiftwidth=4    " indent width
 set mouse=a         " if I am lazy to go keyboard
 set cursorline
 
-" tab stuff
+" Tab Stuff
 nnoremap tn :tabnew<cr>
 nnoremap tk :tabnext<cr>
 nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
 
+" Split Windows
+nnoremap <Leader>hs :split<cr>
+nnoremap <Leader>vs :vsplit<cr>
+
+" Windows
+nnoremap <Leader>wl  <C-w>l
+nnoremap <Leader>wk  <C-w>k
+nnoremap <Leader>wj  <C-w>j
+nnoremap <Leader>wh  <C-w>h
+nnoremap <Leader>wq  :wq<cr>
+nnoremap <Leader>qq  :q!<cr>
+
 "Extensions Vim Plug
 call plug#begin('~/.config/nvim/plugged')
 Plug 'jceb/vim-orgmode'
 Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'gruvbox-material/vim', {'as': 'gruvbox-material'}
 Plug 'Valloric/YouCompleteMe'
@@ -58,6 +72,11 @@ let g:AutoPairsFlyMode = 1
 
 "YouCompleteMe
 let g:ycm_use_clangd = 0
+let g:ycm_show_diagnostics_ui = 1
+let g:ycm_error_symbol = '>>'
+let g:ycm_warning_symbol = '>>'
+let g:ycm_enable_diagnostic_signs = 1
+let g:ycm_enable_diagnostic_highlighting = 1
 
 "Airline Theme
 let g:airline_theme='gruvbox_material'
@@ -116,6 +135,7 @@ set shiftwidth=4    " indent width
 set mouse=a         " if I am lazy to go keyboard
 set cursorline
 
+
 " tab stuff
 nnoremap tn :tabnew<cr>
 nnoremap tk :tabnext<cr>
@@ -123,16 +143,16 @@ nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
 
-" NerdTree Automatic Startup if No files
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" Automatically open NERDTree if Directory is open through vim 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+" Close only if nerdtree open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"NERDtree toggle
 map <f8> :NERDTreeToggle<CR>
 
 " Easy motion
-nmap <Leader>s <Plug>(easymotion-overwin-f)
+nmap <Leader>ss <Plug>(easymotion-overwin-f)
 
 " Autoinstall Plug Nvim
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
