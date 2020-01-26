@@ -36,7 +36,7 @@ then
     git clone https://aur.archlinux.org/yay-bin.git ~/.aur
     cd ~/.aur
     makepkg -si
-    sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j$(nproc)\"/"
+    sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j$(nproc)\"/" /etc/makepkg.conf
 fi
 
 echo " 1.Bspwm 2.Gnome "
