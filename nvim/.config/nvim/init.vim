@@ -1,7 +1,5 @@
-set pastetoggle=<F2>
-
 "Relative Line number
-set rnu
+set nu rnu
 
 "Set Leader to Space
 let mapleader = "\<Space>"
@@ -45,13 +43,16 @@ nnoremap tl :tablast<cr>
 nnoremap <Leader>hs :split<cr>
 nnoremap <Leader>vs :vsplit<cr>
 
+" copying to xclip
+vmap <C-c> :!xclip -f -sel clip<CR>
+map <C-v> :-1r !xclip -o -sel clip<CR>
+
 " Windows
 nnoremap <Leader>wl  <C-w>l
 nnoremap <Leader>wk  <C-w>k
 nnoremap <Leader>wj  <C-w>j
 nnoremap <Leader>wh  <C-w>h
-nnoremap <Leader>wq  :wq<cr>
-nnoremap <Leader>qq  :q!<cr>
+nnoremap <Leader>wd  :q<cr> 
 
 "Extensions Vim Plug
 call plug#begin('~/.config/nvim/plugged')

@@ -40,7 +40,7 @@
  '(helm-display-source-at-screen-top nil)
  '(package-selected-packages
    (quote
-    (general neotree winum diminish which-key use-package swiper spacemacs-theme spaceline rainbow-mode rainbow-identifiers rainbow-delimiters pretty-mode org-bullets magit helm flycheck-clang-analyzer evil-org evil-collection dashboard company-irony company-c-headers beacon avy all-the-icons)))
+    (ivy-rich counsel general neotree winum diminish which-key use-package swiper spacemacs-theme spaceline rainbow-mode rainbow-identifiers rainbow-delimiters pretty-mode org-bullets magit helm flycheck-clang-analyzer evil-org evil-collection dashboard company-irony company-c-headers beacon avy all-the-icons)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 

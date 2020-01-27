@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 aurwm()
 {
@@ -14,7 +14,7 @@ aurgnome()
 # atool and avfs for ranger extracting files and highlight for syntax highlight in previews for ranger ffmpegthumnailer for vedios
 bspwm()
 {
-    package="bspwm sxhkd nitrogen mate-power-manager feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl"
+    package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl"
     package="$package picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3"
     package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox"
     package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia nvidia-prime xorg-server poppler zathura highlight zathura-pdf-poppler"
@@ -26,7 +26,7 @@ bspwm()
 gnome()
 {
     package="gnome gnome-tweaks nvim emacs zsh tilix sushi python-nautilus seahorse celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
-    package="$package git dosbox dconf kitty easytag atool avfs lollypop noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake"
+    package="$package git dosbox xclip dconf kitty easytag atool avfs lollypop noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake"
     package="$package fzf python-pynvim python-pywal seahorse-nautilus ttf-font-awesome"
     sudo pacman -S $package
 }
@@ -91,4 +91,9 @@ fi
 if [[ ! -d ~/.oh-my-zsh ]]
 then
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
+    git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions 
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k 
+    sed -i "s/(git)/(git vi-mode fzf zsh-syntax-highlighting zsh-completion)/;s/\"robbyrussell\"/powerlevel10k\/powerlevel10k/" ~/.zshrc 
+    echo "_comp_options+=(globdots)" >> ~/.zshrc # autocompletion shows hidden files
 fi

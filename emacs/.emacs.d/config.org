@@ -8,7 +8,7 @@
    #+END_SRC
 ** Setting the shortcut as alt and enter for ansi term
    #+BEGIN_SRC emacs-lisp
-  (global-set-key (kbd "<M-return>") 'ansi-term)
+  (define-key evil-normal-state-map (kbd "SPC o t") 'eshell)
    #+END_SRC
 * Plugins
 ** Beacon
@@ -30,29 +30,52 @@
   (use-package general
     :ensure t)
 #+END_SRC
-** Helm
+** Ivy
 #+BEGIN_SRC emacs-lisp
-  (use-package helm
-    :after async
+  (use-package counsel
+    :ensure t)
+
+     (defun ivy-rich-switch-buffer-icon (candidate)
+       (with-current-buffer
+	    (get-buffer candidate)
+	  (let ((icon (all-the-icons-icon-for-mode major-mode)))
+	    (if (symbolp icon)
+		(all-the-icons-icon-for-mode 'fundamental-mode)
+	      icon))))
+
+  (setq ivy-rich--display-transformers-list
+	'(ivy-switch-buffer
+	  (:columns
+	   ((ivy-rich-switch-buffer-icon (:width 2))
+	    (ivy-rich-candidate (:width 30))
+	    (ivy-rich-switch-buffer-size (:width 7))
+	    (ivy-rich-switch-buffer-indicators (:width 4 :face error :align right))
+	    (ivy-rich-switch-buffer-major-mode (:width 12 :face warning))
+	    (ivy-rich-switch-buffer-project (:width 15 :face success))
+	    (ivy-rich-switch-buffer-path (:width (lambda (x) (ivy-rich-switch-buffer-shorten-path x (ivy-rich-minibuffer-width 0.3))))))
+	   :predicate
+	   (lambda (cand) (get-buffer cand)))))
+
+  (use-package ivy
+	 :ensure t
+	 :config
+	 (ivy-mode 1)
+	 (setq ivy-use-virtual-buffers t)
+	 (setq enable-recursive-minibuffers t)
+	 (setq ivy-height 15)
+	 ;; enable this if you want `swiper' to use it
+	 ;; (setq search-default-mode #'char-fold-to-regexp)
+	 (global-set-key "\C-s" 'swiper)
+	 (global-set-key  (kbd "M-x") 'counsel-M-x)
+	 (setq ivy-re-builders-alist '((t . ivy--regex-fuzzy))))
+	 (define-key ivy-minibuffer-map (kbd "TAB") 'ivy-next-line)
+	 (define-key ivy-minibuffer-map (kbd "<backtab>") 'ivy-previous-line)
+
+  (use-package ivy-rich
     :ensure t
-    :init
-    (helm-mode 1))
-  (global-set-key (kbd "C-x b") 'helm-buffers-list)
-  (global-set-key (kbd "C-x C-f") 'helm-find-files)
-  (define-key helm-map (kbd "C-j") 'helm-next-line)
-  (define-key helm-map (kbd "C-k") 'helm-previous-line)
-  (define-key helm-map (kbd "C-S-h") 'describe-key)
-  (with-eval-after-load 'helm-files
-   	(dolist (keymap (list helm-find-files-map helm-read-file-map))
-	  (define-key keymap (kbd "C-l") 'helm-execute-persistent-action)
-	  (define-key keymap (kbd "C-h") 'helm-find-files-up-one-level)
-	  ;; rebind `describe-key' for convenience
-	  (define-key keymap (kbd "C-S-h") 'describe-key)))
-  (helm-autoresize-mode 1)
-  (global-set-key (kbd "M-x") 'helm-M-x)
-  (define-key helm-find-files-map (kbd "<tab>") 'helm-execute-persistent-action)
-  (setq helm-M-x-fuzzy-match t)
-  (require 'helm-config)
+    :config
+    (require 'ivy-rich)
+    (ivy-rich-mode 1))
 #+END_SRC
 ** Bracket pairs
 #+BEGIN_SRC emacs-lisp
@@ -82,17 +105,17 @@
        :ensure t
        :config
        (add-hook 'neotree-mode-hook
-		 (lambda ()
-		   (evil-define-key evil-normal-state-local-map (kbd "SPC") 'neotree-quick-look)
-		   (evil-define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)
-		   (evil-define-key evil-normal-state-local-map (kbd "g") 'neotree-refresh)
-		   (evil-define-key evil-normal-state-local-map (kbd "j") 'neotree-next-line)
-		   (evil-define-key evil-normal-state-local-map (kbd "k") 'neotree-previous-line)
-		   (evil-define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
-		   (evil-define-key evil-normal-state-local-map (kbd "I") 'neotree-hidden-file-toggle)))
+	       (lambda ()
+		 (define-key evil-normal-state-local-map (kbd "q") 'neotree-hide)
+		 (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)
+		 (define-key evil-normal-state-local-map (kbd "g") 'neotree-refresh)
+		 (define-key evil-normal-state-local-map (kbd "n") 'neotree-next-line)
+		 (define-key evil-normal-state-local-map (kbd "p") 'neotree-previous-line)
+		 (define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
+		 (define-key evil-normal-state-local-map (kbd "H")'neotree-hidden-file-toggle)))
+
        (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
        (setq neo-smart-open t)
-       :init
        (require 'neotree)
        (global-set-key [f8] 'neotree-toggle))
    #+END_SRC
@@ -117,8 +140,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
 ** Swiper
 #+BEGIN_SRC emacs-lisp
   (use-package swiper
-    :ensure t
-    :bind ("" . 'swiper))
+    :ensure t)
 #+END_SRC
 ** Evil
 *** Automatic install 
@@ -181,36 +203,8 @@ run (M-x all-the-icons-install-fonts) after the package installs
 		  evil-normal-state-modes
 		  evil-motion-state-modes))
 #+END_SRC
-** VIM like keybindings
-#+BEGIN_SRC emacs-lisp
-  (define-key evil-normal-state-map (kbd "SPC w l") 'evil-window-right)
-  (define-key evil-normal-state-map (kbd "SPC w k") 'evil-window-up)
-  (define-key evil-normal-state-map (kbd "SPC w j") 'evil-window-down)
-  (define-key evil-normal-state-map (kbd "SPC w h") 'evil-window-left)
-  (define-key evil-normal-state-map (kbd "SPC v s") 'evil-window-vsplit)
-  (define-key evil-normal-state-map (kbd "SPC h s") 'evil-window-split)
-  (define-key evil-normal-state-map (kbd "SPC q q") 'evil-quit)
-  (define-key evil-normal-state-map (kbd "SPC w w") 'evil-save)
-  (define-key evil-normal-state-map (kbd "SPC w q") 'evil-save-and-quit)
-#+END_SRC
 ** Spaceline
 #+BEGIN_SRC emacs-lisp
-  (use-package winum
-    :ensure t
-    :config
-    (global-set-key (kbd "C-`") 'winum-select-window-by-number)
-    (global-set-key (kbd "C-²") 'winum-select-window-by-number)
-    (global-set-key (kbd "M-0") 'winum-select-window-0-or-10)
-    (global-set-key (kbd "M-1") 'winum-select-window-1)
-    (global-set-key (kbd "M-2") 'winum-select-window-2)
-    (global-set-key (kbd "M-3") 'winum-select-window-3)
-    (global-set-key (kbd "M-4") 'winum-select-window-4)
-    (global-set-key (kbd "M-5") 'winum-select-window-5)
-    (global-set-key (kbd "M-6") 'winum-select-window-6)
-    (global-set-key (kbd "M-7") 'winum-select-window-7)
-    (global-set-key (kbd "M-8") 'winum-select-window-8)
-    (require 'winum))
-
   (use-package spaceline
     :ensure t
     :config
@@ -221,7 +215,6 @@ run (M-x all-the-icons-install-fonts) after the package installs
       (setq powerline-default-separator (quote arrow))
       (spaceline-spacemacs-theme)
       (setq winum-auto-setup-mode-line nil)
-      (winum-mode) 
       (spaceline-toggle-minor-modes-off)
       (spaceline-toggle-flycheck-error-on)
       (spaceline-toggle-flycheck-warning-on))
@@ -234,12 +227,17 @@ run (M-x all-the-icons-install-fonts) after the package installs
 	:config
 	(global-pretty-mode t)))
 #+END_SRC
+** Avy
+#+BEGIN_SRC emacs-lisp
+ (use-package avy
+    :ensure t)
+  (define-key evil-normal-state-map (kbd "SPC s s") 'avy-goto-char)
+#+END_SRC
 * Alias
 ** Yes/No 
 #+BEGIN_SRC emacs-lisp
 (defalias 'yes-or-no-p 'y-or-n-p)
 #+END_SRC
-
 * General show hide stuff 
 ** Removing ugly UI
 #+BEGIN_SRC emacs-lisp
@@ -267,13 +265,6 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (setq spaceline-helm-mode 1)
     (spaceline-spacemacs-theme))
 #+END_SRC
-* Avy
-#+BEGIN_SRC emacs-lisp
-  (use-package avy
-    :ensure t
-    :bind
-    ("M-s" . avy-goto-char))
-#+END_SRC
 * Shortcuts
 ** Edit
 #+BEGIN_SRC emacs-lisp
@@ -291,7 +282,23 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+END_SRC
 ** Compile C++
 #+BEGIN_SRC emacs-lisp
-  (define-key evil-normal-state-map (kbd "<f8>") 'compile)
+  (define-key evil-normal-state-map (kbd "<f3>") 'compile)
+#+END_SRC
+** VIM like keybindings
+*** Windows
+#+BEGIN_SRC emacs-lisp
+  (define-key evil-normal-state-map (kbd "SPC w l") 'evil-window-right)
+  (define-key evil-normal-state-map (kbd "SPC w k") 'evil-window-up)
+  (define-key evil-normal-state-map (kbd "SPC w j") 'evil-window-down)
+  (define-key evil-normal-state-map (kbd "SPC w h") 'evil-window-left)
+  (define-key evil-normal-state-map (kbd "SPC v s") 'evil-window-vsplit)
+  (define-key evil-normal-state-map (kbd "SPC h s") 'evil-window-split)
+  (define-key evil-normal-state-map (kbd "SPC w d") 'delete-window)
+#+END_SRC
+*** Buffers
+#+BEGIN_SRC emacs-lisp
+  (define-key evil-normal-state-map (kbd "SPC b l") 'ivy-switch-buffer)
+  (define-key evil-normal-state-map (kbd "SPC .") 'counsel-find-file)
 #+END_SRC
 * Synatax Highlighting
 #+BEGIN_SRC emacs-lisp
@@ -311,7 +318,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
       (define-key company-active-map (kbd "M-n") nil)
       (define-key company-active-map (kbd "M-p") nil)
       (define-key company-active-map (kbd "<tab>") 'company-select-next)
-      (define-key company-active-map (kbd "<S-tab>") 'company-select-previous)
+      (define-key company-active-map (kbd "<backtab>") 'company-select-previous)
       (define-key company-active-map (kbd "RET") 'company-complete-selection)
       (define-key company-active-map (kbd "SPC") 'company-abort))
   #+END_SRC
@@ -379,3 +386,4 @@ run (M-x all-the-icons-install-fonts) after the package installs
     :ensure t)
   (add-hook 'prog-mode-hook 'rainbow-identifiers-mode)
 #+END_SRC
+sdfafac
