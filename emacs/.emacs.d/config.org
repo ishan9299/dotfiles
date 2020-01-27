@@ -1,15 +1,3 @@
-* Terminal
-** Setting default shell tmux
-   #+BEGIN_SRC emacs-lisp
-  (defvar my-term-shell "/bin/bash")
-  (defadvice ansi-term (before force-bash)
-    (interactive (list my-term-shell)))
-  (ad-activate 'ansi-term)
-   #+END_SRC
-** Setting the shortcut as alt and enter for ansi term
-   #+BEGIN_SRC emacs-lisp
-  (define-key evil-normal-state-map (kbd "SPC o t") 'eshell)
-   #+END_SRC
 * Plugins
 ** Beacon
 #+BEGIN_SRC emacs-lisp
@@ -18,7 +6,7 @@
     :init
     (beacon-mode 1))
 #+END_SRC
-** Async (helm)
+** Async 
 #+BEGIN_SRC emacs-lisp
   (use-package async
     :ensure t
@@ -123,6 +111,16 @@
 #+BEGIN_SRC emacs-lisp
   (use-package all-the-icons
     :ensure t)
+
+  (use-package all-the-icons-ivy
+    :ensure t
+    :config
+    (all-the-icons-ivy-setup))
+
+  (use-package all-the-icons-dired
+    :ensure t
+    :init
+    (add-hook 'dired-mode-hook 'all-the-icons-dired-mode))
 #+END_SRC
 run (M-x all-the-icons-install-fonts) after the package installs
 ** Disable Autosave
@@ -231,7 +229,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+BEGIN_SRC emacs-lisp
  (use-package avy
     :ensure t)
-  (define-key evil-normal-state-map (kbd "SPC s s") 'avy-goto-char)
+;  (define-key evil-normal-state-map (kbd "SPC s s") 'avy-goto-char)
 #+END_SRC
 * Alias
 ** Yes/No 
@@ -297,8 +295,21 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+END_SRC
 *** Buffers
 #+BEGIN_SRC emacs-lisp
-  (define-key evil-normal-state-map (kbd "SPC b l") 'ivy-switch-buffer)
-  (define-key evil-normal-state-map (kbd "SPC .") 'counsel-find-file)
+  (define-key evil-normal-state-map (kbd "SPC b B") 'ivy-switch-buffer)
+  (define-key evil-normal-state-map (kbd "SPC b O") 'delete-other-windows)
+  (define-key evil-normal-state-map (kbd "SPC b ]") 'next-buffer)
+  (define-key evil-normal-state-map (kbd "SPC b [") 'previous-buffer)
+  (define-key evil-normal-state-map (kbd "SPC b k") 'kill-buffer)
+#+END_SRC
+*** IVY
+#+BEGIN_SRC emacs-lisp
+    (define-key evil-normal-state-map (kbd "SPC .") 'counsel-find-file)
+    (define-key evil-normal-state-map (kbd "SPC :") 'counsel-M-x)
+#+END_SRC
+*** Toggle
+#+BEGIN_SRC emacs-lisp
+  (define-key evil-normal-state-map (kbd "SPC t e") 'electric-pair-mode) 
+  (define-key evil-normal-state-map (kbd "SPC t i") 'ivy-rich-mode)
 #+END_SRC
 * Synatax Highlighting
 #+BEGIN_SRC emacs-lisp

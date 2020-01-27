@@ -33,19 +33,19 @@ set mouse=a         " if I am lazy to go keyboard
 set cursorline
 
 " Tab Stuff
-nnoremap tn :tabnew<cr>
-nnoremap tk :tabnext<cr>
-nnoremap tj :tabprev<cr>
-nnoremap th :tabfirst<cr>
-nnoremap tl :tablast<cr>
+nnoremap <Leader>tn :tabnew<cr>
+nnoremap <Leader>tk :tabnext<cr>
+nnoremap <Leader>tj :tabprev<cr>
+nnoremap <Leader>th :tabfirst<cr>
+nnoremap <Leader>tl :tablast<cr>
 
 " Split Windows
 nnoremap <Leader>hs :split<cr>
 nnoremap <Leader>vs :vsplit<cr>
 
 " copying to xclip
-vmap <C-c> :!xclip -f -sel clip<CR>
-map <C-v> :-1r !xclip -o -sel clip<CR>
+vmap <"y+> :!xclip -f -sel clip<CR>
+map <"p+> :-1r !xclip -o -sel clip<CR>
 
 " Windows
 nnoremap <Leader>wl  <C-w>l
