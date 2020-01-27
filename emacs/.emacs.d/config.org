@@ -292,11 +292,11 @@ run (M-x all-the-icons-install-fonts) after the package installs
   (define-key evil-normal-state-map (kbd "SPC v s") 'evil-window-vsplit)
   (define-key evil-normal-state-map (kbd "SPC h s") 'evil-window-split)
   (define-key evil-normal-state-map (kbd "SPC w d") 'delete-window)
+  (define-key evil-normal-state-map (kbd "SPC w D") 'delete-other-windows)
 #+END_SRC
 *** Buffers
 #+BEGIN_SRC emacs-lisp
   (define-key evil-normal-state-map (kbd "SPC b B") 'ivy-switch-buffer)
-  (define-key evil-normal-state-map (kbd "SPC b O") 'delete-other-windows)
   (define-key evil-normal-state-map (kbd "SPC b ]") 'next-buffer)
   (define-key evil-normal-state-map (kbd "SPC b [") 'previous-buffer)
   (define-key evil-normal-state-map (kbd "SPC b k") 'kill-buffer)
@@ -307,6 +307,9 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (define-key evil-normal-state-map (kbd "SPC :") 'counsel-M-x)
 #+END_SRC
 *** Toggle
+*** 
+*** 
+*** 
 #+BEGIN_SRC emacs-lisp
   (define-key evil-normal-state-map (kbd "SPC t e") 'electric-pair-mode) 
   (define-key evil-normal-state-map (kbd "SPC t i") 'ivy-rich-mode)
