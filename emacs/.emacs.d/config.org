@@ -289,8 +289,8 @@ run (M-x all-the-icons-install-fonts) after the package installs
   (define-key evil-normal-state-map (kbd "SPC w k") 'evil-window-up)
   (define-key evil-normal-state-map (kbd "SPC w j") 'evil-window-down)
   (define-key evil-normal-state-map (kbd "SPC w h") 'evil-window-left)
-  (define-key evil-normal-state-map (kbd "SPC v s") 'evil-window-vsplit)
-  (define-key evil-normal-state-map (kbd "SPC h s") 'evil-window-split)
+  (define-key evil-normal-state-map (kbd "SPC w v") 'evil-window-vsplit)
+  (define-key evil-normal-state-map (kbd "SPC w s") 'evil-window-split)
   (define-key evil-normal-state-map (kbd "SPC w d") 'delete-window)
   (define-key evil-normal-state-map (kbd "SPC w D") 'delete-other-windows)
 #+END_SRC
@@ -307,13 +307,6 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (define-key evil-normal-state-map (kbd "SPC :") 'counsel-M-x)
 #+END_SRC
 *** Toggle
-*** 
-*** 
-*** 
-#+BEGIN_SRC emacs-lisp
-  (define-key evil-normal-state-map (kbd "SPC t e") 'electric-pair-mode) 
-  (define-key evil-normal-state-map (kbd "SPC t i") 'ivy-rich-mode)
-#+END_SRC
 * Synatax Highlighting
 #+BEGIN_SRC emacs-lisp
   (global-font-lock-mode t)
