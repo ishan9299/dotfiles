@@ -40,8 +40,8 @@ nnoremap <Leader>th :tabfirst<cr>
 nnoremap <Leader>tl :tablast<cr>
 
 " Split Windows
-nnoremap <Leader>hs :split<cr>
-nnoremap <Leader>vs :vsplit<cr>
+nnoremap <Leader>ws :split<cr>
+nnoremap <Leader>wv :vsplit<cr>
 
 " copying to xclip
 vmap <"y+> :!xclip -f -sel clip<CR>
@@ -135,7 +135,6 @@ set softtabstop=4   " backspace
 set shiftwidth=4    " indent width
 set mouse=a         " if I am lazy to go keyboard
 set cursorline
-
 
 " tab stuff
 nnoremap tn :tabnew<cr>
