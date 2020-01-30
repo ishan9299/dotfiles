@@ -229,7 +229,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
 #+BEGIN_SRC emacs-lisp
  (use-package avy
     :ensure t)
-;  (define-key evil-normal-state-map (kbd "SPC s s") 'avy-goto-char)
+  (define-key evil-normal-state-map (kbd "SPC s s") 'avy-goto-char)
 #+END_SRC
 * Alias
 ** Yes/No 
@@ -292,7 +292,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
   (define-key evil-normal-state-map (kbd "SPC w v") 'evil-window-vsplit)
   (define-key evil-normal-state-map (kbd "SPC w s") 'evil-window-split)
   (define-key evil-normal-state-map (kbd "SPC w d") 'delete-window)
-  (define-key evil-normal-state-map (kbd "SPC w D") 'delete-other-windows)
+  (define-key evil-normal-state-map (kbd "SPC w O") 'delete-other-windows)
 #+END_SRC
 *** Buffers
 #+BEGIN_SRC emacs-lisp
@@ -307,6 +307,9 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (define-key evil-normal-state-map (kbd "SPC :") 'counsel-M-x)
 #+END_SRC
 *** Toggle
+    #+BEGIN_SRC emacs-lisp
+      (define-key evil-normal-state-map (kbd "SPC t e") 'electric-pair-mode)
+    #+END_SRC
 * Synatax Highlighting
 #+BEGIN_SRC emacs-lisp
   (global-font-lock-mode t)

@@ -1,4 +1,3 @@
-;;makes it necessary to load emacs
 (require 'package)
 (setq package-enable-at-startup nil)
 (add-to-list 'package-archives
@@ -38,9 +37,13 @@
  '(global-display-line-numbers-mode t)
  '(helm-autoresize-mode t)
  '(helm-display-source-at-screen-top nil)
+
  '(package-selected-packages
    (quote
-    (all-the-icons-dired-mode all-the-icons-ivy ivy-rich counsel general neotree winum diminish which-key use-package swiper spacemacs-theme spaceline rainbow-mode rainbow-identifiers rainbow-delimiters pretty-mode org-bullets magit helm flycheck-clang-analyzer evil-org evil-collection dashboard company-irony company-c-headers beacon avy all-the-icons)))
+    (all-the-icons-dired-mode all-the-icons-ivy ivy-rich counsel general neotree winum diminish which-key use-package swiper
+	spacemacs-theme spaceline rainbow-mode rainbow-identifiers rainbow-delimiters pretty-mode org-bullets magit helm flycheck-clang-analyzer
+	evil-org evil-collection dashboard company-irony company-c-headers beacon avy all-the-icons)))
+
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 
@@ -49,8 +52,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#272822" :foreground "#f8f8f2" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 128 :width normal :foundry "CTDB" :family "Fira Code"))))
- '(helm-header ((t (:inherit header-line :weight bold :family "Fira Code"))))
- '(helm-selection ((t (:background "gray25" :distant-foreground "black"))))
- '(helm-source-header ((t (:inherit bold :background "#292b2e" :foreground "#c56ec3" :weight bold :height 1.3 :family "Fira Code"))))
+ '(default ((t (:inherit nil :stipple nil :background "#272822" :foreground "#f8f8f2"
+		:inverse-video nil :box nil :strike-through nil :overline nil :underline nil
+		:slant normal :weight normal :height 128 :width normal :foundry "CTDB" :family "Fira Code"))))
+
+
  '(hl-line ((t (:inherit nil :background "gray25")))))

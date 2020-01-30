@@ -44,8 +44,8 @@ nnoremap <Leader>ws :split<cr>
 nnoremap <Leader>wv :vsplit<cr>
 
 " copying to xclip
-vmap <"y+> :!xclip -f -sel clip<CR>
-map <"p+> :-1r !xclip -o -sel clip<CR>
+vmap <"+y> :!xclip -f -sel clip<CR>
+map <"+p> :-1r !xclip -o -sel clip<CR>
 
 " Windows
 nnoremap <Leader>wl  <C-w>l
