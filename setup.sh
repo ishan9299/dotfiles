@@ -25,9 +25,9 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome gnome-tweaks nvim emacs zsh tilix sushi python-nautilus seahorse celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
+    package="gnome gnome-tweaks neovim emacs zsh tilix sushi python-nautilus seahorse celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
     package="$package git dosbox xclip dconf kitty easytag atool avfs lollypop noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake"
-    package="$package fzf python-pynvim python-pywal seahorse-nautilus ttf-font-awesome"
+    package="$package fzf python-pynvim seahorse-nautilus ttf-font-awesome"
     sudo pacman -S $package
 }
 
@@ -72,7 +72,7 @@ echo "Removing the orphan packages"
 sudo pacman --noconfirm -Rns $(pacman -Qqtd)
 
 echo "Installing Bibata"
-if [[ ! -d Bibata_Amber ]]
+if [[ ! -d /usr/share/icons/Bibata_Amber ]]
 then
 	sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
 fi
