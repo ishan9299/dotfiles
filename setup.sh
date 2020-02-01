@@ -25,10 +25,13 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome gnome-tweaks neovim emacs zsh tilix sushi python-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
+    package="evince file-roller gdm gnome-books gnome-control-center gnome-dictionary gnome-weather grilo-plugins gvfs gvfs-mtp  zsh tilix sushi python-nautilus celluloid"
+    package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon"
+    package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share"
+    package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
     package="$package git dosbox xclip dconf kitty easytag atool avfs lollypop noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake"
-    package="$package fzf python-pynvim seahorse-nautilus ttf-font-awesome"
-    sudo pacman -S $(echo $package)
+    package="$package fzf python-pynvim seahorse-nautilus ttf-font-awesome neovim nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
+    sudo pacman --noconfirm -S $(echo $package)
 }
 
 if ! pacman -Q yay;
@@ -42,9 +45,10 @@ fi
 echo " 1.Bspwm 2.Gnome "
 echo " Enter the options "
 read option
-if [[ option == "2" ]]
+if [[ option=="2" ]]
 then
-    aurgnome
+    echo "installing gnome"
+#    aurgnome
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
@@ -53,8 +57,10 @@ then
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
-else
-    aurbwm
+elif [[ option="1" ]]
+then
+    echo "installing bspwm"
+    aurbspwm
     bspwm
     cd ~/dotfiles
     echo "Creating symlinks"
