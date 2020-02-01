@@ -220,7 +220,7 @@ run (M-x all-the-icons-install-fonts) after the package installs
       (setq spaceline-line-column-p nil)
       (setq spaceline-line-p nil)
       (setq powerline-default-separator (quote arrow))
-      (spaceline-spacemacs-theme)
+      (spaceline-emacs-theme)
       (setq winum-auto-setup-mode-line nil)
       (spaceline-toggle-minor-modes-off)
       (spaceline-toggle-flycheck-error-on)
