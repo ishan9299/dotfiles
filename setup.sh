@@ -18,17 +18,17 @@ bspwm()
     package="$package picom git network-manager-applet ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3"
     package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox"
     package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia nvidia-prime xorg-server poppler zathura highlight zathura-pdf-poppler"
-    sudo pacman --noconfirm -S $package
+    sudo pacman --noconfirm -S $(echo $package)
 }
 
 #ranger is also in gnome it's too convienient
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome gnome-tweaks neovim emacs zsh tilix sushi python-nautilus seahorse celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
+    package="gnome gnome-tweaks neovim emacs zsh tilix sushi python-nautilus celluloid nvidia nvidia-prime ttf-fira-code ttf-fira-sans"
     package="$package git dosbox xclip dconf kitty easytag atool avfs lollypop noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake"
     package="$package fzf python-pynvim seahorse-nautilus ttf-font-awesome"
-    sudo pacman -S $package
+    sudo pacman -S $(echo $package)
 }
 
 if ! pacman -Q yay;
@@ -42,21 +42,8 @@ fi
 echo " 1.Bspwm 2.Gnome "
 echo " Enter the options "
 read option
-if [[ option == "1" ]]
+if [[ option == "2" ]]
 then
-    aurwm
-    bspwm
-    cd ~/dotfiles
-    echo "Creating symlinks"
-    stow dunst ncmpcpp rofi bspwm sxhkd emacs mpd mpv polybar ranger picom nvim systemd 
-    touch ~/.config/mpd/pid
-    touch ~/.config/mpd/log
-    touch ~/.config/mpd/playlist
-    touch ~/.config/mpd/state
-    touch ~/.config/mpd/databse
-    systemctl enable --user mpd.service
-    systemctl enable --user emacs
-else
     aurgnome
     gnome
     cd ~/dotfiles
@@ -66,6 +53,16 @@ else
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
+else
+    aurbwm
+    bspwm
+    cd ~/dotfiles
+    echo "Creating symlinks"
+    stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim kitty polybar bspwm sxhkd rofi wal dunst picom
+    dconf load / < ~/.config/dconf/user.conf
+    systemctl enable --user mpd.service
+    systemctl enable --user emacs
+    sudo systemctl enable lightdm.service
 fi
 
 echo "Removing the orphan packages"
