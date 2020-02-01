@@ -18,6 +18,11 @@
   (use-package general
     :ensure t)
 #+END_SRC
+** Hydra
+#+BEGIN_SRC emacs-lisp
+  (use-package hydra
+    :ensure t)
+#+END_SRC
 ** Ivy
 #+BEGIN_SRC emacs-lisp
   (use-package counsel
@@ -64,6 +69,9 @@
     :config
     (require 'ivy-rich)
     (ivy-rich-mode 1))
+
+  (use-package ivy-hydra
+    :ensure t)
 #+END_SRC
 ** Bracket pairs
 #+BEGIN_SRC emacs-lisp
@@ -100,10 +108,11 @@
 		 (define-key evil-normal-state-local-map (kbd "n") 'neotree-next-line)
 		 (define-key evil-normal-state-local-map (kbd "p") 'neotree-previous-line)
 		 (define-key evil-normal-state-local-map (kbd "A") 'neotree-stretch-toggle)
-		 (define-key evil-normal-state-local-map (kbd "H")'neotree-hidden-file-toggle)))
-
+		 (define-key evil-normal-state-local-map (kbd "I")'neotree-hidden-file-toggle)))
        (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
        (setq neo-smart-open t)
+       (setq neo-window-fixed-size nil)
+       (setq neo-window-width 40)
        (require 'neotree)
        (global-set-key [f8] 'neotree-toggle))
    #+END_SRC
@@ -285,14 +294,17 @@ run (M-x all-the-icons-install-fonts) after the package installs
 ** VIM like keybindings
 *** Windows
 #+BEGIN_SRC emacs-lisp
+  (define-key evil-normal-state-map (kbd "SPC w w") 'other-window)
   (define-key evil-normal-state-map (kbd "SPC w l") 'evil-window-right)
   (define-key evil-normal-state-map (kbd "SPC w k") 'evil-window-up)
   (define-key evil-normal-state-map (kbd "SPC w j") 'evil-window-down)
   (define-key evil-normal-state-map (kbd "SPC w h") 'evil-window-left)
   (define-key evil-normal-state-map (kbd "SPC w v") 'evil-window-vsplit)
   (define-key evil-normal-state-map (kbd "SPC w s") 'evil-window-split)
-  (define-key evil-normal-state-map (kbd "SPC w d") 'delete-window)
+  (define-key evil-normal-state-map (kbd "SPC w c") 'delete-window)
   (define-key evil-normal-state-map (kbd "SPC w O") 'delete-other-windows)
+  (define-key evil-normal-state-map (kbd "SPC w >") 'evil-window-increase-width)
+  (define-key evil-normal-state-map (kbd "SPC w <") 'evil-window-decrease-width)
 #+END_SRC
 *** Buffers
 #+BEGIN_SRC emacs-lisp
