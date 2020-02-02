@@ -48,7 +48,7 @@ read option
 if [[ option=="2" ]]
 then
     echo "installing gnome"
-#    aurgnome
+    aurgnome
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
