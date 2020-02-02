@@ -52,6 +52,7 @@ then
     gnome
     cd ~/dotfiles
     echo "Creating symlinks"
+    rm ~/.zshrc
     stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp nvim zsh
     dconf load / < ~/.config/dconf/user.conf
     systemctl enable --user mpd.service
@@ -64,6 +65,7 @@ then
     bspwm
     cd ~/dotfiles
     echo "Creating symlinks"
+    rm ~/.zshrc
     stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim kitty polybar bspwm sxhkd rofi wal dunst picom zsh
     dconf load / < ~/.config/dconf/user.conf
     systemctl enable --user mpd.service
@@ -93,5 +95,5 @@ fi
 
 if [[ ! -d ~/.powerlevel10k ]]
 then
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
 fi
