@@ -4,7 +4,6 @@ font:
     family: FuraCode Nerd Font
     # Style can be specified to pick a specific face.
     style: Regular
-    size: 7.0
 
   # The bold font face
   bold:
@@ -17,34 +16,31 @@ font:
     family: FuraCode Nerd Font
     # Style can be specified to pick a specific face.
     # style: Italic
+
+  size: 14.0
     
-
-
-# BEGIN ACE
 colors:
   primary:
-    background: '0x0b0304'
-    foreground: '0xf0e0aa'
-  cursor:
-    text:       '0x0b0304'
-    cursor:     '0xf0e0aa'
-  normal:
-    black:      '0x0b0304'
-    red:        '0xA15528'
-    green:      '0xDB6922'
-    yellow:     '0x7D8259'
-    blue:       '0xEA932F'
-    magenta:    '0xAF9F59'
-    cyan:       '0xECAB4F'
-    white:      '0xf0e0aa'
-  bright:
-    black:      '0xa89c76'
-    red:        '0xA15528'
-    green:      '0xDB6922'
-    yellow:     '0x7D8259'
-    blue:       '0xEA932F'
-    magenta:    '0xAF9F59'
-    cyan:       '0xECAB4F'
-    white:      '0xf0e0aa'
+    background: '0x282828'
+    foreground: '0xdfbf8e'
 
-# END ACE
+  normal:
+    black:   '0x665c54'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe78a4e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
+  bright:
+    black:   '0x928374'
+    red:     '0xea6962'
+    green:   '0xa9b665'
+    yellow:  '0xe3a84e'
+    blue:    '0x7daea3'
+    magenta: '0xd3869b'
+    cyan:    '0x89b482'
+    white:   '0xdfbf8e'
+
