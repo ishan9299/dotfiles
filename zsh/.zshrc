@@ -25,9 +25,9 @@ alias vim="nvim"
 alias ll="lsd -la"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source $HOME/.p10k.zsh
+[[ ! -f $HOME/.p10k.zsh ]] || source $HOME/.p10k.zsh
 # FZF for zsh
-[[ -f ~/.zsh/fzf.zsh ]] && source $HOME/.zsh/fzf.zsh
+[[ -f $HOME/.zsh/fzf.zsh ]] && source $HOME/.zsh/fzf.zsh
 
 # Powerlevel10k theme
 source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme 
