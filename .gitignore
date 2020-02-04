@@ -34,3 +34,4 @@ mpd/.config/mpd/playlist
 mpd/.config/mpd/sticker.sql
 alacritty/.config/alacritty/alacritty.yml.bak
 zsh/.zsh/powerlevel10k
+zsh/#*
