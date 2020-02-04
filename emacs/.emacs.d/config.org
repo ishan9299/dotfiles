@@ -202,6 +202,28 @@ run (M-x all-the-icons-install-fonts) after the package installs
     (add-hook 'prog-mode-hook 'rainbow-mode))
   (show-paren-mode 1)
 #+END_SRC
+** doom-modeline
+#+BEGIN_SRC emacs-lisp
+  (use-package doom-modeline
+	:ensure t
+	:hook (after-init . doom-modeline-mode)
+	:config
+	;; How tall the mode-line should be. It's only respected in GUI.
+  ;; If the actual char height is larger, it respects the actual height.
+  (setq doom-modeline-height 25))
+#+END_SRC
+** doom-theme
+#+BEGIN_SRC emacs-lisp
+  (use-package doom-themes
+    :ensure t
+    :config
+    (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+	  doom-themes-enable-italic t) ; if nil, italics is universally disabled
+    (setq doom-theme 'doom-gruvbox)
+    (doom-themes-visual-bell-config)
+    (doom-themes-neotree-config)
+    (doom-themes-org-config))
+#+END_SRC
 ** Evil Normal State Always
 #+BEGIN_SRC emacs-lisp
     (setq evil-normal-state-modes
@@ -209,22 +231,6 @@ run (M-x all-the-icons-install-fonts) after the package installs
 		  evil-insert-state-modes
 		  evil-normal-state-modes
 		  evil-motion-state-modes))
-#+END_SRC
-** Spaceline
-#+BEGIN_SRC emacs-lisp
-  (use-package spaceline
-    :ensure t
-    :config
-    (require 'spaceline-config)
-      (setq spaceline-buffer-encoding-abbrev-p nil)
-      (setq spaceline-line-column-p nil)
-      (setq spaceline-line-p nil)
-      (setq powerline-default-separator (quote arrow))
-      (spaceline-emacs-theme)
-      (setq winum-auto-setup-mode-line nil)
-      (spaceline-toggle-minor-modes-off)
-      (spaceline-toggle-flycheck-error-on)
-      (spaceline-toggle-flycheck-warning-on))
 #+END_SRC
 ** Pretty Symbols
 #+BEGIN_SRC emacs-lisp
