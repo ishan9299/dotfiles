@@ -2,12 +2,12 @@
 
 aurwm()
 {
-    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git ttf-nerd-fonts-hack-complete-git nerd-fonts-fira-code tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts
+    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts ttf-iosevka
 }
 
 aurgnome()
 {
-    yay --noconfirm -S brave-bin nerd-fonts-fira-code ttf-nerd-fonts-hack-complete-git pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts
+    yay --noconfirm -S brave-bin pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -42,16 +42,16 @@ then
     sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j$(nproc)\"/" /etc/makepkg.conf
 fi
 
-echo " 1.Bspwm 2.Gnome "
-echo " Enter the options "
+echo "-1.Bspwm-2.Gnome " | sed 's/-/ /g' 
+echo "-Enter the options " | sed 's/-/ /g'
 read option
 if [[ option=="2" ]]
 then
-    echo "installing gnome"
+    echo "-Installing Gnome"
     aurgnome
     gnome
     cd ~/dotfiles
-    echo "Creating symlinks"
+    echo "-Creating Symlinks"
     rm ~/.zshrc
     stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp nvim zsh
     dconf load / < ~/.config/dconf/user.conf
@@ -60,11 +60,11 @@ then
     sudo systemctl enable gdm.service
 elif [[ option="1" ]]
 then
-    echo "installing bspwm"
+    echo "-Installing Bspwm" | sed 's/-/ /'
     aurbspwm
     bspwm
     cd ~/dotfiles
-    echo "Creating symlinks"
+    echo "-Creating Symlinks" | sed 's/-/ /'
     rm ~/.zshrc
     stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim kitty polybar bspwm sxhkd rofi wal dunst picom zsh
     dconf load / < ~/.config/dconf/user.conf
@@ -73,10 +73,9 @@ then
     sudo systemctl enable lightdm.service
 fi
 
-echo "Removing the orphan packages"
+echo "-Removing the orphan packages" | sed 's/-/ /'
 sudo pacman --noconfirm -Rns $(pacman -Qqtd)
-
-echo "Installing Bibata"
+echo "-Installing Bibata" | sed 's/-/ /'
 if [[ ! -d /usr/share/icons/Bibata_Amber ]]
 then
 	sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
@@ -84,9 +83,9 @@ fi
 
 if [[ ! -a ~/.gitconfig ]]
 then
-    echo " Enter the name for git "
+    echo "-Enter the name for git " | sed 's/-/ /'
     read name
-    echo " Enter the email for git "
+    echo "-Enter the email for git " | sed 's/-/ /'
     read email
 
     git config --global user.name $name
