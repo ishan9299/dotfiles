@@ -13,6 +13,7 @@ export KEYTIMEOUT=1
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=$HOME/.zsh_history
+PATH=$HOME/.local/bin:$PATH
 
 # Basic auto/tab complete:
 autoload -U compinit
