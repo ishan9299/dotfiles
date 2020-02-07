@@ -7,16 +7,16 @@ aurwm()
 
 aurgnome()
 {
-    yay --noconfirm -S brave-bin pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka
+    yay --noconfirm -S brave-bin pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka gnome-music-git
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
 # atool and avfs for ranger extracting files and highlight for syntax highlight in previews for ranger ffmpegthumnailer for vedios
 bspwm()
 {
-    package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl zsh-syntax-highlighting"
-    package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 zsh-completions"
-    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox zsh-autosuggestions"
+    package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl "
+    package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 "
+    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox "
     package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia nvidia-prime xorg-server poppler zathura highlight zathura-pdf-poppler"
     sudo pacman --noconfirm -S $(echo $package)
 }
@@ -29,8 +29,8 @@ gnome()
     package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon"
     package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share"
     package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
-    package="$package git dosbox xclip dconf kitty easytag atool avfs lollypop noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake zsh-autosuggestions"
-    package="$package fzf python-pynvim flatpak seahorse-nautilus ttf-font-awesome neovim nvidia nvidia-prime ttf-fira-code ttf-fira-sans zsh-syntax-highlighting zsh-completions"
+    package="$package git dosbox xclip dconf kitty easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
+    package="$package fzf python-pynvim flatpak seahorse-nautilus ttf-font-awesome neovim nvidia nvidia-prime ttf-fira-code ttf-fira-sans "
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -58,7 +58,7 @@ then
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
-elif [[ option="1" ]]
+elif [[ option=="1" ]]
 then
     echo "-Installing Bspwm" | sed 's/-/ /'
     aurbspwm
