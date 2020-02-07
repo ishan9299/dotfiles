@@ -36,8 +36,8 @@ gnome()
 
 if ! pacman -Q yay;
 then
-    git clone https://aur.archlinux.org/yay-bin.git ~/.aur
-    cd ~/.aur
+    git clone https://aur.archlinux.org/yay-bin.git $HOME/.aur
+    cd $HOME/.aur
     makepkg -si
     sudo sed -i "s/#MAKEFLAGS=\"-j2\"/MAKEFLAGS=\"-j$(nproc)\"/" /etc/makepkg.conf
 fi
@@ -50,11 +50,11 @@ then
     echo "-Installing Gnome"
     aurgnome
     gnome
-    cd ~/dotfiles
+    cd $HOME/dotfiles
     echo "-Creating Symlinks"
-    rm ~/.zshrc
-    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp nvim zsh
-    dconf load / < ~/.config/dconf/user.conf
+    rm $HOME/.zshrc
+    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp nvim
+    dconf load / < $HOME/.config/dconf/user.conf
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
@@ -63,11 +63,11 @@ then
     echo "-Installing Bspwm" | sed 's/-/ /'
     aurbspwm
     bspwm
-    cd ~/dotfiles
+    cd $HOME/dotfiles
     echo "-Creating Symlinks" | sed 's/-/ /'
-    rm ~/.zshrc
-    stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim kitty polybar bspwm sxhkd rofi wal dunst picom zsh
-    dconf load / < ~/.config/dconf/user.conf
+    rm $HOME/.zshrc
+    stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim kitty polybar bspwm sxhkd rofi wal dunst picom
+    dconf load / < $HOME/.config/dconf/user.conf
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable lightdm.service
@@ -81,7 +81,7 @@ then
 	sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
 fi
 
-if [[ ! -a ~/.gitconfig ]]
+if [[ ! -a $HOME/.gitconfig ]]
 then
     echo "-Enter the name for git " | sed 's/-/ /'
     read name
@@ -92,7 +92,21 @@ then
     git config --global user.email $email
 fi
 
-if [[ ! -d ~/.powerlevel10k ]]
+if [[ ! -d $HOME/.oh-my-zsh ]]
 then
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" &
+    wait
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=$HOME/.oh-my-zsh/custom}/plugins/zsh-completions
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+fi
+sed -i "s/(git)/(git vi-mode fzf zsh-syntax-highlighting zsh-completions)/;s/\"robbyrussell\"/powerlevel10k\/powerlevel10k/" $HOME/.zshrc
+
+# showing hidden files
+if ! grep --quiet "_comp_options+=(globdots)" $HOME/.zshrc
+then
+    echo "already shows hidden files"
+else
+    echo "_comp_options+=(globdots)" >> $HOME/.zshrc # autocompletion shows hidden files
 fi
