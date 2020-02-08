@@ -47,7 +47,7 @@ echo "-Enter the options " | sed 's/-/ /g'
 read option
 if [[ option=="2" ]]
 then
-    echo "-Installing Gnome"
+    echo "-Installing Gnome" | sed 's/-/ /g'
     aurgnome
     gnome
     cd $HOME/dotfiles
@@ -78,7 +78,7 @@ sudo pacman --noconfirm -Rns $(pacman -Qqtd)
 echo "-Installing Bibata" | sed 's/-/ /'
 if [[ ! -d /usr/share/icons/Bibata_Amber ]]
 then
-	sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
+    sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
 fi
 
 if [[ ! -a $HOME/.gitconfig ]]
@@ -104,7 +104,7 @@ fi
 sed -i "s/(git)/(git vi-mode fzf zsh-syntax-highlighting zsh-completions)/;s/\"robbyrussell\"/powerlevel10k\/powerlevel10k/" $HOME/.zshrc
 
 # showing hidden files
-if ! grep --quiet "_comp_options+=(globdots)" $HOME/.zshrc
+if grep --quiet "_comp_options+=(globdots)" $HOME/.zshrc
 then
     echo "already shows hidden files"
 else
