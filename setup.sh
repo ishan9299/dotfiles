@@ -7,7 +7,7 @@ aurwm()
 
 aurgnome()
 {
-    yay --noconfirm -S brave-bin pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka gnome-music-git
+    yay --noconfirm -S pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka gnome-music-git
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -26,7 +26,7 @@ bspwm()
 gnome()
 {
     package="evince file-roller gdm gnome-books gnome-control-center gnome-dictionary gnome-weather grilo-plugins gvfs gvfs-mtp  zsh tilix sushi python-nautilus celluloid"
-    package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw"
+    package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw chromium"
     package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share pulseaudio-equalizer"
     package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
     package="$package git dosbox xclip dconf kitty easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
