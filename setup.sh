@@ -2,12 +2,12 @@
 
 aurwm()
 {
-    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts ttf-iosevka
+    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts ttf-iosevka nushell
 }
 
 aurgnome()
 {
-    yay --noconfirm -S pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka gnome-music-git
+    yay --noconfirm -S pop-icon-theme-git python-ueberzug ranger-git ttf-ms-fonts ttf-iosevka lollypop-git nushell
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -29,7 +29,7 @@ gnome()
     package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw chromium"
     package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share pulseaudio-equalizer"
     package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
-    package="$package git dosbox xclip dconf kitty easytag atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
+    package="$package git dosbox xclip dconf alacritty kid3-qt atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
     package="$package fzf python-pynvim flatpak seahorse-nautilus ttf-font-awesome neovim nvidia nvidia-prime ttf-fira-code ttf-fira-sans "
     sudo pacman --noconfirm -S $(echo $package)
 }
@@ -53,8 +53,8 @@ then
     cd $HOME/dotfiles
     echo "-Creating Symlinks"
     rm $HOME/.zshrc
-    stow systemd emacs dconf systemd ranger mpv mpd ncmpcpp nvim
-    dconf load / < $HOME/.config/dconf/user.conf
+    stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim doom
+    dconf load / < $HOME/dotfiles/dconf/.config/dconf/user.conf
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
@@ -66,7 +66,7 @@ then
     cd $HOME/dotfiles
     echo "-Creating Symlinks" | sed 's/-/ /'
     rm $HOME/.zshrc
-    stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim kitty polybar bspwm sxhkd rofi wal dunst picom
+    stow systemd ranger mpv mpd ncmpcpp nvim alacritty polybar bspwm sxhkd rofi wal dunst picom doom
     dconf load / < $HOME/.config/dconf/user.conf
     systemctl enable --user mpd.service
     systemctl enable --user emacs
