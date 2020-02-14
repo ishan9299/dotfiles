@@ -15,7 +15,7 @@ aurgnome()
 bspwm()
 {
     package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl "
-    package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 "
+    package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 tlp"
     package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox bumblebee"
     package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia xorg-server poppler zathura highlight zathura-pdf-poppler"
     sudo pacman --noconfirm -S $(echo $package)
@@ -26,7 +26,7 @@ bspwm()
 gnome()
 {
     package="evince file-roller gdm gnome-books gnome-control-center gnome-dictionary gnome-weather grilo-plugins gvfs gvfs-mtp  zsh tilix sushi python-nautilus celluloid"
-    package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw chromium"
+    package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw chromium tlp"
     package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share pulseaudio-equalizer"
     package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
     package="$package git dosbox xclip dconf alacritty kid3-qt atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
@@ -59,6 +59,7 @@ then
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
     sudo systemctl enable bumblebeed.service
+    sudo systemctl enable tlp.service
     sudo gpasswd $(whoami) bumblebee
 elif [[ option=="1" ]]
 then
@@ -74,6 +75,7 @@ then
     systemctl enable --user emacs
     sudo systemctl enable lightdm.service
     sudo systemctl enable bumblebeed.service
+    sudo systemctl enable tlp.service
     sudo gpasswd $(whoami) bumblebee
 fi
 
