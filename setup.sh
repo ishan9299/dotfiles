@@ -16,8 +16,8 @@ bspwm()
 {
     package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl "
     package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 "
-    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox "
-    package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia nvidia-prime xorg-server poppler zathura highlight zathura-pdf-poppler"
+    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox bumblebee"
+    package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia xorg-server poppler zathura highlight zathura-pdf-poppler"
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -30,7 +30,7 @@ gnome()
     package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share pulseaudio-equalizer"
     package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
     package="$package git dosbox xclip dconf alacritty kid3-qt atool avfs noto-fonts-emoji stow mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
-    package="$package fzf python-pynvim flatpak seahorse-nautilus ttf-font-awesome neovim nvidia nvidia-prime ttf-fira-code ttf-fira-sans "
+    package="$package fzf python-pynvim flatpak seahorse-nautilus ttf-font-awesome neovim nvidia ttf-fira-code ttf-fira-sans bumblebee"
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -58,6 +58,8 @@ then
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable gdm.service
+    sudo systemctl enable bumblebeed.service
+    sudo gpasswd $(whoami) bumblebee
 elif [[ option=="1" ]]
 then
     echo "-Installing Bspwm" | sed 's/-/ /'
@@ -71,6 +73,8 @@ then
     systemctl enable --user mpd.service
     systemctl enable --user emacs
     sudo systemctl enable lightdm.service
+    sudo systemctl enable bumblebeed.service
+    sudo gpasswd $(whoami) bumblebee
 fi
 
 echo "-Removing the orphan packages" | sed 's/-/ /'
