@@ -102,6 +102,7 @@ if [[ ! -d $HOME/.config/zsh ]]
 then
     mkdir $HOME/.config/zsh
     cd $HOME/.config/zsh
+    sudo curl -fsSL https://starship.rs/install.sh | bash
     git clone https://github.com/zsh-users/zsh-completions.git
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 fi
