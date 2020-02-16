@@ -68,6 +68,13 @@ colors:
     cyan:    '0x89b482'
     white:   '0xdfbf8e'
 
+# Background opacity
+#
+# Window opacity as a floating point number from `0.0` to `1.0`.
+# The value `0.0` is completely transparent and `1.0` is opaque.
+background_opacity: 0.96
+
+
 cursor:
   # Cursor style
   #
@@ -79,6 +86,12 @@ cursor:
 
 shell:
   program: /bin/nu
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
 
 # Mouse bindings
 #
