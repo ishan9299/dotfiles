@@ -1,3 +1,20 @@
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels.
+  # If both are `0`, this setting is ignored.
+  dimensions:
+    columns: 120
+    lines: 28
+
+  # Window position (changes require restart)
+  #
+  # Specified in number of pixels.
+  # If the position is not set, the window manager will handle the placement.
+  position:
+    x: 8
+    y: 8
+
 font:
   # The normal (roman) font face to use.
   normal:
@@ -18,6 +35,13 @@ font:
     style: Italic
 
   size: 14.0
+
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increasing `x` moves the glyph to the right,
+  # increasing `y` moves the glyph upwards.
+  glyph_offset:
+    x: 0
+    y: 0
     
 colors:
   primary:
@@ -43,3 +67,41 @@ colors:
     magenta: '0xd3869b'
     cyan:    '0x89b482'
     white:   '0xdfbf8e'
+
+cursor:
+  # Cursor style
+  #
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Underline
+
+shell:
+  program: /bin/nu
+
+# Mouse bindings
+#
+# Mouse bindings are specified as a list of objects, much like the key
+# bindings further below.
+#
+# To trigger mouse bindings when an application running within Alacritty captures the mouse, the
+# `Shift` modifier is automatically added as a requirement.
+#
+# Each mouse binding will specify a:
+#
+# - `mouse`:
+#
+#   - Middle
+#   - Left
+#   - Right
+#   - Numeric identifier such as `5`
+#
+# - `action` (see key bindings)
+#
+# And optionally:
+#
+# - `mods` (see key bindings)
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+  - { mouse: Right, action: Copy }
