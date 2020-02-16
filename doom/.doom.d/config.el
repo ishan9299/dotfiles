@@ -53,4 +53,4 @@
 ;; Don’t compact font caches during GC.
 (setq inhibit-compacting-font-caches t)
 (setq doom-modeline-icon (display-graphic-p))
-(setq doom-modeline-height 55)
+(setq doom-modeline-height 35)
