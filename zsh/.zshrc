@@ -19,8 +19,12 @@ set -o vi
 
 # extensions
 fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
-source /usr/share/fzf/key-bindings.zsh 
-source /usr/share/fzf/completion.zsh 
+source ~/.config/zsh/key-bindings.zsh 
+source ~/.config/zsh/completion.zsh 
+
+typeset -U PATH path
+path=("$HOME/.local/bin" "$HOME/.cargo/bin" "$path[@]")
+export PATH
 
 # compinit 
 autoload -U compinit && compinit
