@@ -85,7 +85,7 @@ cursor:
   style: Underline
 
 shell:
-  program: /bin/nu
+  program: /bin/zsh
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
