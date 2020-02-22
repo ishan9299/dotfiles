@@ -2,6 +2,7 @@
 eval "$(starship init zsh)"
 
 # history
+SAVEHIST=100
 HISTFILE=~/.zsh_history
 
 # Highlight the selection
