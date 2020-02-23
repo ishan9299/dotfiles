@@ -25,12 +25,12 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="evince file-roller gdm gnome-books gnome-control-center gnome-dictionary gnome-weather grilo-plugins gvfs gvfs-mtp  zsh tilix sushi python-nautilus celluloid"
+    package="evince file-roller gdm gnome-books gnome-control-center gnome-dictionary gnome-weather grilo-plugins gvfs gvfs-mtp zsh tilix sushi python-nautilus celluloid"
     package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw chromium tlp"
     package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share pulseaudio-equalizer"
-    package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks emacs"
-    package="$package git dosbox xclip dconf alacritty kid3-qt atool avfs noto-fonts-emoji stow ranger mpd mpc ncmpcpp noto-fonts sbcl clang llvm cmake "
-    package="$package fzf python-pynvim flatpak seahorse-nautilus ttf-font-awesome neovim nvidia ttf-fira-code ttf-fira-sans bumblebee"
+    package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks "
+    package="$package git dosbox xclip dconf alacritty kid3-qt atool avfs noto-fonts-emoji stow ranger mpd mpc ncmpcpp noto-fonts"
+    package="$package fzf flatpak seahorse-nautilus ttf-font-awesome neovim nvidia ttf-fira-code ttf-fira-sans bumblebee"
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -53,10 +53,9 @@ then
     cd $HOME/dotfiles
     echo "-Creating Symlinks"
     rm $HOME/.zshrc
-    stow systemd emacs systemd ranger mpv mpd ncmpcpp nvim doom zsh
+    stow systemd systemd ranger mpv mpd ncmpcpp nvim doom zsh
     dconf load / < $HOME/dotfiles/dconf/.config/dconf/user.conf
     systemctl enable --user mpd.service
-    systemctl enable --user emacs
     sudo systemctl enable gdm.service
     sudo systemctl enable bumblebeed.service
     sudo systemctl enable tlp.service
@@ -69,10 +68,9 @@ then
     cd $HOME/dotfiles
     echo "-Creating Symlinks" | sed 's/-/ /'
     rm $HOME/.zshrc
-    stow systemd ranger mpv mpd ncmpcpp nvim alacritty polybar bspwm sxhkd rofi wal dunst picom doom zsh
+    stow systemd ranger mpv mpd ncmpcpp nvim alacritty polybar bspwm sxhkd rofi wal dunst picom zsh
     dconf load / < $HOME/.config/dconf/user.conf
     systemctl enable --user mpd.service
-    systemctl enable --user emacs
     sudo systemctl enable lightdm.service
     sudo systemctl enable bumblebeed.service
     sudo systemctl enable tlp.service
