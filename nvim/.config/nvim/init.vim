@@ -52,7 +52,6 @@ nnoremap <Leader>wd  :q<cr>
 
 "Extensions Vim Plug
 call plug#begin('~/.config/nvim/plugged')
-Plug 'jceb/vim-orgmode'
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline-themes'
