@@ -43,10 +43,6 @@ nnoremap <Leader>tl :tablast<cr>
 nnoremap <Leader>ws :split<cr>
 nnoremap <Leader>wv :vsplit<cr>
 
-" copying to xclip
-vmap <"+y> :!xclip -f -sel clip<CR>
-map <"+p> :-1r !xclip -o -sel clip<CR>
-
 " Windows
 nnoremap <Leader>wl  <C-w>l
 nnoremap <Leader>wk  <C-w>k
@@ -152,6 +148,9 @@ map <f8> :NERDTreeToggle<CR>
 
 " Easy motion
 nmap <Leader>ss <Plug>(easymotion-overwin-f)
+
+autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd filetype cpp nnoremap <F5> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
 
 " Autoinstall Plug Nvim
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
