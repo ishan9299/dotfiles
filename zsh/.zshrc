@@ -18,11 +18,6 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 # vi-mode
 set -o vi
 
-# extensions
-fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
-source ~/.config/zsh/key-bindings.zsh 
-source ~/.config/zsh/completion.zsh 
-
 typeset -U PATH path
 path=("$HOME/.local/bin" "$HOME/.cargo/bin" "$path[@]")
 export PATH
@@ -44,8 +39,13 @@ alias ll="lsd -la"
 
 bindkey -s '^o' '. ranger\n'  # zsh
 
+# Default EDITOR
+export EDITOR=nvim
+
+# extensions
+fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
+source ~/.config/zsh/key-bindings.zsh 
+source ~/.config/zsh/completion.zsh 
 # keeping the syntax highlighting in last as it is said in the github page
 source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# Default EDITOR
-export EDITOR=nvim
