@@ -25,12 +25,7 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="evince file-roller gdm gnome-books gnome-control-center gnome-dictionary gnome-weather grilo-plugins gvfs gvfs-mtp zsh tilix sushi python-nautilus celluloid"
-    package="$package gnome-calculator gnome-calendar gnome-characters gnome-clocks gnome-color-manager gnome-disk-utility gnome-settings-daemon gufw chromium tlp"
-    package="$package gnome-font-viewer gnome-keyring gnome-menus gnome-screenshot gnome-session gnome-shell gnome-themes-extra gnome-user-share pulseaudio-equalizer"
-    package="$package gnome-shell-extensions gvfs-google mousetweaks mutter nautilus networkmanager orca rygel sushi tracker tracker-miners vino xdg-user-dirs-gtk gnome-tweaks "
-    package="$package git dosbox xclip dconf alacritty kid3-qt atool avfs noto-fonts-emoji stow ranger mpd mpc ncmpcpp noto-fonts"
-    package="$package fzf flatpak seahorse-nautilus ttf-font-awesome neovim nvidia ttf-fira-code ttf-fira-sans bumblebee"
+    package="gnome-shell gdm gnome-terminal nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix noto-fonts-emoji pipewire firefox tlp nvidia bumblebee"
     sudo pacman --noconfirm -S $(echo $package)
 }
 
