@@ -7,7 +7,7 @@ aurwm()
 
 aurgnome()
 {
-    yay --noconfirm -S pop-icon-theme-git ttf-ms-fonts ttf-iosevka lollypop-git nushell
+    yay --noconfirm -S pop-icon-theme-git ttf-ms-fonts ttf-iosevka nushell
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -25,7 +25,8 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome-shell gdm gnome-terminal nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix noto-fonts-emoji pipewire firefox tlp nvidia bumblebee"
+    package="gnome-shell gdm gnome-terminal nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix noto-fonts-emoji pipewire firefox tlp nvidia bumblebee gnome-control-center"
+    package="$package gnome-disk-utility gnome-software gnome-weather"
     sudo pacman --noconfirm -S $(echo $package)
 }
 

@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo dnf remove totem libreoffice-* rhythmbox firefox gnome-contacts gnome-maps
-sudo dnf install neovim git chromium gnome-tweaks dconf-editor zsh tilix stow ranger
+sudo dnf remove totem libreoffice-* rhythmbox gnome-contacts gnome-maps gnome-boxes
+sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
 

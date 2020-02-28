@@ -24,6 +24,7 @@ export PATH
 
 # compinit 
 autoload -U compinit && compinit
+autoload -Uz tetriscurses
 
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
@@ -36,6 +37,7 @@ zle -N self-insert url-quote-magic
 
 # alias
 alias ll="lsd -la"
+alias dosbox="env WINIT_UNIX_BACKEND=x11 dosbox"
 
 bindkey -s '^o' '. ranger\n'  # zsh
 
