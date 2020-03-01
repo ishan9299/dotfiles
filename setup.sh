@@ -7,7 +7,7 @@ aurwm()
 
 aurgnome()
 {
-    yay --noconfirm -S pop-icon-theme-git ttf-ms-fonts ttf-iosevka nushell
+    yay --noconfirm -S pop-icon-theme-git ttf-ms-fonts ttf-iosevka nushell 
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -26,7 +26,7 @@ bspwm()
 gnome()
 {
     package="gnome-shell gdm gnome-terminal nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix noto-fonts-emoji pipewire firefox tlp nvidia bumblebee gnome-control-center"
-    package="$package gnome-disk-utility gnome-software gnome-weather"
+    package="$package gnome-disk-utility gnome-software gnome-weather wl-clipboard"
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -101,4 +101,11 @@ then
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
     wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
     wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
+fi
+
+if ! pacman -Q snapper;
+then
+    yay -S snapper-gui
+    sudo systemctl enable snapper-timeline.timer
+    sudo systemctl enable snapper-cleanup.timer
 fi

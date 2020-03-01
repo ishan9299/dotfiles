@@ -37,7 +37,6 @@ zle -N self-insert url-quote-magic
 
 # alias
 alias ll="lsd -la"
-alias dosbox="env WINIT_UNIX_BACKEND=x11 dosbox"
 
 bindkey -s '^o' '. ranger\n'  # zsh
 
