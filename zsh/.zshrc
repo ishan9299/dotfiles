@@ -42,11 +42,10 @@ bindkey -s '^o' '. ranger\n'  # zsh
 
 # Default EDITOR
 export EDITOR=nvim
+export TERMINAL=tilix
 
 # extensions
 fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
-source ~/.config/zsh/key-bindings.zsh 
-source ~/.config/zsh/completion.zsh 
 # keeping the syntax highlighting in last as it is said in the github page
 source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

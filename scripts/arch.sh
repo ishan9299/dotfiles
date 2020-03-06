@@ -101,8 +101,6 @@ then
     sudo curl -fsSL https://starship.rs/install.sh | bash
     git clone https://github.com/zsh-users/zsh-completions.git
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-    wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
-    wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
 fi
 
 if ! pacman -Q snapper;
