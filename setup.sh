@@ -7,7 +7,7 @@ aurwm()
 
 aurgnome()
 {
-    yay --noconfirm -S pop-icon-theme-git ttf-ms-fonts ttf-iosevka nushell 
+    yay --noconfirm -S ttf-ms-fonts ttf-iosevka 
 }
 
 # Some pacakges are required by my emacs config like sbcl clang llvm cmake remove these if u dont use emacs 
@@ -17,7 +17,7 @@ bspwm()
     package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl "
     package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 tlp"
     package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox bumblebee"
-    package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia xorg-server poppler zathura highlight zathura-pdf-poppler"
+    package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia xorg-server poppler zathura highlight zathura-pdf-poppler wget"
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -25,8 +25,9 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome-shell gdm gnome-terminal nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix pipewire firefox tlp bumblebee gnome-control-center xdg-user-dirs-gtk xdg-user-dirs"
-    package="$package gnome-disk-utility gnome-software gnome-weather wl-clipboard noto-fonts-emoji nvidia"
+    package="gnome-shell gdm nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix pipewire firefox tlp bumblebee xdg-user-dirs-gtk xdg-user-dirs"
+    package="$package gnome-disk-utility gnome-software gnome-weather wl-clipboard noto-fonts-emoji nvidia gnome-terminal noto-fonts-extra gnome-control-center wget"
+    package="$package python-nautilus seahorse-nautilus" 
     sudo pacman --noconfirm -S $(echo $package)
 }
 
@@ -50,7 +51,7 @@ then
     echo "-Creating Symlinks"
     rm $HOME/.zshrc
     stow systemd systemd ranger mpv mpd ncmpcpp nvim doom zsh
-    dconf load / < $HOME/dotfiles/dconf/.config/dconf/user.conf
+    dconf load / < $HOME/dotfiles/dconf/gnome.config
     systemctl enable --user mpd.service
     sudo systemctl enable gdm.service
     sudo systemctl enable bumblebeed.service
