@@ -2,7 +2,7 @@
 
 aurwm()
 {
-    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git brave-bin polybar-git tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts ttf-iosevka nushell
+    yay --noconfirm --needed -S python-ueberzug tdrop ranger-git polybar-git tela-icon-theme-git i3lock-fancy-git lightdm-webkit-theme-litarvan ttf-ms-fonts ttf-iosevka 
 }
 
 aurgnome()
@@ -103,9 +103,16 @@ then
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 fi
 
-if ! pacman -Q snapper;
+if pacman -Q snapper;
 then
     yay -S snapper-gui
     sudo systemctl enable snapper-timeline.timer
     sudo systemctl enable snapper-cleanup.timer
 fi
+
+if pacman -Q flatpak
+then
+    flatpak remote-add flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+    flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+fi
+
