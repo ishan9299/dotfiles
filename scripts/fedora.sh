@@ -1,8 +1,6 @@
 #!/bin/bash
 sudo dnf remove totem libreoffice-* rhythmbox gnome-contacts gnome-maps gnome-boxes
 sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
 stow ~/dotfiles/zsh
 dconf load / < $HOME/dotfiles/dconf/gnome.config
 
@@ -36,3 +34,8 @@ then
     sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
 fi
 
+# Flatpak repo
+flatpak remote-add --if-not-exists flathub-beta --from https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+flatpak remote-add --if-not-exists flathub --from https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists gnome-nightly --from https://nightly.gnome.org/gnome-nightly.flatpakrepo

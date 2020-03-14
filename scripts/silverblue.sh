@@ -1,7 +1,5 @@
 #!/bin/bash
 sudo rpm-ostree install zsh tilix neovim kid3-qt https://download0.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
 stow ~/dotfiles/zsh
 dconf load / < $HOME/dotfiles/dconf/gnome.config
 
@@ -28,3 +26,8 @@ then
     wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
 fi
 
+# Flatpak repo
+flatpak remote-add --if-not-exists flathub-beta --from https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
+flatpak remote-add --if-not-exists flathub --from https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists gnome-nightly --from https://nightly.gnome.org/gnome-nightly.flatpakrepo
