@@ -14,9 +14,9 @@ aurgnome()
 # atool and avfs for ranger extracting files and highlight for syntax highlight in previews for ranger ffmpegthumnailer for vedios
 bspwm()
 {
-    package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi sbcl "
-    package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome emacs xorg-xsetroot lxappearance-gtk3 tlp"
-    package="$package python-pywal dunst gtk-engines llvm clang cmake materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox bumblebee"
+    package="bspwm sxhkd nitrogen mate-power-manager xclip feh zsh  xorg-xprop xorg-xwininfo xdotool mpd mpv mpc ncmpcpp alacritty stow rofi "
+    package="$package picom git network-manager-applet flatpak ttf-fira-code ttf-fira-sans ttf-font-awesome xorg-xsetroot lxappearance-gtk3 tlp"
+    package="$package python-pywal dunst gtk-engines materia-gtk-theme noto-fonts-emoji noto-fonts xss-lock atool avfs dosbox bumblebee"
     package="$package lightdm lightdm-webkit2-greeter fzf materia-gtk-theme nvidia xorg-server poppler zathura highlight zathura-pdf-poppler wget"
     sudo pacman --noconfirm -S $(echo $package)
 }
@@ -25,7 +25,7 @@ bspwm()
 # added ncmpcpp mpd if you want to show off
 gnome()
 {
-    package="gnome-shell gdm nautilus ranger neovim emacs flatpak fzf stow zsh dosbox alacritty tilix pipewire firefox tlp bumblebee xdg-user-dirs-gtk xdg-user-dirs"
+    package="gnome-shell gdm nautilus ranger neovim flatpak fzf stow zsh dosbox alacritty tilix pipewire firefox tlp bumblebee xdg-user-dirs-gtk xdg-user-dirs"
     package="$package gnome-disk-utility gnome-software gnome-weather wl-clipboard noto-fonts-emoji nvidia gnome-terminal noto-fonts-extra gnome-control-center wget"
     package="$package python-nautilus seahorse-nautilus" 
     sudo pacman --noconfirm -S $(echo $package)
