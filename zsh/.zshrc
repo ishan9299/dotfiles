@@ -1,6 +1,3 @@
-# prompt
-eval "$(starship init zsh)"
-
 # history
 SAVEHIST=100
 HISTFILE=~/.zsh_history
@@ -48,4 +45,8 @@ export TERMINAL=tilix
 fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
 # keeping the syntax highlighting in last as it is said in the github page
 source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# prompt
+eval "$(starship init zsh)"
 
