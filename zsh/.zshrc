@@ -19,7 +19,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 set -o vi
 
 typeset -U PATH path
-path=("$HOME/.local/bin" "$HOME/.cargo/bin" "$path[@]")
+path=("$HOME/.local/bin" "/var/lib/flatpak/exports/bin" "$path[@]")
 export PATH
 
 # compinit 

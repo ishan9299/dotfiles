@@ -1,21 +1,21 @@
 #!/bin/bash
-sudo dnf remove totem libreoffice-* rhythmbox gnome-contacts gnome-maps gnome-boxes
-sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-stow ~/dotfiles/zsh
-dconf load / < $HOME/dotfiles/dconf/gnome.config
+#sudo dnf remove totem libreoffice-* rhythmbox gnome-contacts gnome-maps gnome-boxes
+#sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger -y
+#sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+#stow ~/dotfiles/zsh
+#dconf load / < $HOME/dotfiles/dconf/gnome.config
 
-if [[ ! -a $HOME/.gitconfig ]]
-then
-    echo "-Enter the name for git " | sed 's/-/ /'
-    read name
-    echo "-Enter the email for git " | sed 's/-/ /'
-    read email
-
-    git config --global user.name $name
-    git config --global user.email $email
-    git config --global core.editor nvim
-fi
+#if [[ ! -a $HOME/.gitconfig ]]
+#then
+#    echo "-Enter the name for git " | sed 's/-/ /'
+#    read name
+#    echo "-Enter the email for git " | sed 's/-/ /'
+#    read email
+#
+#    git config --global user.name $name
+#    git config --global user.email $email
+#    git config --global core.editor nvim
+#fi
 
 if [[ ! -d $HOME/.config/zsh ]]
 then
