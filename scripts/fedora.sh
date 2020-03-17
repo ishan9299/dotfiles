@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo dnf remove totem libreoffice-* rhythmbox gnome-contacts gnome-maps gnome-boxes
 sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 stow ~/dotfiles/zsh
 dconf load / < $HOME/dotfiles/dconf/gnome.config
 
