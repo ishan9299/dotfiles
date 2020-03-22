@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger @virtualization -y
-sudo dnf remove totem libreoffice-* rhythmbox gnome-contacts gnome-maps gnome-boxes
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 if [[ ! -a $HOME/.zshrc ]]
 then
@@ -43,4 +42,3 @@ flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kde
 flatpak remote-add --if-not-exists flathub --from https://flathub.org/repo/flathub.flatpakrepo
 flatpak remote-add --if-not-exists gnome-nightly --from https://nightly.gnome.org/gnome-nightly.flatpakrepo
 
-sudo dnf upgrade
