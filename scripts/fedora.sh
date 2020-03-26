@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo dnf install neovim git gnome-tweaks dconf-editor zsh tilix stow ranger @virtualization -y
+sudo dnf install neovim git gnome-tweaks dconf-editor zsh stow ranger -y
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 if [[ ! -a $HOME/.zshrc ]]
 then
