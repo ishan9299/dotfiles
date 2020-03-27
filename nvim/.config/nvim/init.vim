@@ -1,3 +1,6 @@
+" For the flatpak neovim put the config in '$HOME/.var/app/io.neovim.nvim/config/nvim/init.vim'
+" For the flatpak neovim put the plug in '$HOME/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim'
+
 "Relative Line number
 set nu rnu
 
@@ -8,9 +11,9 @@ let mapleader = "\<Space>"
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Reload vimrc
-nnoremap <leader>rc :source<Space>~/.config/nvim/init.vim<cr>
+nnoremap <leader>rc :source<Space>~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
 " Shortcut to config file
-nnoremap <Leader>ec :edit ~/.config/nvim/init.vim<cr>
+nnoremap <Leader>ec :edit ~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -51,7 +54,7 @@ nnoremap <Leader>wh  <C-w>h
 nnoremap <Leader>wd  :q<cr> 
 
 "Extensions Vim Plug
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.var/app/io.neovim.nvim/config/nvim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline-themes'
@@ -64,14 +67,6 @@ call plug#end()
 
 "AutoPairs
 let g:AutoPairsFlyMode = 1
-
-"YouCompleteMe
-let g:ycm_use_clangd = 0
-let g:ycm_show_diagnostics_ui = 1
-let g:ycm_error_symbol = '>>'
-let g:ycm_warning_symbol = '>>'
-let g:ycm_enable_diagnostic_signs = 1
-let g:ycm_enable_diagnostic_highlighting = 1
 
 "Airline Theme
 let g:airline_theme='gruvbox_material'
@@ -150,9 +145,3 @@ nmap <Leader>ss <Plug>(easymotion-overwin-f)
 
 autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
 autocmd filetype cpp nnoremap <F5> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
-
-" Autoinstall Plug Nvim
-if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
-  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source ~/.config/nvim.init.vim
-endif
