@@ -1,0 +1,19 @@
+{
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "vscode-icons",
+    "debug.allowBreakpointsEverywhere": true,
+    "keyboard.dispatch": "keyCode",
+    "editor.fontSize": 20,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredHighContrastColorTheme": "One Dark Pro",
+    "workbench.preferredLightColorTheme": "Visual Studio Dark",
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "git.ignoredRepositories": [
+        ".vscode"
+    ],
+    "vsicons.dontShowNewVersionMessage": true
+}
