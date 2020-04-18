@@ -11,9 +11,11 @@ let mapleader = "\<Space>"
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Reload vimrc
-nnoremap <leader>rc :source<Space>~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
+" nnoremap <leader>rc :source<Space>~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
+nnoremap <leader>rc :source<Space> ~/.config/nvim/init.vim<cr>
 " Shortcut to config file
-nnoremap <Leader>ec :edit ~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
+" nnoremap <Leader>ec :edit ~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
+nnoremap <leader>ec :source<Space> ~/.config/nvim/init.vim<cr>
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -54,14 +56,13 @@ nnoremap <Leader>wh  <C-w>h
 nnoremap <Leader>wd  :q<cr> 
 
 "Extensions Vim Plug
-call plug#begin('~/.var/app/io.neovim.nvim/config/nvim/plugged')
+"call plug#begin('~/.var/app/io.neovim.nvim/config/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 Plug 'vim-airline/vim-airline'
-Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'gruvbox-material/vim', {'as': 'gruvbox-material'}
-Plug 'sheerun/vim-polyglot'
+Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'jiangmiao/auto-pairs'
-Plug 'preservim/nerdtree'
+Plug 'sheerun/vim-polyglot'
 Plug 'easymotion/vim-easymotion'
 call plug#end()
 
@@ -69,7 +70,7 @@ call plug#end()
 let g:AutoPairsFlyMode = 1
 
 "Airline Theme
-let g:airline_theme='gruvbox_material'
+let g:airline_theme='hybrid'
 let g:Powerline_symbols = "fancy"
 let g:Powerline_dividers_override = ["\Ue0b0","\Ue0b1","\Ue0b2","\Ue0b3"]
 let g:Powerline_symbols_override = {'BRANCH': "\Ue0a0", 'LINE': "\Ue0a1", 'RO': "\Ue0a2"}
@@ -112,8 +113,12 @@ let g:airline_symbols.linenr = ''
 "colorscheme
 set termguicolors
 set background=dark
-let g:gruvbox_material_background = 'hard'
-:colorscheme gruvbox-material
+"set background=light
+:colorscheme hybrid_reverse
+":colorscheme hybrid_material
+let g:enable_bold_font = 1
+let g:hybrid_transparent_background = 0
+let g:enable_italic_font = 1
 
 " Default Indentation
 set autoindent
@@ -131,14 +136,6 @@ nnoremap tk :tabnext<cr>
 nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
-
-" Automatically open NERDTree if Directory is open through vim 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
-" Close only if nerdtree open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-"NERDtree toggle
-map <f8> :NERDTreeToggle<CR>
 
 " Easy motion
 nmap <Leader>ss <Plug>(easymotion-overwin-f)

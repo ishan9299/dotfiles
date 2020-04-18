@@ -34,12 +34,11 @@ zle -N self-insert url-quote-magic
 
 # alias
 alias ll="lsd -la"
-alias nvim="io.neovim.nvim"
 
 bindkey -s '^o' '. ranger\n'  # zsh
 
 # Default EDITOR
-export EDITOR=io.neovim.nvim
+export EDITOR=nvim
 export TERMINAL=tilix
 
 # extensions
