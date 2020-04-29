@@ -21,7 +21,6 @@ export PATH
 
 # compinit 
 autoload -U compinit && compinit
-autoload -Uz tetriscurses
 
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
