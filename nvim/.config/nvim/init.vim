@@ -15,7 +15,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 nnoremap <leader>rc :source<Space> ~/.config/nvim/init.vim<cr>
 " Shortcut to config file
 " nnoremap <Leader>ec :edit ~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
-nnoremap <leader>ec :source<Space> ~/.config/nvim/init.vim<cr>
+nnoremap <leader>ec :edit ~/.config/nvim/init.vim<cr>
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -26,6 +26,11 @@ inoremap <up>    <nop>
 inoremap <down>  <nop>
 inoremap <left>  <nop>
 inoremap <right> <nop>
+
+" Goyo
+map <C-g> :Goyo<cr>
+map <C-h> :Goyo 135<cr>
+
 
 " Default Indentation
 set autoindent
@@ -63,6 +68,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
+Plug 'junegunn/goyo.vim'
 Plug 'easymotion/vim-easymotion'
 call plug#end()
 
@@ -111,7 +117,6 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
 
 "colorscheme
-set termguicolors
 set background=dark
 "set background=light
 :colorscheme hybrid_reverse
@@ -122,6 +127,7 @@ let g:enable_italic_font = 1
 
 " Default Indentation
 set autoindent
+set termguicolors
 set expandtab       " expand tab to space
 set smartindent     " indent when
 set tabstop=4       " tab width
