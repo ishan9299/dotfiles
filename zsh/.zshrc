@@ -33,6 +33,7 @@ zle -N self-insert url-quote-magic
 
 # alias
 alias ll="lsd -la"
+alias htop="htop -t"
 
 bindkey -s '^o' '. ranger\n'  # zsh
 

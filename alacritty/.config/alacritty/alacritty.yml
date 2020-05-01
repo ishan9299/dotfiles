@@ -88,7 +88,7 @@ cursor:
   style: Underline
 
 shell:
-  program: /bin/fish
+  program: /bin/zsh
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
