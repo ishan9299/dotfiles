@@ -6,6 +6,6 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/keys.vim
-source $HOME/.config/nvim/plugin-configs/airline/settings.vim
+source $HOME/.config/nvim/plugin-configs/airline/airline.vim
 source $HOME/.config/nvim/plugin-configs/colors/rainbow.vim
 luafile $HOME/.config/nvim/plugin-configs/colors/colorizer.lua
