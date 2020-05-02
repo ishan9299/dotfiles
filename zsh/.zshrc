@@ -32,8 +32,9 @@ autoload -Uz url-quote-magic
 zle -N self-insert url-quote-magic
 
 # alias
-alias ll="lsd -la"
+alias ll="exa -abghHliS"
 alias htop="htop -t"
+alias ls="exa --long"
 
 bindkey -s '^o' '. ranger\n'  # zsh
 
