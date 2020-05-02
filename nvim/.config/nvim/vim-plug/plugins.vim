@@ -19,6 +19,10 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/goyo.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'airblade/vim-rooter'
 call plug#end()
 
 
