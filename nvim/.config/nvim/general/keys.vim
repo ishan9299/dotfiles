@@ -1,5 +1,7 @@
 "Set Leader to Space
 let mapleader = "\<Space>"
+:imap jk <Esc>
+:imap kj <Esc>
 
 " Reload vimrc
 nnoremap <leader>rc :source<Space> ~/.config/nvim/init.vim<cr>
