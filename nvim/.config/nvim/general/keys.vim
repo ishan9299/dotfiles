@@ -1,10 +1,5 @@
-"Set Leader to Space
-let mapleader = "\<Space>"
-:imap jk <Esc>
-:imap kj <Esc>
-
 " Reload vimrc
-nnoremap <leader>rc :source<Space> ~/.config/nvim/init.vim<cr>
+nnoremap <leader>rc :source ~/.config/nvim/init.vim<cr>
 " Shortcut to config file
 nnoremap <leader>ec :edit ~/.config/nvim/init.vim<cr>
 
@@ -46,9 +41,6 @@ nnoremap tk :tabnext<cr>
 nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
-
-" Easy motion
-nmap <Leader>ss <Plug>(easymotion-overwin-f)
 
 "Compiling C/C++ (% is file name and %:r file name without extension)
 autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc -g '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> 

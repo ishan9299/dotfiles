@@ -1,5 +1,5 @@
 "Airline Theme
-let g:airline_theme='hybrid'
+let g:airline_theme='gruvbox'
 let g:Powerline_symbols = "fancy"
 let g:Powerline_dividers_override = ["\Ue0b0","\Ue0b1","\Ue0b2","\Ue0b3"]
 let g:Powerline_symbols_override = {'BRANCH': "\Ue0a0", 'LINE': "\Ue0a1", 'RO': "\Ue0a2"}
