@@ -48,7 +48,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
+beautiful.init("/home/me/.config/awesome/themes/xresources/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -144,12 +144,9 @@ awful.screen.connect_for_each_screen(function(s)
     s.mytaglist = awful.widget.taglist {
         screen  = s,
         filter  = awful.widget.taglist.filter.all,
-        layout  = {
+        style  = {
             spacing = 12,
-            spacing_widget = {
-                shape  = gears.shape.powerline,
-                widget = wibox.widget.separator,
-            },
+            font = "Fira Sans 10" ,
         },
         buttons = taglist_buttons,
     }
@@ -159,21 +156,15 @@ awful.screen.connect_for_each_screen(function(s)
         screen  = s,
         filter  = awful.widget.tasklist.filter.currenttags,
         buttons = tasklist_buttons,
-        layout  = {
-            spacing = 10,
-            spacing_widget = {
-                {
-                    forced_width = 5,
-                },
-                valign = 'center',
-                halign = 'center',
-                widget = wibox.container.place,
-            },
+        style  = {
+            spacing = 20,
+            valign = 'center',
+            halign = 'center',
         },
     }
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s, height=30 })
+    s.mywibox = awful.wibar({ position = "top", screen = s, height=35 })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
@@ -195,7 +186,6 @@ end)
 
 -- {{{ Mouse bindings
 root.buttons(gears.table.join(
-    awful.button({ }, 3, function () mymainmenu:toggle() end),
     awful.button({ }, 4, awful.tag.viewnext),
     awful.button({ }, 5, awful.tag.viewprev)
 ))
