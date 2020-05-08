@@ -32,7 +32,7 @@ autoload -Uz url-quote-magic
 zle -N self-insert url-quote-magic
 
 # alias
-alias ll="exa -abghHliS"
+alias ll="exa -abghHGliS"
 alias htop="htop -t"
 alias ls="exa --long"
 
