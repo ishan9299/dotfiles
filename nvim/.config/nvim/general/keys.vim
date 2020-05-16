@@ -1,3 +1,7 @@
+" Leader key
+nnoremap <Space> <Nop>
+let mapleader="\<Space>"
+
 " Reload vimrc
 nnoremap <leader>rc :source ~/.config/nvim/init.vim<cr>
 " Shortcut to config file
@@ -17,12 +21,9 @@ inoremap <right> <nop>
 map <C-g> :Goyo<cr>
 map <C-h> :Goyo 135<cr>
 
-" Tab Stuff
-nnoremap <Leader>tn :tabnew<cr>
-nnoremap <Leader>tk :tabnext<cr>
-nnoremap <Leader>tj :tabprev<cr>
-nnoremap <Leader>th :tabfirst<cr>
-nnoremap <Leader>tl :tablast<cr>
+" Better nav for omnicomplete
+inoremap <expr> <c-j> ("\<C-n>")
+inoremap <expr> <c-k> ("\<C-p>")
 
 " Split Windows
 nnoremap <Leader>ws :split<cr>
@@ -35,12 +36,21 @@ nnoremap <Leader>wj  <C-w>j
 nnoremap <Leader>wh  <C-w>h
 nnoremap <Leader>wd  :q<cr> 
 
+" Use alt + hjkl to resize windows
+nnoremap <M-j>    :resize -2<CR>
+nnoremap <M-k>    :resize +2<CR>
+nnoremap <M-h>    :vertical resize -2<CR>
+nnoremap <M-l>    :vertical resize +2<CR>
+
 " tab stuff
 nnoremap tn :tabnew<cr>
 nnoremap tk :tabnext<cr>
 nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
+
+" colorscheme toggle
+nnoremap <leader>cs :call ToggleLightDark()<CR>
 
 "Compiling C/C++ (% is file name and %:r file name without extension)
 autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc -g '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> 
