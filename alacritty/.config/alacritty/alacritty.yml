@@ -19,21 +19,30 @@ window:
     x: 8
     y: 8
 
+  # Window padding
+  # 
+  padding:
+    x: 5
+    y: 5
+
 font:
   # The normal (roman) font face to use.
   normal:
-    family: JetBrains Mono    # Style can be specified to pick a specific face.
-    style: Medium
+    #family: JetBrains Mono    # Style can be specified to pick a specific face.
+    family: Cascadia Code
+    style: Regular
 
   # The bold font face
   bold:
-    family: JetBrains Mono
+    #family: JetBrains Mono
+    family: Cascadia Code
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: JetBrains Mono
+    #family: JetBrains Mono
+    family: Cascadia Code
     # Style can be specified to pick a specific face.
     style: Italic
 
