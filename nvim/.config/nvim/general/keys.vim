@@ -49,9 +49,6 @@ nnoremap tj :tabprev<cr>
 nnoremap th :tabfirst<cr>
 nnoremap tl :tablast<cr>
 
-" colorscheme toggle
-nnoremap <leader>cs :call ToggleLightDark()<CR>
-
 "Compiling C/C++ (% is file name and %:r file name without extension)
 autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc -g '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> 
 autocmd filetype cpp nnoremap <F5> :w <bar> exec '!g++ -g '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>

@@ -21,33 +21,5 @@ set nowritebackup       " This is recommended by coc
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 "colorscheme
-set bg=light
+set bg=dark
 :colorscheme gruvbox
-
-function! Light()
-    echom "set bg=light"
-    set bg=light
-    let g:gruvbox_bold = 1
-    let g:gruvbox_italic = 1
-    let g:gruvbox_contrast_heavy = 1
-    " let g:gruvbox_contrast_light=1
-    colorscheme gruvbox
-endfunction
-
-function! Dark()
-    echom "set bg=dark"
-    set bg=dark
-    let g:gruvbox_bold = 1
-    let g:gruvbox_italic = 1
-    let g:gruvbox_contrast_heavy = 1
-    " let g:gruvbox_contrast_light=1
-    colorscheme gruvbox
-endfunction
-
-function! ToggleLightDark()
-  if &bg ==# "light"
-    call Dark()
-  else
-    call Light()
-  endif
-endfunction
