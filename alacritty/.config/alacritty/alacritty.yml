@@ -28,21 +28,21 @@ window:
 font:
   # The normal (roman) font face to use.
   normal:
-    #family: JetBrains Mono    # Style can be specified to pick a specific face.
-    family: SF Mono
+    family: JetBrainsMono Nerd Font   # Style can be specified to pick a specific face.
+    #family: SF Mono
     style: Regular
 
   # The bold font face
   bold:
-    #family: JetBrains Mono
-    family: SF Mono    
+    family: JetBrainsMono Nerd Font
+    #family: SF Mono    
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    #family: JetBrains Mono
-    family: SF Mono
+    family: JetBrainsMono Nerd Font
+    #family: SF Mono
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -54,45 +54,58 @@ font:
   glyph_offset:
     x: 0
     y: 0
-    
-
-# Colors (Hyper)
+ 
+# Base16 Default Dark 256 - alacritty color config
+# Chris Kempson (http://chriskempson.com)
 colors:
   # Default colors
   primary:
-    background: '0x000000'
-    foreground: '0xffffff'
+    background: '0x181818'
+    foreground: '0xd8d8d8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0xF81CE5'
-    cursor: '0xffffff'
+    text: '0x181818'
+    cursor: '0xd8d8d8'
 
   # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xfe0100'
-    green:   '0x33ff00'
-    yellow:  '0xfeff00'
-    blue:    '0x0066ff'
-    magenta: '0xcc00ff'
-    cyan:    '0x00ffff'
-    white:   '0xd0d0d0'
+    black:   '0x181818'
+    red:     '0xab4642'
+    green:   '0xa1b56c'
+    yellow:  '0xf7ca88'
+    blue:    '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan:    '0x86c1b9'
+    white:   '0xd8d8d8'
 
   # Bright colors
   bright:
-    black:   '0x808080'
-    red:     '0xfe0100'
-    green:   '0x33ff00'
-    yellow:  '0xfeff00'
-    blue:    '0x0066ff'
-    magenta: '0xcc00ff'
-    cyan:    '0x00ffff'
-    white:   '0xFFFFFF'
+    black:   '0x585858'
+    red:     '0xab4642'
+    green:   '0xa1b56c'
+    yellow:  '0xf7ca88'
+    blue:    '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan:    '0x86c1b9'
+    white:   '0xf8f8f8'
+
+  indexed_colors:
+    - { index: 16, color: '0xdc9656' }
+    - { index: 17, color: '0xa16946' }
+    - { index: 18, color: '0x282828' }
+    - { index: 19, color: '0x383838' }
+    - { index: 20, color: '0xb8b8b8' }
+    - { index: 21, color: '0xe8e8e8' }
+# XTerm's default colors
+# Colors (Night Owl by Sarah Drasner)
+# Colors (Hyper)
 
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.86
+background_opacity: 0.95
 
 
 cursor:
