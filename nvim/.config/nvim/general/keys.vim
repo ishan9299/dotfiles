@@ -2,11 +2,6 @@
 nnoremap <Space> <Nop>
 let mapleader="\<Space>"
 
-" Reload vimrc
-nnoremap <leader>rc :source ~/.config/nvim/init.vim<cr>
-" Shortcut to config file
-nnoremap <leader>ec :edit ~/.config/nvim/init.vim<cr>
-
 "disabling arrow keys
 nnoremap <up>    <nop>
 nnoremap <down>  <nop>

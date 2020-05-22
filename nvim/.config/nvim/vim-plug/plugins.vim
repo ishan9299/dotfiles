@@ -12,8 +12,12 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'chriskempson/base16-vim'
+Plug 'tomasiser/vim-code-dark'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'mike-hearn/base16-vim-lightline'
+Plug 'arcticicestudio/nord-vim'
 Plug 'airblade/vim-rooter'
 Plug 'morhetz/gruvbox'
 Plug 'itchyny/lightline.vim'

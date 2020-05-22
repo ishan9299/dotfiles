@@ -19,7 +19,10 @@ set nobackup            " This is recommended by coc
 set nowritebackup       " This is recommended by coc
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+autocmd FileType json syntax match Comment +\/\/.\+$+
 
-"colorscheme
+" colorscheme
+let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
-:colorscheme gruvbox
+colorscheme base16-default-dark
+hi vertsplit guifg=#181818 guibg=#181818
