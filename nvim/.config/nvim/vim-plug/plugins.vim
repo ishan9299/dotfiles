@@ -16,11 +16,11 @@ Plug 'chriskempson/base16-vim'
 Plug 'tomasiser/vim-code-dark'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'preservim/nerdtree'
 Plug 'mike-hearn/base16-vim-lightline'
 Plug 'arcticicestudio/nord-vim'
 Plug 'airblade/vim-rooter'
 Plug 'morhetz/gruvbox'
-Plug 'itchyny/lightline.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/goyo.vim'
 call plug#end()

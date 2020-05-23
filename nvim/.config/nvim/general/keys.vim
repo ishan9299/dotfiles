@@ -2,6 +2,10 @@
 nnoremap <Space> <Nop>
 let mapleader="\<Space>"
 
+"sourcing the vimrc
+map <leader>sc :source $MYVIMRC<CR>
+map <leader>ce :edit $MYVIMRC<CR>
+
 "disabling arrow keys
 nnoremap <up>    <nop>
 nnoremap <down>  <nop>
