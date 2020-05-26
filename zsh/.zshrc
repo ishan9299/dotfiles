@@ -18,6 +18,7 @@ set -o vi
 typeset -U PATH path
 path=("$HOME/.local/lib" "/var/lib/flatpak/exports/bin" "$path[@]")
 export PATH
+export LD_LIBRARY_PATH="$HOME/git/llvm-project/build/lib:$LD_LIBRARY_PATH"
 
 # compinit 
 autoload -U compinit && compinit
