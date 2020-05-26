@@ -24,5 +24,15 @@ autocmd FileType json syntax match Comment +\/\/.\+$+
 " colorscheme
 let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
-colorscheme base16-material-darker
-hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
+colorscheme base16-material-vivid
+
+augroup colors
+    autocmd!
+    autocmd ColorScheme * :hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
+augroup END
+
+:set fillchars+=vert:\ 
+
+" Transperency
+" hi! Normal ctermbg=NONE guibg=NONE 
+" hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE 
