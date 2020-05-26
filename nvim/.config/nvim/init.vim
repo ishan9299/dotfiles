@@ -8,8 +8,8 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/keys.vim
 source $HOME/.config/nvim/general/statusline.vim
 source $HOME/.config/nvim/general/terminal.vim
-source $HOME/.config/nvim/general/explorer.vim
 source $HOME/.config/nvim/plugin-configs/fzf/fzf.vim
+source $HOME/.config/nvim/plugin-configs/nerdtree/nerdtree.vim
 source $HOME/.config/nvim/plugin-configs/autopairs/autopairs.vim
-source $HOME/.config/nvim/plugin-configs/coc/coc.vim
+luafile $HOME/.config/nvim/plugin-configs/nvim-lsp/settings.lua
 luafile $HOME/.config/nvim/plugin-configs/colors/colorizer.lua
