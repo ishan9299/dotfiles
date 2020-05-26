@@ -3,8 +3,8 @@ nnoremap <Space> <Nop>
 let mapleader="\<Space>"
 
 "sourcing the vimrc
-map <leader>sc :source $MYVIMRC<CR>
-map <leader>ce :edit $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC<CR>
+nnoremap <leader>ev :edit $MYVIMRC<CR>
 
 "disabling arrow keys
 nnoremap <up>    <nop>
@@ -16,17 +16,22 @@ inoremap <down>  <nop>
 inoremap <left>  <nop>
 inoremap <right> <nop>
 
+" Buffers
+nnoremap <leader>bd :bd<CR>
+
+
 " Goyo
-map <C-g> :Goyo<cr>
-map <C-h> :Goyo 135<cr>
+let g:goyo_width=140
+let g:goyo_linenr=1
+nnoremap <C-k><C-z> :Goyo<cr>
 
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " Split Windows
-nnoremap <Leader>ws :split<cr>
-nnoremap <Leader>wv :vsplit<cr>
+nnoremap <Leader>hs :split<cr>
+nnoremap <Leader>vs :vsplit<cr>
 
 " Windows
 nnoremap <Leader>wl  <C-w>l
