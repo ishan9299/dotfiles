@@ -10,19 +10,24 @@ endif
 "Extensions Vim Plug
 "call plug#begin('~/.var/app/io.neovim.nvim/config/nvim/plugged')
 call plug#begin('~/.config/nvim/plugged')
-Plug 'norcalli/nvim-colorizer.lua'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'chriskempson/base16-vim'
-Plug 'tomasiser/vim-code-dark'
+" Coding
+Plug 'neovim/nvim-lsp'
+Plug 'jiangmiao/auto-pairs'
+" Projects
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-Plug 'preservim/nerdtree'
-Plug 'mike-hearn/base16-vim-lightline'
-Plug 'arcticicestudio/nord-vim'
 Plug 'airblade/vim-rooter'
-Plug 'morhetz/gruvbox'
-Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/goyo.vim'
+Plug 'preservim/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
+" Color Schemes
+Plug 'morhetz/gruvbox'
+Plug 'chriskempson/base16-vim'
+Plug 'tomasiser/vim-code-dark'
+Plug 'arcticicestudio/nord-vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 
