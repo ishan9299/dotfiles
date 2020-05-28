@@ -46,6 +46,7 @@ export TERMINAL=tilix
 # extensions
 fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
 # keeping the syntax highlighting in last as it is said in the github page
+source $HOME/.config/zsh/quitcd.zsh
 source $HOME/.config/zsh/key-bindings.zsh 
 source $HOME/.config/zsh/completion.zsh 
 source $HOME/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
