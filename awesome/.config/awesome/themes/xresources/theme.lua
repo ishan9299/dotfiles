@@ -14,7 +14,7 @@ local themes_path = gfs.get_themes_dir()
 local theme = dofile(themes_path.."default/theme.lua")
 -- load vector assets' generators for this theme
 
-theme.font          = "Fira Sans 10"
+theme.font          = "JetBrains Mono 10"
 
 theme.bg_normal     = xrdb.background
 theme.bg_focus      = xrdb.color12
@@ -50,9 +50,11 @@ theme.tooltip_bg = theme.bg_normal
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_submenu_icon = themes_path.."default/submenu.png"
-theme.menu_height = dpi(16)
-theme.menu_width  = dpi(100)
+-- theme.menu_submenu_icon = themes_path.."default/submenu.png"
+theme.menu_height = dpi(30)
+theme.menu_width  = dpi(145)
+theme.menu_border_width = dpi(10)
+theme.menu_font = 'JetBrains Mono 9'
 
 -- You can add as many variables as
 -- you wish and access them by using
