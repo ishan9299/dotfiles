@@ -1,13 +1,13 @@
 configuration {
-	  font: "FuraCode Nerd Font 14";
-	  theme: "~/.cache/wal/colors-rofi-dark.rasi";
-      width: 70;
+	  font: "JetBrains Mono 15";
+	  theme: "~/.config/rofi/themes/base16-default-light.rasi";
+      width: 50;
       bw: 0;
       yoffset: 8;
       xoffset: 8;
       fullscreen: false;
       bw: 3;
-      show-icons: false;
+      show-icons: true;
       terminal: "kitty";
       lines: 9;
       run-command: "{cmd}";
