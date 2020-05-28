@@ -41,7 +41,7 @@ bindkey -s '^o' '. ranger\n'  # zsh
 
 # Default EDITOR
 export EDITOR=nvim
-export TERMINAL=tilix
+export TERMINAL=alacritty
 
 # extensions
 fpath=($HOME/.config/zsh/zsh-completions/src $fpath)
