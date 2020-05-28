@@ -10,6 +10,8 @@ source $HOME/.config/nvim/general/statusline.vim
 source $HOME/.config/nvim/general/terminal.vim
 source $HOME/.config/nvim/plugin-configs/fzf/fzf.vim
 source $HOME/.config/nvim/plugin-configs/nerdtree/nerdtree.vim
+source $HOME/.config/nvim/plugin-configs/deoplete/deoplete.vim
 source $HOME/.config/nvim/plugin-configs/autopairs/autopairs.vim
+source $HOME/.config/nvim/plugin-configs/markdown/markdown.vim
 luafile $HOME/.config/nvim/plugin-configs/nvim-lsp/settings.lua
 luafile $HOME/.config/nvim/plugin-configs/colors/colorizer.lua
