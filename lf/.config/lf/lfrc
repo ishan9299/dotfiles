@@ -1,0 +1,89 @@
+set hidden true
+set shell fish
+set color256 true
+set icons true
+set drawbox true
+
+%{{
+    set w (tput cols)
+    if [ $w -le 80 ]
+        lf -remote "send $id set ratios 1:2"
+    else if [ $w -le 160 ]
+        lf -remote "send $id set ratios 1:2:3"
+    else
+        lf -remote "send $id set ratios 1:2:3:5"
+    end
+}}
+
+cmd open ${{
+    set filetype (file --mime-type $f -b -L)
+    switch $filetype
+        case 'text/*'
+            $EDITOR $fx
+        case '*'
+            for f in $fx ; xdg-open $f > /dev/null 2> /dev/null ; end
+    end
+}}
+
+# Remove some bindings
+map f
+map m
+
+# Archive bindings
+cmd unarchive ${{
+    switch "$f"
+        case '*.zip'
+            unzip "$f"
+        case '*.tar.gz'
+            tar -xzvf "$f"
+        case '*.tar.bz2'
+            tar -xjvf "$f"
+        case '*.tar' 
+            tar -xvf "$f"
+        case '*' 
+            echo "Unsupported format"
+    end
+}}
+
+cmd zip %zip -r "$f" "$f"
+cmd tar %tar cvf "$f.tar" "$f"
+cmd targz %tar cvzf "$f.tar.gz" "$f"
+cmd tarbz2 %tar cjvf "$f.tar.bz2" "$f"
+
+# Archive Mappings
+map az zip
+map at tar
+map ag targz
+map ab tarbz2
+
+cmd mkdir ${{
+  printf "Directory Name: "
+  read ans
+  mkdir $ans
+}}
+
+cmd mkfile ${{
+  printf "File Name: "
+  read ans
+  $EDITOR $ans
+}}
+
+map md mkdir
+map mf mkfile
+map <f2> rename
+
+cmd fzf_jump ${{
+    set res (fd . -d 3 | fzf --reverse --header='Jump to location')
+    if [ -f $res ]
+        set cmd select
+    else if [ -d $res ]
+        set cmd cd
+    end
+    lf -remote "send $id $cmd \"$res\""
+}}
+
+map f fzf_jump
+
+map DD delete
+
+
