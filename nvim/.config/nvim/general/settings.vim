@@ -25,7 +25,7 @@ autocmd FileType json syntax match Comment +\/\/.\+$+
 let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
 " colorscheme base16-material-vivid
-colorscheme codedark
+colorscheme base16-darktooth
 hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
 :set fillchars+=vert:\ 
 
@@ -34,6 +34,9 @@ augroup colors
     autocmd ColorScheme * :hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
     autocmd ColorScheme * :set fillchars+=vert:\ 
 augroup END
+
+" python setup
+let g:python3_host_prog='/usr/bin/python3'
 
 " Transperency
 " hi! Normal ctermbg=NONE guibg=NONE 

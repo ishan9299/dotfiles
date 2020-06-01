@@ -23,6 +23,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/goyo.vim'
+Plug 'justinmk/vim-dirvish'
 Plug 'preservim/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'
 " Color Schemes
