@@ -1,6 +1,7 @@
 env:
-  WINIT_X11_SCALE_FACTOR: "1"
-  WINIT_HIDPI_FACTOR: "1"
+  # WINIT_X11_SCALE_FACTOR: "1"
+  # WINIT_HIDPI_FACTOR: "1"
+  WAYLAND_DISPLAY: "wayland-0"
 
 window:
   # Window dimensions (changes require restart)
@@ -28,7 +29,7 @@ window:
 font:
   # The normal (roman) font face to use.
   normal:
-    family: JetBrainsMono Nerd Font   # Style can be specified to pick a specific face.
+    family: JetBrainsMono Nerd Font
     #family: SF Mono
     style: Regular
 
@@ -117,14 +118,27 @@ cursor:
   #   - | Beam
   style: Underline
 
-shell:
-  program: /bin/zsh
-
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
 
   # When set to `true`, selected text will be copied to the primary clipboard.
   save_to_clipboard: true
+
+# Window decorations
+#
+# Values for `decorations`:
+#     - full: Borders and title bar
+#     - none: Neither borders nor title bar
+decorations: none
+
+# Startup Mode (changes require restart)
+#
+# Values for `startup_mode`:
+#   - Windowed
+#   - Maximized
+#   - Fullscreen
+#
+startup_mode: Maximized
 
 # Mouse bindings
 #
