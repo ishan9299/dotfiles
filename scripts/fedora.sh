@@ -1,10 +1,6 @@
 #!/bin/bash
-sudo dnf install neovim git gnome-tweaks dconf-editor zsh stow ranger -y
-sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
-if [[ ! -a $HOME/.zshrc ]]
-then
-	stow ~/dotfiles/zsh
-fi
+
+sudo dnf install exa fish 
 
 if [[ ! -a $HOME/.gitconfig ]]
 then
@@ -28,17 +24,3 @@ then
     wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/key-bindings.zsh
     wget https://raw.githubusercontent.com/junegunn/fzf/master/shell/completion.zsh
 fi
-
-
-# Bibata Cursors
-if [[ ! -d /usr/share/icons/Bibata_Amber ]]
-then
-    sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/KaizIqbal/Bibata_Cursor/master/Bibata.sh)"
-fi
-
-# Flatpak repo
-flatpak remote-add --if-not-exists flathub-beta --from https://flathub.org/beta-repo/flathub-beta.flatpakrepo
-flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo
-flatpak remote-add --if-not-exists flathub --from https://flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --if-not-exists gnome-nightly --from https://nightly.gnome.org/gnome-nightly.flatpakrepo
-
