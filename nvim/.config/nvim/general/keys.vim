@@ -23,7 +23,7 @@ nnoremap <leader>bd :bd<CR>
 " Goyo
 let g:goyo_width=140
 let g:goyo_linenr=1
-nnoremap <C-k><C-z> :Goyo<cr>
+nnoremap <C-k>z :Goyo<cr>
 
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
