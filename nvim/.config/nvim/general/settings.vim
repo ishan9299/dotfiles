@@ -11,7 +11,6 @@ set mouse=a             " if I am lazy to go keyboard
 set nu rnu              " relative line numbers
 set updatetime=300      " Faster completion
 set timeoutlen=1000      " By default timeoutlen is 1000 ms
-set formatoptions-=cro  " Stop newline continution of comments
 set cursorline
 set ruler
 set noshowmode
@@ -22,8 +21,8 @@ autocmd FileType json syntax match Comment +\/\/.\+$+
 " colorscheme
 let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
-" colorscheme base16-material-vivid
-colorscheme base16-black-metal-immortal
+" colorscheme base16-default-dark
+colorscheme base16-default-dark
 hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
 :set fillchars+=vert:\ 
 
@@ -36,8 +35,13 @@ augroup END
 "masm colorscheme
 augroup masm
     autocmd!
-    autocmd BufRead *.ASM :set ft=nasm
-    autocmd BufRead *.asm :set ft=nasm
+    autocmd BufRead,BufNewFile *.ASM :set ft=nasm
+    autocmd BufRead,BufNewFile *.asm :set ft=nasm
+augroup END
+
+augroup Programming
+    autocmd!
+    autocmd FileType cpp :set colorcolumn=100
 augroup END
 
 " python setup

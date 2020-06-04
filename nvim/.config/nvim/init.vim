@@ -13,5 +13,5 @@ source $HOME/.config/nvim/plugin-configs/nerdtree/nerdtree.vim
 source $HOME/.config/nvim/plugin-configs/deoplete/deoplete.vim
 source $HOME/.config/nvim/plugin-configs/autopairs/autopairs.vim
 source $HOME/.config/nvim/plugin-configs/markdown/markdown.vim
-luafile $HOME/.config/nvim/plugin-configs/nvim-lsp/settings.lua
-luafile $HOME/.config/nvim/plugin-configs/colors/colorizer.lua
+source $HOME/.config/nvim/plugin-configs/nvim-lsp/settings.vim
+source $HOME/.config/nvim/plugin-configs/colors/colorizer.vim
