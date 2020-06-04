@@ -45,17 +45,6 @@ cmd unarchive ${{
     end
 }}
 
-cmd zip %zip -r "$f" "$f"
-cmd tar %tar cvf "$f.tar" "$f"
-cmd targz %tar cvzf "$f.tar.gz" "$f"
-cmd tarbz2 %tar cjvf "$f.tar.bz2" "$f"
-
-# Archive Mappings
-map az zip
-map at tar
-map ag targz
-map ab tarbz2
-
 cmd mkdir ${{
   printf "Directory Name: "
   read ans
@@ -85,5 +74,3 @@ cmd fzf_jump ${{
 map f fzf_jump
 
 map DD delete
-
-
