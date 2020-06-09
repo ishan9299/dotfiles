@@ -16,7 +16,8 @@ Plug 'haorenW1025/completion-nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
-" Plug 'Plasticboy/vim-markdown'
+Plug 'duggiefresh/vim-easydir'
+Plug 'Plasticboy/vim-markdown'
 " Projects
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -26,6 +27,7 @@ Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
 " Color Schemes
 Plug 'chriskempson/base16-vim'
+Plug 'tomasiser/vim-code-dark'
 Plug 'sheerun/vim-polyglot'
 Plug 'norcalli/nvim-colorizer.lua'
 call plug#end()

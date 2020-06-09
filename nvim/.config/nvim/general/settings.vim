@@ -53,7 +53,7 @@ autocmd FileType json syntax match Comment +\/\/.\+$+
 " colorscheme
 let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
-colorscheme base16-default-dark
+colorscheme codedark
 hi Vertsplit guibg=NONE guifg=NONE
 set fillchars=vert:\ 
 
@@ -61,6 +61,11 @@ augroup colors
     autocmd!
     autocmd ColorScheme * :hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
     autocmd ColorScheme * :set fillchars=vert:\ 
+    autocmd ColorScheme * :hi User1 cterm=bold ctermfg=7 guifg=yellow guibg=NONE
+    autocmd ColorScheme * :hi User2 cterm=bold ctermfg=7 guifg=orange guibg=NONE
+    autocmd ColorScheme * :hi User3 cterm=bold ctermfg=7 guifg=grey guibg=NONE
+    autocmd ColorScheme * :hi User4 cterm=bold ctermfg=7 guifg=#dc9656 guibg=NONE
+    autocmd ColorScheme * :hi User5 cterm=bold ctermfg=7 guifg=#d8d8d8 guibg=NONE
 augroup END
 
 "masm colorscheme
