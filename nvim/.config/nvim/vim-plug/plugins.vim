@@ -12,28 +12,22 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 " Coding
 Plug 'neovim/nvim-lsp'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/deoplete-lsp'
+Plug 'haorenW1025/completion-nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
-Plug 'Plasticboy/vim-markdown'
+Plug 'tpope/vim-fugitive'
+" Plug 'Plasticboy/vim-markdown'
 " Projects
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-Plug 'tpope/vim-fugitive'
 Plug 'junegunn/goyo.vim'
 Plug 'justinmk/vim-dirvish'
-Plug 'preservim/nerdtree'
-Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'kristijanhusak/vim-dirvish-git'
 " Color Schemes
-Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
-Plug 'tomasiser/vim-code-dark'
-Plug 'arcticicestudio/nord-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'norcalli/nvim-colorizer.lua'
-Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 

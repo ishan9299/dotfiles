@@ -18,7 +18,7 @@ inoremap <right> <nop>
 
 " Buffers
 nnoremap <leader>bd :bd<CR>
-
+nnoremap <Leader><Leader> <C-^>
 
 " Goyo
 let g:goyo_width=140
@@ -61,5 +61,5 @@ nnoremap tl :tablast<cr>
 
 
 "Compiling C/C++ (% is file name and %:r file name without extension)
-autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc -g '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR> 
-autocmd filetype cpp nnoremap <F5> :w <bar> exec '!g++ -g '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd filetype c nnoremap <F5> :w <bar> exec '!gcc -g '.shellescape('%').' -o '.shellescape('%:r').'<CR> 
+autocmd filetype cpp nnoremap <F5> :w <bar> exec '!g++ -g '.shellescape('%').' -o '.shellescape('%:r').'<CR>
