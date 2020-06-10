@@ -20,6 +20,10 @@ cmd open ${{
     switch $filetype
         case 'text/*'
             $EDITOR $fx
+        case 'application/octet-stream'
+            $EDITOR $fx
+        case 'application/json'
+            $EDITOR $fx
         case '*'
             for f in $fx ; xdg-open $f > /dev/null 2> /dev/null ; end
     end
