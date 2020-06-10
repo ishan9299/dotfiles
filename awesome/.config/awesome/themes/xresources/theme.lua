@@ -54,7 +54,7 @@ theme.tooltip_bg = theme.bg_normal
 theme.menu_height = dpi(30)
 theme.menu_width  = dpi(145)
 theme.menu_border_width = dpi(10)
-theme.menu_font = 'JetBrains Mono 9'
+theme.menu_font = 'JetBrainsMono Nerd Font 9'
 
 -- You can add as many variables as
 -- you wish and access them by using
@@ -97,7 +97,7 @@ theme = theme_assets.recolor_titlebar(
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = Pop
+-- theme.icon_theme = Pop
 
 -- Generate Awesome icon:
 theme.awesome_icon = theme_assets.awesome_icon(
