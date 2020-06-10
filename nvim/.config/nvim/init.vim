@@ -10,7 +10,7 @@ source $HOME/.config/nvim/general/statusline.vim
 source $HOME/.config/nvim/general/terminal.vim
 source $HOME/.config/nvim/plugin-configs/fzf/fzf.vim
 source $HOME/.config/nvim/plugin-configs/autopairs/autopairs.vim
-source $HOME/.config/nvim/plugin-configs/netrw/netrw.vim
+source $HOME/.config/nvim/plugin-configs/nerdtree/nerdtree.vim
 source $HOME/.config/nvim/plugin-configs/dirvish/dirvish.vim
 source $HOME/.config/nvim/plugin-configs/markdown/markdown.vim
 source $HOME/.config/nvim/plugin-configs/nvim-lsp/settings.vim

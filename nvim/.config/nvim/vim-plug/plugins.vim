@@ -25,9 +25,12 @@ Plug 'airblade/vim-rooter'
 Plug 'junegunn/goyo.vim'
 Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
+Plug 'preservim/nerdtree'
 " Color Schemes
 Plug 'chriskempson/base16-vim'
 Plug 'tomasiser/vim-code-dark'
+Plug 'arcticicestudio/nord-vim'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'sheerun/vim-polyglot'
 Plug 'norcalli/nvim-colorizer.lua'
 call plug#end()

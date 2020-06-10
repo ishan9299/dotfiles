@@ -34,6 +34,18 @@ set shortmess+=a                      " use abbreviations in messages eg. `[RO]`
 set shortmess+=o                      " overwrite file-written messages
 set shortmess+=t                      " truncate file messages at start
 set switchbuf=usetab                  " try to reuse windows/tabs when switching buffers
+set wildmode=list:full
+set wildignore+=*.o,*.obj,*.bin,*.dll,*.exe
+set wildignore+=*/.git/*,*/.svn/*,*/__pycache__/*,*/build/**
+set wildignore+=*.pyc
+set wildignore+=*.DS_Store
+set wildignore+=*.aux,*.bbl,*.blg,*.brf,*.fls,*.fdb_latexmk,*.synctex.gz,*.pdf
+set timeoutlen=500
+set updatetime=800
+set clipboard+=unnamedplus
+set matchpairs+=<:>,「:」
+let g:loaded_netrw       = 1          " Disable netrw
+let g:loaded_netrwPlugin = 1          " Disable netrw
 
 if has('windows')
   set splitbelow                      " open horizontal splits below current window
