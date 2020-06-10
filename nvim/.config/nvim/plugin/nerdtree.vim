@@ -12,5 +12,5 @@ let NERDTreeStatusline="%{exists('b:NERDTree')?fnamemodify(b:NERDTree.root.path.
 " Disable bookmark and 'press ? for help' text
 let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
-let g:NERDTreeDirArrowExpandable = '⮞'
-let g:NERDTreeDirArrowCollapsible = '⮟'
+let g:NERDTreeDirArrowExpandable = '➔'
+let g:NERDTreeDirArrowCollapsible = '↓'

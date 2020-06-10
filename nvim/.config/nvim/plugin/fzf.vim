@@ -13,6 +13,9 @@ let g:fzf_tags_command = 'ctags -R'
 " - down / up / left / right
 let g:fzf_layout = { 'down': '25%' }
 
+let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
+let $FZF_DEFAULT_COMMAND="rg --files --hidden"
+
 " Customize fzf colors to match your color scheme
 " - fzf#wrap translates this to a set of `--color` options
 let g:fzf_colors =

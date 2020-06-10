@@ -1,17 +1,46 @@
-" For the flatpak neovim put the config in '$HOME/.var/app/io.neovim.nvim/config/nvim/init.vim'
-" For the flatpak neovim put the plug in '$HOME/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim'
-" nnoremap <leader>rc :source<Space>~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
-" nnoremap <Leader>ec :edit ~/.var/app/io.neovim.nvim/config/nvim/init.vim<cr>
+" Leader key
+nnoremap <Space> <Nop>
+let mapleader="\<Space>"
 
-source $HOME/.config/nvim/vim-plug/plugins.vim
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/general/keys.vim
-source $HOME/.config/nvim/general/statusline.vim
-source $HOME/.config/nvim/general/terminal.vim
-source $HOME/.config/nvim/plugin-configs/fzf/fzf.vim
-source $HOME/.config/nvim/plugin-configs/autopairs/autopairs.vim
-source $HOME/.config/nvim/plugin-configs/nerdtree/nerdtree.vim
-source $HOME/.config/nvim/plugin-configs/dirvish/dirvish.vim
-source $HOME/.config/nvim/plugin-configs/markdown/markdown.vim
-source $HOME/.config/nvim/plugin-configs/nvim-lsp/settings.vim
-source $HOME/.config/nvim/plugin-configs/colors/colorizer.vim
+" Auto Install Plug
+if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+  silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+
+"Extensions Vim Plug
+"call plug#begin('~/.var/app/io.neovim.nvim/config/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged')
+" Coding
+Plug 'neovim/nvim-lsp'
+Plug 'haorenW1025/completion-nvim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'duggiefresh/vim-easydir'
+Plug 'Plasticboy/vim-markdown'
+" Projects
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+Plug 'junegunn/goyo.vim', { 'for': ['markdown']}
+Plug 'justinmk/vim-dirvish'
+Plug 'kristijanhusak/vim-dirvish-git'
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+" Color Schemes
+Plug 'chriskempson/base16-vim'
+Plug 'tomasiser/vim-code-dark'
+Plug 'arcticicestudio/nord-vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'sheerun/vim-polyglot'
+Plug 'norcalli/nvim-colorizer.lua'
+call plug#end()
+
+
+" Automatically install missing plugins on startup
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif

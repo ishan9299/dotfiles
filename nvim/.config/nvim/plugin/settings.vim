@@ -34,7 +34,7 @@ set shortmess+=a                      " use abbreviations in messages eg. `[RO]`
 set shortmess+=o                      " overwrite file-written messages
 set shortmess+=t                      " truncate file messages at start
 set switchbuf=usetab                  " try to reuse windows/tabs when switching buffers
-set wildmode=list:full
+set wildmode=longest:full,full
 set wildignore+=*.o,*.obj,*.bin,*.dll,*.exe
 set wildignore+=*/.git/*,*/.svn/*,*/__pycache__/*,*/build/**
 set wildignore+=*.pyc
@@ -42,7 +42,7 @@ set wildignore+=*.DS_Store
 set wildignore+=*.aux,*.bbl,*.blg,*.brf,*.fls,*.fdb_latexmk,*.synctex.gz,*.pdf
 set timeoutlen=500
 set updatetime=800
-set clipboard+=unnamedplus
+set syntax=on
 set matchpairs+=<:>,「:」
 let g:loaded_netrw       = 1          " Disable netrw
 let g:loaded_netrwPlugin = 1          " Disable netrw
@@ -59,26 +59,12 @@ if has('virtualedit')
   set virtualedit=block               " allow cursor to move where there is no text in visual block mode
 endif
 
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-autocmd FileType json syntax match Comment +\/\/.\+$+
-
 " colorscheme
 let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
 colorscheme codedark
 hi Vertsplit guibg=NONE guifg=NONE
 set fillchars=vert:\ 
-
-augroup colors
-    autocmd!
-    autocmd ColorScheme * :hi Vertsplit ctermfg=NONE ctermbg=NONE guibg=NONE guifg=NONE
-    autocmd ColorScheme * :set fillchars=vert:\ 
-    autocmd ColorScheme * :hi User1 cterm=bold ctermfg=7 guifg=yellow guibg=NONE
-    autocmd ColorScheme * :hi User2 cterm=bold ctermfg=7 guifg=orange guibg=NONE
-    autocmd ColorScheme * :hi User3 cterm=bold ctermfg=7 guifg=grey guibg=NONE
-    autocmd ColorScheme * :hi User4 cterm=bold ctermfg=7 guifg=#dc9656 guibg=NONE
-    autocmd ColorScheme * :hi User5 cterm=bold ctermfg=7 guifg=#d8d8d8 guibg=NONE
-augroup END
 
 "masm colorscheme
 augroup masm
@@ -92,8 +78,16 @@ augroup Programming
     autocmd FileType cpp :set colorcolumn=100
 augroup END
 
-" python setup
-let g:python3_host_prog='/usr/bin/python3'
+" Python {{{
+" This must be here becasue it makes loading vim VERY SLOW otherwise
+if has('nvim')
+  let g:python_host_skip_check = 1
+  let g:python3_host_skip_check = 1
+  if executable('python3')
+    let g:python3_host_prog = exepath('python3')
+  endif
+endif
+" }}}
 
 " Transperency
 " hi! Normal ctermbg=NONE guibg=NONE 

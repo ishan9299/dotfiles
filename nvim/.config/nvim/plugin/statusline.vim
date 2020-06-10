@@ -3,7 +3,7 @@ let g:currentmode={
     \ 'no'     : 'N·Operator Pending ',
     \ 'v'      : 'VISUAL ',
     \ 'V'      : 'V·Line ',
-    \ '\<C-V>' : 'V·Block ',
+    \ ''     : 'V·Block ',
     \ 's'      : 'Select ',
     \ 'S'      : 'S·Line ',
     \ '\<C-S>' : 'S·Block ',
@@ -59,4 +59,5 @@ function! GitInfo()
     return ' '.fugitive#head()
   else
     return ''
+  endif
 endfunction

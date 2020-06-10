@@ -5,7 +5,7 @@ let s:monkey_terminal_window = -1
 let s:monkey_terminal_buffer = -1
 let s:monkey_terminal_job_id = -1
 
-function! MonkeyTerminalOpen()
+function! terminal#terminal#MonkeyTerminalOpen()
   " Check if buffer exists, if not create a window and a buffer
   if !bufexists(s:monkey_terminal_buffer)
     " Creates a window call monkey_terminal
@@ -35,24 +35,24 @@ function! MonkeyTerminalOpen()
   endif
 endfunction
 
-function! MonkeyTerminalToggle()
+function! terminal#terminal#MonkeyTerminalToggle()
   if win_gotoid(s:monkey_terminal_window)
-    call MonkeyTerminalClose()
+    call terminal#terminal#MonkeyTerminalClose()
   else
-    call MonkeyTerminalOpen()
+    call terminal#terminal#MonkeyTerminalOpen()
   endif
 endfunction
 
-function! MonkeyTerminalClose()
+function! terminal#terminal#MonkeyTerminalClose()
   if win_gotoid(s:monkey_terminal_window)
     " close the current window
     hide
   endif
 endfunction
 
-function! MonkeyTerminalExec(cmd)
+function! terminal#terminal#MonkeyTerminalExec(cmd)
   if !win_gotoid(s:monkey_terminal_window)
-    call MonkeyTerminalOpen()
+    call terminal#terminal#MonkeyTerminalOpen()
   endif
 
   " clear current input
@@ -64,9 +64,6 @@ function! MonkeyTerminalExec(cmd)
   wincmd p
 endfunction
 
-" With this maps you can now toggle the terminal
-nnoremap <F7> :call MonkeyTerminalToggle()<cr>
-tnoremap <F7> <C-\><C-n>:call MonkeyTerminalToggle()<cr>
 
 " This an example on how specify command with different types of files.
 "    augroup go
