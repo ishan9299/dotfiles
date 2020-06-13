@@ -2,6 +2,9 @@
 -- found (e.g. lgi). If LuaRocks is not installed, do nothing.
 pcall(require, "luarocks.loader")
 
+-- Lain
+local lain = require("lain")
+
 -- standard awesome library
 local gears = require("gears")
 local awful = require("awful")
@@ -16,6 +19,7 @@ local menubar = require("menubar")
 local hotkeys_popup = require("awful.hotkeys_popup")
 -- enable hotkeys help widget for VIM and other apps
 -- when client with a matching name is opened:
+require("collision")()
 require("awful.hotkeys_popup.keys")
 
 -- {{{ Error handling
@@ -45,7 +49,7 @@ end
 
 -- {{{ Variable definitions
 -- themes define colours, icons, font and wallpapers.
-beautiful.init("/home/me/.config/awesome/themes/xresources/theme.lua")
+beautiful.init("/home/me/.config/awesome/themes/mytheme/theme.lua")
 
 -- this is used later as the default terminal and editor to run.
 terminal = "alacritty"
@@ -58,25 +62,19 @@ editor_cmd = terminal .. " -e " .. editor
 -- i suggest you to remap Mod4 to another key using xmodmap or other tools.
 -- however, you can use another modifier like Mod1, but it may interact with others.
 modkey = "Mod4"
-
+altkey = "Mod1"
 -- table of layouts to cover with awful.layout.inc, order matters.
 awful.layout.layouts = {
-    awful.layout.suit.tile,
     awful.layout.suit.tile.left,
-    awful.layout.suit.tile.bottom,
-    awful.layout.suit.tile.top,
     awful.layout.suit.floating,
-    awful.layout.suit.fair,
-    awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.spiral.dwindle,
     awful.layout.suit.max,
     awful.layout.suit.max.fullscreen,
     awful.layout.suit.magnifier,
-    awful.layout.suit.corner.nw,
-    -- awful.layout.suit.corner.ne,
-    -- awful.layout.suit.corner.sw,
-    -- awful.layout.suit.corner.se,
+    awful.layout.suit.spiral,
+    awful.layout.suit.tile.bottom,
+    lain.layout.centerwork,
+    lain.layout.centerwork.horizontal,
+    lain.layout.uselesstile
 }
 -- }}}
 
@@ -88,6 +86,9 @@ mykeyboardlayout = awful.widget.keyboardlayout()
 mytextclock = wibox.widget.textclock()
 
 -- Create a wibox for each screen and add it
+
+
+
 local taglist_buttons = gears.table.join(
                     awful.button({ }, 1, function(t) t:view_only() end),
                     awful.button({ modkey }, 1, function(t)
@@ -154,8 +155,15 @@ awful.screen.connect_for_each_screen(function(s)
         buttons = taglist_buttons
     }
 
+    -- Create a tasklist widget
+    s.mytasklist = awful.widget.tasklist {
+        screen  = s,
+        filter  = awful.widget.tasklist.filter.currenttags,
+        buttons = tasklist_buttons
+    }
+
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "bottom", screen = s })
+    s.mywibox = awful.wibar({ position = "top", screen = s, height = 32, visible = false })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
@@ -163,7 +171,6 @@ awful.screen.connect_for_each_screen(function(s)
         { -- Left widgets
             layout = wibox.layout.fixed.horizontal,
             s.mytaglist,
-            s.mypromptbox,
         },
         s.mytasklist, -- Middle widget
         { -- Right widgets
@@ -185,39 +192,100 @@ root.buttons(gears.table.join(
 
 -- {{{ Key bindings
 globalkeys = gears.table.join(
-    awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
-              {description="show help", group="awesome"}),
-    awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
-              {description = "view previous", group = "tag"}),
-    awful.key({ modkey,           }, "Right",  awful.tag.viewnext,
-              {description = "view next", group = "tag"}),
-    awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
-              {description = "go back", group = "tag"}),
+    awful.key({ modkey,           }, "s",      hotkeys_popup.show_help, {description="show help", group="awesome"}),
+    awful.key({ modkey,           }, "Escape", awful.tag.history.restore, {description = "go back", group = "tag"}),
 
-    awful.key({ modkey,           }, "j",
-        function ()
-            awful.client.focus.byidx( 1)
-        end,
-        {description = "focus next by index", group = "client"}
-    ),
-    awful.key({ modkey,           }, "k",
-        function ()
-            awful.client.focus.byidx(-1)
-        end,
-        {description = "focus previous by index", group = "client"}
-    ),
+     awful.key({ modkey }, "b", function ()
+             for s in screen do
+                 s.mywibox.visible = not s.mywibox.visible
+                 if s.mybottomwibox then
+                     s.mybottomwibox.visible = not s.mybottomwibox.visible
+                 end
+            end
+         end,
+         {description = "toggle wibox", group = "awesome"}),
 
-    -- Layout manipulation
-    awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
-              {description = "swap with next client by index", group = "client"}),
-    awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx( -1)    end,
-              {description = "swap with previous client by index", group = "client"}),
-    awful.key({ modkey, "Control" }, "j", function () awful.screen.focus_relative( 1) end,
-              {description = "focus the next screen", group = "screen"}),
-    awful.key({ modkey, "Control" }, "k", function () awful.screen.focus_relative(-1) end,
-              {description = "focus the previous screen", group = "screen"}),
-    awful.key({ modkey,           }, "u", awful.client.urgent.jumpto,
-              {description = "jump to urgent client", group = "client"}),
+
+    awful.key({ altkey , "Control" }, "=", 
+    function ()
+        lain.util.useless_gaps_resize(1) 
+    end),
+
+    awful.key({ altkey , "Control" }, "-", 
+    function () 
+        lain.util.useless_gaps_resize(-1) 
+    end),
+
+    awful.key({}, "XF86AudioPlay", function () awful.util.spawn("mpc toggle") end),
+    awful.key({}, "XF86AudioNext", function () awful.util.spawn("mpc next") end),
+    awful.key({}, "XF86AudioPrev", function () awful.util.spawn("mpc prev") end),
+    awful.key({}, "XF86AudioStop", function () awful.util.spawn("mpc stop") end),
+
+    awful.key({ }, "XF86AudioRaiseVolume",
+        function ()
+            awful.util.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")
+        end),
+
+    awful.key({ }, "XF86AudioLowerVolume",
+        function ()
+            awful.util.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")
+        end),
+
+    awful.key({ }, "XF86AudioMute",
+        function ()
+            awful.util.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")
+        end),
+
+    awful.key({ modkey }, "j",
+        function()
+            awful.client.focus.bydirection("down")
+            if client.focus then client.focus:raise() end
+        end),
+
+    awful.key({ modkey }, "k",
+        function()
+            awful.client.focus.bydirection("up")
+            if client.focus then client.focus:raise() end
+        end),
+
+    awful.key({ modkey }, "h",
+        function()
+            awful.client.focus.bydirection("left")
+            if client.focus then client.focus:raise() end
+        end),
+
+    awful.key({ modkey }, "l",
+        function()
+            awful.client.focus.bydirection("right")
+            if client.focus then client.focus:raise() end
+        end),
+
+    awful.key({ modkey, "Shift" }, "j", 
+        function () 
+            awful.client.swap.bydirection("down") 
+        end,
+            {description = "swap windows" , group = "client"}),
+
+    awful.key({ modkey, "Shift" }, "k", 
+        function () 
+            awful.client.swap.bydirection("up") 
+        end,
+            {description = "swap windows" , group = "client"}),
+
+    awful.key({ modkey, "Shift" }, "l", 
+        function () 
+            awful.client.swap.bydirection("right") 
+        end,
+            {description = "swap windows" , group = "client"}),
+
+    awful.key({ modkey, "Shift" }, "h", 
+        function () 
+            awful.client.swap.bydirection("left") 
+        end,
+            {description = "swap windows" , group = "client"}),
+
+    awful.key({ modkey,           }, "u", awful.client.urgent.jumpto, {description = "jump to urgent client", group = "client"}),
+
     awful.key({ modkey,           }, "Tab",
         function ()
             awful.client.focus.history.previous()
@@ -237,26 +305,13 @@ globalkeys = gears.table.join(
     awful.key({ modkey           }, "slash", function () awful.spawn('rofi -modi "drun" -show drun') end,
               {description = "application launcher", group = "launcher"}),
 
+    awful.key({ altkey           }, "d",
+        function ()
+            awful.spawn('tilix --window-style=borderless --quake --class=quake')
+        end),
+
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
-
-    awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
-              {description = "increase master width factor", group = "layout"}),
-
-    awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)          end,
-              {description = "decrease master width factor", group = "layout"}),
-
-    awful.key({ modkey, "Shift"   }, "h",     function () awful.tag.incnmaster( 1, nil, true) end,
-              {description = "increase the number of master clients", group = "layout"}),
-
-    awful.key({ modkey, "Shift"   }, "l",     function () awful.tag.incnmaster(-1, nil, true) end,
-              {description = "decrease the number of master clients", group = "layout"}),
-          
-    awful.key({ modkey, "Control" }, "h",     function () awful.tag.incncol( 1, nil, true)    end,
-              {description = "increase the number of columns", group = "layout"}),
-
-    awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1, nil, true)    end,
-              {description = "decrease the number of columns", group = "layout"}),
 
     awful.key({ modkey,           }, "space", function () awful.layout.inc( 1)                end,
               {description = "select next", group = "layout"}),
@@ -411,14 +466,20 @@ awful.rules.rules = {
      }
     },
 
+    { rule = { class = "Google-chrome" },
+          properties = { maximized = false, floating = false } },
+
+    { rule = { class = "Google-chrome" },
+          properties = { callback = function (c) c.maximized = false end } },
+
+    { rule = { class = "quake" },
+          properties = { maximized = false, floating = true } },
+
     -- Add titlebars to normal clients and dialogs
     { rule_any = {type = { "normal", "dialog" }
-      }, properties = { titlebars_enabled = true }
+      }, properties = { titlebars_enabled = false }
     },
 
-    -- Set Firefox to always map on the tag named "2" on screen 1.
-    -- { rule = { class = "Firefox" },
-    --   properties = { screen = 1, tag = "2" } },
 }
 -- }}}
 
@@ -477,8 +538,9 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 -- Gaps 
-beautiful.useless_gap = 5
+beautiful.useless_gap = 12
 
 -- AutoStart
 awful.spawn.with_shell("setxkbmap -option caps:swapescape")
-awful.spawn.with_shell("nitroen --set-zoom-fill --random ~/Pictures/Wallpapers/wallpaperalphacoders")
+awful.spawn.with_shell("picom")
+awful.spawn.with_shell("nitrogen --set-zoom-fill --random ~/Pictures/Wallpapers/wallpaperalphacoders")
