@@ -16,3 +16,8 @@ inoremap <C-s> :w<cr>
 " With this maps you can now toggle the terminal
 nnoremap <F7> :call terminal#terminal#MonkeyTerminalToggle()<cr>
 tnoremap <F7> <C-\><C-n>:call terminal#terminal#MonkeyTerminalToggle()<cr>
+
+" Fugitive
+nnoremap <Leader>gh :diffget //3<CR>
+nnoremap <Leader>gh :diffget //2<CR>
+nnoremap <Leader>gs :G<CR>
