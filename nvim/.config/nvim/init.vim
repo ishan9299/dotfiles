@@ -15,11 +15,12 @@ endif
 "call plug#begin('~/.var/app/io.neovim.nvim/config/nvim/plugged')
 call plug#begin('~/.config/nvim/plugged')
 " Coding
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
 Plug 'neovim/nvim-lsp'
 Plug 'haorenW1025/completion-nvim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
 Plug 'duggiefresh/vim-easydir'
 Plug 'Plasticboy/vim-markdown'
 " Projects
