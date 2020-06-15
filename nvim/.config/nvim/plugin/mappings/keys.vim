@@ -13,4 +13,6 @@ nnoremap <Leader>qq :q!<cr>
 nnoremap <C-s> :w<cr>
 inoremap <C-s> :w<cr>
 
-
+" With this maps you can now toggle the terminal
+nnoremap <F7> :call terminal#terminal#MonkeyTerminalToggle()<cr>
+tnoremap <F7> <C-\><C-n>:call terminal#terminal#MonkeyTerminalToggle()<cr>

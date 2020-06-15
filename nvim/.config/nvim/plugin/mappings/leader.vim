@@ -16,3 +16,6 @@ nnoremap <Leader>wk  <C-w>k
 nnoremap <Leader>wj  <C-w>j
 nnoremap <Leader>wh  <C-w>h
 nnoremap <Leader>wd  :q<cr>
+
+" Fzf
+nnoremap <Leader>op :Files ~/Programming<cr>

@@ -2,19 +2,10 @@ if !has('nvim')
   finish
 endif
 
-" Use completion-nvim in every buffer
-autocmd BufEnter * lua require'completion'.on_attach()
-
-" Use <Tab> and <S-Tab> to navigate through popup menu
-inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-
 lua << END
     local nvim_lsp = require'nvim_lsp'
-    nvim_lsp.clangd.setup{on_attach=require'completion'.on_attach}
---    nvim_lsp.html.setup{on_attach=require'completion'.on_attach}
-    nvim_lsp.vimls.setup{on_attach=require'completion'.on_attach}
---    nvim_lsp.tsserver.setup{on_attach=require'completion'.on_attach}
+    nvim_lsp.clangd.setup{}
+    nvim_lsp.vimls.setup{}
 END
 
 sign define LspDiagnosticsErrorSign text=✖
@@ -31,3 +22,13 @@ nnoremap <silent> 1gD   <cmd>lua vim.lsp.buf.type_definition()<CR>
 nnoremap <silent> gr    <cmd>lua vim.lsp.buf.references()<CR>
 nnoremap <silent> g0    <cmd>lua vim.lsp.buf.document_symbol()<CR>
 nnoremap <silent> gW    <cmd>lua vim.lsp.buf.workspace_symbol()<CR>
+
+" Completion nvim settings
+
+" Use <Tab> and <S-Tab> to navigate through popup menu
+inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+let g:completion_enable_auto_hover = 1
+let g:completion_sorting = "none"
+let g:completion_matching_strategy_list = ['exact', 'substring', 'fuzzy']
+

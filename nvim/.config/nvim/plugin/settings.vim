@@ -1,5 +1,4 @@
 " Default Indentation
-set autoindent
 set termguicolors
 set t_Co=256                        " Support 256 colors
 set expandtab                       " expand tab to space
@@ -11,7 +10,6 @@ set mouse=a                         " if I am lazy to go keyboard
 set nu rnu                          " relative line numbers
 set hidden
 set cursorline
-set ruler
 set noshowmode
 set completeopt=menuone,noinsert,noselect " for completion nvim
 set shortmess+=c                      " for completion neovim
@@ -23,6 +21,9 @@ set listchars+=extends:»              " RIGHT-POINTING DOUBLE ANGLE QUOTATION M
 set listchars+=precedes:«             " LEFT-POINTING DOUBLE ANGLE QUOTATION MARK (U+00AB, UTF-8: C2 AB)
 set listchars+=trail:•                " BULLET (U+2022, UTF-8: E2 80 A2)
 set formatoptions+=n                  " smart auto-indenting inside numbered lists
+set formatoptions-=c
+set formatoptions-=r
+set formatoptions-=o
 set hidden                            " allows you to hide buffers with unsaved changes without being prompted
 set lazyredraw                        " don't bother updating screen during macro playback
 set scrolloff=3                       " start scrolling 3 lines before edge of viewport
@@ -62,21 +63,9 @@ endif
 " colorscheme
 let base16colorspace=256  " Access colors present in 256 colorspace
 set bg=dark
-colorscheme codedark
+colorscheme nord
 hi Vertsplit guibg=NONE guifg=NONE
 set fillchars=vert:\ 
-
-"masm colorscheme
-augroup masm
-    autocmd!
-    autocmd BufRead,BufNewFile *.ASM :set ft=nasm
-    autocmd BufRead,BufNewFile *.asm :set ft=nasm
-augroup END
-
-augroup Programming
-    autocmd!
-    autocmd FileType cpp :set colorcolumn=100
-augroup END
 
 " Python {{{
 " This must be here becasue it makes loading vim VERY SLOW otherwise

@@ -4,8 +4,8 @@
 " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <C-b> :Buffers<CR>
-nnoremap <C-g> <silent> :Rg<CR>
-nnoremap <C-t> <silent> :Tags<CR>
+nnoremap <silent> <C-g> :Rg<CR>
+nnoremap <silent> <C-t> :Tags<CR>
 
 let g:fzf_tags_command = 'ctags -R'
 

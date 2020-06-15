@@ -24,6 +24,8 @@ cmd open ${{
             $EDITOR $fx
         case 'application/json'
             $EDITOR $fx
+        case '*/pdf'
+            setsid -f zathura $fx > /dev/null 2>&1
         case '*'
             for f in $fx ; xdg-open $f > /dev/null 2> /dev/null ; end
     end

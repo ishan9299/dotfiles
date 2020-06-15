@@ -1,6 +1,7 @@
 " Leader key
 nnoremap <Space> <Nop>
 let mapleader="\<Space>"
+let maplocalleader="\\"
 
 " Auto Install Plug
 if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
@@ -29,13 +30,16 @@ Plug 'junegunn/goyo.vim', { 'for': ['markdown']}
 Plug 'justinmk/vim-dirvish'
 Plug 'kristijanhusak/vim-dirvish-git'
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'fcpg/vim-waikiki'
 " Color Schemes
 Plug 'chriskempson/base16-vim'
+Plug 'morhetz/gruvbox'
 Plug 'tomasiser/vim-code-dark'
 Plug 'arcticicestudio/nord-vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'sheerun/vim-polyglot'
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'sonph/onehalf'
 call plug#end()
 
 
