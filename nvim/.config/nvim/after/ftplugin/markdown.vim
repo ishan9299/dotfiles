@@ -1,0 +1,2 @@
+:Goyo
+:ColorizerAttachToBuffer
