@@ -1,8 +1,11 @@
 set hidden true
 set shell fish
 set color256 true
-set icons true
 set drawbox true
+
+# Remove some bindings
+map f
+map m
 
 %{{
     set w (tput cols)
@@ -30,10 +33,6 @@ cmd open ${{
             for f in $fx ; xdg-open $f > /dev/null 2> /dev/null ; end
     end
 }}
-
-# Remove some bindings
-map f
-map m
 
 # Archive bindings
 cmd unarchive ${{
@@ -68,7 +67,7 @@ map mf mkfile
 map <f2> rename
 
 cmd fzf_jump ${{
-    set res (fd . -d 3 | fzf --reverse --header='Jump to location')
+    set res (fd . -H -i -d 3 | fzf --reverse --header='Jump to location')
     if [ -f $res ]
         set cmd select
     else if [ -d $res ]
@@ -78,5 +77,4 @@ cmd fzf_jump ${{
 }}
 
 map f fzf_jump
-
 map DD delete

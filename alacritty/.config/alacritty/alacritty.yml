@@ -30,24 +30,24 @@ font:
   # The normal (roman) font face to use.
   normal:
     #family: JetBrainsMono Nerd Font
-    family: Hack
+    family: Iosevka
     style: Regular
 
   # The bold font face
   bold:
     #family: JetBrainsMono Nerd Font
-    family: Hack
+    family: Iosevka
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
     #family: JetBrainsMono Nerd Font
-    family: Hack
+    family: Iosevka
     # Style can be specified to pick a specific face.
     style: Italic
 
-  size: 13.0
+  size: 14.0
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
@@ -106,7 +106,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
+background_opacity: 1.0
 
 
 cursor:
