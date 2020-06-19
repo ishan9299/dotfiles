@@ -20,10 +20,8 @@ set listchars+=tab:▷┅                 " WHITE RIGHT-POINTING TRIANGLE (U+25B
 set listchars+=extends:»              " RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK (U+00BB, UTF-8: C2 BB)
 set listchars+=precedes:«             " LEFT-POINTING DOUBLE ANGLE QUOTATION MARK (U+00AB, UTF-8: C2 AB)
 set listchars+=trail:•                " BULLET (U+2022, UTF-8: E2 80 A2)
+set formatoptions-=cro
 set formatoptions+=n                  " smart auto-indenting inside numbered lists
-set formatoptions-=c
-set formatoptions-=r
-set formatoptions-=o
 set hidden                            " allows you to hide buffers with unsaved changes without being prompted
 set lazyredraw                        " don't bother updating screen during macro playback
 set scrolloff=3                       " start scrolling 3 lines before edge of viewport
@@ -44,31 +42,50 @@ set wildignore+=*.aux,*.bbl,*.blg,*.brf,*.fls,*.fdb_latexmk,*.synctex.gz,*.pdf
 set timeoutlen=500
 set updatetime=800
 set syntax=on
+set path+=**
 set matchpairs+=<:>,「:」
 let g:loaded_netrw       = 1          " Disable netrw
 let g:loaded_netrwPlugin = 1          " Disable netrw
+let g:incsearch#auto_nohlsearch = 1
+
+if has('linebreak')
+  let &showbreak='↳ '                 " DOWNWARDS ARROW WITH TIP RIGHTWARDS (U+21B3, UTF-8: E2 86 B3)
+endif
 
 if has('windows')
   set splitbelow                      " open horizontal splits below current window
 endif
 
 if has('vertsplit')
-  set splitright                      " open vertical splits to the right of the current window
+  set nosplitright                      " open vertical splits to the left of the current window
 endif
 
 if has('virtualedit')
   set virtualedit=block               " allow cursor to move where there is no text in visual block mode
 endif
 
-" colorscheme
-let base16colorspace=256  " Access colors present in 256 colorspace
+" color scheme
+let base16colorspace=256  " Access colors present in 256 color space
 set bg=dark
-colorscheme nord
-hi Vertsplit guibg=NONE guifg=NONE
-set fillchars=vert:\ 
+colorscheme plain
+
+" vim8 or nvim
+if has('termguicolors')
+    hi Vertsplit guibg=NONE guifg=NONE gui=NONE
+else
+    hi Vertsplit ctermbg=NONE ctermfg=NONE cterm=NONE
+endif
+
+set fillchars=vert:\│
+let g:yui_emphasized_comments = 1
+
+" You need nvim
+if has('nvim')
+    set winhighlight=NormalNC:ColorColumn
+endif
 
 " Python {{{
-" This must be here becasue it makes loading vim VERY SLOW otherwise
+" This must be here because it makes loading vim VERY SLOW otherwise
 if has('nvim')
   let g:python_host_skip_check = 1
   let g:python3_host_skip_check = 1
@@ -77,7 +94,3 @@ if has('nvim')
   endif
 endif
 " }}}
-
-" Transperency
-" hi! Normal ctermbg=NONE guibg=NONE 
-" hi! NonText ctermbg=NONE guibg=NONE guifg=NONE ctermfg=NONE 

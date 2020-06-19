@@ -5,7 +5,7 @@ let s:monkey_terminal_window = -1
 let s:monkey_terminal_buffer = -1
 let s:monkey_terminal_job_id = -1
 
-function! terminal#terminal#MonkeyTerminalOpen()
+function! myfunctions#terminal#MonkeyTerminalOpen() abort
   " Check if buffer exists, if not create a window and a buffer
   if !bufexists(s:monkey_terminal_buffer)
     " Creates a window call monkey_terminal
@@ -35,24 +35,24 @@ function! terminal#terminal#MonkeyTerminalOpen()
   endif
 endfunction
 
-function! terminal#terminal#MonkeyTerminalToggle()
+function! myfunctions#terminal#MonkeyTerminalToggle() abort
   if win_gotoid(s:monkey_terminal_window)
-    call terminal#terminal#MonkeyTerminalClose()
+    call myfunctions#terminal#MonkeyTerminalClose()
   else
-    call terminal#terminal#MonkeyTerminalOpen()
+    call myfunctions#terminal#MonkeyTerminalOpen()
   endif
 endfunction
 
-function! terminal#terminal#MonkeyTerminalClose()
+function! myfunctions#terminal#MonkeyTerminalClose() abort
   if win_gotoid(s:monkey_terminal_window)
     " close the current window
     hide
   endif
 endfunction
 
-function! terminal#terminal#MonkeyTerminalExec(cmd)
+function! myfunctions#terminal#MonkeyTerminalExec(cmd) abort
   if !win_gotoid(s:monkey_terminal_window)
-    call terminal#terminal#MonkeyTerminalOpen()
+    call myfunctions#terminal#MonkeyTerminalOpen()
   endif
 
   " clear current input

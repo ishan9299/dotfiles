@@ -47,13 +47,19 @@ set statusline+=\
 set statusline+=%2*
 set statusline+=%y
 
-hi User1 cterm=bold ctermfg=7 guifg=yellow guibg=NONE
-hi User2 cterm=bold ctermfg=7 guifg=orange guibg=NONE
-hi User3 cterm=bold ctermfg=7 guifg=grey guibg=NONE
-hi User4 cterm=bold ctermfg=7 guifg=#dc9656 guibg=NONE
-hi User5 cterm=bold ctermfg=7 guifg=#d8d8d8 guibg=NONE
+if &background == "dark"
+    hi User1 cterm=bold ctermfg=7 guifg=yellow guibg=NONE gui=bold
+    hi User5 guifg=reverse gui=bold
+else
+    hi User1 cterm=bold ctermfg=7 guifg=teal guibg=NONE gui=bold
+    hi User5 guifg=reverse gui=bold
+endif
 
-function! GitInfo()
+hi User2 cterm=bold ctermfg=7 guifg=darkorange guibg=NONE gui=bold
+hi User3 cterm=bold ctermfg=7 guifg=darkgrey guibg=NONE gui=bold
+hi User4 cterm=bold ctermfg=7 guifg=#dc9656 guibg=NONE gui=bold
+
+function! GitInfo() abort
   let git = fugitive#head()
   if git != ''
     return ' '.fugitive#head()
