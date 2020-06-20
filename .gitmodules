@@ -1,0 +1,72 @@
+[submodule "firenvim"]
+	path = nvim/.config/nvim/pack/minpac/opt/firenvim
+	url = https://github.com/glacambre/firenvim.git
+[submodule "nerdtree"]
+	path = nvim/.config/nvim/pack/minpac/opt/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "minpac"]
+	path = nvim/.config/nvim/pack/minpac/opt/minpac
+	url = https://github.com/k-takata/minpac.git
+[submodule "goyo"]
+	path = nvim/.config/nvim/pack/minpac/opt/goyo.vim
+	url = https://github.com/k-takata/minpac.git
+[submodule "vim-enuch"]
+	path = nvim/.config/nvim/pack/minpac/opt/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "fzf"]
+	path = nvim/.config/nvim/pack/minpac/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "fzf.vim"]
+	path = nvim/.config/nvim/pack/minpac/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "vim-fugitive"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim-waikiki"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-waikiki
+	url = https://github.com/fcpg/vim-waikiki.git
+[submodule "vim-dirvish"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-dirvish
+	url = https://github.com/justinmk/vim-dirvish.git
+[submodule "vim-surround"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "ultisnips"]
+	path = nvim/.config/nvim/pack/minpac/start/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "nvim-lsp"]
+	path = nvim/.config/nvim/pack/minpac/start/nvim-lsp
+	url = https://github.com/neovim/nvim-lsp.git
+[submodule "nvim-colorizer"]
+	path = nvim/.config/nvim/pack/minpac/start/nvim-colorizer.lua
+	url = https://github.com/norcalli/nvim-colorizer.lua.git
+[submodule "vim-commentary"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim-repeat"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "completion-nvim"]
+	path = nvim/.config/nvim/pack/minpac/start/completion-nvim
+	url = https://github.com/haorenW1025/completion-nvim.git
+[submodule "vim-markdown"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "vim-polygot"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vim-easydir"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-easydir
+	url = https://github.com/duggiefresh/vim-easydir.git
+[submodule "vim-snippets"]
+	path = nvim/.config/nvim/pack/minpac/start/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "oceanic-next"]
+	path = nvim/.config/nvim/pack/minpac/start/oceanic-next
+	url = https://github.com/mhartington/oceanic-next.git
+[submodule "nord-vim"]
+	path = nvim/.config/nvim/pack/minpac/start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
+[submodule "gruvbox"]
+	path = nvim/.config/nvim/pack/minpac/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
