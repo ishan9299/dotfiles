@@ -1,4 +1,4 @@
-set hidden true
+den true
 set shell fish
 set color256 true
 set drawbox true
@@ -28,7 +28,7 @@ cmd open ${{
         case 'application/json'
             $EDITOR $fx
         case '*/pdf'
-            setsid -f zathura $fx > /dev/null 2>&1
+            setsid -f zathura $fx > /dev/null 2>/dev/null
         case '*'
             for f in $fx ; xdg-open $f > /dev/null 2> /dev/null ; end
     end
