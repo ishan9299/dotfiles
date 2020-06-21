@@ -61,3 +61,9 @@
 [submodule "gruvbox"]
 	path = nvim/.config/nvim/pack/minpac/start/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
+[submodule "nvim-colorizer"]
+	path = nvim/.config/nvim/pack/minpac/start/nvim-colorizer.lua
+	url = https://github.com/norcalli/nvim-colorizer.lua.git
+[submodule "vim-waikiki"]
+	path = nvim/.config/nvim/pack/minpac/opt/vim-waikiki
+	url = https://github.com/fcpg/vim-waikiki.git
