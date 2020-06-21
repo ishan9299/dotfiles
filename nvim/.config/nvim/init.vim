@@ -27,17 +27,14 @@ else
   call minpac#add('tpope/vim-commentary')
   call minpac#add('tpope/vim-fugitive')
   call minpac#add('tpope/vim-repeat')
-  call minpac#add('chriskempson/base16-vim')
   call minpac#add('morhetz/gruvbox')
   call minpac#add('mhartington/oceanic-next')
-  call minpac#add('tomasiser/vim-code-dark')
   call minpac#add('arcticicestudio/nord-vim')
   call minpac#add('sheerun/vim-polyglot')
   call minpac#add('duggiefresh/vim-easydir')
   call minpac#add('haorenW1025/completion-nvim')
   call minpac#add('neovim/nvim-lsp')
   call minpac#add('justinmk/vim-dirvish')
-  call minpac#add('fcpg/vim-waikiki')
   call minpac#add('SirVer/ultisnips')
   call minpac#add('honza/vim-snippets')
   call minpac#add('Plasticboy/vim-markdown')
@@ -45,13 +42,16 @@ else
   call minpac#add('junegunn/fzf.vim')
   call minpac#add('norcalli/nvim-colorizer.lua')
   call minpac#add('tpope/vim-eunuch',{'type': 'opt'})
-  call minpac#add('preservim/nerdtree',{'type': 'opt'})
-  call minpac#add('junegunn/goyo.vim',{'type': 'opt','name': 'goyo'})
-  if &filetype ==# 'markdown'
-      packadd goyo
-  endif
+  call minpac#add('junegunn/goyo.vim',{'type': 'opt'})
+  call minpac#add('fcpg/vim-waikiki',{'type': 'opt'})
   call minpac#add('glacambre/firenvim', { 'type': 'opt', 'do': 'packadd firenvim | call firenvim#install(0)'})
+
+  " Load some plugins on coditions only
   if exists('g:started_by_firenvim')
     packadd firenvim
+  endif
+  if &ft ==# "markdown"
+      packadd goyo.vim
+      packadd vim-waikiki
   endif
 endif
