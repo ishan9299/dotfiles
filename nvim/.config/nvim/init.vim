@@ -41,9 +41,9 @@ else
   call minpac#add('junegunn/fzf')
   call minpac#add('junegunn/fzf.vim')
   call minpac#add('norcalli/nvim-colorizer.lua')
+  call minpac#add('fcpg/vim-waikiki')
   call minpac#add('tpope/vim-eunuch',{'type': 'opt'})
   call minpac#add('junegunn/goyo.vim',{'type': 'opt'})
-  call minpac#add('fcpg/vim-waikiki',{'type': 'opt'})
   call minpac#add('glacambre/firenvim', { 'type': 'opt', 'do': 'packadd firenvim | call firenvim#install(0)'})
 
   " Load some plugins on coditions only
