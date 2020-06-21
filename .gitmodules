@@ -1,9 +1,6 @@
 [submodule "firenvim"]
 	path = nvim/.config/nvim/pack/minpac/opt/firenvim
 	url = https://github.com/glacambre/firenvim.git
-[submodule "nerdtree"]
-	path = nvim/.config/nvim/pack/minpac/opt/nerdtree
-	url = https://github.com/preservim/nerdtree.git
 [submodule "minpac"]
 	path = nvim/.config/nvim/pack/minpac/opt/minpac
 	url = https://github.com/k-takata/minpac.git
@@ -22,9 +19,6 @@
 [submodule "vim-fugitive"]
 	path = nvim/.config/nvim/pack/minpac/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vim-waikiki"]
-	path = nvim/.config/nvim/pack/minpac/start/vim-waikiki
-	url = https://github.com/fcpg/vim-waikiki.git
 [submodule "vim-dirvish"]
 	path = nvim/.config/nvim/pack/minpac/start/vim-dirvish
 	url = https://github.com/justinmk/vim-dirvish.git
@@ -37,9 +31,6 @@
 [submodule "nvim-lsp"]
 	path = nvim/.config/nvim/pack/minpac/start/nvim-lsp
 	url = https://github.com/neovim/nvim-lsp.git
-[submodule "nvim-colorizer"]
-	path = nvim/.config/nvim/pack/minpac/start/nvim-colorizer.lua
-	url = https://github.com/norcalli/nvim-colorizer.lua.git
 [submodule "vim-commentary"]
 	path = nvim/.config/nvim/pack/minpac/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
