@@ -1,4 +1,4 @@
-den true
+hidden true
 set shell fish
 set color256 true
 set drawbox true
