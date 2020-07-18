@@ -1,4 +1,4 @@
-hidden true
+set hidden true
 set shell fish
 set color256 true
 set drawbox true
@@ -43,9 +43,9 @@ cmd unarchive ${{
             tar -xzvf "$f"
         case '*.tar.bz2'
             tar -xjvf "$f"
-        case '*.tar' 
+        case '*.tar'
             tar -xvf "$f"
-        case '*' 
+        case '*'
             echo "Unsupported format"
     end
 }}
